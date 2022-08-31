@@ -1,0 +1,1227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA61CDD5-7613-4945-BE7C-9FCBCE59C459}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>DMS_Addon</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>DMS_Addon</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>DMS_Addon.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>DMS_Addon.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Automotriz|AnyCPU' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Automotriz\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>DMS_Addon.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug x86|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug x86\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>DMS_Addon.xml</DocumentationFile>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>DMS_Addon.xml</DocumentationFile>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>DMS_Addon.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Automotriz|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Automotriz\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>DMS_Addon.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug x86|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug x86\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>DMS_Addon.xml</DocumentationFile>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>DMS_Addon.xml</DocumentationFile>
+    <WarningLevel>0</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>false</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <BaseAddress>4194304</BaseAddress>
+    <DocumentationFile>DMS_Addon.xml</DocumentationFile>
+    <Optimize>false</Optimize>
+    <WarningLevel>0</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <DefineDebug>false</DefineDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Automotriz|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Automotriz\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>DMS_Addon.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>0</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug x86|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug x86\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>DMS_Addon.xml</DocumentationFile>
+    <WarningLevel>0</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponenteCristalReport, Version=2.0.1.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\ComponenteCristalReport.dll</HintPath>
+    </Reference>
+    <Reference Include="ControlUDF, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\ControlUDF.dll</HintPath>
+    </Reference>
+    <Reference Include="DeKlaritLibrary, Version=4.5.2008.0, Culture=neutral, PublicKeyToken=387f38cffbc45540, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\DeKlaritLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SAPbobsCOM, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\CommonBin\SboInterops\Interop.SAPbobsCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SAPbouiCOM, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\CommonBin\SboInterops\Interop.SAPbouiCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="IrisSkin2, Version=2006.3.22.45, Culture=neutral, PublicKeyToken=0ed4c5f2bbf81ac0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\IrisSkin2.dll</HintPath>
+    </Reference>
+    <Reference Include="ManipuladorClienteDLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\ManipuladorClienteDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\CommonBin\Assemblies\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Replication, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\Microsoft.SqlServer.Replication.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Proyecto SCGMSGBox, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\Proyecto SCGMSGBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Proyecto SCGToolBar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\Proyecto SCGToolBar.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=105.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SCG New Buscador, Version=4.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\SCG New Buscador.dll</HintPath>
+    </Reference>
+    <Reference Include="SCG.SkinManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\SCG.SkinManager.dll</HintPath>
+    </Reference>
+    <Reference Include="SCG.UX.Windows.ManejoDeArchivosDigitales, Version=2.0.3909.26550, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\SCG.UX.Windows.ManejoDeArchivosDigitales.dll</HintPath>
+    </Reference>
+    <Reference Include="SCG.UX.Windows.SAP">
+      <HintPath>..\..\CommonBin\Assemblies\SCG.UX.Windows.SAP.dll</HintPath>
+    </Reference>
+    <Reference Include="SCG.WinFormsSAP">
+      <HintPath>..\..\CommonBin\Assemblies\SCG.WinFormsSAP.dll</HintPath>
+    </Reference>
+    <Reference Include="SCGExceptionHandler, Version=1.0.1.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Commonbin\Assemblies\SCGExceptionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management.Instrumentation" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Audatex\ConexionAudatex.vb" />
+    <Compile Include="Audatex\ConfiguracionInterfazAudatex.vb" />
+    <Compile Include="Audatex\Response.vb" />
+    <Compile Include="CatchingEvents.Controles.vb" />
+    <Compile Include="Citas\ConstructorBusquedaArticulosCitas.vb" />
+    <Compile Include="Citas\ConstructorCitas.vb" />
+    <Compile Include="Citas\ControladorBusquedaArticulosCitas.vb" />
+    <Compile Include="Citas\ControladorCitas.vb" />
+    <Compile Include="ComentariosHistorial.Controles.vb" />
+    <Compile Include="ComentariosHistorial.vb" />
+    <Compile Include="ComentariosInventarioV.Controles.vb" />
+    <Compile Include="ComentariosInventarioV.vb" />
+    <Compile Include="Compras e Importacion\DevolucionDeVehiculos.Controles.vb" />
+    <Compile Include="Compras e Importacion\DevolucionDeVehiculos.vb" />
+    <Compile Include="Compras e Importacion\MatrizDevolucionDeVehiculos.vb" />
+    <Compile Include="Compras e Importacion\MatrizSeleccionLineasPedido.vb" />
+    <Compile Include="Compras e Importacion\MatrizSeleccionLineasRecepcion.vb" />
+    <Compile Include="Compras e Importacion\MatrizSeleccionUnidad.vb" />
+    <Compile Include="Compras e Importacion\SeleccionLineasRecepcion.Controles.vb" />
+    <Compile Include="Compras e Importacion\SeleccionLineasRecepcion.vb" />
+    <Compile Include="Compras e Importacion\SeleccionUnidadDevolucion.Controles.vb" />
+    <Compile Include="Compras e Importacion\SeleccionUnidadDevolucion.vb" />
+    <Compile Include="ComprasProveedores\CalculoCantidades.vb" />
+    <Compile Include="ComprasProveedores\DevolucionMercancia.vb" />
+    <Compile Include="ComprasProveedores\DocumentoProcesoCompra.vb" />
+    <Compile Include="ComprasProveedores\NotaCreditoProveedor.vb" />
+    <Compile Include="ComprasProveedores\OfertaCompra.vb" />
+    <Compile Include="ComprasProveedores\OrdenCompra.vb" />
+    <Compile Include="ConfiguracionesDMS\ConfiguracionMensajeriaDMS.Controles.vb" />
+    <Compile Include="ConfiguracionesDMS\ConfiguracionMensajeriaDMS.vb" />
+    <Compile Include="ConfiguracionesDMS\ListaEmpleadosSeleccion.Controles.vb" />
+    <Compile Include="ConfiguracionesDMS\ListaEmpleadosSeleccion.vb" />
+    <Compile Include="ConfiguracionesDMS\ListaPreciosSeleccion.Controles.vb" />
+    <Compile Include="ConfiguracionesDMS\ListaPreciosSeleccion.vb" />
+    <Compile Include="ConfiguracionesDMS\MatrizListaEmpSel.vb" />
+    <Compile Include="ConfiguracionesDMS\MatrizMensajeriaDMS.vb" />
+    <Compile Include="Configuraciones\ConfiguracionInterfazFord.Controles.vb" />
+    <Compile Include="Configuraciones\ConfiguracionInterfazFord.vb" />
+    <Compile Include="Configuraciones\NivelesPV.vb" />
+    <Compile Include="Configuraciones\PermisosDeAcceso.vb" />
+    <Compile Include="ConsultaInventarioVehiculosCls.Controles.vb" />
+    <None Include="Resources\copiar.png" />
+    <None Include="Resources\zoom-menos.png" />
+    <None Include="Resources\zoom-mas.png" />
+    <None Include="Cotizacion\CotizacionDataSet.xsc">
+      <DependentUpon>CotizacionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Cotizacion\CotizacionDataSet.xsd" />
+    <None Include="Cotizacion\CotizacionDataSet.xss">
+      <DependentUpon>CotizacionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="AsignacionMultiple\AsignacionMultiple.controles.vb" />
+    <Compile Include="AsignacionMultiple\AsignacionMultiple.vb" />
+    <Compile Include="AsignacionMultiple\MatrizAsignaMultiple.vb" />
+    <Compile Include="Compras e Importacion\CosteoDeEntradas.Controles.vb" />
+    <Compile Include="Compras e Importacion\CosteoDeEntradas.vb" />
+    <Compile Include="Compras e Importacion\EntradaDeVehiculos.Controles.vb" />
+    <Compile Include="Compras e Importacion\EntradaDeVehiculos.vb" />
+    <Compile Include="Compras e Importacion\MatrizArticulosPedidos.vb" />
+    <Compile Include="Compras e Importacion\MatrizCosteoArticulos.vb" />
+    <Compile Include="Compras e Importacion\MatrizCosteoPedidos.vb" />
+    <Compile Include="Compras e Importacion\MatrizEntradaPedido.vb" />
+    <Compile Include="Compras e Importacion\MatrizEntradaVehiculos.vb" />
+    <Compile Include="Compras e Importacion\MatrizPedidoDeVehiculos.vb" />
+    <Compile Include="Compras e Importacion\PedidoDeVehiculos.Controles.vb" />
+    <Compile Include="Compras e Importacion\PedidoDeVehiculos.vb" />
+    <Compile Include="ConfiguracionDimensionContable\DimensionContableDMS.Controles.vb" />
+    <Compile Include="ConfiguracionDimensionContable\DimensionContableDMS.vb" />
+    <Compile Include="ConfiguracionDimensionContable\DimensionContableDMSOTs.Controles.vb" />
+    <Compile Include="ConfiguracionDimensionContable\DimensionContableDMSOTs.vb" />
+    <Compile Include="ConfiguracionDimensionContable\MatrizLineasConfiguracionDocumentos.vb" />
+    <Compile Include="ConfiguracionDimensionContable\MatrizLineasConfiguracionOTs.vb" />
+    <Compile Include="ConfiguracionDimensionContable\MatrizLineasDimensiones.vb" />
+    <Compile Include="ConfiguracionDimensionContable\MatrizLineasDimensionesOT.vb" />
+    <Compile Include="ConfiguracionesDMS\MatrixNumeracionSeries.vb" />
+    <Compile Include="ConfiguracionesDMS\NumeracionSeries.Controles.vb" />
+    <None Include="dtsMovimientoStock.xsc">
+      <DependentUpon>dtsMovimientoStock.xsd</DependentUpon>
+    </None>
+    <None Include="dtsMovimientoStock.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsMovimientoStock.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dtsMovimientoStock.xss">
+      <DependentUpon>dtsMovimientoStock.xsd</DependentUpon>
+    </None>
+    <None Include="FacturaDataset.xsc">
+      <DependentUpon>FacturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="FacturaDataset.xss">
+      <DependentUpon>FacturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="FacturaDataset.xsx">
+      <DependentUpon>FacturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="FacturaInternaDataset.xsc">
+      <DependentUpon>FacturaInternaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="FacturaInternaDataset.xsd">
+      <SubType>
+      </SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FacturaInternaDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="FacturaInternaDataset.xss">
+      <DependentUpon>FacturaInternaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="GoodIssueDataSet.xsc">
+      <DependentUpon>GoodIssueDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GoodIssueDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoodIssueDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoodIssueDataSet.xss">
+      <DependentUpon>GoodIssueDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GoodReceiptDataset.xsc">
+      <DependentUpon>GoodReceiptDataset.xsd</DependentUpon>
+    </None>
+    <None Include="GoodReceiptDataset.xsd">
+      <SubType>
+      </SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoodReceiptDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="GoodReceiptDataset.xss">
+      <DependentUpon>GoodReceiptDataset.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Compile Include="Articulos\AsociacionArticuloxEspecifConPermisos.vb" />
+    <Compile Include="Articulos\AsociacionArticuloxEspecific.Controles.vb" />
+    <Compile Include="Articulos\AsociacionArticuloxEspecific.vb" />
+    <Compile Include="Articulos\MatrixSBOEstiloAsocArtXEsp.vb" />
+    <Compile Include="Articulos\MatrixSBOModeloAsocArtXEsp.vb" />
+    <Compile Include="BalanceContratos\BalanceFormulacio.controles.vb" />
+    <Compile Include="BalanceContratos\BalanceFormulario.vb" />
+    <Compile Include="BalanceContratos\MatrizAccesorios.vb" />
+    <Compile Include="BalanceContratos\MatrizTramites.vb" />
+    <Compile Include="BalanceContratos\MatrizVehiculos.vb" />
+    <Compile Include="ComprasEnProcesoVentas.vb" />
+    <Compile Include="ComprasProveedores\FacturaProveedores.vb" />
+    <Compile Include="ConfiguracionesDMS\AgendasConfiguracion.Controles.vb" />
+    <Compile Include="ConfiguracionesDMS\AgendasConfiguracion.vb" />
+    <Compile Include="ConfiguracionesDMS\AgendasConfiguracionMatriz.vb" />
+    <Compile Include="ConfiguracionesDMS\ConfiguracionesDMSConPermisos.vb" />
+    <Compile Include="ConfiguracionesDMS\ConfiguracionesDMS.vb" />
+    <Compile Include="ConfiguracionesDMS\NumeracionSeries.vb" />
+    <Compile Include="ConfiguracionesDMS\ParametrosDeAplicacion.Controles.vb" />
+    <Compile Include="ConfiguracionesDMS\ParametrosDeAplicacion.vb" />
+    <Compile Include="ConfiguracionesDMS\ParametrosDeAplicacionConPermisos.vb" />
+    <Compile Include="Configuraciones\MatrizTipoInventario.vb" />
+    <Compile Include="Configuraciones\MatrizVendedores.vb" />
+    <Compile Include="Configuraciones\VendedoresPorTipoInventario.vb" />
+    <Compile Include="ConfiguracionNivelesAprobacion\MatrizMensajeria.vb" />
+    <Compile Include="ConfiguracionNivelesAprobacion\MensajeriaAprobacion.vb" />
+    <Compile Include="ConfiguracionNivelesAprobacion\UnidadesPorNivelCls.vb" />
+    <Compile Include="ConfiguracionDimensionContable\AgregarDimensionLineasDocumentosCls.vb" />
+    <Compile Include="Contrato Ventas\ContratoVentasFacturas.vb" />
+    <Compile Include="Contrato Ventas\ContratoVentasReportesCls.vb" />
+    <Compile Include="ControlesSBO\ButtonSBO.vb" />
+    <Compile Include="ControlesSBO\ComboBoxSBO.vb" />
+    <Compile Include="ControlesSBO\ControlSBO.vb" />
+    <Compile Include="ControlesSBO\EditTextSBO.vb" />
+    <Compile Include="ControlesSBO\ISBOBindable.vb" />
+    <Compile Include="ControlesSBO\IUsaPermisos.vb" />
+    <Compile Include="ControlesSBO\MatrixSBO.vb" />
+    <Compile Include="ControlesSBO\StaticTextSBO.vb" />
+    <Compile Include="ControlesSBO\ValorValidoSBO.vb" />
+    <Compile Include="CosteoCls.vb" />
+    <Compile Include="CosteoListaTransaccionesCls.vb" />
+    <Compile Include="CosteoMultiple\CosteoMultiple.Controles.vb" />
+    <Compile Include="CosteoMultiple\CosteoMultiple.vb" />
+    <Compile Include="CosteoMultiple\MatrixSBORecosteo.vb" />
+    <Compile Include="CosteoMultiple\MatrixSBOSalidas.vb" />
+    <Compile Include="CosteoMultiple\MatrixSBOSinCostear.vb" />
+    <Compile Include="CosteoMultiple\SalidaMultiple.Controles.vb" />
+    <Compile Include="Cotizacion\CotizacionDataSet.Designer.vb" />
+    <Compile Include="DataContract\ControlColaborador.vb" />
+    <Compile Include="DataContract\ControlColaborador_List.vb" />
+    <Compile Include="DataContract\MovimientoTransferencia.vb" />
+    <Compile Include="DataContract\MovimientoTransferencia_List.vb" />
+    <Compile Include="DataContract\Paquete.vb" />
+    <Compile Include="DataContract\Paquete_List.vb" />
+    <Compile Include="DataContract\PermisosPV.vb" />
+    <Compile Include="DataContract\PermisosPV_List.vb" />
+    <Compile Include="DataContract\Recepcion.vb" />
+    <Compile Include="DataContract\Recepcion_List.vb" />
+    <Compile Include="DataContract\RequisicionData.vb" />
+    <Compile Include="DataContract\RequisicionData_List.vb" />
+    <Compile Include="DataController\ControladorOrdenTrabajo.vb" />
+    <Compile Include="DataController\ControladorRequisicion.vb" />
+    <Compile Include="Empleados\ConstructorDisponibilidadEmpleados.vb" />
+    <Compile Include="Empleados\ControladorDisponibilidadEmpleados.vb" />
+    <Compile Include="InformesDMS\ConstructorReporteBodegaReservas.vb" />
+    <Compile Include="InformesDMS\ControladorReporteBodegaReservas.vb" />
+    <Compile Include="InformesDMS\ReporteAntiguedadVehiculos.vb" />
+    <Compile Include="InformesDMS\ReporteSociosNegocios.controles.vb" />
+    <Compile Include="InformesDMS\ReporteSociosNegocios.vb" />
+    <Compile Include="InformesDMS\ReporteVehiculosRecurrentesTaller.vb" />
+    <Compile Include="InformesDMS\ReporteVentasXAsesorServicio.vb" />
+    <Compile Include="InterfaceJohnDeere\InterfaceJohnDeereConfiguration.vb" />
+    <Compile Include="InterfaceJohnDeere\InterfaceJohnDeereModulo.vb" />
+    <Compile Include="InterfaceJohnDeere\InterfaceJohnDeere_DTFAPITest.vb" />
+    <Compile Include="InterfaceJohnDeere\InterfaceJohnDeere_DTFAPIOOO.vb" />
+    <Compile Include="Licenciamiento\AdministradorLicencias.vb" />
+    <Compile Include="Licenciamiento\AsignacionLicencias.vb" />
+    <Compile Include="Licenciamiento\ComparacionLicencia.vb" />
+    <Compile Include="Licenciamiento\License.vb" />
+    <Compile Include="Licenciamiento\LicenseComponent.vb" />
+    <Compile Include="PagosRecibidos\MediosDePago.vb" />
+    <Compile Include="Requisiciones\ControladorRequisicionesReserva.vb" />
+    <Compile Include="ServicioAlCliente\ColorPorEstado.vb" />
+    <Compile Include="ServicioAlCliente\ConfiguracionColores.vb" />
+    <Compile Include="ServicioAlCliente\frmCalendarioColor.Designer.vb">
+      <DependentUpon>frmCalendarioColor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ServicioAlCliente\frmCalendarioColor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServicioAlCliente\Horario.vb" />
+    <Compile Include="Soporte\ConstructorRestablecerCantidadesPendientes.vb" />
+    <Compile Include="Soporte\ControladorRestablecerCantidadesPendientes.vb" />
+    <Compile Include="Soporte\LineaRestablecerCantidades.vb" />
+    <Compile Include="Soporte\RestablecerCantidades.vb" />
+    <Compile Include="Vehiculo\MatrixAvaluos.vb" />
+    <Compile Include="Ventas\ConstructorOfertaVentas.vb" />
+    <Compile Include="Ventas\Coordenadas.vb" />
+    <Compile Include="Ventas\Cotizacion_GeneraFI.vb" />
+    <Compile Include="Ventas\Cotizacion_GeneraOV.vb" />
+    <Compile Include="DataContract\Asiento.vb" />
+    <Compile Include="DataContract\Asiento_List.vb" />
+    <Compile Include="DataContract\BodegaCentroCosto.vb" />
+    <Compile Include="DataContract\BodegaCentroCosto_List.vb" />
+    <Compile Include="DataContract\ConfiguracionGeneral.vb" />
+    <Compile Include="DataContract\ConfiguracionGeneral_List.vb" />
+    <Compile Include="DataContract\ConfiguracionNivelAprobacion.vb" />
+    <Compile Include="DataContract\ConfiguracionNivelAprobacion_List.vb" />
+    <Compile Include="DataContract\ConfiguracionOrdenTrabajo.vb" />
+    <Compile Include="DataContract\ConfiguracionOrdenTrabajo_List.vb" />
+    <Compile Include="DataContract\ConfiguracionSucursal.vb" />
+    <Compile Include="DataContract\ConfiguracionSucursal_Listvb.vb" />
+    <Compile Include="DataContract\ContratoVentaEncabezado.vb" />
+    <Compile Include="DataContract\ContratoVentaEncabezado_List.vb" />
+    <Compile Include="DataContract\ContratoVentaUsado.vb" />
+    <Compile Include="DataContract\ContratoVentaUsado_List.vb" />
+    <Compile Include="DataContract\ContratoVentaVehiculo.vb" />
+    <Compile Include="DataContract\ContratoVentaVehiculo_List.vb" />
+    <Compile Include="DataContract\Cotizacion.vb" />
+    <Compile Include="DataContract\CotizacionEncabezado.vb" />
+    <Compile Include="DataContract\CotizacionEncabezado_List.vb" />
+    <Compile Include="DataContract\Cotizacion_List.vb" />
+    <Compile Include="DataContract\DatoGenerico.vb" />
+    <Compile Include="DataContract\DatoGenerico_List.vb" />
+    <Compile Include="DataContract\DimensionesContables.vb" />
+    <Compile Include="DataContract\DimensionesContables_List.vb" />
+    <Compile Include="DataContract\DocumentoMarketing.vb" />
+    <Compile Include="DataContract\DocumentoMarketing_List.vb" />
+    <Compile Include="DataContract\NivelAprobacion.vb" />
+    <Compile Include="DataContract\NivelAprobacion_List.vb" />
+    <Compile Include="DataContract\SalidaMercanciaEncabezado.vb" />
+    <Compile Include="DataContract\SalidaMercanciaEncabezado_List.vb" />
+    <Compile Include="DataContract\SalidaMercanciaLineas.vb" />
+    <Compile Include="DataContract\SalidaMercanciaLineas_List.vb" />
+    <Compile Include="DataContract\Vehiculos\AccesoriosXVehiculo.vb" />
+    <Compile Include="DataContract\Vehiculos\BonosXVehiculo.vb" />
+    <Compile Include="DataContract\Vehiculos\Carga_Vehiculo.vb" />
+    <Compile Include="DataContract\Vehiculos\TrazabilizadXVehiculo.vb" />
+    <Compile Include="DataContract\Vehiculos\Vehiculo.vb" />
+    <Compile Include="EmbarqueVehiculos\EmbarqueVehiculos.Controles.vb" />
+    <Compile Include="EmbarqueVehiculos\EmbarqueVehiculos.vb" />
+    <Compile Include="EmbarqueVehiculos\MatrizEmbArticulos.vb" />
+    <Compile Include="EmbarqueVehiculos\MatrizEmbDocumentos.vb" />
+    <Compile Include="EmbarqueVehiculos\MatrizEmbUnidades.vb" />
+    <Compile Include="EmbarqueVehiculos\MatrizEmbUnidadesDoc.vb" />
+    <Compile Include="Empleados\MaestroEmpleados.vb" />
+    <Compile Include="EntradasMercancia.vb" />
+    <Compile Include="ComprasProveedores\EntradasMercanciasEnCompras.vb" />
+    <Compile Include="EntregaVehiculosOT\EntregaVehiculosOT.vb" />
+    <Compile Include="EntregaVehiculosOT\MatrizVehi.vb" />
+    <Compile Include="ConfiguracionesDMS\EspecificacionesMatrizAccesorios.vb" />
+    <Compile Include="ConfiguracionesDMS\EspecificacionesMatrizAccesoriosVeh.vb" />
+    <Compile Include="ConfiguracionesDMS\EspecificacionPorModeloCls.Controles.vb" />
+    <Compile Include="ConfiguracionesDMS\EspecificacionPorModeloCls.vb" />
+    <Compile Include="Financiamiento\ConfiguracionFormularioConPermisos.vb" />
+    <Compile Include="Financiamiento\CuotasVencidasConPermisos.vb" />
+    <Compile Include="Financiamiento\EstadosCuentaConPermisos.vb" />
+    <Compile Include="Financiamiento\HistoricoPagosConPermisos.vb" />
+    <Compile Include="Financiamiento\PrestamoFormularioConPermisos.vb" />
+    <Compile Include="Financiamiento\ReportesConPermisos.vb" />
+    <Compile Include="Financiamiento\SaldosConPermisos.vb" />
+    <Compile Include="GastosContratoVentas\GastosAdicionales.Controles.vb" />
+    <Compile Include="GastosContratoVentas\GastosAdicionales.vb" />
+    <Compile Include="GastosContratoVentas\MatrixSBOGastos.vb" />
+    <Compile Include="GoodIssueDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoodIssueDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoodReceiptDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoodReceiptDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HistorialAprobaciones.Controles.vb" />
+    <Compile Include="HistorialAprobaciones.vb" />
+    <Compile Include="IDMenus.vb" />
+    <Compile Include="InformesDMS\BalanceOrdenesTrabajo.controles.vb" />
+    <Compile Include="InformesDMS\BalanceOrdenesTrabajo.vb" />
+    <Compile Include="InformesDMS\BodegaProceso.controles.vb" />
+    <Compile Include="InformesDMS\BodegaProceso.vb" />
+    <Compile Include="InformesDMS\CitasPorTipoAgendaFecha.controles.vb" />
+    <Compile Include="InformesDMS\CitasPorTipoAgendaFecha.vb" />
+    <Compile Include="InformesDMS\FactutacionOTInternas.vb" />
+    <Compile Include="InformesDMS\HistorialVehiculo.vb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="InformesDMS\MatrizRptOrdenesXEstado.vb" />
+    <Compile Include="InformesDMS\OrdenesDeTrabajoPorEstado.vb" />
+    <Compile Include="InformesDMS\ReporteFacturacionMecanicos.vb" />
+    <Compile Include="InformesDMS\ReporteFacturacionOrdenesTrabajo.vb" />
+    <Compile Include="InformesDMS\ReporteFinanciamientoContratoVentas.vb" />
+    <Compile Include="InformesDMS\ReporteOrdenesEspeciales.Controles.vb" />
+    <Compile Include="InformesDMS\ReporteOrdenesEspeciales.vb" />
+    <Compile Include="InformesDMS\FacturacionVehiculosPorVendedor.controles.vb" />
+    <Compile Include="InformesDMS\FacturacionVehiculosPorVendedor.vb" />
+    <Compile Include="InformesDMS\ReporteServiciosExternosXOrden.vb" />
+    <Compile Include="InformesDMS\UnidadesVendidas.controles.vb" />
+    <Compile Include="InformesDMS\UnidadesVendidas.vb" />
+    <Compile Include="InformesDMS\UnidadesVendidasConPermisos.vb" />
+    <Compile Include="Inventario\CrearDocumentosGastosCostos.Controles.vb" />
+    <Compile Include="Inventario\CrearDocumentosGastosCostos.vb" />
+    <Compile Include="Inventario\IncluirGastosCostosOT.Controles.vb" />
+    <Compile Include="Inventario\IncluirGastosCostosOT.vb" />
+    <Compile Include="Inventario\IncluirRepuestosOT.controles.vb" />
+    <Compile Include="Inventario\IncluirRepuestosOT.vb" />
+    <Compile Include="Inventario\MatrizDocumentoGastos.vb" />
+    <Compile Include="Inventario\MatrizGastosOT.vb" />
+    <Compile Include="Inventario\MatrizRepuestosOT.vb" />
+    <Compile Include="Inventario\MatrizSeleccionaGastosOT.vb" />
+    <Compile Include="Inventario\MatrizSeleccionaRepuestosOT.vb" />
+    <Compile Include="Inventario\SeleccionarGastosCostosOT.Controles.vb" />
+    <Compile Include="Inventario\SeleccionarGastosCostosOT.vb" />
+    <Compile Include="Inventario\SeleccionarRepuestosOT.controles.vb" />
+    <Compile Include="Inventario\SeleccionarRepuestosOT.vb" />
+    <Compile Include="KardexInventarioVehiculo\KardexInventarioVehiculo.Controles.vb" />
+    <Compile Include="KardexInventarioVehiculo\KardexInventarioVehiculo.vb" />
+    <Compile Include="KardexInventarioVehiculo\MatrizSBOVehiculo.vb" />
+    <Compile Include="ListaContXUnidad.vb" />
+    <Compile Include="ListadoContratoReversadosCls.vb" />
+    <Compile Include="ListadoContratosFacturadosReversadosCls.vb" />
+    <Compile Include="ConfiguracionNivelesAprobacion\MatrizConfigNAprob.vb" />
+    <Compile Include="ConfiguracionNivelesAprobacion\ConfiguracionNivAprobacion.Controles.vb" />
+    <Compile Include="ConfiguracionNivelesAprobacion\ConfiguracionNivAprobacion.vb" />
+    <Compile Include="ConfiguracionNivelesAprobacion\UsuariosPorNAprob.Controles.vb" />
+    <Compile Include="Contrato Ventas\ListadoContratosSeguroPostVenta.vb" />
+    <Compile Include="MatrizConsultaInventario.vb" />
+    <Compile Include="MatrizConsultaPedidos.vb" />
+    <Compile Include="MatrizHistCV.vb" />
+    <Compile Include="Contrato Ventas\MatrizListaContratosSegurosPV.vb" />
+    <Compile Include="MatrizSolicitaOTEspecial.vb" />
+    <Compile Include="MuestraMessgeBoxSBO.vb" />
+    <Compile Include="OportunidadVenta.vb" />
+    <Compile Include="OrdenesTrabajo\BusquedaOrdenesTrabajo.controles.vb" />
+    <None Include="RecosteoDataSet.xsc">
+      <DependentUpon>RecosteoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RecosteoDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RecosteoDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="RecosteoDataSet.xss">
+      <DependentUpon>RecosteoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ReversarContratoDataSet.xsc">
+      <DependentUpon>ReversarContratoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ReversarContratoDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReversarContratoDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ReversarContratoDataSet.xss">
+      <DependentUpon>ReversarContratoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SalidadModoConsultaporUsuario.xsc">
+      <DependentUpon>SalidadModoConsultaporUsuario.xsd</DependentUpon>
+    </None>
+    <None Include="SalidadModoConsultaporUsuario.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalidadModoConsultaporUsuario.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SalidadModoConsultaporUsuario.xss">
+      <DependentUpon>SalidadModoConsultaporUsuario.xsd</DependentUpon>
+    </None>
+    <None Include="SalidaMercancia\AsientoContableDataSet.xsc">
+      <DependentUpon>AsientoContableDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SalidaMercancia\AsientoContableDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AsientoContableDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SalidaMercancia\AsientoContableDataSet.xss">
+      <DependentUpon>AsientoContableDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SalidaMercancia\SalidaContableDataset.xsc">
+      <DependentUpon>SalidaContableDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SalidaMercancia\SalidaContableDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalidaContableDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SalidaMercancia\SalidaContableDataset.xss">
+      <DependentUpon>SalidaContableDataset.xsd</DependentUpon>
+    </None>
+    <None Include="TipoVehUsuario.xsc">
+      <DependentUpon>TipoVehUsuario.xsd</DependentUpon>
+    </None>
+    <None Include="TipoVehUsuario.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TipoVehUsuario.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="TipoVehUsuario.xss">
+      <DependentUpon>TipoVehUsuario.xsd</DependentUpon>
+    </None>
+    <None Include="TrasladoCostosDeUnidadesDataSet.xsc">
+      <DependentUpon>TrasladoCostosDeUnidadesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TrasladoCostosDeUnidadesDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrasladoCostosDeUnidadesDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="TrasladoCostosDeUnidadesDataSet.xss">
+      <DependentUpon>TrasladoCostosDeUnidadesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="VehiculoDataset.xsc">
+      <DependentUpon>VehiculoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="VehiculoDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VehiculoDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="VehiculoDataset.xss">
+      <DependentUpon>VehiculoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="VehiculosAddonDataset.xsc">
+      <DependentUpon>VehiculosAddonDataset.xsd</DependentUpon>
+    </None>
+    <None Include="VehiculosAddonDataset.xsd">
+      <SubType>
+      </SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VehiculosAddonDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="VehiculosAddonDataset.xss">
+      <DependentUpon>VehiculosAddonDataset.xsd</DependentUpon>
+    </None>
+    <Compile Include="Agendas\DatosCita.vb" />
+    <Compile Include="Agendas\DatosFormularioPadre.vb" />
+    <Compile Include="Agendas\FormularioAgendaSBO.vb" />
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BuscadorContratoVentaCls.vb" />
+    <Compile Include="CatchingEvents.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChooseFromListByFormattedSCls.vb" />
+    <Compile Include="ComprasCls.vb" />
+    <Compile Include="Configuraciones\Configuracion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuraciones\ConfiguracionesGenerelesAddOn.vb" />
+    <Compile Include="Configuraciones\ConfiguracionLineasAdicionalesFacturaCls.vb" />
+    <Compile Include="Configuraciones\ConfiguracionLineasDesgloceCobroCls.vb" />
+    <Compile Include="Configuraciones\ConfiguracionPropiedadesVehiculosCls.vb" />
+    <Compile Include="ConfiguracionesDMS\ConfiguracionTransaccionesCompraCls.vb" />
+    <Compile Include="ConsultaInventarioVehiculosCls.vb" />
+    <Compile Include="Contrato Ventas\ContratoVentasCls.vb" />
+    <Compile Include="Ventas\CotizacionCLS.vb" />
+    <Compile Include="dtsMovimientoStock.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsMovimientoStock.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FacturaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FacturaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FacturaDataset.vb">
+      <DependentUpon>FacturaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FacturaInterna.vb" />
+    <Compile Include="FacturaInternaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FacturaInternaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoodIssueCls.vb" />
+    <Compile Include="GoodReceiptDataset.vb">
+      <DependentUpon>GoodReceiptDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoodReceiveCls.vb" />
+    <Compile Include="IntegracionSBO\GestorAddon.vb" />
+    <Compile Include="IntegracionSBO\GestorMenu.vb" />
+    <Compile Include="ListadoContratosCls.vb" />
+    <Compile Include="Listado_GRCls.vb" />
+    <Compile Include="LlamadaServicio\DatosVehiculo.vb" />
+    <Compile Include="LlamadaServicio\FormularioLLamadaServicioSBO.vb" />
+    <Compile Include="GestorFormularios.vb" />
+    <Compile Include="MensajeriaCls.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="NivelesPlanVentasCls.vb" />
+    <Compile Include="ObjetoGoodReceiptCls.vb" />
+    <Compile Include="ConfiguracionNivelesAprobacion\MatrizUsuarios.vb" />
+    <Compile Include="ConfiguracionNivelesAprobacion\UsuariosPorNAprob.vb" />
+    <Compile Include="OrdenesTrabajo\BusquedaOrdenesTrabajo.vb" />
+    <Compile Include="OrdenesTrabajo\MatrizBusquedaOT.vb" />
+    <Compile Include="Ventas\Cotizacion_ProcesaOT.vb" />
+    <Compile Include="Ventas\OrdenVenta.vb" />
+    <Compile Include="Placas\ComisionConPermisos.vb" />
+    <Compile Include="Placas\ContratoTraspasoConPermisos.vb" />
+    <Compile Include="Placas\ExpedienteFormularioConPermisos.vb" />
+    <Compile Include="Placas\GrupoFormularioConPermisos.vb" />
+    <Compile Include="Placas\ReportesPlacasConPermisos.vb" />
+    <Compile Include="Placas\VehiculosProblemasConPermisos.vb" />
+    <Compile Include="Placas\VehiculosTipoEventoConPermisos.vb" />
+    <Compile Include="Prototipo\BusquedaControlProceso.vb" />
+    <Compile Include="Prototipo\ControlCrearVisita.vb" />
+    <Compile Include="Prototipo\ControlVisita.vb" />
+    <Compile Include="Prototipo\OfertaVentas.vb" />
+    <Compile Include="Prototipo\Visita.vb" />
+    <Compile Include="Ventas\ReAperturaOT.vb" />
+    <Compile Include="Ventas\ReAperturaOTNormal.vb" />
+    <Compile Include="Ventas\RecepcionVehiculoUI.vb" />
+    <Compile Include="RecosteoDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecosteoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RecosteoDataSet.vb">
+      <DependentUpon>RecosteoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RecosteoPartialClass.vb" />
+    <Compile Include="RecosteosCls.vb" />
+    <Compile Include="Refacturacion\MatrixSBOFacturas.vb" />
+    <Compile Include="Refacturacion\Refacturacion.Controles.vb" />
+    <Compile Include="Refacturacion\Refacturacion.vb" />
+    <Compile Include="ReportesCosteoCls.vb" />
+    <Compile Include="Requisiciones\FormularioRequisiconesConPermisos.vb" />
+    <Compile Include="Requisiciones\ListadoRequisicionesConPermisos.vb" />
+    <Compile Include="Requisiciones\ManejadorRequisicionesTraslados.vb" />
+    <Compile Include="Resource.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.en-US.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReversarContratoDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReversarContratoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReversarContratoDataSet.vb">
+      <DependentUpon>ReversarContratoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReversarContratosCls.vb" />
+    <Compile Include="SalidadModoConsultaporUsuario.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalidadModoConsultaporUsuario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SalidaMercancia\AsientoContableDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AsientoContableDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SalidaMercancia\ReversarSalidaMercanciaCls.vb" />
+    <Compile Include="SalidaMercancia\SalidaContableDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalidaContableDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CosteoMultiple\SalidaMultiple.vb" />
+    <Compile Include="SalidasMercancia.vb" />
+    <Compile Include="Compras e Importacion\SeleccionLineasPedidos.controles.vb" />
+    <Compile Include="Compras e Importacion\SeleccionLineasPedidos.vb" />
+    <Compile Include="ServicioAlCliente\AgendaSuspension.Controles.vb" />
+    <Compile Include="ServicioAlCliente\AgendaSuspension.vb" />
+    <Compile Include="ServicioAlCliente\BuscadorArticulosCitas.Controles.vb" />
+    <Compile Include="ServicioAlCliente\BuscadorArticulosCitas.vb" />
+    <Compile Include="ServicioAlCliente\BusquedasCitas.Controles.vb" />
+    <Compile Include="ServicioAlCliente\BusquedasCitas.vb" />
+    <Compile Include="ServicioAlCliente\BusquedasCitasConPermisos.vb" />
+    <Compile Include="ServicioAlCliente\CargarPanelCitas.Controles.vb" />
+    <Compile Include="ServicioAlCliente\CargarPanelCitas.vb" />
+    <Compile Include="ServicioAlCliente\CargarPanelCitasConPermisos.vb" />
+    <Compile Include="ServicioAlCliente\CitasReservacion.Controles.vb" />
+    <Compile Include="ServicioAlCliente\CitasReservacion.vb" />
+    <Compile Include="ServicioAlCliente\frmListaCitas.Designer.vb">
+      <DependentUpon>frmListaCitas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ServicioAlCliente\frmListaCitas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServicioAlCliente\frmCalendario.Designer.vb">
+      <DependentUpon>frmCalendario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ServicioAlCliente\frmCalendario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServicioAlCliente\frmVisualFotos.Designer.vb">
+      <DependentUpon>frmVisualFotos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ServicioAlCliente\frmVisualFotos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServicioAlCliente\MatrizBusquedaArticulosCitas.vb" />
+    <Compile Include="ServicioAlCliente\MatrizBusquedaCitas.vb" />
+    <Compile Include="ServicioAlCliente\MatrizServicios.vb" />
+    <Compile Include="ServicioAlCliente\MatrizSuspension.vb" />
+    <Compile Include="ServicioPostVenta\AdicionalesOTConPermisos.vb" />
+    <Compile Include="ServicioPostVenta\AsignacionMultipleConPermisos.vb" />
+    <Compile Include="ServicioPostVenta\BuscadorProveedoresConPermisos.vb" />
+    <Compile Include="ServicioPostVenta\DocumentoCompraConPermisos.vb" />
+    <Compile Include="ServicioPostVenta\OrdenTrabajoConPermisos.vb" />
+    <Compile Include="ServicioPostVenta\OTEspecialConPermisos.vb" />
+    <Compile Include="ServicioPostVenta\RazonesSuspensionConPermisos.vb" />
+    <Compile Include="SociosNegocio\Campaña.vb" />
+    <Compile Include="SociosNegocio\MaestroSociosNegocio.vb" />
+    <Compile Include="SociosNegocio\MatrizVehiculosCampana.vb" />
+    <Compile Include="SolicitaOTEspecial.controles.vb" />
+    <Compile Include="SolicitaOTEspecial.vb" />
+    <Compile Include="Solicitud de Especificos\ListadoSolicitudEspecifivosConPermisos.vb" />
+    <Compile Include="Solicitud de Especificos\SolicitudEspecificosConPermisos.vb" />
+    <Compile Include="Solicitud Orden Especial\SolicitudOrdenEspecial.vb" />
+    <Compile Include="Solicitud Orden Especial\MatrixSBOLineasCot.vb" />
+    <Compile Include="Solicitud Orden Especial\SolicitudOrdenEspecial.Controles.vb" />
+    <Compile Include="TipoOtInterna.vb" />
+    <Compile Include="TipoVehUsuario.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TipoVehUsuario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TransaccionesCompra.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TransaccionesCompra.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TransaccionesCompra.en-US.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TransaccionesCompra.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TransferenciaItems.vb" />
+    <Compile Include="TrasladoCostosDeUnidadesCls.vb" />
+    <Compile Include="TrasladoCostosDeUnidadesDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrasladoCostosDeUnidadesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TrasladoCostosDeUnidadesDataSet.vb">
+      <DependentUpon>TrasladoCostosDeUnidadesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TSD\ConfiguracionInterfazTSD.vb" />
+    <Compile Include="Utilitarios.vb" />
+    <Compile Include="VehiculoDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VehiculoDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VehiculosAddonDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VehiculosAddonDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VehiculosAddonDataset.vb">
+      <DependentUpon>VehiculosAddonDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Vehiculo\VehiculosCls.vb" />
+    <Compile Include="Vehiculo\VehiculosSinCostearCls.vb" />
+    <Compile Include="Vehiculo\AvaluoUsados.vb" />
+    <Compile Include="Vehiculo\MatrixVehiculoArticuloVenta.vb" />
+    <Compile Include="Vehiculo\MatrixVehiculoColores.vb" />
+    <Compile Include="Vehiculo\VehiculoArticuloVenta.Controles.vb" />
+    <Compile Include="Vehiculo\VehiculoArticuloVenta.vb" />
+    <Compile Include="Vehiculo\VehiculoColoresSeleccion.Controles.vb" />
+    <Compile Include="Vehiculo\VehiculoColoresSeleccion.vb" />
+    <Compile Include="Vehiculo\VehiculoSeleccionMarcaEstilo.Controles.vb" />
+    <Compile Include="Vehiculo\VehiculoSeleccionMarcaEstilo.vb" />
+    <Compile Include="Ventas\ClasificacionPresupuesto.vb" />
+    <Compile Include="Ventas\ConfiguracionArticuloVenta.vb" />
+    <Compile Include="Ventas\FacturaClientes.vb" />
+    <Compile Include="Ventas\FormularioPresupuestos.Controles.vb" />
+    <Compile Include="Ventas\GeneradorArticuloVenta.vb" />
+    <Compile Include="Ventas\ManejadorArticuloVenta.vb" />
+    <Compile Include="Ventas\FormularioPresupuestos.vb" />
+    <Compile Include="Ventas\ManejadorClasificacionPresupuesto.vb" />
+    <Compile Include="Ventas\ConfiguracionPresupuesto.vb" />
+    <Compile Include="Ventas\ManejadorCode.vb" />
+    <Compile Include="Ventas\ManejadorMarcasPresupuestos.vb" />
+    <Compile Include="Ventas\MarcasPresupuestos.vb" />
+    <Compile Include="Ventas\NotaCreditoClientes.vb" />
+    <Compile Include="WindowWrapper.vb" />
+    <Content Include="CFL.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="FacturaDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FacturaDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DMSOneFramework\DMSOneFramework.vbproj">
+      <Project>{9AC48AE4-957F-4DAB-A079-CD660429F436}</Project>
+      <Name>DMSOneFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMS_Connector\DMS_Connector.csproj">
+      <Project>{085DE67A-A389-498F-ADBA-DB234DFF447E}</Project>
+      <Name>DMS_Connector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG User Interface\SCG User Interface.vbproj">
+      <Project>{9847E04E-CF9E-4885-A768-5E2FF54627F8}</Project>
+      <Name>SCG User Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG.Cifrado\SCG.Cifrado.csproj">
+      <Project>{DAB9576E-31CF-47D8-A21C-0B5EC04D2F6A}</Project>
+      <Name>SCG.Cifrado</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG.DMSOne.Framework\SCG.DMSOne.Framework.csproj">
+      <Project>{86819DD4-6443-4F85-8226-6DE9D8AE9F1D}</Project>
+      <Name>SCG.DMSOne.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG.Financiamiento\SCG.Financiamiento.vbproj">
+      <Project>{F6CE18A5-0F7C-476A-BA62-58C2E5C1B91B}</Project>
+      <Name>SCG.Financiamiento</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG.Integration\SCG.Integration.csproj">
+      <Project>{66F3EE10-DA11-4C62-A673-97200F8F4A5A}</Project>
+      <Name>SCG.Integration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG.Placas\SCG.Placas.csproj">
+      <Project>{B3A60467-EC2A-46A5-AD41-946C4EE8BCC5}</Project>
+      <Name>SCG.Placas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG.Requisiciones\SCG.Requisiciones.csproj">
+      <Project>{DDFFBC6C-8CED-49D0-B339-85047C11E4E7}</Project>
+      <Name>SCG.Requisiciones</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG.SBOFramework\SCG.SBOFramework.csproj">
+      <Project>{5956FFF3-24E5-4406-9EF0-67134A934865}</Project>
+      <Name>SCG.SBOFramework</Name>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG.ServicioPostVenta\SCG.ServicioPostVenta.csproj">
+      <Project>{8130CF02-4530-453E-B3E8-E8F41780E00F}</Project>
+      <Name>SCG.ServicioPostVenta</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="archivos.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.en-US.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.en-US.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServicioAlCliente\frmCalendario.en-AU.resx">
+      <DependentUpon>frmCalendario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServicioAlCliente\frmCalendario.en-US.resx">
+      <DependentUpon>frmCalendario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServicioAlCliente\frmCalendarioColor.resx">
+      <DependentUpon>frmCalendarioColor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServicioAlCliente\frmListaCitas.en-US.resx">
+      <DependentUpon>frmListaCitas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServicioAlCliente\frmListaCitas.resx">
+      <DependentUpon>frmListaCitas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServicioAlCliente\frmCalendario.resx">
+      <DependentUpon>frmCalendario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServicioAlCliente\frmVisualFotos.resx">
+      <DependentUpon>frmVisualFotos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransaccionesCompra.en-US.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TransaccionesCompra.en-US.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransaccionesCompra.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TransaccionesCompra.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MensajeriaAprobacion\" />
+    <Folder Include="ReversarVehiculosUsadosCV\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

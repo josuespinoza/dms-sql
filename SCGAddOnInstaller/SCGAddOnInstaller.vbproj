@@ -1,0 +1,1501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{021DF8E7-BD40-4D81-8CEA-ABBB5470ECA2}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>SCGAddOnInstaller - DMS One</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>SCGAddOnInstallerDMS</RootNamespace>
+    <StartupObject>SCGAddOnInstallerDMS.frmPrincipal</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SCGAddOnInstaller - DMS One.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SCGAddOnInstaller - DMS One.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug x86|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug x86\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>SCGAddOnInstaller - DMS One.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>SCGAddOnInstaller - DMS One.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>SCGAddOnInstaller - DMS One.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug x86|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug x86\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>SCGAddOnInstaller - DMS One.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>SCGAddOnInstaller - DMS One.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>SCGAddOnInstaller - DMS One.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug x86|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug x86\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>SCGAddOnInstaller - DMS One.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddOnRegDataGen.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\OfertaDeVentas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\OfertaDeVentas.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AuditoriaBodegaReserva.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AuditoriaBodegaReserva.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BuscadorArticulosCitas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BuscadorArticulosCitas.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Citas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Citas.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\DisponibilidadAgendaEmpleados.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\DisponibilidadAgendaEmpleados.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\NivelesPlanVentas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\NivelesPlanVentas.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteSociosNegocios.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteSociosNegocios.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\OfertaDeVentas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\OfertaDeVentas.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteSociosNegocios.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteSociosNegocios.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\AccesoDatos.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\AccesoDatosUDF.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\AccesoDatosUDT.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\archivos.bmp" />
+    <EmbeddedResource Include="EmbeddedResource x64\CFL.bmp" />
+    <EmbeddedResource Include="EmbeddedResource x64\citas.bmp" />
+    <EmbeddedResource Include="EmbeddedResource x64\ComponenteCristalReport.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\ConfiguracionSBO_SoporteCritico.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\cont.bmp" />
+    <EmbeddedResource Include="EmbeddedResource x64\ControlUDF.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\ControlUDT.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\CornerImage.png" />
+    <EmbeddedResource Include="EmbeddedResource x64\CreacionUDF.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\DataSets.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\DataSetsUDF.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\DataSetsUDT.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\DeKlaritLibrary.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\DMSOne.bmp" />
+    <EmbeddedResource Include="EmbeddedResource x64\DMSONEDKFrameworkBusinessFramework.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\DMSOneFramework.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\DMS_Addon.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\DMS_Connector.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\ControlUDF.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\ControlUDT.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\CreacionUDF.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\DMSOneFramework.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\DMS_Addon.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\ManipuladorClienteDLL.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\Proyecto SCGMSGBox.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\Proyecto SCGToolBar.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\SCG DMS One.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\SCG New Buscador.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\SCG User Interface.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\SCG.Financiamiento.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\SCG.License.UX.Windows.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\SCG.Placas.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\SCG.Requisiciones.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\SCG.Seguridad.2005.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\SCG.ServicioPostVenta.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\SCG.UX.Windows.GeneradorConsultas.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\SCG.UX.Windows.ManejoDeArchivosDigitales.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\en-US\SCGExceptionHandler.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\etiqueta.bmp" />
+    <EmbeddedResource Include="EmbeddedResource x64\financ.bmp" />
+    <EmbeddedResource Include="EmbeddedResource x64\Flecha.bmp" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AgendaCitas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AgendaCitas.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AgendaConfiguracion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AgendaConfiguracion.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AgendaSuspension.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AgendaSuspension.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AsignacionMultiple.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AsignacionMultiple.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AsignacionMultipleTareas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AsignacionMultipleTareas.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AsociacionArticuloEspecificacion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AsociacionArticuloEspecificacion.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AvaluoUsados.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AvaluoUsados.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BalanceContratoVentas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BalanceContratoVentas.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BalanceOrdenesTrabajo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BalanceOrdenesTrabajo.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BuscadorAdicionales.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BuscadorAdicionales.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BuscadorProveedores.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BuscadorProveedores.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BuscardorCitasArt.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BuscardorCitasArt.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BusquedaCitas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BusquedaCitas.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BusquedaControlProceso.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BusquedaOrdenesTrabajo.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\BusquedaOrdenesTrabajo.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CargarPanelCitas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CargarPanelCitas.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CerrarOrdenesTrabajo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CerrarOrdenesTrabajo.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CerrarOrdenesTrabajoInternas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CerrarOrdenesTrabajoInternas.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CitasRecepcion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CitasRecepcion.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CitasXTipoFecha.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CitasXTipoFecha.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ComentarioHistCV.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ComentarioHistCV.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ComisionPlacas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ComisionPlacas.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfDesglosePago.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfDesglosePago.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfFinanciamiento.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfFinanciamiento.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfiguracionAccesos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfiguracionAccesos.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfiguracionDimensionesContables.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfiguracionDimensionesContables.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfiguracionDimensionesContablesOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfiguracionDimensionesContablesOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfiguracionPropsVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfiguracionPropsVehiculos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Configuracion_ADX_IC.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Configuracion_ADX_IC.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Configuracion_TSD_IC.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Configuracion_TSD_IC.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfInterfaceFord.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfInterfaceFord.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfLineasFactura.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfLineasFactura.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfMantenimientosXTipInv.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfMantenimientosXTipInv.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfNivelesAprobacionTipoInv.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfNivelesAprobacionTipoInv.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfNivelesReversionTipoInv.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfNivelesReversionTipoInv.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfTarifasLRDXTipInv.enUs.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfTarifasLRDXTipInv.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfTransaccionesCompraVeh.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ConfTransaccionesCompraVeh.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ContratosReversados.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ContratosReversados.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ContratosReversadosReal.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ContratosVentaTramite.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ContratosVentaTramite.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ContratoTraspasoVehiculo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ContratoTraspasoVehiculo.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ContratoVenta.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ContratoVenta.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ControlCrearVisita.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ControlVisita.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CosteoDeEntradas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CosteoDeEntradas.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CosteoMultiplesUnidades.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CosteoMultiplesUnidades.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CostosDeImportacion.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CrearDocumentosGastoCostos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CrearDocumentosGastoCostos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CuotasVencidas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\CuotasVencidas.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\DevolucionDeVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\DevolucionDeVehiculos.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\DocumentoCompra.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\DocumentoCompra.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\EmbarqueVehiculos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\EntradaDeVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\EntradaDeVehiculos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\EntradasSinProcesar.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\EntradasSinProcesar.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\EntregaVehiculosOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\EntregaVehiculosOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\EstadosCuenta.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\EstadosCuenta.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ExpedientedePlacas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ExpedientedePlacas.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ExpedientesVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ExpedientesVehiculos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\FacturacionMecanicos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\FacturacionMecanicos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\FacturaInterna.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\FacturaInterna.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\FinalizaActividades.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\FinalizaActividades.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\GastosAdicionales.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\GastosAdicionales.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\HistorialVehiculo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\HistorialVehiculo.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\HistoricoPagos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\HistoricoPagos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\IncluirGastosOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\IncluirGastosOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\IncluirRepuestosOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\IncluirRepuestosOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\IngresoContableVehiculo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\IngresoContableVehiculo.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\IngresoEventosGrupo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\IngresoEventosGrupo.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\InventarioVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\InventarioVehiculos.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\KardexInventarioVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\KardexInventarioVehiculos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListaContXUnidad.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListaContXUnidad.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListadoContratos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListadoContratos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListadoContratosAReversar.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListadoContratosAReversar.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListadoContratosNATI.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListadoContratosNATI.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListadoContratosNRTI.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListadoContratosNRTI.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListadoContratosSeguroPostVenta.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListadoContratosSeguroPostVenta.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListadoRequisiciones.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListadoRequisiciones.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListadoSolicitudEspecificos.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ListadoSolicitudEspecificos.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\MaestroVehiculos.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\MaestroVehiculos.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Mensajeria.enUs.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Mensajeria.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\MensajeriaAprobacion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\MensajeriaAprobacion.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\NivelesAprobacionTipoInv.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\NivelesAprobacionTipoInv.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\NivelesReversionTipoInv.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\NivelesReversionTipoInv.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\NumeracionSeries.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\NumeracionSeries.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\OfertaVentas.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\OrdenesDeTrabajoPorEstado.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\OrdenesDeTrabajoPorEstado.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\OrdenTrabajo.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\OrdenTrabajo.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\OTEspecial.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\OTEspecial.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\PagosPrestamo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\PagosPrestamo.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ParametrosDeAplicacion.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ParametrosDeAplicacion.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ParamGenAddon.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ParamGenAddon.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\PedidoDeUnidades.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\PedidoDeUnidades.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\PlanPagos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\PlanPagos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\PlazosXContrato.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\PlazosXContrato.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Prestamo.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Prestamo.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Presupuestos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Presupuestos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\RazonSuspension.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\RazonSuspension.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Recepcion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Recepcion.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Recosteos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Recosteos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Refacturacion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Refacturacion.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteAntiguedadVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteAntiguedadVehiculos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteBodegaProceso.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteBodegaProceso.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\reporteFacturacionFI.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\reporteFacturacionFI.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteFacturacionOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteFacturacionOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteFacturacionVehiculo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteFacturacionVehiculo.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteFinanciamientoCV.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteFinanciamientoCV.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteOrdenesEspeciales.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteOrdenesEspeciales.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReportesContratoVenta.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReportesContratoVenta.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReportesCosteoVehiculo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReportesCosteoVehiculo.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteSExOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteSExOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteUnidadesVendidas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteUnidadesVendidas.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReversionParcialCV.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReversionParcialCV.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Saldos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Saldos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SalidaContableVehiculo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SalidaContableVehiculo.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SalidaMultiplesUnidades.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SalidaMultiplesUnidades.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SCGD_Solicitudes.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SCGD_Solicitudes.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionaCostosOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionaCostosOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionaRepuestosOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionaRepuestosOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionArticulosVenta.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionArticulosVenta.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionColorVehiculo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionColorVehiculo.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionLineasPedido.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionLineasPedido.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionLineasRecepcion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionLineasRecepcion.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionListaEmpleados.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionListaEmpleados.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionListaEmpleadosNATI.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionListaEmpleadosNATI.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionListaEmpleadosNRTI.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionListaEmpleadosNRTI.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionListaPrecios.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionListaPrecios.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionListaUbicaciones.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionListaUbicaciones.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionMarcaEstiloModelo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionMarcaEstiloModelo.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionUnidadesDevolucion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SeleccionUnidadesDevolucion.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SolicitaOTEsp.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SolicitaOTEsp.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SolicitudEspecificos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SolicitudEspecificos.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SolicitudOrdenEspecial.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\SolicitudOrdenEspecial.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\TipoOtInterna.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\TipoOtInterna.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\TrackingRep.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\TrackingRep.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\TrackingSolEspecific.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\TrackingSolEspecific.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\TrasladoCostos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\TrasladoCostos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\UbicacionesVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\UbicacionesVehiculos.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\UsuariosPorNivel.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\UsuariosPorNivel.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\VehiculosEspecificacionesPorModelo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\VehiculosEspecificacionesPorModelo.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\VehiculosProblemas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\VehiculosProblemas.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\VehiculosSinCostear.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\VehiculosSinCostear.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\VehiculosTipoEvento.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\VehiculosTipoEvento.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\VendedoresXTipoInv.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\VendedoresXTipoInv.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\RestablecerCantidadesPendientes.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\RestablecerCantidadesPendientes.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\Visita.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\GeneradorHash.exe" />
+    <EmbeddedResource Include="EmbeddedResource x64\Imagenes.txt" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteVehiculosRecurrentesTaller.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteVehiculosRecurrentesTaller.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteVentasXAsesorServicio.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReporteVentasXAsesorServicio.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\TimeRecord.enUS.srf" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\TimeRecord.srf" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AdministradorLicencias.srf" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\AdministradorLicencias.enUS.srf" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\LicenseComparison.srf" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\LicenseComparison.enUS.srf" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\InterfaceJohnDeere.srf" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\InterfaceJohnDeereConfiguration.srf" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReAperturaOT.enUS.srf" />
+    <EmbeddedResource Include="EmbeddedResource x64\Formularios\ReAperturaOT.srf" />
+    <Content Include="EmbeddedResource x64\Imagenes\Mensajeria.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedResource x64\Imagenes\sap_cerrar.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedResource x64\Imagenes\sbo_cuadro.GIF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedResource x64\Imagenes\sbo_humanRe.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedResource x64\Imagenes\sbo_humanRe.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedResource x64\Imagenes\sbo_procesos2.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedResource x64\Imagenes\sbo_produccion.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedResource x64\Imagenes\sbo_produccion.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedResource x64\Imagenes\sbo_reportes.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedResource x64\Imagenes\sbo_reportes.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedResource x64\Imagenes\sbo_seguridad.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedResource x64\Imagenes\sbo_valoracion.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedResource x64\Imagenes\sbo_valoracion.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmbeddedResource x64\Imagenes\S_B_INTE.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="EmbeddedResource x64\imgBack.bmp" />
+    <EmbeddedResource Include="EmbeddedResource x64\InfDMS.bmp" />
+    <EmbeddedResource Include="EmbeddedResource x64\Interop.Outlook.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\Interop.SAPbobsCOM.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\Interop.SAPbouiCOM.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\IrisSkin2.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\ManipuladorClienteDLL.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\Microsoft.SqlServer.BatchParser.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\Microsoft.SqlServer.Replication.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\NEWTEXTBOX.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\PDSACryptography.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\placas.bmp" />
+    <EmbeddedResource Include="EmbeddedResource x64\Proyecto SCGMSGBox.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\Proyecto SCGToolBar.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\RegionMasterControls.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\sbo.bmp" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG ComponenteImagenes.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG DMS One.exe" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG New Buscador.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG Produccion Controls.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG User Interface.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG Visualizador de Reportes.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.AccesoDatos.Conexion.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.Cifrado.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.Controls.Windows.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Automotriz.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.AutoPartes.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.CasaMaya.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Cecor.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Ditec.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Europa.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.exe" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.MotoresBritanicos.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Naranjo.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Nasa.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Piramide.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Portezuelo.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Portillo.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.RaulLabbe.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.RoyalMotors.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Sais.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Skoda.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.SoloCuadras.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Yamaha.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.Framework.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.Financiamiento.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.GenLic.Seguridad.Xml.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.License.UX.Windows.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.Placas.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.Integration.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.Requisiciones.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.SBOFramework.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.Seguridad.2005.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.ServicioPostVenta.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.ServidorLic.LogicaNegocios.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.SkinManager.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.UX.Windows.CitasAutomaticas.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.UX.Windows.GeneradorConsultas.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.UX.Windows.ManejoDeArchivosDigitales.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.UX.Windows.SAP.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.UX.Windows.TextBox.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.WinFormsSAP.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCGComboBox.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCGExceptionHandler.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\setup.bmp" />
+    <EmbeddedResource Include="EmbeddedResource x64\Skins.xml" />
+    <EmbeddedResource Include="EmbeddedResource x64\smagentapi.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\smcommonutil.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\smerrlog.dll" />
+    <EmbeddedResource Include="EmbeddedResource x64\XML_Direccion_WebService.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfMantenimientosXTipInv.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfMantenimientosXTipInv.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfNivelesAprobacionTipoInv.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfNivelesAprobacionTipoInv.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfNivelesReversionTipoInv.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfNivelesReversionTipoInv.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfTarifasLRDXTipInv.enUs.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfTarifasLRDXTipInv.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ExpedientesVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ExpedientesVehiculos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListadoContratosNATI.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListadoContratosNATI.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListadoContratosNRTI.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListadoContratosNRTI.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\NivelesAprobacionTipoInv.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\NivelesAprobacionTipoInv.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\NivelesReversionTipoInv.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\NivelesReversionTipoInv.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\PlazosXContrato.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\PlazosXContrato.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReversionParcialCV.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReversionParcialCV.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionListaEmpleadosNATI.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionListaEmpleadosNATI.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionListaEmpleadosNRTI.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionListaEmpleadosNRTI.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\UbicacionesVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\UbicacionesVehiculos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.MotoresBritanicos.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.CasaMaya.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\en-US\SCG.Requisiciones.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\SCG.ServicioPostVenta.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\PagosPrestamo.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionMarcaEstiloModelo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionMarcaEstiloModelo.xml" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.AutoPartes.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.RoyalMotors.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.SoloCuadras.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\DocumentoCompra.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BuscadorProveedores.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\OTEspecial.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\TrackingRep.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\TrackingRep.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListadoRequisiciones.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListadoRequisiciones.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionListaUbicaciones.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionListaUbicaciones.xml" />
+    <EmbeddedResource Include="EmbeddedResource\DMS_Connector.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.ServicioPostVenta.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Cecor.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.RaulLabbe.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Ditec.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Sais.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Portillo.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\citas.bmp" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\VendedoresXTipoInv.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BusquedaOrdenesTrabajo.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BusquedaOrdenesTrabajo.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\VehiculosEspecificacionesPorModelo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\VehiculosEspecificacionesPorModelo.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AsociacionArticuloEspecificacion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AsociacionArticuloEspecificacion.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BalanceOrdenesTrabajo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BalanceOrdenesTrabajo.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AgendaConfiguracion.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BusquedaCitas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BusquedaCitas.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CitasRecepcion.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\NumeracionSeries.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\NumeracionSeries.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ParametrosDeAplicacion.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ParametrosDeAplicacion.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CargarPanelCitas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CargarPanelCitas.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CitasRecepcion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AgendaConfiguracion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\IncluirRepuestosOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\IncluirRepuestosOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionaRepuestosOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionaRepuestosOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AgendaSuspension.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AgendaSuspension.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\EmbarqueVehiculos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionArticulosVenta.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionArticulosVenta.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionColorVehiculo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionColorVehiculo.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteBodegaProceso.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteBodegaProceso.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SolicitudOrdenEspecial.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SolicitudOrdenEspecial.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteFacturacionVehiculo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteFacturacionVehiculo.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteOrdenesEspeciales.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteOrdenesEspeciales.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\VendedoresXTipoInv.xml" />
+    <EmbeddedResource Include="EmbeddedResource\imgBack.bmp" />
+    <EmbeddedResource Include="EmbeddedResource\smagentapi.dll" />
+    <EmbeddedResource Include="EmbeddedResource\smcommonutil.dll" />
+    <EmbeddedResource Include="EmbeddedResource\smerrlog.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.WinFormsSAP.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Europa.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Yamaha.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\placas.bmp" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\TrasladoCostos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\TrasladoCostos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\CFL.bmp" />
+    <EmbeddedResource Include="EmbeddedResource\DMS_Addon.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfFinanciamiento.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfFinanciamiento.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CuotasVencidas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CuotasVencidas.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\EstadosCuenta.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\EstadosCuenta.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\HistoricoPagos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\HistoricoPagos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Prestamo.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Prestamo.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Saldos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Saldos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\financ.bmp" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\PlanPagos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\PlanPagos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\SCG.Financiamiento.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\SCG.Placas.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ExpedientedePlacas.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\IngresoEventosGrupo.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ContratoTraspasoVehiculo.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BalanceContratoVentas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BalanceContratoVentas.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ContratoTraspasoVehiculo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ExpedientedePlacas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\GastosAdicionales.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\IngresoEventosGrupo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReportesContratoVenta.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReportesContratoVenta.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\VehiculosTipoEvento.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\GastosAdicionales.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Refacturacion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Refacturacion.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CitasXTipoFecha.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CitasXTipoFecha.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\EntregaVehiculosOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\EntregaVehiculosOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ComisionPlacas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ComisionPlacas.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CosteoMultiplesUnidades.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CosteoMultiplesUnidades.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\MensajeriaAprobacion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\MensajeriaAprobacion.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\UsuariosPorNivel.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\UsuariosPorNivel.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\VehiculosProblemas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\VehiculosProblemas.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SalidaMultiplesUnidades.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SalidaMultiplesUnidades.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteUnidadesVendidas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteUnidadesVendidas.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\VehiculosTipoEvento.xml" />
+    <EmbeddedResource Include="EmbeddedResource\InfDMS.bmp" />
+    <EmbeddedResource Include="EmbeddedResource\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BusquedaControlProceso.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ContratosReversadosReal.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ControlCrearVisita.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ControlVisita.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\OfertaVentas.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CrearDocumentosGastoCostos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CrearDocumentosGastoCostos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\IncluirGastosOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\IncluirGastosOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionaCostosOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionaCostosOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CostosDeImportacion.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\EntradaDeVehiculos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\PedidoDeUnidades.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfiguracionDimensionesContablesOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfiguracionDimensionesContablesOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\TipoOtInterna.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\TipoOtInterna.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SolicitaOTEsp.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SolicitaOTEsp.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CosteoDeEntradas.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CosteoDeEntradas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\EntradaDeVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\PedidoDeUnidades.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\HistorialVehiculo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\HistorialVehiculo.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AsignacionMultipleTareas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AsignacionMultipleTareas.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\reporteFacturacionFI.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\reporteFacturacionFI.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteFacturacionOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteFacturacionOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteSExOT.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteSExOT.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\OrdenTrabajo.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AsignacionMultiple.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BuscadorAdicionales.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionListaPrecios.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionListaPrecios.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ComentarioHistCV.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ComentarioHistCV.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Mensajeria.enUs.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Mensajeria.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\RazonSuspension.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionListaEmpleados.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionListaEmpleados.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BuscardorCitasArt.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BuscardorCitasArt.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\DevolucionDeVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\DevolucionDeVehiculos.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\KardexInventarioVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\KardexInventarioVehiculos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionUnidadesDevolucion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionUnidadesDevolucion.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionLineasPedido.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionLineasPedido.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionLineasRecepcion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SeleccionLineasRecepcion.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AsignacionMultiple.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BuscadorAdicionales.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BuscadorProveedores.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\DocumentoCompra.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\OrdenTrabajo.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\OTEspecial.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\RazonSuspension.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\PagosPrestamo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteFinanciamientoCV.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteFinanciamientoCV.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\FinalizaActividades.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\FinalizaActividades.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListadoContratosSeguroPostVenta.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListadoContratosSeguroPostVenta.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\FacturacionMecanicos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\FacturacionMecanicos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListadoSolicitudEspecificos.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListadoSolicitudEspecificos.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SolicitudEspecificos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SolicitudEspecificos.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AvaluoUsados.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AvaluoUsados.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Configuracion_ADX_IC.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Configuracion_ADX_IC.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Configuracion_TSD_IC.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Configuracion_TSD_IC.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\TrackingSolEspecific.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\TrackingSolEspecific.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AuditoriaBodegaReserva.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AuditoriaBodegaReserva.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BuscadorArticulosCitas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\BuscadorArticulosCitas.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Citas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Citas.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\DisponibilidadAgendaEmpleados.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\DisponibilidadAgendaEmpleados.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\NivelesPlanVentas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\NivelesPlanVentas.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\RestablecerCantidadesPendientes.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\RestablecerCantidadesPendientes.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Visita.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfiguracionDimensionesContables.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfiguracionDimensionesContables.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\OrdenesDeTrabajoPorEstado.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\OrdenesDeTrabajoPorEstado.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\TimeRecord.enUS.srf" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\TimeRecord.srf" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AdministradorLicencias.srf" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AdministradorLicencias.enUS.srf" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\LicenseComparison.srf" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\LicenseComparison.enUS.srf" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\InterfaceJohnDeere.srf" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\InterfaceJohnDeereConfiguration.srf" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReAperturaOT.enUS.srf" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReAperturaOT.srf" />
+    <Content Include="EmbeddedResource\SCG.Financiamiento.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SCGD_Solicitudes.xml">
+      <SubType>
+      </SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListaContXUnidad.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListaContXUnidad.xml" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.Framework.dll" />
+    <Content Include="EmbeddedResource\SCG.Integration.dll" />
+    <Content Include="EmbeddedResource\SCG.Requisiciones.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.Placas.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Portezuelo.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Piramide.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.SBOFramework.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.SkinManager.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Skins.xml" />
+    <EmbeddedResource Include="EmbeddedResource\IrisSkin2.dll" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Configuraciones\DHERRERA\SCG.DMSOne.AddonTaller.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Yamaha.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Europa.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Portezuelo.exe.config">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Piramide.exe.config">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Portillo.exe.config">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Sais.exe.config">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Ditec.exe.config">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.RaulLabbe.exe.config">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Cecor.exe.config">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.AutoPartes.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.RoyalMotors.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.SoloCuadras.exe.config">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.CasaMaya.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.MotoresBritanicos.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\sbo2007.ssk" />
+    <EmbeddedResource Include="EmbeddedResource x64\sbo8.8.ssk" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG DMS One.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Automotriz.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.AutoPartes.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.CasaMaya.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Cecor.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Ditec.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Europa.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.MotoresBritanicos.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Naranjo.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Nasa.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Piramide.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Portezuelo.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Portillo.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.RaulLabbe.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.RoyalMotors.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Sais.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Skoda.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.SoloCuadras.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource x64\SCG.DMSOne.AddonTaller.Yamaha.exe.config" />
+    <None Include="Interops SAP\8.8\sp00pl09\Interop.SAPbobsCOM.dll" />
+    <None Include="Interops SAP\8.8\sp00pl09\Interop.SAPbouiCOM.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\SCGExceptionHandler.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCGExceptionHandler.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Naranjo.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ContratosReversados.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ContratosReversados.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListadoContratosAReversar.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListadoContratosAReversar.xml" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Automotriz.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Nasa.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Skoda.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\AccesoDatos.dll" />
+    <EmbeddedResource Include="EmbeddedResource\AccesoDatosUDF.dll" />
+    <EmbeddedResource Include="EmbeddedResource\AccesoDatosUDT.dll" />
+    <EmbeddedResource Include="EmbeddedResource\ComponenteCristalReport.dll" />
+    <EmbeddedResource Include="EmbeddedResource\ControlUDF.dll" />
+    <EmbeddedResource Include="EmbeddedResource\ControlUDT.dll" />
+    <EmbeddedResource Include="EmbeddedResource\CreacionUDF.dll" />
+    <EmbeddedResource Include="EmbeddedResource\DataSets.dll" />
+    <EmbeddedResource Include="EmbeddedResource\DataSetsUDF.dll" />
+    <EmbeddedResource Include="EmbeddedResource\DataSetsUDT.dll" />
+    <EmbeddedResource Include="EmbeddedResource\DeKlaritLibrary.dll" />
+    <EmbeddedResource Include="EmbeddedResource\DMSONEDKFrameworkBusinessFramework.dll" />
+    <EmbeddedResource Include="EmbeddedResource\DMSOneFramework.dll" />
+    <EmbeddedResource Include="EmbeddedResource\XML_Direccion_WebService.xml" />
+    <EmbeddedResource Include="EmbeddedResource\ManipuladorClienteDLL.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Presupuestos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Presupuestos.xml">
+      <SubType>
+      </SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\GeneradorHash.exe" />
+    <EmbeddedResource Include="EmbeddedResource\Interop.Outlook.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Interop.SAPbobsCOM.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Interop.SAPbouiCOM.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Microsoft.SqlServer.BatchParser.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Microsoft.SqlServer.Replication.dll" />
+    <EmbeddedResource Include="EmbeddedResource\NEWTEXTBOX.dll" />
+    <EmbeddedResource Include="EmbeddedResource\PDSACryptography.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Proyecto SCGMSGBox.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Proyecto SCGToolBar.dll" />
+    <EmbeddedResource Include="EmbeddedResource\RegionMasterControls.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG ComponenteImagenes.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG DMS One.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG New Buscador.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG Produccion Controls.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG User Interface.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG Visualizador de Reportes.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.AccesoDatos.Conexion.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.Cifrado.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.Controls.Windows.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.GenLic.Seguridad.Xml.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.License.UX.Windows.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.Seguridad.2005.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.ServidorLic.LogicaNegocios.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.UX.Windows.CitasAutomaticas.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.UX.Windows.GeneradorConsultas.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.UX.Windows.ManejoDeArchivosDigitales.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.UX.Windows.SAP.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.UX.Windows.TextBox.dll" />
+    <EmbeddedResource Include="EmbeddedResource\SCGComboBox.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\ControlUDF.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\ControlUDT.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\CreacionUDF.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\DMSOneFramework.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\ManipuladorClienteDLL.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\DMS_Addon.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\Proyecto SCGMSGBox.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\Proyecto SCGToolBar.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\SCG DMS One.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\SCG New Buscador.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\SCG User Interface.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\SCG.License.UX.Windows.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\SCG.Seguridad.2005.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\SCG.UX.Windows.GeneradorConsultas.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\en-US\SCG.UX.Windows.ManejoDeArchivosDigitales.resources.dll" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AgendaCitas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\AgendaCitas.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CerrarOrdenesTrabajo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CerrarOrdenesTrabajo.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CerrarOrdenesTrabajoInternas.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\CerrarOrdenesTrabajoInternas.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfDesglosePago.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfDesglosePago.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfiguracionAccesos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfiguracionAccesos.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfiguracionPropsVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfiguracionPropsVehiculos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfLineasFactura.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfLineasFactura.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfTransaccionesCompraVeh.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfTransaccionesCompraVeh.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ContratosVentaTramite.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ContratosVentaTramite.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ContratoVenta.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ContratoVenta.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\EntradasSinProcesar.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\EntradasSinProcesar.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\FacturaInterna.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\FacturaInterna.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\IngresoContableVehiculo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\IngresoContableVehiculo.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\InventarioVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\InventarioVehiculos.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListadoContratos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ListadoContratos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\MaestroVehiculos.enUS.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\MaestroVehiculos.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ParamGenAddon.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ParamGenAddon.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Recepcion.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Recepcion.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Recosteos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\Recosteos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReportesCosteoVehiculo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReportesCosteoVehiculo.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SalidaContableVehiculo.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SalidaContableVehiculo.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\VehiculosSinCostear.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\SCGD_Solicitudes.enUS.xml">
+      <SubType>
+      </SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\VehiculosSinCostear.xml" />
+    <EmbeddedResource Include="EmbeddedResource\CornerImage.png" />
+    <EmbeddedResource Include="EmbeddedResource\ConfiguracionSBO_SoporteCritico.xml" />
+    <EmbeddedResource Include="EmbeddedResource\archivos.bmp" />
+    <EmbeddedResource Include="EmbeddedResource\cont.bmp" />
+    <EmbeddedResource Include="EmbeddedResource\setup.bmp" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes.txt" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes\Mensajeria.gif" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes\sap_cerrar.gif" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes\sbo_cuadro.GIF" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes\sbo_humanRe.gif" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes\sbo_humanRe.ico" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes\sbo_procesos2.gif" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes\sbo_produccion.gif" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes\sbo_produccion.jpg" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes\sbo_reportes.gif" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes\sbo_reportes.jpg" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes\sbo_seguridad.gif" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes\sbo_valoracion.gif" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes\sbo_valoracion.ico" />
+    <EmbeddedResource Include="EmbeddedResource\Imagenes\S_B_INTE.gif" />
+    <EmbeddedResource Include="EmbeddedResource\DMSOne.bmp" />
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="EmbeddedResource\etiqueta.bmp" />
+    <EmbeddedResource Include="EmbeddedResource\Flecha.bmp" />
+    <EmbeddedResource Include="EmbeddedResource\sbo.bmp" />
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmPrincipal.en-US.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Configuraciones\BMW\SCG.DMSOne.AddonTaller.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource\SCG DMS One.exe.config">
+      <SubType>
+      </SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Automotriz.exe.config">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfInterfaceFord.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ConfInterfaceFord.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteAntiguedadVehiculos.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteAntiguedadVehiculos.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteVehiculosRecurrentesTaller.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteVehiculosRecurrentesTaller.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteVentasXAsesorServicio.enUS.xml" />
+    <EmbeddedResource Include="EmbeddedResource\Formularios\ReporteVentasXAsesorServicio.xml" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.exe.config">
+      <SubType>
+      </SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Nasa.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Skoda.exe.config" />
+    <None Include="Configuraciones\REPSA\SCG.DMSOne.AddonTaller.exe.config" />
+    <None Include="Configuraciones\SCG.DMSOne.AddonTaller.Automotriz.exe.config" />
+    <None Include="Configuraciones\SCG.DMSOne.AddonTaller.Naranjo.exe.config" />
+    <None Include="Configuraciones\SCG.DMSOne.AddonTaller.Nasa.exe.config" />
+    <None Include="Configuraciones\SCG.DMSOne.AddonTaller.Skoda.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource\SCG.DMSOne.AddonTaller.Naranjo.exe.config" />
+    <EmbeddedResource Include="EmbeddedResource\sbo2007.ssk" />
+    <EmbeddedResource Include="EmbeddedResource\sbo8.8.ssk" />
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configuraciones\REASA\" />
+    <Folder Include="Interops SAP\2007\sp01pl01\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

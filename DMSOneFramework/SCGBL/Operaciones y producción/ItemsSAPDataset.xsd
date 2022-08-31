@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ItemsSAPDataset" targetNamespace="http://tempuri.org/ItemsSAPDataset.xsd" xmlns:mstns="http://tempuri.org/ItemsSAPDataset.xsd" xmlns="http://tempuri.org/ItemsSAPDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ItemsSAPDataset" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_DataSetName="ItemsSAPDataset" msprop:Generator_UserDSName="ItemsSAPDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_ItemsSAP" msprop:Generator_UserTableName="SCGTA_TB_ItemsSAP" msprop:Generator_RowEvArgName="SCGTA_TB_ItemsSAPRowChangeEvent" msprop:Generator_TableVarName="tableSCGTA_TB_ItemsSAP" msprop:Generator_TablePropName="SCGTA_TB_ItemsSAP" msprop:Generator_RowDeletingName="SCGTA_TB_ItemsSAPRowDeleting" msprop:Generator_RowChangingName="SCGTA_TB_ItemsSAPRowChanging" msprop:Generator_RowDeletedName="SCGTA_TB_ItemsSAPRowDeleted" msprop:Generator_TableClassName="SCGTA_TB_ItemsSAPDataTable" msprop:Generator_RowChangedName="SCGTA_TB_ItemsSAPRowChanged" msprop:Generator_RowEvHandlerName="SCGTA_TB_ItemsSAPRowChangeEventHandler" msprop:Generator_RowClassName="SCGTA_TB_ItemsSAPRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Check" msprop:Generator_ColumnVarNameInTable="columnCheck" msprop:Generator_ColumnPropNameInRow="Check" msprop:Generator_ColumnPropNameInTable="CheckColumn" msprop:Generator_UserColumnName="Check" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ItemCode" msprop:Generator_ColumnVarNameInTable="columnItemCode" msprop:Generator_ColumnPropNameInRow="ItemCode" msprop:Generator_ColumnPropNameInTable="ItemCodeColumn" msprop:Generator_UserColumnName="ItemCode" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemName" msprop:Generator_ColumnVarNameInTable="columnItemName" msprop:Generator_ColumnPropNameInRow="ItemName" msprop:Generator_ColumnPropNameInTable="ItemNameColumn" msprop:Generator_UserColumnName="ItemName" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:double" minOccurs="0" />
+              <xs:element name="Fase" msprop:Generator_ColumnVarNameInTable="columnFase" msprop:Generator_ColumnPropNameInRow="Fase" msprop:Generator_ColumnPropNameInTable="FaseColumn" msprop:Generator_UserColumnName="Fase" type="xs:int" minOccurs="0" />
+              <xs:element name="TipoArticulo" msprop:Generator_ColumnVarNameInTable="columnTipoArticulo" msprop:Generator_ColumnPropNameInRow="TipoArticulo" msprop:Generator_ColumnPropNameInTable="TipoArticuloColumn" msprop:Generator_UserColumnName="TipoArticulo" type="xs:string" minOccurs="0" />
+              <xs:element name="Duracion" msprop:Generator_ColumnVarNameInTable="columnDuracion" msprop:Generator_ColumnPropNameInRow="Duracion" msprop:Generator_ColumnPropNameInTable="DuracionColumn" msprop:Generator_UserColumnName="Duracion" type="xs:int" minOccurs="0" />
+              <xs:element name="Observaciones" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Observaciones" msprop:Generator_ColumnVarNameInTable="columnObservaciones" msprop:Generator_ColumnPropNameInTable="ObservacionesColumn" msprop:Generator_UserColumnName="Observaciones" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="Stock" msprop:Generator_ColumnVarNameInTable="columnStock" msprop:Generator_ColumnPropNameInRow="Stock" msprop:Generator_ColumnPropNameInTable="StockColumn" msprop:Generator_UserColumnName="Stock" type="xs:string" minOccurs="0" />
+              <xs:element name="PrecioAcordado" msprop:Generator_ColumnVarNameInTable="columnPrecioAcordado" msprop:Generator_ColumnPropNameInRow="PrecioAcordado" msprop:Generator_ColumnPropNameInTable="PrecioAcordadoColumn" msprop:Generator_UserColumnName="PrecioAcordado" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="LineNum" msprop:Generator_ColumnVarNameInTable="columnLineNum" msprop:Generator_ColumnPropNameInRow="LineNum" msprop:Generator_ColumnPropNameInTable="LineNumColumn" msprop:Generator_UserColumnName="LineNum" type="xs:int" default="-1" minOccurs="0" />
+              <xs:element name="IDEmpleado" msprop:Generator_ColumnVarNameInTable="columnIDEmpleado" msprop:Generator_ColumnPropNameInRow="IDEmpleado" msprop:Generator_ColumnPropNameInTable="IDEmpleadoColumn" msprop:Generator_UserColumnName="IDEmpleado" type="xs:int" minOccurs="0" />
+              <xs:element name="NombreEmpleado" msprop:nullValue="(Empty)" msprop:Generator_ColumnPropNameInRow="NombreEmpleado" msprop:Generator_ColumnVarNameInTable="columnNombreEmpleado" msprop:Generator_ColumnPropNameInTable="NombreEmpleadoColumn" msprop:Generator_UserColumnName="NombreEmpleado" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Currency" msprop:Generator_ColumnVarNameInTable="columnCurrency" msprop:Generator_ColumnPropNameInRow="Currency" msprop:Generator_ColumnPropNameInTable="CurrencyColumn" msprop:Generator_UserColumnName="Currency" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_ItemsSAP" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

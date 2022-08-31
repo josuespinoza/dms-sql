@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbonoCapital" xml:space="preserve">
+    <value>Capital payment, Payment Number </value>
+  </data>
+  <data name="AbonoIntereses" xml:space="preserve">
+    <value>Interest payment, Payment Number </value>
+  </data>
+  <data name="AbonoMoratorios" xml:space="preserve">
+    <value>Default Interest payment, Payment Number </value>
+  </data>
+  <data name="DelPrestamo" xml:space="preserve">
+    <value>, Loan </value>
+  </data>
+  <data name="DocumentoGenerado" xml:space="preserve">
+    <value>Payment Number </value>
+  </data>
+  <data name="ErrorAbonar" xml:space="preserve">
+    <value>Can't make the payment because information is missing</value>
+  </data>
+  <data name="ErrorActualizar" xml:space="preserve">
+    <value>Can't update, because data is missed</value>
+  </data>
+  <data name="ErrorCalcular" xml:space="preserve">
+    <value>Can't calculate the amount of payment because information is needed</value>
+  </data>
+  <data name="ErrorCalculoMora" xml:space="preserve">
+    <value>Payment is not made​​, you must calculate the quota to be paid because should charge interest on arrears at date payment that is made</value>
+  </data>
+  <data name="ErrorCapInt" xml:space="preserve">
+    <value>Credit settings in capital and interest (Normal and Default) must be the same for document generation</value>
+  </data>
+  <data name="ErrorCargarPlan" xml:space="preserve">
+    <value>Missing data for charging the payment plan</value>
+  </data>
+  <data name="ErrorConfigsFinanciamiento" xml:space="preserve">
+    <value>Financing settings are not defined</value>
+  </data>
+  <data name="ErrorConfiguracion" xml:space="preserve">
+    <value>Error with setup of accounts for the accounting transactions</value>
+  </data>
+  <data name="ErrorCuentas" xml:space="preserve">
+    <value>The accounting movement can't be performed because the set accounts are not valid</value>
+  </data>
+  <data name="ErrorFechaAnterior" xml:space="preserve">
+    <value>The actual payment date must be greater than the previous payment date</value>
+  </data>
+  <data name="ErrorFechaPagoPosterior" xml:space="preserve">
+    <value>It isn't possible to generate accounting documents dated after the current date</value>
+  </data>
+  <data name="ErrorImporte" xml:space="preserve">
+    <value>You must use negative amount of company details</value>
+  </data>
+  <data name="ErrorMoneda" xml:space="preserve">
+    <value>Invalid currency to generate accounting movement</value>
+  </data>
+  <data name="ErrorPagoMenor" xml:space="preserve">
+    <value>No lower payments are allowed the quota established</value>
+  </data>
+  <data name="ErrorPeriodoContablePago" xml:space="preserve">
+    <value>The accounting period for the date of the pay must exist and be unlocked</value>
+  </data>
+  <data name="ErrorSeleccionPago" xml:space="preserve">
+    <value>You must select the payment you want to reverse</value>
+  </data>
+  <data name="ErrorTipoCambio" xml:space="preserve">
+    <value>Exchange rate is not updated to accounting movement date</value>
+  </data>
+  <data name="Meses" xml:space="preserve">
+    <value> Months</value>
+  </data>
+  <data name="Multiples" xml:space="preserve">
+    <value>Multiple</value>
+  </data>
+  <data name="PagoMensual" xml:space="preserve">
+    <value>The monthly payment was successful</value>
+  </data>
+  <data name="rptCancelacionMensualCliente" xml:space="preserve">
+    <value>rptCancelacionMensualClienteEN</value>
+  </data>
+  <data name="TituloRepPagoMensual" xml:space="preserve">
+    <value>Payment Made</value>
+  </data>
+  <data name="ErrorCargaReporte" xml:space="preserve">
+    <value>Information is needed to generate the report</value>
+  </data>
+  <data name="rptPlanReal" xml:space="preserve">
+    <value>rptPlanRealEN</value>
+  </data>
+  <data name="rptPlanTeorico" xml:space="preserve">
+    <value>rptPlanTeoricoEN</value>
+  </data>
+  <data name="TituloRepPlanReal" xml:space="preserve">
+    <value>Real Payment Plan</value>
+  </data>
+  <data name="TituloRepPlanTeorico" xml:space="preserve">
+    <value>Theoretical Payment Plan</value>
+  </data>
+  <data name="rptEstadosCuenta" xml:space="preserve">
+    <value>rptEstadosCuentaEN</value>
+  </data>
+  <data name="TituloRepEstados" xml:space="preserve">
+    <value>Statements</value>
+  </data>
+  <data name="rptCuotasPagadas" xml:space="preserve">
+    <value>rptCuotasPagadasEN</value>
+  </data>
+  <data name="TituloRepHistorico" xml:space="preserve">
+    <value>Payment History</value>
+  </data>
+  <data name="rptCuotasVencidasGeneral" xml:space="preserve">
+    <value>rptCuotasVencidasGeneralEN</value>
+  </data>
+  <data name="rptCuotasVencidasxCliente" xml:space="preserve">
+    <value>rptCuotasVencidasxClienteEN</value>
+  </data>
+  <data name="TituloRepCuotasVenc" xml:space="preserve">
+    <value>Due Fees</value>
+  </data>
+  <data name="TituloRepSaldos" xml:space="preserve">
+    <value>Balances</value>
+  </data>
+  <data name="rptConsultaSaldos" xml:space="preserve">
+    <value>rptConsultaSaldosEN</value>
+  </data>
+  <data name="ErrorPeriodoContableReversion" xml:space="preserve">
+    <value>The accounting period for the date of the reversion must exist and be unlocked</value>
+  </data>
+  <data name="ComentarioDocumentoReversaCuota" xml:space="preserve">
+    <value>Rev. Receipt Payment: {0}, Loan: {1}</value>
+  </data>
+  <data name="PagosReversados" xml:space="preserve">
+    <value>Payments properly reversed</value>
+  </data>
+  <data name="ComentarioDocumentoReversaIntereses" xml:space="preserve">
+    <value>Rev. Journal Entry: {0}, Loan: {1}</value>
+  </data>
+  <data name="ErrorClientePrestamo" xml:space="preserve">
+    <value>This customer has no loans associated</value>
+  </data>
+  <data name="rptPlanTemporal" xml:space="preserve">
+    <value>rptPlanTemporalEN</value>
+  </data>
+  <data name="TituloRepPlanTemporal" xml:space="preserve">
+    <value>Payment Plan</value>
+  </data>
+  <data name="rptPagosReversados" xml:space="preserve">
+    <value>rptPagosReversadosEN</value>
+  </data>
+  <data name="TituloPagosReversados" xml:space="preserve">
+    <value>Payments Reversed</value>
+  </data>
+  <data name="Pago" xml:space="preserve">
+    <value>Payment </value>
+  </data>
+  <data name="Prestamo" xml:space="preserve">
+    <value>Loan </value>
+  </data>
+  <data name="PagoRecibido" xml:space="preserve">
+    <value>Receipt Payment </value>
+  </data>
+  <data name="ErrorMonedaPago" xml:space="preserve">
+    <value>Currency of Payment Received must be equal Currency of Loan</value>
+  </data>
+  <data name="DelPago" xml:space="preserve">
+    <value>,Payment: </value>
+  </data>
+  <data name="ErrorBorradorInvalido" xml:space="preserve">
+    <value>Unable to create payment received, since there is no valid payment draft for Loan: </value>
+  </data>
+  <data name="ErrorMontoPago" xml:space="preserve">
+    <value>Amount of Payment Received should be the same as the quota of Loan Payment</value>
+  </data>
+  <data name="ErrorReversionPagos" xml:space="preserve">
+    <value>You can't reverse payments because the payment received: </value>
+  </data>
+  <data name="ErrorDepositos" xml:space="preserve">
+    <value> have deposits</value>
+  </data>
+  <data name="DescripcionDocumentosDeuda" xml:space="preserve">
+    <value>Debit Document</value>
+  </data>
+  <data name="DescripcionFacturaVentas" xml:space="preserve">
+    <value>A/R Invoice</value>
+  </data>
+  <data name="DescripcionNotasCredito" xml:space="preserve">
+    <value>Credit Memo</value>
+  </data>
+  <data name="rptCuotasPagadasTodos" xml:space="preserve">
+    <value>rptCuotasPagadasTodosEN</value>
+  </data>
+  <data name="rptEstadosCuentaTodos" xml:space="preserve">
+    <value>rptEstadosCuentaTodosEN</value>
+  </data>
+  <data name="rptCuotasVencidasxClienteTodos" xml:space="preserve">
+    <value>rptCuotasVencidasxClienteTodosEN</value>
+  </data>
+  <data name="rptConsultaSaldosTodos" xml:space="preserve">
+    <value>rptConsultaSaldosTodosEN</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Si" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ErrorFaltanDatosCheque" xml:space="preserve">
+    <value>You must enter the "Expiration Date", "Amount", "Bank", "No Account" and "No Check"</value>
+  </data>
+  <data name="EstadoActivo" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="EstadoCancelado" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="EstadoFinalizado" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="ErrorChequePostfechado" xml:space="preserve">
+    <value>That Check was applied</value>
+  </data>
+  <data name="ErrorPlanPagos" xml:space="preserve">
+    <value>It is necessary to verify the payment plan.</value>
+  </data>
+  <data name="ErrorCreacionPrestamo" xml:space="preserve">
+    <value>Is not possible to generate financing</value>
+  </data>
+  <data name="NoEliminarPagosRecibidos" xml:space="preserve">
+    <value>To delete a payment received on a loan, going to the finance module.</value>
+  </data>
+  <data name="ReferenciaAsientoRevalorizacion" xml:space="preserve">
+    <value>Journal Entry by revaluation loan {0}</value>
+  </data>
+  <data name="ReferenciaAsientoRevalorizacionLinea" xml:space="preserve">
+    <value>Loan {0}</value>
+  </data>
+  <data name="CuentaNoDefinida" xml:space="preserve">
+    <value>Account is not defined</value>
+  </data>
+  <data name="CuentaNoActiva" xml:space="preserve">
+    <value>Inactive Account </value>
+  </data>
+  <data name="MontoNoValido" xml:space="preserve">
+    <value>Amount to revalue is not valid</value>
+  </data>
+  <data name="RecargoCobranza" xml:space="preserve">
+    <value>Surcharge Collections</value>
+  </data>
+  <data name="InteresNormal" xml:space="preserve">
+    <value>Normal interest</value>
+  </data>
+  <data name="InteresMora" xml:space="preserve">
+    <value>Arrears interest</value>
+  </data>
+  <data name="PagoPrestramos" xml:space="preserve">
+    <value>Formularios\PagosPrestamo.enUS.xml</value>
+  </data>
+  <data name="NumPagoPrestamo" xml:space="preserve">
+    <value> Payment Number </value>
+  </data>
+  <data name="PagoReversado" xml:space="preserve">
+    <value>This payment was already reversed</value>
+  </data>
+  <data name="TituloPlanPagos" xml:space="preserve">
+    <value>Payment Plan</value>
+  </data>
+  <data name="XMLPlanPagos" xml:space="preserve">
+    <value>\Formularios\PlanPagos.xml</value>
+  </data>
+</root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="CuentasConfDetaDataset" targetNamespace="http://tempuri.org/CuentasConfDetaDataset.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/CuentasConfDetaDataset.xsd"
+	xmlns:mstns="http://tempuri.org/CuentasConfDetaDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="CuentasConfDetaDataset" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="SCGTA_SP_SELCuentasConfig">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ID" type="xs:int" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1"
+								msdata:AutoIncrementStep="-1" />
+							<xs:element name="IDAsiento" type="xs:int" />
+							<xs:element name="IDCentroCosto" type="xs:int" />
+							<xs:element name="CCDesc" type="xs:string" minOccurs="0" />
+							<xs:element name="IDConcepto" type="xs:int" />
+							<xs:element name="ConcepDesc" type="xs:string" />
+							<xs:element name="NoCuentaDebe" type="xs:string" />
+							<xs:element name="NoCuentaHaber" type="xs:string" />
+							<xs:element name="Tasa" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Tasa2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Tasa3" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Tasa4" type="xs:decimal" minOccurs="0" />
+							<xs:element name="IndIndirecto" type="xs:boolean" minOccurs="0" />
+							<xs:element name="DescCombi" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="CuentasConfDetaDatasetKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:SCGTA_SP_SELCuentasConfig" />
+			<xs:field xpath="mstns:ID" />
+		</xs:key>
+	</xs:element>
+</xs:schema>

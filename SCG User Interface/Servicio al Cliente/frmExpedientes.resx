@@ -1,0 +1,2644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="OrdenTrabajoDatasetGrid.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="OrdenTrabajoDatasetGrid.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="VisitaDatasetGrid.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>196, 17</value>
+  </metadata>
+  <metadata name="VisitaDatasetGrid.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="NoOrdenDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>No Orden</value>
+  </data>
+  <data name="TipoDescDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="DescipcionEstadoDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="FechaaperturaDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Apertura</value>
+  </data>
+  <data name="FechacompromisoDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Compromiso</value>
+  </data>
+  <data name="ObservacionDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Observaciones</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ObservacionDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="PlacaDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Placa</value>
+  </data>
+  <data name="PlacaDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="IDVehiculoDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>IDVehiculo</value>
+  </data>
+  <data name="IDVehiculoDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CodMarcaDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>CodMarca</value>
+  </data>
+  <data name="CodMarcaDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DescMarcaDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>DescMarca</value>
+  </data>
+  <data name="DescMarcaDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CodEstiloDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>CodEstilo</value>
+  </data>
+  <data name="CodEstiloDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DescEstiloDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>DescEstilo</value>
+  </data>
+  <data name="DescEstiloDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CodModeloDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>CodModelo</value>
+  </data>
+  <data name="CodModeloDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DescModeloDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>DescModelo</value>
+  </data>
+  <data name="DescModeloDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="EstadoDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="EstadoDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="EstadoDescDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>EstadoDesc</value>
+  </data>
+  <data name="EstadoDescDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ConoDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Cono</value>
+  </data>
+  <data name="ConoDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="NoVisitaDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>NoVisita</value>
+  </data>
+  <data name="NoVisitaDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="FechacierreDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Fecha_cierre</value>
+  </data>
+  <data name="FechacierreDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CodTipoOrdenDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>CodTipoOrden</value>
+  </data>
+  <data name="CodTipoOrdenDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="EstadoVisitaDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>EstadoVisita</value>
+  </data>
+  <data name="EstadoVisitaDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="EstadoVisitaDescDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>EstadoVisitaDesc</value>
+  </data>
+  <data name="EstadoVisitaDescDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="NoVehiculoDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>NoVehiculo</value>
+  </data>
+  <data name="NoVehiculoDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CheckDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="CheckDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ClienteFacturarDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>ClienteFacturar</value>
+  </data>
+  <data name="ClienteFacturarDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="MontoReparacionDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>MontoReparacion</value>
+  </data>
+  <data name="MontoReparacionDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AsesorDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Asesor</value>
+  </data>
+  <data name="AsesorDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="NoCotizacionDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>NoCotizacion</value>
+  </data>
+  <data name="NoCotizacionDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="HoraCompDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Hora_Comp</value>
+  </data>
+  <data name="HoraCompDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="FechaCompDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Fecha_Comp</value>
+  </data>
+  <data name="FechaCompDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OTPadreDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>OTPadre</value>
+  </data>
+  <data name="OTPadreDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CardCodeOrigDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>CardCodeOrig</value>
+  </data>
+  <data name="CardCodeOrigDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CardNameOrigDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>CardNameOrig</value>
+  </data>
+  <data name="CardNameOrigDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="VINDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="VINDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AnoVehiculoDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>AnoVehiculo</value>
+  </data>
+  <data name="AnoVehiculoDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="NombreAsesorDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>NombreAsesor</value>
+  </data>
+  <data name="NombreAsesorDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dtgOrdenes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 196</value>
+  </data>
+  <data name="dtgOrdenes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>690, 97</value>
+  </data>
+  <data name="dtgOrdenes.TabIndex" type="System.Int32, mscorlib">
+    <value>5039</value>
+  </data>
+  <data name="&gt;&gt;dtgOrdenes.Name" xml:space="preserve">
+    <value>dtgOrdenes</value>
+  </data>
+  <data name="&gt;&gt;dtgOrdenes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtgOrdenes.Parent" xml:space="preserve">
+    <value>grpCitas</value>
+  </data>
+  <data name="&gt;&gt;dtgOrdenes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NoVisitaDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>No Visita</value>
+  </data>
+  <data name="CardNameDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="CardNameDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="NoVehiculoDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Unidad</value>
+  </data>
+  <data name="NoVehiculoDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="PlacaDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Placa</value>
+  </data>
+  <data name="PlacaDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="DescMarcaDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Marca</value>
+  </data>
+  <data name="DescMarcaDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="DescEstiloDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Estilo</value>
+  </data>
+  <data name="DescEstiloDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="DescModeloDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="DescModeloDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="DescripcionEstadoVisitaDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="FechaaperturaDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Apertura</value>
+  </data>
+  <data name="EstadoDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="EstadoDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="FechacompromisoDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Fecha_compromiso</value>
+  </data>
+  <data name="FechacompromisoDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="FechacierreDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Fecha_cierre</value>
+  </data>
+  <data name="FechacierreDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AsesorDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Asesor</value>
+  </data>
+  <data name="AsesorDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CodColorDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>CodColor</value>
+  </data>
+  <data name="CodColorDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CardCodeDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>CardCode</value>
+  </data>
+  <data name="CardCodeDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="IDVehiculoDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>IDVehiculo</value>
+  </data>
+  <data name="IDVehiculoDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ConoDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Cono</value>
+  </data>
+  <data name="ConoDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DescColorDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>DescColor</value>
+  </data>
+  <data name="AsesorNombreDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>AsesorNombre</value>
+  </data>
+  <data name="AsesorNombreDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="IdentClienteDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>IdentCliente</value>
+  </data>
+  <data name="IdentClienteDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="HoracompromisoDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Hora_compromiso</value>
+  </data>
+  <data name="HoracompromisoDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CotizacionDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Cotizacion</value>
+  </data>
+  <data name="CotizacionDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CodMarcaDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>CodMarca</value>
+  </data>
+  <data name="CodMarcaDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CodModeloDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>CodModelo</value>
+  </data>
+  <data name="CodModeloDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CodEstiloDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>CodEstilo</value>
+  </data>
+  <data name="CodEstiloDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CodEstadoDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>CodEstado</value>
+  </data>
+  <data name="CodEstadoDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtgVisitas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 19</value>
+  </data>
+  <data name="dtgVisitas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>691, 156</value>
+  </data>
+  <data name="dtgVisitas.TabIndex" type="System.Int32, mscorlib">
+    <value>5038</value>
+  </data>
+  <data name="&gt;&gt;dtgVisitas.Name" xml:space="preserve">
+    <value>dtgVisitas</value>
+  </data>
+  <data name="&gt;&gt;dtgVisitas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtgVisitas.Parent" xml:space="preserve">
+    <value>grpCitas</value>
+  </data>
+  <data name="&gt;&gt;dtgVisitas.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 178</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 15</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>5037</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Lista de órdenes por visita</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>grpCitas</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpCitas.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="grpCitas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 186</value>
+  </data>
+  <data name="grpCitas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>708, 302</value>
+  </data>
+  <data name="grpCitas.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpCitas.Text" xml:space="preserve">
+    <value>Lista de visitas</value>
+  </data>
+  <data name="&gt;&gt;grpCitas.Name" xml:space="preserve">
+    <value>grpCitas</value>
+  </data>
+  <data name="&gt;&gt;grpCitas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCitas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpCitas.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCerrar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 24</value>
+  </data>
+  <data name="btnCerrar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="btnCerrar.TabIndex" type="System.Int32, mscorlib">
+    <value>995</value>
+  </data>
+  <data name="btnCerrar.Text" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;btnCerrar.Name" xml:space="preserve">
+    <value>btnCerrar</value>
+  </data>
+  <data name="&gt;&gt;btnCerrar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboEstado.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cboEstado.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cboEstado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 88</value>
+  </data>
+  <data name="cboEstado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 21</value>
+  </data>
+  <data name="cboEstado.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cboEstado.Name" xml:space="preserve">
+    <value>cboEstado</value>
+  </data>
+  <data name="&gt;&gt;cboEstado.Type" xml:space="preserve">
+    <value>SCGComboBox.SCGComboBox, SCGComboBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboEstado.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;cboEstado.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtNoVisita.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtNoVisita.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 66</value>
+  </data>
+  <data name="txtNoVisita.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtNoVisita.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 20</value>
+  </data>
+  <data name="txtNoVisita.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtNoVisita.Name" xml:space="preserve">
+    <value>txtNoVisita</value>
+  </data>
+  <data name="&gt;&gt;txtNoVisita.Type" xml:space="preserve">
+    <value>NEWTEXTBOX.NEWTEXTBOX_CTRL, NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtNoVisita.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;txtNoVisita.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtNoVehiculo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtNoVehiculo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 66</value>
+  </data>
+  <data name="txtNoVehiculo.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="txtNoVehiculo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="txtNoVehiculo.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtNoVehiculo.Name" xml:space="preserve">
+    <value>txtNoVehiculo</value>
+  </data>
+  <data name="&gt;&gt;txtNoVehiculo.Type" xml:space="preserve">
+    <value>NEWTEXTBOX.NEWTEXTBOX_CTRL, NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtNoVehiculo.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;txtNoVehiculo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Panel4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwM
+        EAwODxAPDgwTExQUExMcGxsbHCAgICAgICAgICD/2wBDAQcHBw0MDRgQEBgaFREVGiAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAAQABEDAREAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2f4u+J/iToltY/wDCA2Njq2pyLNLdaXdxTyTPBG8MfmQGKWBP
+        3bzrvVjkg5H3TQBoeBfFXiS9aHR/FdnDa+I/sEepXH2MOtv5c00karslZ5EZfL6EnPX5T8oV9QOypgcJ
+        8T/Cusa6tt9hsYdQgNtcWd3byvbKR5txaXCSKt7a39s4BssEPH3BHIyE2BQ+Gng/X9F1oy3umxadYQ6Y
+        LC3WKS0bLC7luiTHZW1hAmftBHyQjpk5JqeoHpVWB//Z
+</value>
+  </data>
+  <data name="Panel4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 66</value>
+  </data>
+  <data name="Panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="Panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>1015</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Name" xml:space="preserve">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;Panel4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtNombreAsesor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtNombreAsesor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 42</value>
+  </data>
+  <data name="txtNombreAsesor.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="txtNombreAsesor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 20</value>
+  </data>
+  <data name="txtNombreAsesor.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtNombreAsesor.Name" xml:space="preserve">
+    <value>txtNombreAsesor</value>
+  </data>
+  <data name="&gt;&gt;txtNombreAsesor.Type" xml:space="preserve">
+    <value>NEWTEXTBOX.NEWTEXTBOX_CTRL, NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtNombreAsesor.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;txtNombreAsesor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="picAsesor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 47</value>
+  </data>
+  <data name="picAsesor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="picAsesor.TabIndex" type="System.Int32, mscorlib">
+    <value>1010</value>
+  </data>
+  <data name="&gt;&gt;picAsesor.Name" xml:space="preserve">
+    <value>picAsesor</value>
+  </data>
+  <data name="&gt;&gt;picAsesor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picAsesor.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;picAsesor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtAsesor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtAsesor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 43</value>
+  </data>
+  <data name="txtAsesor.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtAsesor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 20</value>
+  </data>
+  <data name="txtAsesor.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtAsesor.Name" xml:space="preserve">
+    <value>txtAsesor</value>
+  </data>
+  <data name="&gt;&gt;txtAsesor.Type" xml:space="preserve">
+    <value>NEWTEXTBOX.NEWTEXTBOX_CTRL, NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtAsesor.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;txtAsesor.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtCliente.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtCliente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 20</value>
+  </data>
+  <data name="txtCliente.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="txtCliente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 20</value>
+  </data>
+  <data name="txtCliente.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtCliente.Name" xml:space="preserve">
+    <value>txtCliente</value>
+  </data>
+  <data name="&gt;&gt;txtCliente.Type" xml:space="preserve">
+    <value>NEWTEXTBOX.NEWTEXTBOX_CTRL, NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCliente.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;txtCliente.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtCedula.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtCedula.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 19</value>
+  </data>
+  <data name="txtCedula.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtCedula.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="txtCedula.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtCedula.Name" xml:space="preserve">
+    <value>txtCedula</value>
+  </data>
+  <data name="&gt;&gt;txtCedula.Type" xml:space="preserve">
+    <value>NEWTEXTBOX.NEWTEXTBOX_CTRL, NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCedula.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;txtCedula.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="picCliente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 24</value>
+  </data>
+  <data name="picCliente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="picCliente.TabIndex" type="System.Int32, mscorlib">
+    <value>955</value>
+  </data>
+  <data name="&gt;&gt;picCliente.Name" xml:space="preserve">
+    <value>picCliente</value>
+  </data>
+  <data name="&gt;&gt;picCliente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCliente.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;picCliente.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtCodCliente.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtCodCliente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 20</value>
+  </data>
+  <data name="txtCodCliente.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtCodCliente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 20</value>
+  </data>
+  <data name="txtCodCliente.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtCodCliente.Name" xml:space="preserve">
+    <value>txtCodCliente</value>
+  </data>
+  <data name="&gt;&gt;txtCodCliente.Type" xml:space="preserve">
+    <value>NEWTEXTBOX.NEWTEXTBOX_CTRL, NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCodCliente.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;txtCodCliente.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtCono.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtCono.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 112</value>
+  </data>
+  <data name="txtCono.MaxLength" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtCono.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="txtCono.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;txtCono.Name" xml:space="preserve">
+    <value>txtCono</value>
+  </data>
+  <data name="&gt;&gt;txtCono.Type" xml:space="preserve">
+    <value>NEWTEXTBOX.NEWTEXTBOX_CTRL, NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCono.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;txtCono.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtPlaca.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtPlaca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 89</value>
+  </data>
+  <data name="txtPlaca.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="txtPlaca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="txtPlaca.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;txtPlaca.Name" xml:space="preserve">
+    <value>txtPlaca</value>
+  </data>
+  <data name="&gt;&gt;txtPlaca.Type" xml:space="preserve">
+    <value>NEWTEXTBOX.NEWTEXTBOX_CTRL, NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtPlaca.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;txtPlaca.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cboModelo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cboModelo.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cboModelo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 211</value>
+  </data>
+  <data name="cboModelo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 21</value>
+  </data>
+  <data name="cboModelo.TabIndex" type="System.Int32, mscorlib">
+    <value>1023</value>
+  </data>
+  <data name="&gt;&gt;cboModelo.Name" xml:space="preserve">
+    <value>cboModelo</value>
+  </data>
+  <data name="&gt;&gt;cboModelo.Type" xml:space="preserve">
+    <value>SCGComboBox.SCGComboBox, SCGComboBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboModelo.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;cboModelo.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 233</value>
+  </data>
+  <data name="Label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 1</value>
+  </data>
+  <data name="Label10.TabIndex" type="System.Int32, mscorlib">
+    <value>1024</value>
+  </data>
+  <data name="&gt;&gt;Label10.Name" xml:space="preserve">
+    <value>Label10</value>
+  </data>
+  <data name="&gt;&gt;Label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label10.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;Label10.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="chkModelo.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkModelo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chkModelo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 213</value>
+  </data>
+  <data name="chkModelo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 19</value>
+  </data>
+  <data name="chkModelo.TabIndex" type="System.Int32, mscorlib">
+    <value>1022</value>
+  </data>
+  <data name="chkModelo.Text" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="&gt;&gt;chkModelo.Name" xml:space="preserve">
+    <value>chkModelo</value>
+  </data>
+  <data name="&gt;&gt;chkModelo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkModelo.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;chkModelo.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Panel5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwM
+        EAwODxAPDgwTExQUExMcGxsbHCAgICAgICAgICD/2wBDAQcHBw0MDRgQEBgaFREVGiAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAAQABEDAREAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2f4u+J/iToltY/wDCA2Njq2pyLNLdaXdxTyTPBG8MfmQGKWBP
+        3bzrvVjkg5H3TQBoeBfFXiS9aHR/FdnDa+I/sEepXH2MOtv5c00karslZ5EZfL6EnPX5T8oV9QOypgcJ
+        8T/Cusa6tt9hsYdQgNtcWd3byvbKR5txaXCSKt7a39s4BssEPH3BHIyE2BQ+Gng/X9F1oy3umxadYQ6Y
+        LC3WKS0bLC7luiTHZW1hAmftBHyQjpk5JqeoHpVWB//Z
+</value>
+  </data>
+  <data name="Panel5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 113</value>
+  </data>
+  <data name="Panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="Panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>1020</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Name" xml:space="preserve">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;Panel5.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Panel6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwM
+        EAwODxAPDgwTExQUExMcGxsbHCAgICAgICAgICD/2wBDAQcHBw0MDRgQEBgaFREVGiAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAAQABEDAREAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2f4u+J/iToltY/wDCA2Njq2pyLNLdaXdxTyTPBG8MfmQGKWBP
+        3bzrvVjkg5H3TQBoeBfFXiS9aHR/FdnDa+I/sEepXH2MOtv5c00karslZ5EZfL6EnPX5T8oV9QOypgcJ
+        8T/Cusa6tt9hsYdQgNtcWd3byvbKR5txaXCSKt7a39s4BssEPH3BHIyE2BQ+Gng/X9F1oy3umxadYQ6Y
+        LC3WKS0bLC7luiTHZW1hAmftBHyQjpk5JqeoHpVWB//Z
+</value>
+  </data>
+  <data name="Panel6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 90</value>
+  </data>
+  <data name="Panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="Panel6.TabIndex" type="System.Int32, mscorlib">
+    <value>1019</value>
+  </data>
+  <data name="&gt;&gt;Panel6.Name" xml:space="preserve">
+    <value>Panel6</value>
+  </data>
+  <data name="&gt;&gt;Panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel6.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;Panel6.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Panel7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwM
+        EAwODxAPDgwTExQUExMcGxsbHCAgICAgICAgICD/2wBDAQcHBw0MDRgQEBgaFREVGiAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAAQABEDAREAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2f4u+J/iToltY/wDCA2Njq2pyLNLdaXdxTyTPBG8MfmQGKWBP
+        3bzrvVjkg5H3TQBoeBfFXiS9aHR/FdnDa+I/sEepXH2MOtv5c00karslZ5EZfL6EnPX5T8oV9QOypgcJ
+        8T/Cusa6tt9hsYdQgNtcWd3byvbKR5txaXCSKt7a39s4BssEPH3BHIyE2BQ+Gng/X9F1oy3umxadYQ6Y
+        LC3WKS0bLC7luiTHZW1hAmftBHyQjpk5JqeoHpVWB//Z
+</value>
+  </data>
+  <data name="Panel7.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 66</value>
+  </data>
+  <data name="Panel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="Panel7.TabIndex" type="System.Int32, mscorlib">
+    <value>1018</value>
+  </data>
+  <data name="&gt;&gt;Panel7.Name" xml:space="preserve">
+    <value>Panel7</value>
+  </data>
+  <data name="&gt;&gt;Panel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel7.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;Panel7.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="dtpCierreini.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="dtpCierreini.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 111</value>
+  </data>
+  <data name="dtpCierreini.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="dtpCierreini.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;dtpCierreini.Name" xml:space="preserve">
+    <value>dtpCierreini</value>
+  </data>
+  <data name="&gt;&gt;dtpCierreini.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpCierreini.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;dtpCierreini.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblLine10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 130</value>
+  </data>
+  <data name="lblLine10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 1</value>
+  </data>
+  <data name="lblLine10.TabIndex" type="System.Int32, mscorlib">
+    <value>959</value>
+  </data>
+  <data name="&gt;&gt;lblLine10.Name" xml:space="preserve">
+    <value>lblLine10</value>
+  </data>
+  <data name="&gt;&gt;lblLine10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLine10.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;lblLine10.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="dtpCompromisoini.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="dtpCompromisoini.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 88</value>
+  </data>
+  <data name="dtpCompromisoini.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="dtpCompromisoini.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;dtpCompromisoini.Name" xml:space="preserve">
+    <value>dtpCompromisoini</value>
+  </data>
+  <data name="&gt;&gt;dtpCompromisoini.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpCompromisoini.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;dtpCompromisoini.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="dtpAperturaini.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="dtpAperturaini.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 65</value>
+  </data>
+  <data name="dtpAperturaini.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="dtpAperturaini.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;dtpAperturaini.Name" xml:space="preserve">
+    <value>dtpAperturaini</value>
+  </data>
+  <data name="&gt;&gt;dtpAperturaini.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpAperturaini.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;dtpAperturaini.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Panel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwM
+        EAwODxAPDgwTExQUExMcGxsbHCAgICAgICAgICD/2wBDAQcHBw0MDRgQEBgaFREVGiAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAAQABEDAREAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2f4u+J/iToltY/wDCA2Njq2pyLNLdaXdxTyTPBG8MfmQGKWBP
+        3bzrvVjkg5H3TQBoeBfFXiS9aHR/FdnDa+I/sEepXH2MOtv5c00karslZ5EZfL6EnPX5T8oV9QOypgcJ
+        8T/Cusa6tt9hsYdQgNtcWd3byvbKR5txaXCSKt7a39s4BssEPH3BHIyE2BQ+Gng/X9F1oy3umxadYQ6Y
+        LC3WKS0bLC7luiTHZW1hAmftBHyQjpk5JqeoHpVWB//Z
+</value>
+  </data>
+  <data name="Panel1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 113</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1017</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="dtpCierrefin.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="dtpCierrefin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 111</value>
+  </data>
+  <data name="dtpCierrefin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="dtpCierrefin.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;dtpCierrefin.Name" xml:space="preserve">
+    <value>dtpCierrefin</value>
+  </data>
+  <data name="&gt;&gt;dtpCierrefin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpCierrefin.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;dtpCierrefin.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Panel3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwM
+        EAwODxAPDgwTExQUExMcGxsbHCAgICAgICAgICD/2wBDAQcHBw0MDRgQEBgaFREVGiAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAAQABEDAREAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2f4u+J/iToltY/wDCA2Njq2pyLNLdaXdxTyTPBG8MfmQGKWBP
+        3bzrvVjkg5H3TQBoeBfFXiS9aHR/FdnDa+I/sEepXH2MOtv5c00karslZ5EZfL6EnPX5T8oV9QOypgcJ
+        8T/Cusa6tt9hsYdQgNtcWd3byvbKR5txaXCSKt7a39s4BssEPH3BHIyE2BQ+Gng/X9F1oy3umxadYQ6Y
+        LC3WKS0bLC7luiTHZW1hAmftBHyQjpk5JqeoHpVWB//Z
+</value>
+  </data>
+  <data name="Panel3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 90</value>
+  </data>
+  <data name="Panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="Panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>1016</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Name" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;Panel3.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="dtpCompromisofin.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="dtpCompromisofin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 88</value>
+  </data>
+  <data name="dtpCompromisofin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="dtpCompromisofin.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;dtpCompromisofin.Name" xml:space="preserve">
+    <value>dtpCompromisofin</value>
+  </data>
+  <data name="&gt;&gt;dtpCompromisofin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpCompromisofin.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;dtpCompromisofin.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="dtpAperturafin.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="dtpAperturafin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 65</value>
+  </data>
+  <data name="dtpAperturafin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="dtpAperturafin.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;dtpAperturafin.Name" xml:space="preserve">
+    <value>dtpAperturafin</value>
+  </data>
+  <data name="&gt;&gt;dtpAperturafin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpAperturafin.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;dtpAperturafin.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="cboMarca.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cboMarca.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cboMarca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 161</value>
+  </data>
+  <data name="cboMarca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 21</value>
+  </data>
+  <data name="cboMarca.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cboMarca.Name" xml:space="preserve">
+    <value>cboMarca</value>
+  </data>
+  <data name="&gt;&gt;cboMarca.Type" xml:space="preserve">
+    <value>SCGComboBox.SCGComboBox, SCGComboBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboMarca.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;cboMarca.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="cboEstilo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cboEstilo.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cboEstilo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 186</value>
+  </data>
+  <data name="cboEstilo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 21</value>
+  </data>
+  <data name="cboEstilo.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;cboEstilo.Name" xml:space="preserve">
+    <value>cboEstilo</value>
+  </data>
+  <data name="&gt;&gt;cboEstilo.Type" xml:space="preserve">
+    <value>SCGComboBox.SCGComboBox, SCGComboBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboEstilo.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;cboEstilo.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 61</value>
+  </data>
+  <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 1</value>
+  </data>
+  <data name="Label9.TabIndex" type="System.Int32, mscorlib">
+    <value>1009</value>
+  </data>
+  <data name="&gt;&gt;Label9.Name" xml:space="preserve">
+    <value>Label9</value>
+  </data>
+  <data name="&gt;&gt;Label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label9.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;Label9.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="lblAsesor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAsesor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="lblAsesor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 47</value>
+  </data>
+  <data name="lblAsesor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="lblAsesor.TabIndex" type="System.Int32, mscorlib">
+    <value>1008</value>
+  </data>
+  <data name="lblAsesor.Text" xml:space="preserve">
+    <value>Asesor</value>
+  </data>
+  <data name="&gt;&gt;lblAsesor.Name" xml:space="preserve">
+    <value>lblAsesor</value>
+  </data>
+  <data name="&gt;&gt;lblAsesor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAsesor.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;lblAsesor.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 208</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 1</value>
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>1004</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>514, 37</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 1</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>1001</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="lblIdentCliente.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIdentCliente.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="lblIdentCliente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 24</value>
+  </data>
+  <data name="lblIdentCliente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lblIdentCliente.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblIdentCliente.Text" xml:space="preserve">
+    <value>Identificación</value>
+  </data>
+  <data name="&gt;&gt;lblIdentCliente.Name" xml:space="preserve">
+    <value>lblIdentCliente</value>
+  </data>
+  <data name="&gt;&gt;lblIdentCliente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIdentCliente.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;lblIdentCliente.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>514, 84</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 1</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>998</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 68</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>No. Unidad</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="SubBuscador2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>682, 24</value>
+  </data>
+  <data name="SubBuscador2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="SubBuscador2.TabIndex" type="System.Int32, mscorlib">
+    <value>994</value>
+  </data>
+  <data name="SubBuscador2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;SubBuscador2.Name" xml:space="preserve">
+    <value>SubBuscador2</value>
+  </data>
+  <data name="&gt;&gt;SubBuscador2.Type" xml:space="preserve">
+    <value>Buscador.SubBuscador, SCG New Buscador, Version=4.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SubBuscador2.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;SubBuscador2.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="SubBuscador1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>692, 24</value>
+  </data>
+  <data name="SubBuscador1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="SubBuscador1.TabIndex" type="System.Int32, mscorlib">
+    <value>994</value>
+  </data>
+  <data name="SubBuscador1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;SubBuscador1.Name" xml:space="preserve">
+    <value>SubBuscador1</value>
+  </data>
+  <data name="&gt;&gt;SubBuscador1.Type" xml:space="preserve">
+    <value>Buscador.SubBuscador, SCG New Buscador, Version=4.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SubBuscador1.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;SubBuscador1.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="lblLine1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 38</value>
+  </data>
+  <data name="lblLine1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 1</value>
+  </data>
+  <data name="lblLine1.TabIndex" type="System.Int32, mscorlib">
+    <value>954</value>
+  </data>
+  <data name="&gt;&gt;lblLine1.Name" xml:space="preserve">
+    <value>lblLine1</value>
+  </data>
+  <data name="&gt;&gt;lblLine1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLine1.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;lblLine1.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="lblCliente.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCliente.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="lblCliente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 24</value>
+  </data>
+  <data name="lblCliente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="lblCliente.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblCliente.Text" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="&gt;&gt;lblCliente.Name" xml:space="preserve">
+    <value>lblCliente</value>
+  </data>
+  <data name="&gt;&gt;lblCliente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCliente.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;lblCliente.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="lblLine7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 183</value>
+  </data>
+  <data name="lblLine7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 1</value>
+  </data>
+  <data name="lblLine7.TabIndex" type="System.Int32, mscorlib">
+    <value>951</value>
+  </data>
+  <data name="&gt;&gt;lblLine7.Name" xml:space="preserve">
+    <value>lblLine7</value>
+  </data>
+  <data name="&gt;&gt;lblLine7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLine7.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;lblLine7.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="lblLine4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>514, 130</value>
+  </data>
+  <data name="lblLine4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 1</value>
+  </data>
+  <data name="lblLine4.TabIndex" type="System.Int32, mscorlib">
+    <value>946</value>
+  </data>
+  <data name="&gt;&gt;lblLine4.Name" xml:space="preserve">
+    <value>lblLine4</value>
+  </data>
+  <data name="&gt;&gt;lblLine4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLine4.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;lblLine4.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 111</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Cono</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="lblLine3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>514, 107</value>
+  </data>
+  <data name="lblLine3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 1</value>
+  </data>
+  <data name="lblLine3.TabIndex" type="System.Int32, mscorlib">
+    <value>942</value>
+  </data>
+  <data name="&gt;&gt;lblLine3.Name" xml:space="preserve">
+    <value>lblLine3</value>
+  </data>
+  <data name="&gt;&gt;lblLine3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLine3.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;lblLine3.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 89</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Placa</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="lblLine9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 107</value>
+  </data>
+  <data name="lblLine9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 1</value>
+  </data>
+  <data name="lblLine9.TabIndex" type="System.Int32, mscorlib">
+    <value>930</value>
+  </data>
+  <data name="&gt;&gt;lblLine9.Name" xml:space="preserve">
+    <value>lblLine9</value>
+  </data>
+  <data name="&gt;&gt;lblLine9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLine9.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;lblLine9.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="lblLine8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 84</value>
+  </data>
+  <data name="lblLine8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 1</value>
+  </data>
+  <data name="lblLine8.TabIndex" type="System.Int32, mscorlib">
+    <value>925</value>
+  </data>
+  <data name="&gt;&gt;lblLine8.Name" xml:space="preserve">
+    <value>lblLine8</value>
+  </data>
+  <data name="&gt;&gt;lblLine8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLine8.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;lblLine8.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="lblLine6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 107</value>
+  </data>
+  <data name="lblLine6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 1</value>
+  </data>
+  <data name="lblLine6.TabIndex" type="System.Int32, mscorlib">
+    <value>921</value>
+  </data>
+  <data name="&gt;&gt;lblLine6.Name" xml:space="preserve">
+    <value>lblLine6</value>
+  </data>
+  <data name="&gt;&gt;lblLine6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLine6.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;lblLine6.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="lblLine2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 84</value>
+  </data>
+  <data name="lblLine2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 1</value>
+  </data>
+  <data name="lblLine2.TabIndex" type="System.Int32, mscorlib">
+    <value>829</value>
+  </data>
+  <data name="&gt;&gt;lblLine2.Name" xml:space="preserve">
+    <value>lblLine2</value>
+  </data>
+  <data name="&gt;&gt;lblLine2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLine2.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;lblLine2.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="lblNoVisita.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNoVisita.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="lblNoVisita.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 68</value>
+  </data>
+  <data name="lblNoVisita.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="lblNoVisita.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblNoVisita.Text" xml:space="preserve">
+    <value>No Visita</value>
+  </data>
+  <data name="&gt;&gt;lblNoVisita.Name" xml:space="preserve">
+    <value>lblNoVisita</value>
+  </data>
+  <data name="&gt;&gt;lblNoVisita.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoVisita.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;lblNoVisita.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="chkCompromiso.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkCompromiso.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chkCompromiso.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 88</value>
+  </data>
+  <data name="chkCompromiso.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="chkCompromiso.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="chkCompromiso.Text" xml:space="preserve">
+    <value>Compromiso</value>
+  </data>
+  <data name="&gt;&gt;chkCompromiso.Name" xml:space="preserve">
+    <value>chkCompromiso</value>
+  </data>
+  <data name="&gt;&gt;chkCompromiso.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCompromiso.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;chkCompromiso.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="chkCierre.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkCierre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chkCierre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 113</value>
+  </data>
+  <data name="chkCierre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 19</value>
+  </data>
+  <data name="chkCierre.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="chkCierre.Text" xml:space="preserve">
+    <value>Cierre</value>
+  </data>
+  <data name="&gt;&gt;chkCierre.Name" xml:space="preserve">
+    <value>chkCierre</value>
+  </data>
+  <data name="&gt;&gt;chkCierre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCierre.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;chkCierre.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="chkApertura.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkApertura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chkApertura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 68</value>
+  </data>
+  <data name="chkApertura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 19</value>
+  </data>
+  <data name="chkApertura.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="chkApertura.Text" xml:space="preserve">
+    <value>Apertura</value>
+  </data>
+  <data name="&gt;&gt;chkApertura.Name" xml:space="preserve">
+    <value>chkApertura</value>
+  </data>
+  <data name="&gt;&gt;chkApertura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkApertura.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;chkApertura.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="chkMarca.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkMarca.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkMarca.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chkMarca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 163</value>
+  </data>
+  <data name="chkMarca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 17</value>
+  </data>
+  <data name="chkMarca.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="chkMarca.Text" xml:space="preserve">
+    <value>Marca  </value>
+  </data>
+  <data name="&gt;&gt;chkMarca.Name" xml:space="preserve">
+    <value>chkMarca</value>
+  </data>
+  <data name="&gt;&gt;chkMarca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMarca.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;chkMarca.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="chkEstilo.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkEstilo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chkEstilo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 188</value>
+  </data>
+  <data name="chkEstilo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 19</value>
+  </data>
+  <data name="chkEstilo.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="chkEstilo.Text" xml:space="preserve">
+    <value>Estilo   </value>
+  </data>
+  <data name="&gt;&gt;chkEstilo.Name" xml:space="preserve">
+    <value>chkEstilo</value>
+  </data>
+  <data name="&gt;&gt;chkEstilo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkEstilo.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;chkEstilo.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="chkEstado.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkEstado.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chkEstado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 88</value>
+  </data>
+  <data name="chkEstado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="chkEstado.TabIndex" type="System.Int32, mscorlib">
+    <value>1021</value>
+  </data>
+  <data name="chkEstado.Text" xml:space="preserve">
+    <value>Estado </value>
+  </data>
+  <data name="&gt;&gt;chkEstado.Name" xml:space="preserve">
+    <value>chkEstado</value>
+  </data>
+  <data name="&gt;&gt;chkEstado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkEstado.Parent" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;chkEstado.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="grpCriteriosBusqueda.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="grpCriteriosBusqueda.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 31</value>
+  </data>
+  <data name="grpCriteriosBusqueda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>708, 146</value>
+  </data>
+  <data name="grpCriteriosBusqueda.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpCriteriosBusqueda.Text" xml:space="preserve">
+    <value>Criterios de búsqueda</value>
+  </data>
+  <data name="&gt;&gt;grpCriteriosBusqueda.Name" xml:space="preserve">
+    <value>grpCriteriosBusqueda</value>
+  </data>
+  <data name="&gt;&gt;grpCriteriosBusqueda.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCriteriosBusqueda.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpCriteriosBusqueda.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tlbVisitas.Appearance" type="System.Windows.Forms.ToolBarAppearance, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="tlbVisitas.DropDownArrows" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tlbVisitas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlbVisitas.ShowToolTips" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tlbVisitas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>723, 28</value>
+  </data>
+  <data name="tlbVisitas.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;tlbVisitas.Name" xml:space="preserve">
+    <value>tlbVisitas</value>
+  </data>
+  <data name="&gt;&gt;tlbVisitas.Type" xml:space="preserve">
+    <value>Proyecto_SCGToolBar.SCGToolBar, Proyecto SCGToolBar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tlbVisitas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlbVisitas.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>62</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>723, 532</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAQAEAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAgAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAAAAAAIAAAAA
+        AAAAAAACAgAAAAACAAAAAAAAAAAAAgIAAAAAAgAAAgICAgICAgICAAAAAAIAAAIAAAAAAAAAAgAAAAAC
+        AAACAAAAAAAAAAACAAAAAgAAAgAAAAAAAAAAAAIAAAIAAAIAAAAAAAAAAAAAAgACAAACAgICAgICAgIC
+        AgIAAgAAAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAACAAAAAAACAgICAgICAgICAgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAD//wAAgAcAAL/nAAC/5wAAsAcAALf3AAC3+wAAt/0AALf+
+        AACwAAAAv+8AAL/vAACADwAA//8AAP//AAA=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Visitas</value>
+  </data>
+  <data name="&gt;&gt;OrdenTrabajoDatasetGrid.Name" xml:space="preserve">
+    <value>OrdenTrabajoDatasetGrid</value>
+  </data>
+  <data name="&gt;&gt;OrdenTrabajoDatasetGrid.Type" xml:space="preserve">
+    <value>DMSOneFramework.OrdenTrabajoDataset, DMSOneFramework, Version=2.1.1.16219, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;VisitaDatasetGrid.Name" xml:space="preserve">
+    <value>VisitaDatasetGrid</value>
+  </data>
+  <data name="&gt;&gt;VisitaDatasetGrid.Type" xml:space="preserve">
+    <value>DMSOneFramework.VisitaDataset, DMSOneFramework, Version=2.1.1.16219, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;NoOrdenDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>NoOrdenDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;NoOrdenDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TipoDescDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>TipoDescDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;TipoDescDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescipcionEstadoDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>DescipcionEstadoDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;DescipcionEstadoDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FechaaperturaDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>FechaaperturaDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;FechaaperturaDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FechacompromisoDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>FechacompromisoDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;FechacompromisoDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ObservacionDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>ObservacionDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;ObservacionDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlacaDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>PlacaDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;PlacaDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IDVehiculoDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>IDVehiculoDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;IDVehiculoDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CodMarcaDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>CodMarcaDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;CodMarcaDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescMarcaDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>DescMarcaDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;DescMarcaDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CodEstiloDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>CodEstiloDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;CodEstiloDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescEstiloDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>DescEstiloDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;DescEstiloDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CodModeloDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>CodModeloDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;CodModeloDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescModeloDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>DescModeloDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;DescModeloDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EstadoDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>EstadoDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;EstadoDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EstadoDescDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>EstadoDescDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;EstadoDescDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConoDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>ConoDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;ConoDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NoVisitaDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>NoVisitaDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;NoVisitaDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FechacierreDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>FechacierreDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;FechacierreDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CodTipoOrdenDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>CodTipoOrdenDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;CodTipoOrdenDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EstadoVisitaDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>EstadoVisitaDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;EstadoVisitaDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EstadoVisitaDescDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>EstadoVisitaDescDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;EstadoVisitaDescDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NoVehiculoDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>NoVehiculoDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;NoVehiculoDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>CheckDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;CheckDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClienteFacturarDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>ClienteFacturarDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;ClienteFacturarDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MontoReparacionDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>MontoReparacionDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;MontoReparacionDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AsesorDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>AsesorDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;AsesorDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NoCotizacionDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>NoCotizacionDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;NoCotizacionDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HoraCompDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>HoraCompDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;HoraCompDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FechaCompDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>FechaCompDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;FechaCompDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OTPadreDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>OTPadreDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;OTPadreDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CardCodeOrigDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>CardCodeOrigDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;CardCodeOrigDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CardNameOrigDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>CardNameOrigDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;CardNameOrigDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VINDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>VINDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;VINDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AnoVehiculoDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>AnoVehiculoDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;AnoVehiculoDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NombreAsesorDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>NombreAsesorDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;NombreAsesorDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NoVisitaDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>NoVisitaDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;NoVisitaDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CardNameDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>CardNameDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;CardNameDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NoVehiculoDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>NoVehiculoDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;NoVehiculoDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlacaDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>PlacaDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;PlacaDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescMarcaDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>DescMarcaDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;DescMarcaDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescEstiloDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>DescEstiloDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;DescEstiloDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescModeloDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>DescModeloDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;DescModeloDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescripcionEstadoVisitaDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>DescripcionEstadoVisitaDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;DescripcionEstadoVisitaDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FechaaperturaDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>FechaaperturaDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;FechaaperturaDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EstadoDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>EstadoDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;EstadoDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FechacompromisoDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>FechacompromisoDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;FechacompromisoDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FechacierreDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>FechacierreDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;FechacierreDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AsesorDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>AsesorDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;AsesorDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CodColorDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>CodColorDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;CodColorDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CardCodeDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>CardCodeDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;CardCodeDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IDVehiculoDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>IDVehiculoDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;IDVehiculoDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConoDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>ConoDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;ConoDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescColorDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>DescColorDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;DescColorDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AsesorNombreDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>AsesorNombreDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;AsesorNombreDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IdentClienteDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>IdentClienteDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;IdentClienteDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HoracompromisoDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>HoracompromisoDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;HoracompromisoDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CotizacionDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>CotizacionDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;CotizacionDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CodMarcaDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>CodMarcaDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;CodMarcaDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CodModeloDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>CodModeloDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;CodModeloDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CodEstiloDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>CodEstiloDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;CodEstiloDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CodEstadoDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>CodEstadoDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;CodEstadoDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmVisitas</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>SCG.UX.Windows.SAP.frmPlantillaSAP, SCG.UX.Windows.SAP, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

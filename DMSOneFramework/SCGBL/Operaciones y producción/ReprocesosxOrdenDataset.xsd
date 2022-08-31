@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ReprocesosxOrdenDataset" targetNamespace="http://tempuri.org/ReprocesosxOrdenDataset.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/ReprocesosxOrdenDataset.xsd"
+	xmlns:mstns="http://tempuri.org/ReprocesosxOrdenDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="ReprocesosxOrdenDataset" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="SCGTA_TB_ReprocesosxOrden">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="NoOrden" type="xs:string" />
+							<xs:element name="NoReproceso" type="xs:decimal" />
+							<xs:element name="NoReprocesoxOrden" type="xs:decimal" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1"
+								msdata:AutoIncrementStep="-1" />
+							<xs:element name="Fecha" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Observacion" type="xs:string" minOccurs="0" />
+							<xs:element name="NoColaborador" type="xs:string" minOccurs="0" />
+							<xs:element name="Nombre" type="xs:string" minOccurs="0" />
+							<xs:element name="TiempoManoObra" type="xs:int" minOccurs="0" />
+							<xs:element name="Costo" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FechaFin" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FasedeProduccion" type="xs:string" minOccurs="0" />
+							<xs:element name="RazondeProceso" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="ReprocesosxOrdenDatasetKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:SCGTA_TB_ReprocesosxOrden" />
+			<xs:field xpath="mstns:NoOrden" />
+			<xs:field xpath="mstns:NoReproceso" />
+			<xs:field xpath="mstns:NoReprocesoxOrden" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

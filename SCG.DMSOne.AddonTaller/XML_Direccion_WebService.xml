@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<direccion_webservice>
+	<direccion>http://196.40.62.80:8082/eh_webservice/WebService_Excepciones.asmx</direccion>
+</direccion_webservice>

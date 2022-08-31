@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ConfiguracionDataSet" targetNamespace="http://tempuri.org/ConfiguracionDataSet.xsd" xmlns:mstns="http://tempuri.org/ConfiguracionDataSet.xsd" xmlns="http://tempuri.org/ConfiguracionDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SCGDMSOneConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SCGDMSOneConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.SCGDMSOneConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ConfiguracionDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="ConfiguracionDataSet" msprop:Generator_UserDSName="ConfiguracionDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_Configuracion" msprop:Generator_UserTableName="SCGTA_TB_Configuracion" msprop:Generator_RowEvArgName="SCGTA_TB_ConfiguracionRowChangeEvent" msprop:Generator_TableVarName="tableSCGTA_TB_Configuracion" msprop:Generator_TablePropName="SCGTA_TB_Configuracion" msprop:Generator_RowDeletingName="SCGTA_TB_ConfiguracionRowDeleting" msprop:Generator_RowChangingName="SCGTA_TB_ConfiguracionRowChanging" msprop:Generator_RowDeletedName="SCGTA_TB_ConfiguracionRowDeleted" msprop:Generator_TableClassName="SCGTA_TB_ConfiguracionDataTable" msprop:Generator_RowChangedName="SCGTA_TB_ConfiguracionRowChanged" msprop:Generator_RowEvHandlerName="SCGTA_TB_ConfiguracionRowChangeEventHandler" msprop:Generator_RowClassName="SCGTA_TB_ConfiguracionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Propiedad" msprop:Generator_ColumnVarNameInTable="columnPropiedad" msprop:Generator_ColumnPropNameInRow="Propiedad" msprop:Generator_ColumnPropNameInTable="PropiedadColumn" msprop:Generator_UserColumnName="Propiedad">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Descripcion" msprop:nullValue="_throw" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Valor" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Valor" msprop:Generator_ColumnVarNameInTable="columnValor" msprop:Generator_ColumnPropNameInTable="ValorColumn" msprop:Generator_UserColumnName="Valor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Etiqueta" msprop:Generator_ColumnVarNameInTable="columnEtiqueta" msprop:Generator_ColumnPropNameInRow="Etiqueta" msprop:Generator_ColumnPropNameInTable="EtiquetaColumn" msprop:Generator_UserColumnName="Etiqueta" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_Configuracion" />
+      <xs:field xpath="mstns:Propiedad" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

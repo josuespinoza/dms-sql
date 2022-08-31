@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CalendarioAgendaDataset" targetNamespace="http://tempuri.org/CalendarioAgendaDataset.xsd" xmlns:mstns="http://tempuri.org/CalendarioAgendaDataset.xsd" xmlns="http://tempuri.org/CalendarioAgendaDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CalendarioAgendaDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="CalendarioAgendaDataset" msprop:Generator_DataSetName="CalendarioAgendaDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_Ocupacion" msprop:Generator_UserTableName="SCGTA_TB_Ocupacion" msprop:Generator_RowDeletedName="SCGTA_TB_OcupacionRowDeleted" msprop:Generator_TableClassName="SCGTA_TB_OcupacionDataTable" msprop:Generator_RowChangedName="SCGTA_TB_OcupacionRowChanged" msprop:Generator_RowClassName="SCGTA_TB_OcupacionRow" msprop:Generator_RowChangingName="SCGTA_TB_OcupacionRowChanging" msprop:Generator_RowEvArgName="SCGTA_TB_OcupacionRowChangeEvent" msprop:Generator_RowEvHandlerName="SCGTA_TB_OcupacionRowChangeEventHandler" msprop:Generator_TablePropName="SCGTA_TB_Ocupacion" msprop:Generator_TableVarName="tableSCGTA_TB_Ocupacion" msprop:Generator_RowDeletingName="SCGTA_TB_OcupacionRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="HORA" msprop:Generator_UserColumnName="HORA" msprop:Generator_ColumnPropNameInRow="HORA" msprop:Generator_ColumnVarNameInTable="columnHORA" msprop:Generator_ColumnPropNameInTable="HORAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DIA1" msprop:Generator_UserColumnName="DIA1" msprop:Generator_ColumnPropNameInRow="DIA1" msprop:Generator_ColumnVarNameInTable="columnDIA1" msprop:Generator_ColumnPropNameInTable="DIA1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DIA2" msprop:Generator_UserColumnName="DIA2" msprop:Generator_ColumnPropNameInRow="DIA2" msprop:Generator_ColumnVarNameInTable="columnDIA2" msprop:Generator_ColumnPropNameInTable="DIA2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DIA3" msprop:Generator_UserColumnName="DIA3" msprop:Generator_ColumnPropNameInRow="DIA3" msprop:Generator_ColumnVarNameInTable="columnDIA3" msprop:Generator_ColumnPropNameInTable="DIA3Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DIA4" msprop:Generator_UserColumnName="DIA4" msprop:Generator_ColumnPropNameInRow="DIA4" msprop:Generator_ColumnVarNameInTable="columnDIA4" msprop:Generator_ColumnPropNameInTable="DIA4Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DIA5" msprop:Generator_UserColumnName="DIA5" msprop:Generator_ColumnPropNameInRow="DIA5" msprop:Generator_ColumnVarNameInTable="columnDIA5" msprop:Generator_ColumnPropNameInTable="DIA5Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DIA6" msprop:Generator_UserColumnName="DIA6" msprop:Generator_ColumnPropNameInRow="DIA6" msprop:Generator_ColumnVarNameInTable="columnDIA6" msprop:Generator_ColumnPropNameInTable="DIA6Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DIA7" msprop:Generator_UserColumnName="DIA7" msprop:Generator_ColumnPropNameInRow="DIA7" msprop:Generator_ColumnVarNameInTable="columnDIA7" msprop:Generator_ColumnPropNameInTable="DIA7Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

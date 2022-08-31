@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Citas" targetNamespace="http://tempuri.org/Citas.xsd" xmlns:mstns="http://tempuri.org/Citas.xsd" xmlns="http://tempuri.org/Citas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="8" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SCGDMSOneESPConnectionString" IsAppSettingsProperty="true" Modifier="Public" Name="SCGDMSOneESPConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.SCGDMSOneESPConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBODemoCRCConnectionString" IsAppSettingsProperty="true" Modifier="Public" Name="SBODemoCRCConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.SBODemoCRCConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SCG_DMS_SoporteCriticoConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Public" Name="SCG_DMS_SoporteCriticoConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.SCG_DMS_SoporteCriticoConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBO_AutomotrizConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SBO_AutomotrizConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.SBO_AutomotrizConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SCGDMSOneDemoES_CRConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Public" Name="SCGDMSOneDemoES_CRConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.SCGDMSOneDemoES_CRConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBONamespaceES_CRC_haraya" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SBONamespaceES_CRC_haraya (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.SBONamespaceES_CRC_haraya" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="DMSNamespaceES_CRC_haraya" IsAppSettingsProperty="true" Modifier="Assembly" Name="DMSNamespaceES_CRC_haraya (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.DMSNamespaceES_CRC_haraya" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SCGDMSOneNamespace_CRConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SCGDMSOneNamespace_CRConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.SCGDMSOneNamespace_CRConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBONamespaceES_CRCConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SBONamespaceES_CRCConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.SBONamespaceES_CRCConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SCGTA_TB_AgendaTableAdapter" GeneratorDataComponentClassName="SCGTA_TB_AgendaTableAdapter" Name="SCGTA_TB_Agenda" UserDataComponentName="SCGTA_TB_AgendaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SCGDMSOneNamespace_CRConnectionString (MySettings)" DbObjectName="SCGDMSOneNamespace_CR.dbo.SCGTA_TB_Agenda" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [SCGTA_TB_Agenda] WHERE (([ID] = @Original_ID) AND ([Agenda] = @Original_Agenda) AND ([EstadoLogico] = @Original_EstadoLogico) AND ([IntervaloCitas] = @Original_IntervaloCitas) AND ([Abreviatura] = @Original_Abreviatura) AND ((@IsNull_CodAsesor = 1 AND [CodAsesor] IS NULL) OR ([CodAsesor] = @Original_CodAsesor)) AND ((@IsNull_CodTecnico = 1 AND [CodTecnico] IS NULL) OR ([CodTecnico] = @Original_CodTecnico)) AND ((@IsNull_RazonCita = 1 AND [RazonCita] IS NULL) OR ([RazonCita] = @Original_RazonCita)) AND ((@IsNull_ArticuloCita = 1 AND [ArticuloCita] IS NULL) OR ([ArticuloCita] = @Original_ArticuloCita)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Agenda" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Agenda" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@Original_EstadoLogico" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="EstadoLogico" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_IntervaloCitas" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IntervaloCitas" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Abreviatura" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Abreviatura" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CodAsesor" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodAsesor" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_CodAsesor" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodAsesor" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CodTecnico" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodTecnico" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_CodTecnico" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodTecnico" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_RazonCita" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="RazonCita" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_RazonCita" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="RazonCita" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ArticuloCita" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ArticuloCita" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_ArticuloCita" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ArticuloCita" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [SCGTA_TB_Agenda] ([Agenda], [EstadoLogico], [IntervaloCitas], [Abreviatura], [CodAsesor], [CodTecnico], [RazonCita], [ArticuloCita]) VALUES (@Agenda, @EstadoLogico, @IntervaloCitas, @Abreviatura, @CodAsesor, @CodTecnico, @RazonCita, @ArticuloCita);
+SELECT ID, Agenda, EstadoLogico, IntervaloCitas, Abreviatura, CodAsesor, CodTecnico, RazonCita, ArticuloCita FROM SCGTA_TB_Agenda WHERE (ID = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Agenda" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Agenda" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@EstadoLogico" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="EstadoLogico" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IntervaloCitas" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IntervaloCitas" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Abreviatura" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Abreviatura" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@CodAsesor" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodAsesor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@CodTecnico" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodTecnico" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@RazonCita" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="RazonCita" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@ArticuloCita" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ArticuloCita" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        SCGTA_TB_Agenda.*
+FROM            SCGTA_TB_Agenda</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [SCGTA_TB_Agenda] SET [Agenda] = @Agenda, [EstadoLogico] = @EstadoLogico, [IntervaloCitas] = @IntervaloCitas, [Abreviatura] = @Abreviatura, [CodAsesor] = @CodAsesor, [CodTecnico] = @CodTecnico, [RazonCita] = @RazonCita, [ArticuloCita] = @ArticuloCita WHERE (([ID] = @Original_ID) AND ([Agenda] = @Original_Agenda) AND ([EstadoLogico] = @Original_EstadoLogico) AND ([IntervaloCitas] = @Original_IntervaloCitas) AND ([Abreviatura] = @Original_Abreviatura) AND ((@IsNull_CodAsesor = 1 AND [CodAsesor] IS NULL) OR ([CodAsesor] = @Original_CodAsesor)) AND ((@IsNull_CodTecnico = 1 AND [CodTecnico] IS NULL) OR ([CodTecnico] = @Original_CodTecnico)) AND ((@IsNull_RazonCita = 1 AND [RazonCita] IS NULL) OR ([RazonCita] = @Original_RazonCita)) AND ((@IsNull_ArticuloCita = 1 AND [ArticuloCita] IS NULL) OR ([ArticuloCita] = @Original_ArticuloCita)));
+SELECT ID, Agenda, EstadoLogico, IntervaloCitas, Abreviatura, CodAsesor, CodTecnico, RazonCita, ArticuloCita FROM SCGTA_TB_Agenda WHERE (ID = @ID)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Agenda" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Agenda" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@EstadoLogico" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="EstadoLogico" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IntervaloCitas" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IntervaloCitas" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Abreviatura" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Abreviatura" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@CodAsesor" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodAsesor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@CodTecnico" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodTecnico" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@RazonCita" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="RazonCita" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@ArticuloCita" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ArticuloCita" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Agenda" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Agenda" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@Original_EstadoLogico" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="EstadoLogico" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_IntervaloCitas" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IntervaloCitas" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Abreviatura" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Abreviatura" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CodAsesor" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodAsesor" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_CodAsesor" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodAsesor" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CodTecnico" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodTecnico" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_CodTecnico" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodTecnico" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_RazonCita" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="RazonCita" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_RazonCita" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="RazonCita" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ArticuloCita" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ArticuloCita" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_ArticuloCita" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ArticuloCita" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="ID" ColumnName="ID" DataSourceName="SCG_DMS_SoporteCritico.dbo.SCGTA_TB_Agenda" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@ID" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Agenda" DataSetColumn="Agenda" />
+              <Mapping SourceColumn="EstadoLogico" DataSetColumn="EstadoLogico" />
+              <Mapping SourceColumn="IntervaloCitas" DataSetColumn="IntervaloCitas" />
+              <Mapping SourceColumn="Abreviatura" DataSetColumn="Abreviatura" />
+              <Mapping SourceColumn="CodAsesor" DataSetColumn="CodAsesor" />
+              <Mapping SourceColumn="CodTecnico" DataSetColumn="CodTecnico" />
+              <Mapping SourceColumn="RazonCita" DataSetColumn="RazonCita" />
+              <Mapping SourceColumn="ArticuloCita" DataSetColumn="ArticuloCita" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="SCGDMSOneNamespace_CRConnectionString (MySettings)" DbObjectName="SCGDMSOneNamespace_CR.dbo.SCGTA_TB_Agenda" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Abreviatura, Agenda, ArticuloCita, CodAsesor, CodTecnico, EstadoLogico, ID, IntervaloCitas, RazonCita FROM SCGTA_TB_Agenda WHERE (ID = @CodigoAgenda)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="CodigoAgenda" ColumnName="ID" DataSourceName="SCGDMSOneESP.dbo.SCGTA_TB_Agenda" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@CodigoAgenda" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SCGTA_TB_HorarioTallerTableAdapter" GeneratorDataComponentClassName="SCGTA_TB_HorarioTallerTableAdapter" Name="SCGTA_TB_HorarioTaller" UserDataComponentName="SCGTA_TB_HorarioTallerTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SCG_DMS_SoporteCriticoConnectionString (MySettings)" DbObjectName="SCG_DMS_SoporteCritico.dbo.SCGTA_TB_HorarioTaller" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        SCGTA_TB_HorarioTaller.*
+FROM            SCGTA_TB_HorarioTaller</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="FechaIni" DataSetColumn="FechaIni" />
+              <Mapping SourceColumn="FechaFin" DataSetColumn="FechaFin" />
+              <Mapping SourceColumn="TotalHoras" DataSetColumn="TotalHoras" />
+              <Mapping SourceColumn="TiempoDescanso" DataSetColumn="TiempoDescanso" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SBO_SCG_AGENDACITATableAdapter" GeneratorDataComponentClassName="SBO_SCG_AGENDACITATableAdapter" Name="SBO_SCG_AGENDACITA" UserDataComponentName="SBO_SCG_AGENDACITATableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SBONamespaceES_CRC_haraya (MySettings)" DbObjectName="SBONamespaceES_CRC.dbo.[@SCGD_AGENDACITA]" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [@SCGD_AGENDACITA] WHERE (([Code] = @Original_Code) AND ([Name] = @Original_Name) AND ((@IsNull_U_Interv = 1 AND [U_Interv] IS NULL) OR ([U_Interv] = @Original_U_Interv)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Code" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Code" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_U_Interv" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="U_Interv" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_U_Interv" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="U_Interv" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [@SCGD_AGENDACITA] ([Code], [Name], [U_Interv], [U_XMLData], [U_HoraIn], [U_HoraFin]) VALUES (@Code, @Name, @U_Interv, @U_XMLData, @U_HoraIn, @U_HoraFin);
+SELECT Code, Name, U_Interv, U_XMLData, U_HoraIn, U_HoraFin FROM [@SCGD_AGENDACITA] WHERE (Code = @Code)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Code" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Code" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@U_Interv" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="U_Interv" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@U_XMLData" Precision="0" ProviderType="NText" Scale="0" Size="0" SourceColumn="U_XMLData" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@U_HoraIn" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="U_HoraIn" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@U_HoraFin" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="U_HoraFin" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Code, Name, U_Interv, U_XMLData, U_HoraIn, U_HoraFin
+FROM            [@SCGD_AGENDACITA]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [@SCGD_AGENDACITA] SET [Code] = @Code, [Name] = @Name, [U_Interv] = @U_Interv, [U_XMLData] = @U_XMLData, [U_HoraIn] = @U_HoraIn, [U_HoraFin] = @U_HoraFin WHERE (([Code] = @Original_Code) AND ([Name] = @Original_Name) AND ((@IsNull_U_Interv = 1 AND [U_Interv] IS NULL) OR ([U_Interv] = @Original_U_Interv)));
+SELECT Code, Name, U_Interv, U_XMLData, U_HoraIn, U_HoraFin FROM [@SCGD_AGENDACITA] WHERE (Code = @Code)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Code" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Code" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@U_Interv" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="U_Interv" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@U_XMLData" Precision="0" ProviderType="NText" Scale="0" Size="0" SourceColumn="U_XMLData" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@U_HoraIn" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="U_HoraIn" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@U_HoraFin" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="U_HoraFin" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Code" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Code" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_U_Interv" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="U_Interv" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_U_Interv" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="U_Interv" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Code" DataSetColumn="Code" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="U_Interv" DataSetColumn="U_Interv" />
+              <Mapping SourceColumn="U_XMLData" DataSetColumn="U_XMLData" />
+              <Mapping SourceColumn="U_HoraIn" DataSetColumn="U_HoraIn" />
+              <Mapping SourceColumn="U_HoraFin" DataSetColumn="U_HoraFin" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="SBONamespaceES_CRC_haraya (MySettings)" DbObjectName="SBONamespaceES_CRC.dbo.[@SCGD_AGENDACITA]" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        [@SCGD_AGENDACITA].*
+FROM            [@SCGD_AGENDACITA]
+where  Code = @Code</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="Code" ColumnName="Code" DataSourceName="SBONamespaceES_CRC.dbo.[@SCGD_AGENDACITA]" DataTypeServer="nvarchar(8)" DbType="String" Direction="Input" ParameterName="@Code" Precision="0" ProviderType="NVarChar" Scale="0" Size="8" SourceColumn="Code" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SCGTA_TB_RazonesCitaTableAdapter" GeneratorDataComponentClassName="SCGTA_TB_RazonesCitaTableAdapter" Name="SCGTA_TB_RazonesCita" UserDataComponentName="SCGTA_TB_RazonesCitaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SCG_DMS_SoporteCriticoConnectionString (MySettings)" DbObjectName="SCG_DMS_SoporteCritico.dbo.SCGTA_TB_RazonesCita" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [SCGTA_TB_RazonesCita] WHERE (([NoRazon] = @Original_NoRazon) AND ([Descripcion] = @Original_Descripcion) AND ([EstadoLogico] = @Original_EstadoLogico))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_NoRazon" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="NoRazon" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Descripcion" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Descripcion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@Original_EstadoLogico" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="EstadoLogico" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [SCGTA_TB_RazonesCita] ([Descripcion], [EstadoLogico]) VALUES (@Descripcion, @EstadoLogico);
+SELECT NoRazon, Descripcion, EstadoLogico FROM SCGTA_TB_RazonesCita WHERE (NoRazon = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Descripcion" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Descripcion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@EstadoLogico" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="EstadoLogico" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        NoRazon, Descripcion, EstadoLogico
+FROM            SCGTA_TB_RazonesCita
+WHERE        (EstadoLogico = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [SCGTA_TB_RazonesCita] SET [Descripcion] = @Descripcion, [EstadoLogico] = @EstadoLogico WHERE (([NoRazon] = @Original_NoRazon) AND ([Descripcion] = @Original_Descripcion) AND ([EstadoLogico] = @Original_EstadoLogico));
+SELECT NoRazon, Descripcion, EstadoLogico FROM SCGTA_TB_RazonesCita WHERE (NoRazon = @NoRazon)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Descripcion" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Descripcion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@EstadoLogico" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="EstadoLogico" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_NoRazon" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="NoRazon" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Descripcion" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Descripcion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@Original_EstadoLogico" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="EstadoLogico" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="NoRazon" ColumnName="NoRazon" DataSourceName="SCGDMSOneESP.dbo.SCGTA_TB_RazonesCita" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@NoRazon" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="NoRazon" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NoRazon" DataSetColumn="NoRazon" />
+              <Mapping SourceColumn="Descripcion" DataSetColumn="Descripcion" />
+              <Mapping SourceColumn="EstadoLogico" DataSetColumn="EstadoLogico" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SCGTA_VW_Vehiculos2TableAdapter" GeneratorDataComponentClassName="SCGTA_VW_Vehiculos2TableAdapter" Name="SCGTA_VW_Vehiculos2" UserDataComponentName="SCGTA_VW_Vehiculos2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SCGDMSOneNamespace_CRConnectionString (MySettings)" DbObjectName="SCGDMSOneNamespace_CR.dbo.SCGTA_VW_Vehiculos2" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        SCGTA_VW_Vehiculos2.*
+FROM            SCGTA_VW_Vehiculos2</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IDVehiculo" DataSetColumn="IDVehiculo" />
+              <Mapping SourceColumn="NoVehiculo" DataSetColumn="NoVehiculo" />
+              <Mapping SourceColumn="CodMarca" DataSetColumn="CodMarca" />
+              <Mapping SourceColumn="CodModelo" DataSetColumn="CodModelo" />
+              <Mapping SourceColumn="CodEstilo" DataSetColumn="CodEstilo" />
+              <Mapping SourceColumn="AnoVehiculo" DataSetColumn="AnoVehiculo" />
+              <Mapping SourceColumn="Placa" DataSetColumn="Placa" />
+              <Mapping SourceColumn="VIN" DataSetColumn="VIN" />
+              <Mapping SourceColumn="DescEstilo" DataSetColumn="DescEstilo" />
+              <Mapping SourceColumn="DescMarca" DataSetColumn="DescMarca" />
+              <Mapping SourceColumn="DescModelo" DataSetColumn="DescModelo" />
+              <Mapping SourceColumn="U_FchPrSv" DataSetColumn="U_FchPrSv" />
+              <Mapping SourceColumn="U_FchUSv" DataSetColumn="U_FchUSv" />
+              <Mapping SourceColumn="U_FrecSvc" DataSetColumn="U_FrecSvc" />
+              <Mapping SourceColumn="DescUbicacion" DataSetColumn="DescUbicacion" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="SCGDMSOneNamespace_CRConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="ActualizaFechasServicios" Modifier="Public" Name="ActualizaFechasServicios" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="ActualizaFechasServicios">
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>UPDATE       SCGTA_VW_Vehiculos2
+SET                U_FchPrSv = @FechaProximoServicio, U_FchUSv = @FechaUltimoServicio
+WHERE        (IDVehiculo = @IDVehiculo)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="FechaProximoServicio" ColumnName="U_FchPrSv" DataSourceName="SCG_DMS_SoporteCritico.dbo.SCGTA_VW_Vehiculos2" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@FechaProximoServicio" Precision="0" ProviderType="DateTime" Scale="0" Size="8" SourceColumn="U_FchPrSv" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="FechaUltimoServicio" ColumnName="U_FchUSv" DataSourceName="SCG_DMS_SoporteCritico.dbo.SCGTA_VW_Vehiculos2" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@FechaUltimoServicio" Precision="0" ProviderType="DateTime" Scale="0" Size="8" SourceColumn="U_FchUSv" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="IDVehiculo" ColumnName="IDVehiculo" DataSourceName="SCG_DMS_SoporteCritico.dbo.SCGTA_VW_Vehiculos2" DataTypeServer="nvarchar(8)" DbType="String" Direction="Input" ParameterName="@IDVehiculo" Precision="0" ProviderType="NVarChar" Scale="0" Size="8" SourceColumn="IDVehiculo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+              <DbSource ConnectionRef="SCGDMSOneNamespace_CRConnectionString (MySettings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy1" GeneratorSourceName="ActualizaFechaUltimoServicio" Modifier="Public" Name="ActualizaFechaUltimoServicio" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="ActualizaFechaUltimoServicio">
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>UPDATE       SCGTA_VW_Vehiculos2
+SET                U_FchUSv = @FechaUltSvc
+WHERE        (NoVehiculo = @NoUnidad)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="FechaUltSvc" ColumnName="U_FchUSv" DataSourceName="SCG_DMS_SoporteCritico.dbo.SCGTA_VW_Vehiculos2" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@FechaUltSvc" Precision="0" ProviderType="DateTime" Scale="0" Size="8" SourceColumn="U_FchUSv" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="NoUnidad" ColumnName="NoVehiculo" DataSourceName="SCG_DMS_SoporteCritico.dbo.SCGTA_VW_Vehiculos2" DataTypeServer="nvarchar(MAX)" DbType="String" Direction="Input" ParameterName="@NoUnidad" Precision="0" ProviderType="NVarChar" Scale="0" Size="2147483647" SourceColumn="NoVehiculo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SCGTA_TB_CitaTableAdapter" GeneratorDataComponentClassName="SCGTA_TB_CitaTableAdapter" Name="SCGTA_TB_Cita" UserDataComponentName="SCGTA_TB_CitaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SCGDMSOneDemoES_CRConnectionString (MySettings)" DbObjectName="SCGDMSOneDemoES_CR.dbo.SCGTA_TB_Cita" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [SCGTA_TB_Cita] WHERE (([IDCita] = @Original_IDCita) AND ([NoCita] = @Original_NoCita) AND ([NoCotizacion] = @Original_NoCotizacion) AND ([FechayHora] = @Original_FechayHora) AND ([IDAgenda] = @Original_IDAgenda) AND ([IDRazon] = @Original_IDRazon) AND ((@IsNull_Observaciones = 1 AND [Observaciones] IS NULL) OR ([Observaciones] = @Original_Observaciones)) AND ([Estado] = @Original_Estado) AND ([CardCode] = @Original_CardCode) AND ([IDVehiculo] = @Original_IDVehiculo) AND ((@IsNull_NoVehiculo = 1 AND [NoVehiculo] IS NULL) OR ([NoVehiculo] = @Original_NoVehiculo)) AND ((@IsNull_empId = 1 AND [empId] IS NULL) OR ([empId] = @Original_empId)) AND ([CreadaPor] = @Original_CreadaPor) AND ((@IsNull_CodTecnico = 1 AND [CodTecnico] IS NULL) OR ([CodTecnico] = @Original_CodTecnico)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_IDCita" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IDCita" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_NoCita" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="NoCita" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_NoCotizacion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="NoCotizacion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_FechayHora" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="FechayHora" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_IDAgenda" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IDAgenda" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_IDRazon" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IDRazon" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Observaciones" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Observaciones" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Observaciones" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Observaciones" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@Original_Estado" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="Estado" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_CardCode" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="CardCode" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_IDVehiculo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="IDVehiculo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_NoVehiculo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="NoVehiculo" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_NoVehiculo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="NoVehiculo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_empId" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="empId" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_empId" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="empId" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_CreadaPor" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="CreadaPor" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CodTecnico" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodTecnico" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_CodTecnico" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodTecnico" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="true">
+                    <CommandText>SCGTA_SP_INSCita</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@NoCotizacion" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumn="NoCotizacion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IDAgenda" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumn="IDAgenda" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IDRazon" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumn="IDRazon" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Observaciones" Precision="0" ProviderType="NVarChar" Scale="0" Size="150" SourceColumn="Observaciones" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@FechayHora" Precision="23" ProviderType="DateTime" Scale="3" Size="8" SourceColumn="FechayHora" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@CardCode" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumn="CardCode" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IDVehiculo" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumn="IDVehiculo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@NoVehiculo" Precision="0" ProviderType="NVarChar" Scale="0" Size="100" SourceColumn="NoVehiculo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="InputOutput" ParameterName="@NoCita" Precision="0" ProviderType="NVarChar" Scale="0" Size="12" SourceColumn="NoCita" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="InputOutput" ParameterName="@NoSerie" Precision="0" ProviderType="NVarChar" Scale="0" Size="7" SourceColumn="NoSerie" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="InputOutput" ParameterName="@NoConsecutivo" Precision="0" ProviderType="NVarChar" Scale="0" Size="4" SourceColumn="NoConsecutivo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="InputOutput" ParameterName="@IDCita" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumn="IDCita" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@empId" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumn="empId" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@CreadaPor" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="CreadaPor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@FechayHoraEnHorario" Precision="23" ProviderType="DateTime" Scale="3" Size="8" SourceColumn="FechaYHoraEnHorario" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@CodTecnico" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumn="CodTecnico" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT IDCita, NoCita, NoCotizacion, FechayHora, IDAgenda, IDRazon, Observaciones, Estado, CardCode, IDVehiculo, NoVehiculo, empId, CreadaPor, CodTecnico FROM SCGTA_TB_Cita WHERE (Estado &lt;&gt; 0)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [SCGTA_TB_Cita] SET [NoCita] = @NoCita, [NoCotizacion] = @NoCotizacion, [FechayHora] = @FechayHora, [IDAgenda] = @IDAgenda, [IDRazon] = @IDRazon, [Observaciones] = @Observaciones, [Estado] = @Estado, [CardCode] = @CardCode, [IDVehiculo] = @IDVehiculo, [NoVehiculo] = @NoVehiculo, [empId] = @empId, [CreadaPor] = @CreadaPor, [CodTecnico] = @CodTecnico WHERE (([IDCita] = @Original_IDCita) AND ([NoCita] = @Original_NoCita) AND ([NoCotizacion] = @Original_NoCotizacion) AND ([FechayHora] = @Original_FechayHora) AND ([IDAgenda] = @Original_IDAgenda) AND ([IDRazon] = @Original_IDRazon) AND ((@IsNull_Observaciones = 1 AND [Observaciones] IS NULL) OR ([Observaciones] = @Original_Observaciones)) AND ([Estado] = @Original_Estado) AND ([CardCode] = @Original_CardCode) AND ([IDVehiculo] = @Original_IDVehiculo) AND ((@IsNull_NoVehiculo = 1 AND [NoVehiculo] IS NULL) OR ([NoVehiculo] = @Original_NoVehiculo)) AND ((@IsNull_empId = 1 AND [empId] IS NULL) OR ([empId] = @Original_empId)) AND ([CreadaPor] = @Original_CreadaPor) AND ((@IsNull_CodTecnico = 1 AND [CodTecnico] IS NULL) OR ([CodTecnico] = @Original_CodTecnico)));
+SELECT IDCita, NoCita, NoCotizacion, FechayHora, IDAgenda, IDRazon, Observaciones, Estado, CardCode, IDVehiculo, NoVehiculo, empId, CreadaPor, CodTecnico FROM SCGTA_TB_Cita WHERE (IDCita = @IDCita)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@NoCita" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="NoCita" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@NoCotizacion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="NoCotizacion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@FechayHora" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="FechayHora" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IDAgenda" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IDAgenda" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IDRazon" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IDRazon" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Observaciones" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Observaciones" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@Estado" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="Estado" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@CardCode" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="CardCode" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@IDVehiculo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="IDVehiculo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@NoVehiculo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="NoVehiculo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@empId" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="empId" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@CreadaPor" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="CreadaPor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@CodTecnico" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodTecnico" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_IDCita" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IDCita" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_NoCita" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="NoCita" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_NoCotizacion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="NoCotizacion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_FechayHora" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="FechayHora" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_IDAgenda" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IDAgenda" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_IDRazon" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IDRazon" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Observaciones" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Observaciones" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Observaciones" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Observaciones" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@Original_Estado" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="Estado" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_CardCode" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="CardCode" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_IDVehiculo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="IDVehiculo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_NoVehiculo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="NoVehiculo" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_NoVehiculo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="NoVehiculo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_empId" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="empId" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_empId" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="empId" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_CreadaPor" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="CreadaPor" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CodTecnico" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodTecnico" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_CodTecnico" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CodTecnico" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="IDCita" ColumnName="IDCita" DataSourceName="SCGDMSOneDemoES_CR.dbo.SCGTA_TB_Cita" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IDCita" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="IDCita" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IDCita" DataSetColumn="IDCita" />
+              <Mapping SourceColumn="NoCita" DataSetColumn="NoCita" />
+              <Mapping SourceColumn="NoCotizacion" DataSetColumn="NoCotizacion" />
+              <Mapping SourceColumn="FechayHora" DataSetColumn="FechayHora" />
+              <Mapping SourceColumn="IDAgenda" DataSetColumn="IDAgenda" />
+              <Mapping SourceColumn="IDRazon" DataSetColumn="IDRazon" />
+              <Mapping SourceColumn="Observaciones" DataSetColumn="Observaciones" />
+              <Mapping SourceColumn="Estado" DataSetColumn="Estado" />
+              <Mapping SourceColumn="CardCode" DataSetColumn="CardCode" />
+              <Mapping SourceColumn="IDVehiculo" DataSetColumn="IDVehiculo" />
+              <Mapping SourceColumn="NoVehiculo" DataSetColumn="NoVehiculo" />
+              <Mapping SourceColumn="empId" DataSetColumn="empId" />
+              <Mapping SourceColumn="CreadaPor" DataSetColumn="CreadaPor" />
+              <Mapping SourceColumn="CodTecnico" DataSetColumn="CodTecnico" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="SCGDMSOneDemoES_CRConnectionString (MySettings)" DbObjectName="SCGDMSOneDemoES_CR.dbo.SCGTA_TB_Cita" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT CardCode, CreadaPor, Estado, FechayHora, IDAgenda, IDCita, IDRazon, IDVehiculo, NoCita, NoCotizacion, NoVehiculo, Observaciones, empId FROM SCGTA_TB_Cita WHERE (IDAgenda = @CodigoAGenda) AND (FechayHora &gt;= @FechaInicio) AND (FechayHora &lt;= @FechaFin)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="CodigoAGenda" ColumnName="IDAgenda" DataSourceName="SCGDMSOneDemoES_CR.dbo.SCGTA_TB_Cita" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@CodigoAGenda" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="IDAgenda" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="FechaInicio" ColumnName="FechayHora" DataSourceName="SCGDMSOneDemoES_CR.dbo.SCGTA_TB_Cita" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@FechaInicio" Precision="0" ProviderType="DateTime" Scale="0" Size="8" SourceColumn="FechayHora" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="FechaFin" ColumnName="FechayHora" DataSourceName="SCGDMSOneDemoES_CR.dbo.SCGTA_TB_Cita" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@FechaFin" Precision="0" ProviderType="DateTime" Scale="0" Size="8" SourceColumn="FechayHora" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Citas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Citas" msprop:Generator_UserDSName="Citas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_Agenda" msprop:Generator_UserTableName="SCGTA_TB_Agenda" msprop:Generator_RowEvArgName="SCGTA_TB_AgendaRowChangeEvent" msprop:Generator_TableVarName="tableSCGTA_TB_Agenda" msprop:Generator_TablePropName="SCGTA_TB_Agenda" msprop:Generator_RowDeletingName="SCGTA_TB_AgendaRowDeleting" msprop:Generator_RowChangingName="SCGTA_TB_AgendaRowChanging" msprop:Generator_RowDeletedName="SCGTA_TB_AgendaRowDeleted" msprop:Generator_RowEvHandlerName="SCGTA_TB_AgendaRowChangeEventHandler" msprop:Generator_RowChangedName="SCGTA_TB_AgendaRowChanged" msprop:Generator_TableClassName="SCGTA_TB_AgendaDataTable" msprop:Generator_RowClassName="SCGTA_TB_AgendaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Agenda" msprop:Generator_ColumnVarNameInTable="columnAgenda" msprop:Generator_ColumnPropNameInRow="Agenda" msprop:Generator_ColumnPropNameInTable="AgendaColumn" msprop:Generator_UserColumnName="Agenda">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EstadoLogico" msprop:Generator_ColumnVarNameInTable="columnEstadoLogico" msprop:Generator_ColumnPropNameInRow="EstadoLogico" msprop:Generator_ColumnPropNameInTable="EstadoLogicoColumn" msprop:Generator_UserColumnName="EstadoLogico" type="xs:boolean" />
+              <xs:element name="IntervaloCitas" msprop:Generator_ColumnVarNameInTable="columnIntervaloCitas" msprop:Generator_ColumnPropNameInRow="IntervaloCitas" msprop:Generator_ColumnPropNameInTable="IntervaloCitasColumn" msprop:Generator_UserColumnName="IntervaloCitas" type="xs:int" />
+              <xs:element name="Abreviatura" msprop:Generator_ColumnVarNameInTable="columnAbreviatura" msprop:Generator_ColumnPropNameInRow="Abreviatura" msprop:Generator_ColumnPropNameInTable="AbreviaturaColumn" msprop:Generator_UserColumnName="Abreviatura">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CodAsesor" msprop:Generator_ColumnVarNameInTable="columnCodAsesor" msprop:Generator_ColumnPropNameInRow="CodAsesor" msprop:Generator_ColumnPropNameInTable="CodAsesorColumn" msprop:Generator_UserColumnName="CodAsesor" type="xs:int" minOccurs="0" />
+              <xs:element name="CodTecnico" msprop:Generator_ColumnVarNameInTable="columnCodTecnico" msprop:Generator_ColumnPropNameInRow="CodTecnico" msprop:Generator_ColumnPropNameInTable="CodTecnicoColumn" msprop:Generator_UserColumnName="CodTecnico" type="xs:int" minOccurs="0" />
+              <xs:element name="RazonCita" msprop:Generator_ColumnVarNameInTable="columnRazonCita" msprop:Generator_ColumnPropNameInRow="RazonCita" msprop:Generator_ColumnPropNameInTable="RazonCitaColumn" msprop:Generator_UserColumnName="RazonCita" type="xs:int" minOccurs="0" />
+              <xs:element name="ArticuloCita" msprop:Generator_ColumnVarNameInTable="columnArticuloCita" msprop:Generator_ColumnPropNameInRow="ArticuloCita" msprop:Generator_ColumnPropNameInTable="ArticuloCitaColumn" msprop:Generator_UserColumnName="ArticuloCita" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SCGTA_TB_HorarioTaller" msprop:Generator_UserTableName="SCGTA_TB_HorarioTaller" msprop:Generator_RowEvArgName="SCGTA_TB_HorarioTallerRowChangeEvent" msprop:Generator_TableVarName="tableSCGTA_TB_HorarioTaller" msprop:Generator_TablePropName="SCGTA_TB_HorarioTaller" msprop:Generator_RowDeletingName="SCGTA_TB_HorarioTallerRowDeleting" msprop:Generator_RowChangingName="SCGTA_TB_HorarioTallerRowChanging" msprop:Generator_RowDeletedName="SCGTA_TB_HorarioTallerRowDeleted" msprop:Generator_RowEvHandlerName="SCGTA_TB_HorarioTallerRowChangeEventHandler" msprop:Generator_RowChangedName="SCGTA_TB_HorarioTallerRowChanged" msprop:Generator_TableClassName="SCGTA_TB_HorarioTallerDataTable" msprop:Generator_RowClassName="SCGTA_TB_HorarioTallerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="FechaIni" msprop:Generator_ColumnVarNameInTable="columnFechaIni" msprop:Generator_ColumnPropNameInRow="FechaIni" msprop:Generator_ColumnPropNameInTable="FechaIniColumn" msprop:Generator_UserColumnName="FechaIni" type="xs:dateTime" />
+              <xs:element name="FechaFin" msprop:Generator_ColumnVarNameInTable="columnFechaFin" msprop:Generator_ColumnPropNameInRow="FechaFin" msprop:Generator_ColumnPropNameInTable="FechaFinColumn" msprop:Generator_UserColumnName="FechaFin" type="xs:dateTime" />
+              <xs:element name="TotalHoras" msprop:Generator_ColumnVarNameInTable="columnTotalHoras" msprop:Generator_ColumnPropNameInRow="TotalHoras" msprop:Generator_ColumnPropNameInTable="TotalHorasColumn" msprop:Generator_UserColumnName="TotalHoras" type="xs:decimal" />
+              <xs:element name="TiempoDescanso" msprop:Generator_ColumnVarNameInTable="columnTiempoDescanso" msprop:Generator_ColumnPropNameInRow="TiempoDescanso" msprop:Generator_ColumnPropNameInTable="TiempoDescansoColumn" msprop:Generator_UserColumnName="TiempoDescanso" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SBO_SCG_AGENDACITA" msprop:Generator_UserTableName="SBO_SCG_AGENDACITA" msprop:Generator_RowEvArgName="SBO_SCG_AGENDACITARowChangeEvent" msprop:Generator_TableVarName="tableSBO_SCG_AGENDACITA" msprop:Generator_TablePropName="SBO_SCG_AGENDACITA" msprop:Generator_RowDeletingName="SBO_SCG_AGENDACITARowDeleting" msprop:Generator_RowChangingName="SBO_SCG_AGENDACITARowChanging" msprop:Generator_RowDeletedName="SBO_SCG_AGENDACITARowDeleted" msprop:Generator_RowEvHandlerName="SBO_SCG_AGENDACITARowChangeEventHandler" msprop:Generator_RowChangedName="SBO_SCG_AGENDACITARowChanged" msprop:Generator_TableClassName="SBO_SCG_AGENDACITADataTable" msprop:Generator_RowClassName="SBO_SCG_AGENDACITARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnPropNameInTable="CodeColumn" msprop:Generator_UserColumnName="Code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_Interv" msprop:Generator_ColumnVarNameInTable="columnU_Interv" msprop:Generator_ColumnPropNameInRow="U_Interv" msprop:Generator_ColumnPropNameInTable="U_IntervColumn" msprop:Generator_UserColumnName="U_Interv" type="xs:int" minOccurs="0" />
+              <xs:element name="U_XMLData" msprop:Generator_ColumnVarNameInTable="columnU_XMLData" msprop:Generator_ColumnPropNameInRow="U_XMLData" msprop:Generator_ColumnPropNameInTable="U_XMLDataColumn" msprop:Generator_UserColumnName="U_XMLData" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_HoraIn" msprop:Generator_ColumnVarNameInTable="columnU_HoraIn" msprop:Generator_ColumnPropNameInRow="U_HoraIn" msprop:Generator_ColumnPropNameInTable="U_HoraInColumn" msprop:Generator_UserColumnName="U_HoraIn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_HoraFin" msprop:Generator_ColumnVarNameInTable="columnU_HoraFin" msprop:Generator_ColumnPropNameInRow="U_HoraFin" msprop:Generator_ColumnPropNameInTable="U_HoraFinColumn" msprop:Generator_UserColumnName="U_HoraFin" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SCGTA_TB_RazonesCita" msprop:Generator_UserTableName="SCGTA_TB_RazonesCita" msprop:Generator_RowEvArgName="SCGTA_TB_RazonesCitaRowChangeEvent" msprop:Generator_TableVarName="tableSCGTA_TB_RazonesCita" msprop:Generator_TablePropName="SCGTA_TB_RazonesCita" msprop:Generator_RowDeletingName="SCGTA_TB_RazonesCitaRowDeleting" msprop:Generator_RowChangingName="SCGTA_TB_RazonesCitaRowChanging" msprop:Generator_RowDeletedName="SCGTA_TB_RazonesCitaRowDeleted" msprop:Generator_RowEvHandlerName="SCGTA_TB_RazonesCitaRowChangeEventHandler" msprop:Generator_RowChangedName="SCGTA_TB_RazonesCitaRowChanged" msprop:Generator_TableClassName="SCGTA_TB_RazonesCitaDataTable" msprop:Generator_RowClassName="SCGTA_TB_RazonesCitaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NoRazon" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnNoRazon" msprop:Generator_ColumnPropNameInRow="NoRazon" msprop:Generator_ColumnPropNameInTable="NoRazonColumn" msprop:Generator_UserColumnName="NoRazon" type="xs:int" />
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EstadoLogico" msprop:Generator_ColumnVarNameInTable="columnEstadoLogico" msprop:Generator_ColumnPropNameInRow="EstadoLogico" msprop:Generator_ColumnPropNameInTable="EstadoLogicoColumn" msprop:Generator_UserColumnName="EstadoLogico" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SCGTA_VW_Vehiculos2" msprop:Generator_UserTableName="SCGTA_VW_Vehiculos2" msprop:Generator_RowEvArgName="SCGTA_VW_Vehiculos2RowChangeEvent" msprop:Generator_TableVarName="tableSCGTA_VW_Vehiculos2" msprop:Generator_TablePropName="SCGTA_VW_Vehiculos2" msprop:Generator_RowDeletingName="SCGTA_VW_Vehiculos2RowDeleting" msprop:Generator_RowChangingName="SCGTA_VW_Vehiculos2RowChanging" msprop:Generator_RowDeletedName="SCGTA_VW_Vehiculos2RowDeleted" msprop:Generator_RowEvHandlerName="SCGTA_VW_Vehiculos2RowChangeEventHandler" msprop:Generator_RowChangedName="SCGTA_VW_Vehiculos2RowChanged" msprop:Generator_TableClassName="SCGTA_VW_Vehiculos2DataTable" msprop:Generator_RowClassName="SCGTA_VW_Vehiculos2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDVehiculo" msprop:Generator_ColumnVarNameInTable="columnIDVehiculo" msprop:Generator_ColumnPropNameInRow="IDVehiculo" msprop:Generator_ColumnPropNameInTable="IDVehiculoColumn" msprop:Generator_UserColumnName="IDVehiculo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoVehiculo" msprop:Generator_ColumnVarNameInTable="columnNoVehiculo" msprop:Generator_ColumnPropNameInRow="NoVehiculo" msprop:Generator_ColumnPropNameInTable="NoVehiculoColumn" msprop:Generator_UserColumnName="NoVehiculo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CodMarca" msprop:Generator_ColumnVarNameInTable="columnCodMarca" msprop:Generator_ColumnPropNameInRow="CodMarca" msprop:Generator_ColumnPropNameInTable="CodMarcaColumn" msprop:Generator_UserColumnName="CodMarca" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CodModelo" msprop:Generator_ColumnVarNameInTable="columnCodModelo" msprop:Generator_ColumnPropNameInRow="CodModelo" msprop:Generator_ColumnPropNameInTable="CodModeloColumn" msprop:Generator_UserColumnName="CodModelo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CodEstilo" msprop:Generator_ColumnVarNameInTable="columnCodEstilo" msprop:Generator_ColumnPropNameInRow="CodEstilo" msprop:Generator_ColumnPropNameInTable="CodEstiloColumn" msprop:Generator_UserColumnName="CodEstilo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AnoVehiculo" msprop:Generator_ColumnVarNameInTable="columnAnoVehiculo" msprop:Generator_ColumnPropNameInRow="AnoVehiculo" msprop:Generator_ColumnPropNameInTable="AnoVehiculoColumn" msprop:Generator_UserColumnName="AnoVehiculo" type="xs:short" minOccurs="0" />
+              <xs:element name="Placa" msprop:Generator_ColumnVarNameInTable="columnPlaca" msprop:Generator_ColumnPropNameInRow="Placa" msprop:Generator_ColumnPropNameInTable="PlacaColumn" msprop:Generator_UserColumnName="Placa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VIN" msprop:Generator_ColumnVarNameInTable="columnVIN" msprop:Generator_ColumnPropNameInRow="VIN" msprop:Generator_ColumnPropNameInTable="VINColumn" msprop:Generator_UserColumnName="VIN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescEstilo" msprop:Generator_ColumnVarNameInTable="columnDescEstilo" msprop:Generator_ColumnPropNameInRow="DescEstilo" msprop:Generator_ColumnPropNameInTable="DescEstiloColumn" msprop:Generator_UserColumnName="DescEstilo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescMarca" msprop:Generator_ColumnVarNameInTable="columnDescMarca" msprop:Generator_ColumnPropNameInRow="DescMarca" msprop:Generator_ColumnPropNameInTable="DescMarcaColumn" msprop:Generator_UserColumnName="DescMarca">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescModelo" msprop:Generator_ColumnVarNameInTable="columnDescModelo" msprop:Generator_ColumnPropNameInRow="DescModelo" msprop:Generator_ColumnPropNameInTable="DescModeloColumn" msprop:Generator_UserColumnName="DescModelo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_FchPrSv" msprop:Generator_ColumnVarNameInTable="columnU_FchPrSv" msprop:Generator_ColumnPropNameInRow="U_FchPrSv" msprop:Generator_ColumnPropNameInTable="U_FchPrSvColumn" msprop:Generator_UserColumnName="U_FchPrSv" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="U_FchUSv" msprop:Generator_ColumnVarNameInTable="columnU_FchUSv" msprop:Generator_ColumnPropNameInRow="U_FchUSv" msprop:Generator_ColumnPropNameInTable="U_FchUSvColumn" msprop:Generator_UserColumnName="U_FchUSv" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="U_FrecSvc" msprop:Generator_ColumnVarNameInTable="columnU_FrecSvc" msprop:Generator_ColumnPropNameInRow="U_FrecSvc" msprop:Generator_ColumnPropNameInTable="U_FrecSvcColumn" msprop:Generator_UserColumnName="U_FrecSvc" type="xs:int" minOccurs="0" />
+              <xs:element name="DescUbicacion" msprop:Generator_ColumnVarNameInTable="columnDescUbicacion" msprop:Generator_ColumnPropNameInRow="DescUbicacion" msprop:Generator_ColumnPropNameInTable="DescUbicacionColumn" msprop:Generator_UserColumnName="DescUbicacion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SCGTA_TB_Cita" msprop:Generator_UserTableName="SCGTA_TB_Cita" msprop:Generator_RowEvArgName="SCGTA_TB_CitaRowChangeEvent" msprop:Generator_TableVarName="tableSCGTA_TB_Cita" msprop:Generator_TablePropName="SCGTA_TB_Cita" msprop:Generator_RowDeletingName="SCGTA_TB_CitaRowDeleting" msprop:Generator_RowChangingName="SCGTA_TB_CitaRowChanging" msprop:Generator_RowDeletedName="SCGTA_TB_CitaRowDeleted" msprop:Generator_RowEvHandlerName="SCGTA_TB_CitaRowChangeEventHandler" msprop:Generator_RowChangedName="SCGTA_TB_CitaRowChanged" msprop:Generator_TableClassName="SCGTA_TB_CitaDataTable" msprop:Generator_RowClassName="SCGTA_TB_CitaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDCita" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIDCita" msprop:Generator_ColumnPropNameInRow="IDCita" msprop:Generator_ColumnPropNameInTable="IDCitaColumn" msprop:Generator_UserColumnName="IDCita" type="xs:int" />
+              <xs:element name="NoCita" msprop:Generator_ColumnVarNameInTable="columnNoCita" msprop:Generator_ColumnPropNameInRow="NoCita" msprop:Generator_ColumnPropNameInTable="NoCitaColumn" msprop:Generator_UserColumnName="NoCita">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoCotizacion" msprop:Generator_ColumnVarNameInTable="columnNoCotizacion" msprop:Generator_ColumnPropNameInRow="NoCotizacion" msprop:Generator_ColumnPropNameInTable="NoCotizacionColumn" msprop:Generator_UserColumnName="NoCotizacion" type="xs:int" />
+              <xs:element name="FechayHora" msprop:Generator_ColumnVarNameInTable="columnFechayHora" msprop:Generator_ColumnPropNameInRow="FechayHora" msprop:Generator_ColumnPropNameInTable="FechayHoraColumn" msprop:Generator_UserColumnName="FechayHora" type="xs:dateTime" />
+              <xs:element name="IDAgenda" msprop:Generator_ColumnVarNameInTable="columnIDAgenda" msprop:Generator_ColumnPropNameInRow="IDAgenda" msprop:Generator_ColumnPropNameInTable="IDAgendaColumn" msprop:Generator_UserColumnName="IDAgenda" type="xs:int" />
+              <xs:element name="IDRazon" msprop:Generator_ColumnVarNameInTable="columnIDRazon" msprop:Generator_ColumnPropNameInRow="IDRazon" msprop:Generator_ColumnPropNameInTable="IDRazonColumn" msprop:Generator_UserColumnName="IDRazon" type="xs:int" />
+              <xs:element name="Observaciones" msprop:Generator_ColumnVarNameInTable="columnObservaciones" msprop:Generator_ColumnPropNameInRow="Observaciones" msprop:Generator_ColumnPropNameInTable="ObservacionesColumn" msprop:Generator_UserColumnName="Observaciones" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Estado" msprop:Generator_ColumnVarNameInTable="columnEstado" msprop:Generator_ColumnPropNameInRow="Estado" msprop:Generator_ColumnPropNameInTable="EstadoColumn" msprop:Generator_UserColumnName="Estado" type="xs:boolean" />
+              <xs:element name="CardCode" msprop:Generator_ColumnVarNameInTable="columnCardCode" msprop:Generator_ColumnPropNameInRow="CardCode" msprop:Generator_ColumnPropNameInTable="CardCodeColumn" msprop:Generator_UserColumnName="CardCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDVehiculo" msprop:Generator_ColumnVarNameInTable="columnIDVehiculo" msprop:Generator_ColumnPropNameInRow="IDVehiculo" msprop:Generator_ColumnPropNameInTable="IDVehiculoColumn" msprop:Generator_UserColumnName="IDVehiculo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoVehiculo" msprop:Generator_ColumnVarNameInTable="columnNoVehiculo" msprop:Generator_ColumnPropNameInRow="NoVehiculo" msprop:Generator_ColumnPropNameInTable="NoVehiculoColumn" msprop:Generator_UserColumnName="NoVehiculo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="empId" msprop:Generator_ColumnVarNameInTable="columnempId" msprop:Generator_ColumnPropNameInRow="empId" msprop:Generator_ColumnPropNameInTable="empIdColumn" msprop:Generator_UserColumnName="empId" type="xs:int" minOccurs="0" />
+              <xs:element name="CreadaPor" msprop:Generator_ColumnVarNameInTable="columnCreadaPor" msprop:Generator_ColumnPropNameInRow="CreadaPor" msprop:Generator_ColumnPropNameInTable="CreadaPorColumn" msprop:Generator_UserColumnName="CreadaPor">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CodTecnico" msprop:Generator_ColumnVarNameInTable="columnCodTecnico" msprop:Generator_ColumnPropNameInRow="CodTecnico" msprop:Generator_ColumnPropNameInTable="CodTecnicoColumn" msprop:Generator_UserColumnName="CodTecnico" type="xs:int" minOccurs="0" />
+              <xs:element name="FechaYHoraEnHorario" msprop:Generator_ColumnVarNameInTable="columnFechaYHoraEnHorario" msprop:Generator_ColumnPropNameInRow="FechaYHoraEnHorario" msprop:Generator_ColumnPropNameInTable="FechaYHoraEnHorarioColumn" msprop:Generator_UserColumnName="FechaYHoraEnHorario" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NoSerie" msprop:Generator_ColumnVarNameInTable="columnNoSerie" msprop:Generator_ColumnPropNameInRow="NoSerie" msprop:Generator_ColumnPropNameInTable="NoSerieColumn" msprop:Generator_UserColumnName="NoSerie" type="xs:string" minOccurs="0" />
+              <xs:element name="NoConsecutivo" msprop:Generator_ColumnVarNameInTable="columnNoConsecutivo" msprop:Generator_ColumnPropNameInRow="NoConsecutivo" msprop:Generator_ColumnPropNameInTable="NoConsecutivoColumn" msprop:Generator_UserColumnName="NoConsecutivo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_Agenda" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="SCGTA_TB_HorarioTaller_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_HorarioTaller" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="SBO_SCG_AGENDACITA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SBO_SCG_AGENDACITA" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+    <xs:unique name="SCGTA_TB_RazonesCita_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_RazonesCita" />
+      <xs:field xpath="mstns:NoRazon" />
+    </xs:unique>
+    <xs:unique name="SCGTA_VW_Vehiculos2_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_VW_Vehiculos2" />
+      <xs:field xpath="mstns:IDVehiculo" />
+    </xs:unique>
+    <xs:unique name="SCGTA_TB_Cita_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_Cita" />
+      <xs:field xpath="mstns:IDCita" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

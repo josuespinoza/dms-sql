@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ConfBodegasXCentroCostoDataSet" targetNamespace="http://tempuri.org/ConfBodegasXCentroCostoDataSet.xsd" xmlns:mstns="http://tempuri.org/ConfBodegasXCentroCostoDataSet.xsd" xmlns="http://tempuri.org/ConfBodegasXCentroCostoDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=HUGOCAS\HUGOCAS_2005;Initial Catalog=DMSAutomotrizProduccion;Persist Security Info=True;User ID=sa" IsAppSettingsProperty="False" Modifier="Assembly" Name="hugocas\hugocas_2005.DMSAutomotrizProduccion.dbo" ParameterPrefix="@" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ConfBodegasXCentroCostoDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ConfBodegasXCentroCostoDataSet" msprop:Generator_DataSetName="ConfBodegasXCentroCostoDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_SP_SelConfBodegasXCentroCosto" msprop:Generator_UserTableName="SCGTA_SP_SelConfBodegasXCentroCosto" msprop:Generator_RowDeletedName="SCGTA_SP_SelConfBodegasXCentroCostoRowDeleted" msprop:Generator_RowChangedName="SCGTA_SP_SelConfBodegasXCentroCostoRowChanged" msprop:Generator_RowClassName="SCGTA_SP_SelConfBodegasXCentroCostoRow" msprop:Generator_RowChangingName="SCGTA_SP_SelConfBodegasXCentroCostoRowChanging" msprop:Generator_RowEvArgName="SCGTA_SP_SelConfBodegasXCentroCostoRowChangeEvent" msprop:Generator_RowEvHandlerName="SCGTA_SP_SelConfBodegasXCentroCostoRowChangeEventHandler" msprop:Generator_TableClassName="SCGTA_SP_SelConfBodegasXCentroCostoDataTable" msprop:Generator_TableVarName="tableSCGTA_SP_SelConfBodegasXCentroCosto" msprop:Generator_RowDeletingName="SCGTA_SP_SelConfBodegasXCentroCostoRowDeleting" msprop:Generator_TablePropName="SCGTA_SP_SelConfBodegasXCentroCosto">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDCentroCosto" msprop:Generator_UserColumnName="IDCentroCosto" msprop:Generator_ColumnPropNameInRow="IDCentroCosto" msprop:Generator_ColumnVarNameInTable="columnIDCentroCosto" msprop:Generator_ColumnPropNameInTable="IDCentroCostoColumn" type="xs:int" />
+              <xs:element name="Repuestos" msprop:Generator_UserColumnName="Repuestos" msprop:Generator_ColumnPropNameInRow="Repuestos" msprop:Generator_ColumnVarNameInTable="columnRepuestos" msprop:Generator_ColumnPropNameInTable="RepuestosColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Servicios" msprop:Generator_UserColumnName="Servicios" msprop:Generator_ColumnPropNameInRow="Servicios" msprop:Generator_ColumnVarNameInTable="columnServicios" msprop:Generator_ColumnPropNameInTable="ServiciosColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Suministros" msprop:Generator_UserColumnName="Suministros" msprop:Generator_ColumnPropNameInRow="Suministros" msprop:Generator_ColumnVarNameInTable="columnSuministros" msprop:Generator_ColumnPropNameInTable="SuministrosColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ServiciosEX" msprop:Generator_UserColumnName="ServiciosEX" msprop:Generator_ColumnPropNameInRow="ServiciosEX" msprop:Generator_ColumnVarNameInTable="columnServiciosEX" msprop:Generator_ColumnPropNameInTable="ServiciosEXColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Proceso" msprop:Generator_UserColumnName="Proceso" msprop:Generator_ColumnPropNameInRow="Proceso" msprop:Generator_ColumnVarNameInTable="columnProceso" msprop:Generator_ColumnPropNameInTable="ProcesoColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_SP_SelConfBodegasXCentroCosto" />
+      <xs:field xpath="mstns:IDCentroCosto" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

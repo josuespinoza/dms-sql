@@ -1,0 +1,631 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RecosteoDataSet" targetNamespace="http://tempuri.org/RecosteoDataSet.xsd" xmlns:mstns="http://tempuri.org/RecosteoDataSet.xsd" xmlns="http://tempuri.org/RecosteoDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="11" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="REASA_ProduccionConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="REASA_ProduccionConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMS_Addon.My.MySettings.GlobalReference.Default.REASA_ProduccionConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="REPSAConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="REPSAConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMS_Addon.My.MySettings.GlobalReference.Default.REPSAConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBO_YAMAHAcnnstr" IsAppSettingsProperty="true" Modifier="Assembly" Name="SBO_YAMAHAcnnstr (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMS_Addon.My.MySettings.GlobalReference.Default.SBO_YAMAHAcnnstr" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBO_PORTILLOConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SBO_PORTILLOConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMS_Addon.My.MySettings.GlobalReference.Default.SBO_PORTILLOConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBO_YAMAHAConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SBO_YAMAHAConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMS_Addon.My.MySettings.GlobalReference.Default.SBO_YAMAHAConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ZSBO_MPCConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ZSBO_MPCConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMS_Addon.My.MySettings.GlobalReference.Default.ZSBO_MPCConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBODemoES_CRCConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SBODemoES_CRCConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMS_Addon.My.MySettings.GlobalReference.Default.SBODemoES_CRCConnectionString1" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBO_SAISConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SBO_SAISConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMS_Addon.My.MySettings.GlobalReference.Default.SBO_SAISConnectionString1" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBO_SAISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SBO_SAISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMS_Addon.My.MySettings.GlobalReference.Default.SBO_SAISConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBOConnSAP" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SBOConnSAP (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMS_Addon.My.MySettings.GlobalReference.Default.SBOConnSAP" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBO_DITECConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="SBO_DITECConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMS_Addon.My.MySettings.GlobalReference.Default.SBO_DITECConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBO_DemoSAPConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SBO_DemoSAPConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMS_Addon.My.MySettings.GlobalReference.Default.SBO_DemoSAPConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="FormulariosTableAdapter" GeneratorDataComponentClassName="FormulariosTableAdapter" Name="Formularios" UserDataComponentName="FormulariosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SBO_DemoSAPConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillFormularios" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="FillFormularios" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="FillFormularios">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT        OJDT.TransId, PCH1.U_SCGD_Cod_Tran + ' ' + ISNULL(PCH1.Dscription, '') AS Memo, OPCH.SysRate AS Rate, PCH1.LineTotal AS Local, 
+                         PCH1.LineTotal / OPCH.SysRate AS Systema, OPCH.DocEntry AS FP, NULL AS FC, OPCH.DocCur AS 'MonedaRegistro', PCH1.AcctCode, PCH1.U_SCGD_Cod_Tran,
+                             (SELECT        U_View
+                               FROM            [@SCGD_TRAN_COMP]
+                               WHERE        (Code = PCH1.U_SCGD_Cod_Tran)) AS NombreTransaccion
+FROM            PCH1 WITH (nolock) INNER JOIN
+                         OPCH WITH (nolock) ON PCH1.DocEntry = OPCH.DocEntry INNER JOIN
+                         OJDT ON OPCH.TransId = OJDT.TransId
+WHERE        (PCH1.U_SCGD_Cod_Unid = @Unidad) AND (OPCH.DocType = @Type OR
+                         OPCH.DocType = @Type2) AND (OJDT.TransId NOT IN
+                             (SELECT        L.U_NoAsient
+                               FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+                                                         [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = @Unidad AND L.U_NoAsient IS NOT NULL)) AND 
+                         (OPCH.DocDate &lt;= CAST(@FechaCorte + '23:59:59' AS datetime)) AND (PCH1.U_SCGD_Cod_Tran IN
+                             (SELECT        Code
+                               FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_1])) AND (OPCH.U_SCGD_AplicaCosteo &lt;&gt; 'N' OR
+                         OPCH.U_SCGD_AplicaCosteo IS NULL)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="Unidad" ColumnName="U_SCGD_Cod_Unid" DataSourceName="SBODemoES_CRC.dbo.PCH1" DataTypeServer="nvarchar(20)" DbType="String" Direction="Input" ParameterName="@Unidad" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumn="U_SCGD_Cod_Unid" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Type" ColumnName="DocType" DataSourceName="SBODemoES_CRC.dbo.OPCH" DataTypeServer="char(1)" DbType="AnsiString" Direction="Input" ParameterName="@Type" Precision="0" ProviderType="Char" Scale="0" Size="1" SourceColumn="DocType" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Type2" ColumnName="DocType" DataSourceName="SBODemoES_CRC.dbo.OPCH" DataTypeServer="char(1)" DbType="AnsiString" Direction="Input" ParameterName="@Type2" Precision="0" ProviderType="Char" Scale="0" Size="1" SourceColumn="DocType" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="FechaCorte" ColumnName="DocDate" DataSourceName="SBODemoES_CRC.dbo.OPCH" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@FechaCorte" Precision="0" ProviderType="DateTime" Scale="0" Size="8" SourceColumn="DocDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TransId" DataSetColumn="TransId" />
+              <Mapping SourceColumn="Memo" DataSetColumn="Memo" />
+              <Mapping SourceColumn="Rate" DataSetColumn="Rate" />
+              <Mapping SourceColumn="Local" DataSetColumn="Local" />
+              <Mapping SourceColumn="Systema" DataSetColumn="Systema" />
+              <Mapping SourceColumn="FP" DataSetColumn="FP" />
+              <Mapping SourceColumn="FC" DataSetColumn="FC" />
+              <Mapping SourceColumn="AcctCode" DataSetColumn="AcctCode" />
+              <Mapping SourceColumn="U_SCGD_Cod_Tran" DataSetColumn="U_SCGD_Cod_Tran" />
+              <Mapping SourceColumn="NombreTransaccion" DataSetColumn="NombreTransaccion" />
+              <Mapping SourceColumn="MonedaRegistro" DataSetColumn="MonedaRegistro" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AsientosTableAdapter" GeneratorDataComponentClassName="AsientosTableAdapter" Name="Asientos" UserDataComponentName="AsientosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SBO_DemoSAPConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillAsientos" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="FillAsientos" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="FillAsientos">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT        OJDT_1.TransId, JDT1_1.Line_ID AS line_id, CAST(JDT1_1.U_SCGD_Cod_Tran AS varchar) + ' ' +
+                             (SELECT        Name
+                               FROM            [@SCGD_TRAN_COMP]
+                               WHERE        (Code = JDT1_1.U_SCGD_Cod_Tran)) AS Memo, CASE OJDT_1.TransRate WHEN 0 THEN Isnull(ORTT_1.Rate, 1) ELSE Isnull(OJDT_1.TransRate, 
+                         ORTT_1.Rate) END AS Rate, CASE debit WHEN 0 THEN ((CASE SYSDeb WHEN 0 THEN FCdebit ELSE SYSDeb END) /
+                             (SELECT        rate
+                               FROM            ORTT
+                               WHERE        RateDate = @FechaCorte AND Currency = @SysCurrncy)) ELSE debit END AS Local, 
+                         CASE SYSDeb WHEN 0 THEN FCdebit ELSE SYSDeb END AS Systema, NULL AS FP, NULL AS FC, CASE (debit + FCdebit) WHEN CAST(0 AS decimal) 
+                         THEN @SysCurrncy ELSE ISNULL(JDT1_1.FCCurrency, @MonedaRegistro) END AS MonedaRegistro, JDT1_1.Account AS AcctCode, JDT1_1.U_SCGD_Cod_Tran,
+                             (SELECT        U_View
+                               FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_9]
+                               WHERE        (Code = JDT1_1.U_SCGD_Cod_Tran)) AS NombreTransaccion
+FROM            JDT1 AS JDT1_1 WITH (nolock) INNER JOIN
+                         OJDT AS OJDT_1 WITH (nolock) ON JDT1_1.TransId = OJDT_1.TransId LEFT OUTER JOIN
+                         ORTT AS ORTT_1 WITH (nolock) ON OJDT_1.RefDate = ORTT_1.RateDate AND (ORTT_1.Currency = JDT1_1.FCCurrency OR
+                         (JDT1_1.FCCurrency IS NULL OR
+                         JDT1_1.FCCurrency = @MainCurrncy) AND ORTT_1.Currency = @SysCurrncy)
+WHERE        (JDT1_1.U_SCGD_Cod_Unidad = @Unidad) AND (JDT1_1.SYSDeb &lt;&gt; 0) AND (OJDT_1.TransId NOT IN
+                             (SELECT        L.U_NoAsient
+                               FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+                                                         [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = @Unidad AND L.U_NoAsient IS NOT NULL)) AND 
+                         (OJDT_1.RefDate &lt;= CAST(@FechaCorte + '23:59:59' AS datetime)) AND (JDT1_1.U_SCGD_Cod_Tran IN
+                             (SELECT        Code
+                               FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_7])) OR
+                         (JDT1_1.U_SCGD_Cod_Unidad = @Unidad) AND (OJDT_1.TransId NOT IN
+                             (SELECT        L.U_NoAsient
+                               FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+                                                         [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = @Unidad AND L.U_NoAsient IS NOT NULL)) AND 
+                         (OJDT_1.RefDate &lt;= CAST(@FechaCorte + '23:59:59' AS datetime)) AND (JDT1_1.U_SCGD_Cod_Tran IN
+                             (SELECT        Code
+                               FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_5])) AND (JDT1_1.FCDebit &lt;&gt; 0) OR
+                         (JDT1_1.U_SCGD_Cod_Unidad = @Unidad) AND (OJDT_1.TransId NOT IN
+                             (SELECT        L.U_NoAsient
+                               FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+                                                         [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = @Unidad AND L.U_NoAsient IS NOT NULL)) AND 
+                         (OJDT_1.RefDate &lt;= CAST(@FechaCorte + '23:59:59' AS datetime)) AND (JDT1_1.U_SCGD_Cod_Tran IN
+                             (SELECT        Code
+                               FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_4])) AND (JDT1_1.Debit &lt;&gt; 0)
+UNION
+SELECT        OJDT.TransId, JDT1.Line_ID, CAST(JDT1.U_SCGD_Cod_Tran AS varchar) + ' ' +
+                             (SELECT        Name
+                               FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_8]
+                               WHERE        (Code = JDT1.U_SCGD_Cod_Tran)) AS Memo, CASE OJDT.TransRate WHEN 0 THEN Isnull(ORTT.Rate, 1) ELSE Isnull(OJDT.TransRate, ORTT.Rate) 
+                         END AS Rate, (CASE credit WHEN 0 THEN ((CASE SYSCred WHEN 0 THEN FCcredit ELSE SYSCred END) /
+                             (SELECT        rate
+                               FROM            ORTT
+                               WHERE        RateDate = @FechaCorte AND Currency = @SysCurrncy)) ELSE credit END) * - 1 AS Local, (CASE SYSCred WHEN 0 THEN FCcredit ELSE SYSCred END)
+                          * - 1 AS Systema, NULL AS FP, NULL AS FC, CASE (credit + FCcredit) WHEN 0 THEN @SysCurrncy ELSE ISNULL(JDT1.FCCurrency, @MainCurrncy) 
+                         END AS 'Moneda Registro', JDT1.Account AS AcctCode, JDT1.U_SCGD_Cod_Tran,
+                             (SELECT        U_View
+                               FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_6]
+                               WHERE        (Code = JDT1.U_SCGD_Cod_Tran)) AS NombreTransaccion
+FROM            JDT1 AS JDT1 WITH (nolock) INNER JOIN
+                         OJDT AS OJDT WITH (nolock) ON JDT1.TransId = OJDT.TransId LEFT OUTER JOIN
+                         ORTT AS ORTT WITH (nolock) ON OJDT.RefDate = ORTT.RateDate AND (ORTT.Currency = JDT1.FCCurrency OR
+                         (JDT1.FCCurrency IS NULL OR
+                         JDT1.FCCurrency = @MonedaRegistro) AND ORTT.Currency = @SysCurrncy)
+WHERE        (JDT1.U_SCGD_Cod_Unidad = @Unidad) AND (JDT1.SYSCred &lt;&gt; 0) AND (OJDT.TransId NOT IN
+                             (SELECT        L.U_NoAsient
+                               FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+                                                         [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = @Unidad AND L.U_NoAsient IS NOT NULL)) AND 
+                         (OJDT.RefDate &lt;= CAST(@FechaCorte + '23:59:59' AS datetime)) AND (JDT1.U_SCGD_Cod_Tran IN
+                             (SELECT        Code
+                               FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_3])) OR
+                         (JDT1.U_SCGD_Cod_Unidad = @Unidad) AND (OJDT.TransId NOT IN
+                             (SELECT        L.U_NoAsient
+                               FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+                                                         [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = @Unidad AND L.U_NoAsient IS NOT NULL)) AND 
+                         (OJDT.RefDate &lt;= CAST(@FechaCorte + '23:59:59' AS datetime)) AND (JDT1.U_SCGD_Cod_Tran IN
+                             (SELECT        Code
+                               FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_2])) AND (JDT1.FCCredit &lt;&gt; 0) OR
+                         (JDT1.U_SCGD_Cod_Unidad = @Unidad) AND (OJDT.TransId NOT IN
+                             (SELECT        L.U_NoAsient
+                               FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+                                                         [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = @Unidad AND L.U_NoAsient IS NOT NULL)) AND 
+                         (OJDT.RefDate &lt;= CAST(@FechaCorte + '23:59:59' AS datetime)) AND (JDT1.U_SCGD_Cod_Tran IN
+                             (SELECT        Code
+                               FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_1])) AND (JDT1.Credit &lt;&gt; 0)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="MainCurrncy" ColumnName="" DataSourceName="" DataTypeServer="nvarchar(3)" DbType="String" Direction="Input" ParameterName="@MainCurrncy" Precision="0" Scale="0" Size="3" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="SysCurrncy" ColumnName="" DataSourceName="" DataTypeServer="nvarchar(3)" DbType="String" Direction="Input" ParameterName="@SysCurrncy" Precision="0" Scale="0" Size="3" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Unidad" ColumnName="" DataSourceName="" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@Unidad" Precision="0" Scale="0" Size="50" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="FechaCorte" ColumnName="" DataSourceName="" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@FechaCorte" Precision="0" Scale="0" Size="8" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="MonedaRegistro" ColumnName="" DataSourceName="" DataTypeServer="nvarchar(3)" DbType="String" Direction="Input" ParameterName="@MonedaRegistro" Precision="0" Scale="0" Size="3" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TransId" DataSetColumn="TransId" />
+              <Mapping SourceColumn="Memo" DataSetColumn="Memo" />
+              <Mapping SourceColumn="Rate" DataSetColumn="Rate" />
+              <Mapping SourceColumn="Local" DataSetColumn="Local" />
+              <Mapping SourceColumn="Systema" DataSetColumn="Systema" />
+              <Mapping SourceColumn="FP" DataSetColumn="FP" />
+              <Mapping SourceColumn="FC" DataSetColumn="FC" />
+              <Mapping SourceColumn="AcctCode" DataSetColumn="AcctCode" />
+              <Mapping SourceColumn="U_SCGD_Cod_Tran" DataSetColumn="U_SCGD_Cod_Tran" />
+              <Mapping SourceColumn="MonedaRegistro" DataSetColumn="MonedaRegistro" />
+              <Mapping SourceColumn="NombreTransaccion" DataSetColumn="NombreTransaccion" />
+              <Mapping SourceColumn="Line_ID" DataSetColumn="Line_ID" />
+              <Mapping SourceColumn="line_id" DataSetColumn="line_id1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SaldosInicialesTableAdapter" GeneratorDataComponentClassName="SaldosInicialesTableAdapter" Name="SaldosIniciales" UserDataComponentName="SaldosInicialesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SBO_DemoSAPConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillSaldosIniciales" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="FillSaldosIniciales" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="FillSaldosIniciales">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT        - 1 AS TransID, 'Saldo Inicial Moneda Sistema' AS Memo, ISNULL
+                             ((SELECT        Rate
+                                 FROM            ORTT
+                                 WHERE        (RateDate = @Fecha) AND (Currency = @MonedaSistema)), 1) AS Rate, ISNULL(U_SALINID, 0) * ISNULL
+                             ((SELECT        Rate
+                                 FROM            ORTT AS ORTT_3
+                                 WHERE        (RateDate = @Fecha) AND (Currency = @MonedaSistema)), 1) AS Local, ISNULL(U_SALINID, 0) AS Systema, NULL AS FP, NULL AS FC, 
+                         @MonedaSistema AS 'MonedaRegistro', NULL AS AcctCode
+FROM            [@SCGD_VEHICULO]
+WHERE        (U_Cod_Unid = @Unidad) AND (U_SALINID &lt;&gt; 0) AND (U_SALINID IS NOT NULL)
+UNION
+SELECT        - 1 AS TransID, 'Saldo Inicial Moneda Local' AS Memo, ISNULL
+                             ((SELECT        Rate
+                                 FROM            ORTT AS ORTT_2
+                                 WHERE        (RateDate = @Fecha) AND (Currency = @MonedaSistema)), 1) AS Rate, ISNULL(U_SALINIC, 0) AS Local, ISNULL(U_SALINIC, 0) / ISNULL
+                             ((SELECT        Rate
+                                 FROM            ORTT AS ORTT_1
+                                 WHERE        (RateDate = @Fecha) AND (Currency = @MonedaSistema)), 1) AS Systema, NULL AS FP, NULL AS FC, @MonedaLocal AS 'Moneda Registro', NULL 
+                         AS AcctCode
+FROM            [@SCGD_VEHICULO] AS [@SCGD_VEHICULO_1]
+WHERE        (U_Cod_Unid = @Unidad) AND (U_SALINIC &lt;&gt; 0) AND (U_SALINIC IS NOT NULL)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="MonedaSistema" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@MonedaSistema" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Unidad" ColumnName="" DataSourceName="" DataTypeServer="nvarchar(MAX)" DbType="String" Direction="Input" ParameterName="@Unidad" Precision="0" Scale="0" Size="2147483647" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="Fecha" ColumnName="" DataSourceName="" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@Fecha" Precision="0" Scale="0" Size="8" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="MonedaLocal" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@MonedaLocal" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TransID" DataSetColumn="TransID" />
+              <Mapping SourceColumn="Memo" DataSetColumn="Memo" />
+              <Mapping SourceColumn="Rate" DataSetColumn="Rate" />
+              <Mapping SourceColumn="Local" DataSetColumn="Local" />
+              <Mapping SourceColumn="Systema" DataSetColumn="Systema" />
+              <Mapping SourceColumn="FP" DataSetColumn="FP" />
+              <Mapping SourceColumn="FC" DataSetColumn="FC" />
+              <Mapping SourceColumn="AcctCode" DataSetColumn="AcctCode" />
+              <Mapping SourceColumn="MonedaRegistro" DataSetColumn="MonedaRegistro" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AsientoSalidaInventarioTableAdapter" GeneratorDataComponentClassName="AsientoSalidaInventarioTableAdapter" Name="AsientoSalidaInventario" UserDataComponentName="AsientoSalidaInventarioTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SBO_DemoSAPConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillAsientoSalidaInventario" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="FillAsientoSalidaInventario" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="FillAsientoSalidaInventario">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        OJDT.TransId, OIGE.U_SCGD_Numero_OT AS Memo, OIGE.SysRate AS Rate, SUM(IGE1.StockPrice * IGE1.Quantity) AS Local, 
+                         SUM(IGE1.StockPrice * IGE1.Quantity / OIGE.SysRate) AS Systema, NULL AS FP, NULL AS FC, OIGE.DocCur AS 'MonedaRegistro', IGE1.AcctCode, NULL 
+                         AS U_SCGD_Cod_Tran, NULL AS NombreTransaccion
+FROM            OIGE with (nolock) INNER JOIN
+                         IGE1 with (nolock) ON IGE1.DocEntry = OIGE.DocEntry INNER JOIN
+                         OJDT with (nolock) ON OIGE.TransId = OJDT.TransId
+WHERE        (OIGE.U_SCGD_Procesad = 1) AND (OIGE.U_SCGD_Cod_Unidad = @Unidad) AND (OIGE.U_SCGD_Num_Vehiculo IS NOT NULL) AND 
+                         (OJDT.RefDate &lt;= CAST(@FechaCorte + '23:59:59' AS datetime)) AND (OJDT.TransId NOT IN
+                             (SELECT        L.U_NoAsient
+                               FROM            [@SCGD_GRLINES] AS L with (nolock) INNER JOIN
+                                                         [@SCGD_GOODRECEIVE] AS GR with (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = @Unidad AND L.U_NoAsient IS NOT NULL))
+GROUP BY OJDT.TransId, OIGE.DocEntry, OIGE.DocCur, OJDT.LocTotal, OIGE.VatSum, OIGE.DocNum, OIGE.DocTotal, OIGE.U_SCGD_Numero_OT, OIGE.SysRate, IGE1.AcctCode</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="Unidad" ColumnName="U_SCGD_Cod_Unidad" DataSourceName="SBO_SAIS.dbo.OIGE" DataTypeServer="nvarchar(20)" DbType="String" Direction="Input" ParameterName="@Unidad" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumn="U_SCGD_Cod_Unidad" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="FechaCorte" ColumnName="RefDate" DataSourceName="SBO_SAIS.dbo.OJDT" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@FechaCorte" Precision="0" ProviderType="DateTime" Scale="0" Size="8" SourceColumn="RefDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TransId" DataSetColumn="TransId" />
+              <Mapping SourceColumn="Memo" DataSetColumn="Memo" />
+              <Mapping SourceColumn="Rate" DataSetColumn="Rate" />
+              <Mapping SourceColumn="Local" DataSetColumn="Local" />
+              <Mapping SourceColumn="Systema" DataSetColumn="Systema" />
+              <Mapping SourceColumn="FP" DataSetColumn="FP" />
+              <Mapping SourceColumn="FC" DataSetColumn="FC" />
+              <Mapping SourceColumn="AcctCode" DataSetColumn="AcctCode" />
+              <Mapping SourceColumn="U_SCGD_Cod_Tran" DataSetColumn="U_SCGD_Cod_Tran" />
+              <Mapping SourceColumn="MonedaRegistro" DataSetColumn="MonedaRegistro" />
+              <Mapping SourceColumn="NombreTransaccion" DataSetColumn="NombreTransaccion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="FacturaClientesTableAdapter" GeneratorDataComponentClassName="FacturaClientesTableAdapter" Name="FacturaClientes" UserDataComponentName="FacturaClientesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SBO_DemoSAPConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillFacturaClientes" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="FillFacturaClientes" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="FillFacturaClientes">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>Select OJDT.TransID, U_SCGD_Cod_Tran + ' ' + Isnull(INV1.Dscription, '') Memo, 
+Case OINV.DocRate 
+when 0 then Sysrate 
+else Isnull(OINV.DocRate,Sysrate) 
+end Rate, (INV1.LineTotal*-1) Local, (INV1.TotalSumSy*-1) Systema, null as FP, OINV.DocEntry as FC, OINV.DocCur as 'MonedaRegistro', AcctCode, U_SCGD_Cod_Tran, 
+								(SELECT        U_View
+                               FROM            [@SCGD_TRAN_COMP]
+                               WHERE        (Code = INV1.U_SCGD_Cod_Tran)) AS NombreTransaccion 
+from INV1 with (nolock) inner join OINV with (nolock)
+on INV1.DocEntry = OINV.DocEntry and TrgetEntry is null 
+inner join OJDT with (nolock) on OINV.TransID = OJDT.TransId 
+where OINV.U_SCGD_Cod_Unidad = @Unidad and OINV.DocType = 'S' and OJDT.TransID not in (Select U_NoAsient from dbo.[@SCGD_GRLINES] L with (nolock) inner join dbo.[@SCGD_GOODRECEIVE] GR with (nolock) on GR.DocEntry = L.DocEntry and GR.U_unidad = @Unidad and U_NoAsient is not null)  and OINV.DocDate &lt;= cast (@FechaCorte + '23:59:59' AS datetime)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="Unidad" ColumnName="U_SCGD_Cod_Unidad" DataSourceName="SBO_SAIS.dbo.OINV" DataTypeServer="nvarchar(20)" DbType="String" Direction="Input" ParameterName="@Unidad" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumn="U_SCGD_Cod_Unidad" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="FechaCorte" ColumnName="DocDate" DataSourceName="SBO_SAIS.dbo.OINV" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@FechaCorte" Precision="0" ProviderType="DateTime" Scale="0" Size="8" SourceColumn="DocDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Memo" DataSetColumn="Memo" />
+              <Mapping SourceColumn="Rate" DataSetColumn="Rate" />
+              <Mapping SourceColumn="Local" DataSetColumn="Local" />
+              <Mapping SourceColumn="Systema" DataSetColumn="Systema" />
+              <Mapping SourceColumn="FP" DataSetColumn="FP" />
+              <Mapping SourceColumn="FC" DataSetColumn="FC" />
+              <Mapping SourceColumn="AcctCode" DataSetColumn="AcctCode" />
+              <Mapping SourceColumn="U_SCGD_Cod_Tran" DataSetColumn="U_SCGD_Cod_Tran" />
+              <Mapping SourceColumn="TransID" DataSetColumn="TransID" />
+              <Mapping SourceColumn="NombreTransaccion" DataSetColumn="NombreTransaccion" />
+              <Mapping SourceColumn="MonedaRegistro" DataSetColumn="MonedaRegistro" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="NotaCreditoProveedorDataAdapter" GeneratorDataComponentClassName="NotaCreditoProveedorDataAdapter" Name="NotaCreditoProveedor" UserDataComponentName="NotaCreditoProveedorDataAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SBO_DemoSAPConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillNotasCreditoProveedor" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="FillNotasCreditoProveedor" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="FillNotasCreditoProveedor">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        RPC1.U_SCGD_Cod_Unid, OJDT.TransId, RPC1.U_SCGD_Cod_Tran + ' ' + ISNULL(RPC1.Dscription, '') AS Memo, ISNULL(ORPC.SysRate, 0) AS Rate, 
+                         RPC1.LineTotal * - 1 AS Local, RPC1.LineTotal / ORPC.SysRate * - 1 AS Systema, ORPC.DocEntry AS FP, NULL AS FC, ORPC.DocCur AS 'Moneda Registro', 
+                         RPC1.AcctCode, RPC1.U_SCGD_Cod_Tran,
+                             (SELECT        U_View
+                               FROM            [@SCGD_TRAN_COMP]
+                               WHERE        (Code = RPC1.U_SCGD_Cod_Tran)) AS NombreTransaccion
+FROM            RPC1 WITH (nolock) INNER JOIN
+                         ORPC WITH (nolock) ON RPC1.DocEntry = ORPC.DocEntry AND RPC1.TrgetEntry IS NULL INNER JOIN
+                         OJDT WITH (nolock) ON ORPC.TransId = OJDT.TransId
+WHERE        (RPC1.U_SCGD_Cod_Unid = @Unidad) AND (ORPC.DocType = @Type OR
+                         ORPC.DocType = @Type2) AND (OJDT.TransId NOT IN
+                             (SELECT        L.U_NoAsient
+                               FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+                                                         [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = @Unidad AND L.U_NoAsient IS NOT NULL)) AND 
+                         (ORPC.DocDate &lt;= CAST(@FechaCorte + '23:59:59' AS datetime)) AND (RPC1.U_SCGD_Cod_Tran IN
+                             (SELECT        Code
+                               FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_1]))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="Unidad" ColumnName="U_SCGD_Cod_Unid" DataSourceName="SBO_SAIS.dbo.RPC1" DataTypeServer="nvarchar(20)" DbType="String" Direction="Input" ParameterName="@Unidad" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumn="U_SCGD_Cod_Unid" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Type" ColumnName="DocType" DataSourceName="SBO_SAIS.dbo.ORPC" DataTypeServer="char(1)" DbType="AnsiString" Direction="Input" ParameterName="@Type" Precision="0" ProviderType="Char" Scale="0" Size="1" SourceColumn="DocType" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Type2" ColumnName="DocType" DataSourceName="SBO_SAIS.dbo.ORPC" DataTypeServer="char(1)" DbType="AnsiString" Direction="Input" ParameterName="@Type2" Precision="0" ProviderType="Char" Scale="0" Size="1" SourceColumn="DocType" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="FechaCorte" ColumnName="DocDate" DataSourceName="SBO_SAIS.dbo.ORPC" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@FechaCorte" Precision="0" ProviderType="DateTime" Scale="0" Size="8" SourceColumn="DocDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Memo" DataSetColumn="Memo" />
+              <Mapping SourceColumn="Rate" DataSetColumn="Rate" />
+              <Mapping SourceColumn="Local" DataSetColumn="Local" />
+              <Mapping SourceColumn="Systema" DataSetColumn="Systema" />
+              <Mapping SourceColumn="FP" DataSetColumn="FP" />
+              <Mapping SourceColumn="FC" DataSetColumn="FC" />
+              <Mapping SourceColumn="AcctCode" DataSetColumn="AcctCode" />
+              <Mapping SourceColumn="U_SCGD_Cod_Tran" DataSetColumn="U_SCGD_Cod_Tran" />
+              <Mapping SourceColumn="NombreTransaccion" DataSetColumn="NombreTransaccion" />
+              <Mapping SourceColumn="U_SCGD_Cod_Unid" DataSetColumn="U_SCGD_Cod_Unid" />
+              <Mapping SourceColumn="Moneda Registro" DataSetColumn="MonedaRegistro" />
+              <Mapping SourceColumn="TransId" DataSetColumn="TransId" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RecosteoDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="RecosteoDataSet" msprop:Generator_UserDSName="RecosteoDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Formularios" msprop:Generator_TableClassName="FormulariosDataTable" msprop:Generator_TableVarName="tableFormularios" msprop:Generator_TablePropName="Formularios" msprop:Generator_RowDeletingName="FormulariosRowDeleting" msprop:Generator_RowChangingName="FormulariosRowChanging" msprop:Generator_RowEvHandlerName="FormulariosRowChangeEventHandler" msprop:Generator_RowDeletedName="FormulariosRowDeleted" msprop:Generator_UserTableName="Formularios" msprop:Generator_RowChangedName="FormulariosRowChanged" msprop:Generator_RowEvArgName="FormulariosRowChangeEvent" msprop:Generator_RowClassName="FormulariosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TransId" msprop:Generator_ColumnVarNameInTable="columnTransId" msprop:Generator_ColumnPropNameInRow="TransId" msprop:Generator_ColumnPropNameInTable="TransIdColumn" msprop:Generator_UserColumnName="TransId" type="xs:int" />
+              <xs:element name="Memo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMemo" msprop:Generator_ColumnPropNameInRow="Memo" msprop:Generator_ColumnPropNameInTable="MemoColumn" msprop:Generator_UserColumnName="Memo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Rate" msprop:Generator_ColumnVarNameInTable="columnRate" msprop:Generator_ColumnPropNameInRow="Rate" msprop:Generator_ColumnPropNameInTable="RateColumn" msprop:Generator_UserColumnName="Rate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Local" msprop:Generator_ColumnVarNameInTable="columnLocal" msprop:Generator_ColumnPropNameInRow="Local" msprop:Generator_ColumnPropNameInTable="LocalColumn" msprop:Generator_UserColumnName="Local" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Systema" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSystema" msprop:Generator_ColumnPropNameInRow="Systema" msprop:Generator_ColumnPropNameInTable="SystemaColumn" msprop:Generator_UserColumnName="Systema" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FP" msprop:Generator_ColumnVarNameInTable="columnFP" msprop:Generator_ColumnPropNameInRow="FP" msprop:Generator_ColumnPropNameInTable="FPColumn" msprop:Generator_UserColumnName="FP" type="xs:int" />
+              <xs:element name="FC" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFC" msprop:Generator_ColumnPropNameInRow="FC" msprop:Generator_ColumnPropNameInTable="FCColumn" msprop:Generator_UserColumnName="FC" type="xs:int" minOccurs="0" />
+              <xs:element name="AcctCode" msprop:Generator_ColumnVarNameInTable="columnAcctCode" msprop:Generator_ColumnPropNameInRow="AcctCode" msprop:Generator_ColumnPropNameInTable="AcctCodeColumn" msprop:Generator_UserColumnName="AcctCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_SCGD_Cod_Tran" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_Cod_Tran" msprop:Generator_ColumnPropNameInRow="U_SCGD_Cod_Tran" msprop:Generator_ColumnPropNameInTable="U_SCGD_Cod_TranColumn" msprop:Generator_UserColumnName="U_SCGD_Cod_Tran" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NombreTransaccion" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombreTransaccion" msprop:Generator_ColumnPropNameInRow="NombreTransaccion" msprop:Generator_ColumnPropNameInTable="NombreTransaccionColumn" msprop:Generator_UserColumnName="NombreTransaccion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MonedaRegistro" msprop:Generator_ColumnVarNameInTable="columnMonedaRegistro" msprop:Generator_ColumnPropNameInRow="MonedaRegistro" msprop:Generator_ColumnPropNameInTable="MonedaRegistroColumn" msprop:Generator_UserColumnName="MonedaRegistro" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Asientos" msprop:Generator_TableClassName="AsientosDataTable" msprop:Generator_TableVarName="tableAsientos" msprop:Generator_TablePropName="Asientos" msprop:Generator_RowDeletingName="AsientosRowDeleting" msprop:Generator_RowChangingName="AsientosRowChanging" msprop:Generator_RowEvHandlerName="AsientosRowChangeEventHandler" msprop:Generator_RowDeletedName="AsientosRowDeleted" msprop:Generator_UserTableName="Asientos" msprop:Generator_RowChangedName="AsientosRowChanged" msprop:Generator_RowEvArgName="AsientosRowChangeEvent" msprop:Generator_RowClassName="AsientosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TransId" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTransId" msprop:Generator_ColumnPropNameInRow="TransId" msprop:Generator_ColumnPropNameInTable="TransIdColumn" msprop:Generator_UserColumnName="TransId" type="xs:int" minOccurs="0" />
+              <xs:element name="Memo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMemo" msprop:Generator_ColumnPropNameInRow="Memo" msprop:Generator_ColumnPropNameInTable="MemoColumn" msprop:Generator_UserColumnName="Memo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Rate" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnRate" msprop:Generator_ColumnPropNameInRow="Rate" msprop:Generator_ColumnPropNameInTable="RateColumn" msprop:Generator_UserColumnName="Rate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Local" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLocal" msprop:Generator_ColumnPropNameInRow="Local" msprop:Generator_ColumnPropNameInTable="LocalColumn" msprop:Generator_UserColumnName="Local" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Systema" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSystema" msprop:Generator_ColumnPropNameInRow="Systema" msprop:Generator_ColumnPropNameInTable="SystemaColumn" msprop:Generator_UserColumnName="Systema" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FP" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFP" msprop:Generator_ColumnPropNameInRow="FP" msprop:Generator_ColumnPropNameInTable="FPColumn" msprop:Generator_UserColumnName="FP" type="xs:int" minOccurs="0" />
+              <xs:element name="FC" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFC" msprop:Generator_ColumnPropNameInRow="FC" msprop:Generator_ColumnPropNameInTable="FCColumn" msprop:Generator_UserColumnName="FC" type="xs:int" minOccurs="0" />
+              <xs:element name="AcctCode" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAcctCode" msprop:Generator_ColumnPropNameInRow="AcctCode" msprop:Generator_ColumnPropNameInTable="AcctCodeColumn" msprop:Generator_UserColumnName="AcctCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_SCGD_Cod_Tran" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_Cod_Tran" msprop:Generator_ColumnPropNameInRow="U_SCGD_Cod_Tran" msprop:Generator_ColumnPropNameInTable="U_SCGD_Cod_TranColumn" msprop:Generator_UserColumnName="U_SCGD_Cod_Tran" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MonedaRegistro" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMonedaRegistro" msprop:Generator_ColumnPropNameInRow="MonedaRegistro" msprop:Generator_ColumnPropNameInTable="MonedaRegistroColumn" msprop:Generator_UserColumnName="MonedaRegistro" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NombreTransaccion" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombreTransaccion" msprop:Generator_ColumnPropNameInRow="NombreTransaccion" msprop:Generator_ColumnPropNameInTable="NombreTransaccionColumn" msprop:Generator_UserColumnName="NombreTransaccion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="line_id" msprop:Generator_ColumnVarNameInTable="columnline_id" msprop:Generator_ColumnPropNameInRow="line_id" msprop:Generator_ColumnPropNameInTable="line_idColumn" msprop:Generator_UserColumnName="line_id" type="xs:string" minOccurs="0" />
+              <xs:element name="line_id1" msdata:ReadOnly="true" msdata:Caption="line_id" msprop:Generator_ColumnVarNameInTable="columnline_id1" msprop:Generator_ColumnPropNameInRow="line_id1" msprop:Generator_ColumnPropNameInTable="line_id1Column" msprop:Generator_UserColumnName="line_id1" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SaldosIniciales" msprop:Generator_TableClassName="SaldosInicialesDataTable" msprop:Generator_TableVarName="tableSaldosIniciales" msprop:Generator_TablePropName="SaldosIniciales" msprop:Generator_RowDeletingName="SaldosInicialesRowDeleting" msprop:Generator_RowChangingName="SaldosInicialesRowChanging" msprop:Generator_RowEvHandlerName="SaldosInicialesRowChangeEventHandler" msprop:Generator_RowDeletedName="SaldosInicialesRowDeleted" msprop:Generator_UserTableName="SaldosIniciales" msprop:Generator_RowChangedName="SaldosInicialesRowChanged" msprop:Generator_RowEvArgName="SaldosInicialesRowChangeEvent" msprop:Generator_RowClassName="SaldosInicialesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TransID" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTransID" msprop:Generator_ColumnPropNameInRow="TransID" msprop:Generator_ColumnPropNameInTable="TransIDColumn" msprop:Generator_UserColumnName="TransID" type="xs:int" minOccurs="0" />
+              <xs:element name="Memo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMemo" msprop:Generator_ColumnPropNameInRow="Memo" msprop:Generator_ColumnPropNameInTable="MemoColumn" msprop:Generator_UserColumnName="Memo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="28" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Rate" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnRate" msprop:Generator_ColumnPropNameInRow="Rate" msprop:Generator_ColumnPropNameInTable="RateColumn" msprop:Generator_UserColumnName="Rate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Local" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLocal" msprop:Generator_ColumnPropNameInRow="Local" msprop:Generator_ColumnPropNameInTable="LocalColumn" msprop:Generator_UserColumnName="Local" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Systema" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSystema" msprop:Generator_ColumnPropNameInRow="Systema" msprop:Generator_ColumnPropNameInTable="SystemaColumn" msprop:Generator_UserColumnName="Systema" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FP" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFP" msprop:Generator_ColumnPropNameInRow="FP" msprop:Generator_ColumnPropNameInTable="FPColumn" msprop:Generator_UserColumnName="FP" type="xs:int" minOccurs="0" />
+              <xs:element name="FC" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFC" msprop:Generator_ColumnPropNameInRow="FC" msprop:Generator_ColumnPropNameInTable="FCColumn" msprop:Generator_UserColumnName="FC" type="xs:int" minOccurs="0" />
+              <xs:element name="AcctCode" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAcctCode" msprop:Generator_ColumnPropNameInRow="AcctCode" msprop:Generator_ColumnPropNameInTable="AcctCodeColumn" msprop:Generator_UserColumnName="AcctCode" type="xs:int" minOccurs="0" />
+              <xs:element name="MonedaRegistro" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMonedaRegistro" msprop:Generator_ColumnPropNameInRow="MonedaRegistro" msprop:Generator_ColumnPropNameInTable="MonedaRegistroColumn" msprop:Generator_UserColumnName="MonedaRegistro" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1024" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AsientoSalidaInventario" msprop:Generator_TableClassName="AsientoSalidaInventarioDataTable" msprop:Generator_TableVarName="tableAsientoSalidaInventario" msprop:Generator_TablePropName="AsientoSalidaInventario" msprop:Generator_RowDeletingName="AsientoSalidaInventarioRowDeleting" msprop:Generator_RowChangingName="AsientoSalidaInventarioRowChanging" msprop:Generator_RowEvHandlerName="AsientoSalidaInventarioRowChangeEventHandler" msprop:Generator_RowDeletedName="AsientoSalidaInventarioRowDeleted" msprop:Generator_UserTableName="AsientoSalidaInventario" msprop:Generator_RowChangedName="AsientoSalidaInventarioRowChanged" msprop:Generator_RowEvArgName="AsientoSalidaInventarioRowChangeEvent" msprop:Generator_RowClassName="AsientoSalidaInventarioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TransId" msprop:Generator_ColumnVarNameInTable="columnTransId" msprop:Generator_ColumnPropNameInRow="TransId" msprop:Generator_ColumnPropNameInTable="TransIdColumn" msprop:Generator_UserColumnName="TransId" type="xs:int" />
+              <xs:element name="Memo" msprop:Generator_ColumnVarNameInTable="columnMemo" msprop:Generator_ColumnPropNameInRow="Memo" msprop:Generator_ColumnPropNameInTable="MemoColumn" msprop:Generator_UserColumnName="Memo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Rate" msprop:Generator_ColumnVarNameInTable="columnRate" msprop:Generator_ColumnPropNameInRow="Rate" msprop:Generator_ColumnPropNameInTable="RateColumn" msprop:Generator_UserColumnName="Rate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Local" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLocal" msprop:Generator_ColumnPropNameInRow="Local" msprop:Generator_ColumnPropNameInTable="LocalColumn" msprop:Generator_UserColumnName="Local" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Systema" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSystema" msprop:Generator_ColumnPropNameInRow="Systema" msprop:Generator_ColumnPropNameInTable="SystemaColumn" msprop:Generator_UserColumnName="Systema" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FP" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFP" msprop:Generator_ColumnPropNameInRow="FP" msprop:Generator_ColumnPropNameInTable="FPColumn" msprop:Generator_UserColumnName="FP" type="xs:int" minOccurs="0" />
+              <xs:element name="FC" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFC" msprop:Generator_ColumnPropNameInRow="FC" msprop:Generator_ColumnPropNameInTable="FCColumn" msprop:Generator_UserColumnName="FC" type="xs:int" minOccurs="0" />
+              <xs:element name="AcctCode" msprop:Generator_ColumnVarNameInTable="columnAcctCode" msprop:Generator_ColumnPropNameInRow="AcctCode" msprop:Generator_ColumnPropNameInTable="AcctCodeColumn" msprop:Generator_UserColumnName="AcctCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_SCGD_Cod_Tran" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_Cod_Tran" msprop:Generator_ColumnPropNameInRow="U_SCGD_Cod_Tran" msprop:Generator_ColumnPropNameInTable="U_SCGD_Cod_TranColumn" msprop:Generator_UserColumnName="U_SCGD_Cod_Tran" type="xs:int" minOccurs="0" />
+              <xs:element name="MonedaRegistro" msprop:Generator_ColumnVarNameInTable="columnMonedaRegistro" msprop:Generator_ColumnPropNameInRow="MonedaRegistro" msprop:Generator_ColumnPropNameInTable="MonedaRegistroColumn" msprop:Generator_UserColumnName="MonedaRegistro" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NombreTransaccion" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombreTransaccion" msprop:Generator_ColumnPropNameInRow="NombreTransaccion" msprop:Generator_ColumnPropNameInTable="NombreTransaccionColumn" msprop:Generator_UserColumnName="NombreTransaccion" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FacturaClientes" msprop:Generator_TableClassName="FacturaClientesDataTable" msprop:Generator_TableVarName="tableFacturaClientes" msprop:Generator_TablePropName="FacturaClientes" msprop:Generator_RowDeletingName="FacturaClientesRowDeleting" msprop:Generator_RowChangingName="FacturaClientesRowChanging" msprop:Generator_RowEvHandlerName="FacturaClientesRowChangeEventHandler" msprop:Generator_RowDeletedName="FacturaClientesRowDeleted" msprop:Generator_UserTableName="FacturaClientes" msprop:Generator_RowChangedName="FacturaClientesRowChanged" msprop:Generator_RowEvArgName="FacturaClientesRowChangeEvent" msprop:Generator_RowClassName="FacturaClientesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Memo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMemo" msprop:Generator_ColumnPropNameInRow="Memo" msprop:Generator_ColumnPropNameInTable="MemoColumn" msprop:Generator_UserColumnName="Memo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Rate" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnRate" msprop:Generator_ColumnPropNameInRow="Rate" msprop:Generator_ColumnPropNameInTable="RateColumn" msprop:Generator_UserColumnName="Rate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Local" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLocal" msprop:Generator_ColumnPropNameInRow="Local" msprop:Generator_ColumnPropNameInTable="LocalColumn" msprop:Generator_UserColumnName="Local" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Systema" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSystema" msprop:Generator_ColumnPropNameInRow="Systema" msprop:Generator_ColumnPropNameInTable="SystemaColumn" msprop:Generator_UserColumnName="Systema" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FP" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFP" msprop:Generator_ColumnPropNameInRow="FP" msprop:Generator_ColumnPropNameInTable="FPColumn" msprop:Generator_UserColumnName="FP" type="xs:int" minOccurs="0" />
+              <xs:element name="FC" msprop:Generator_ColumnVarNameInTable="columnFC" msprop:Generator_ColumnPropNameInRow="FC" msprop:Generator_ColumnPropNameInTable="FCColumn" msprop:Generator_UserColumnName="FC" type="xs:int" />
+              <xs:element name="AcctCode" msprop:Generator_ColumnVarNameInTable="columnAcctCode" msprop:Generator_ColumnPropNameInRow="AcctCode" msprop:Generator_ColumnPropNameInTable="AcctCodeColumn" msprop:Generator_UserColumnName="AcctCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_SCGD_Cod_Tran" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_Cod_Tran" msprop:Generator_ColumnPropNameInRow="U_SCGD_Cod_Tran" msprop:Generator_ColumnPropNameInTable="U_SCGD_Cod_TranColumn" msprop:Generator_UserColumnName="U_SCGD_Cod_Tran" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TransID" msprop:Generator_ColumnVarNameInTable="columnTransID" msprop:Generator_ColumnPropNameInRow="TransID" msprop:Generator_ColumnPropNameInTable="TransIDColumn" msprop:Generator_UserColumnName="TransID" type="xs:int" />
+              <xs:element name="NombreTransaccion" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombreTransaccion" msprop:Generator_ColumnPropNameInRow="NombreTransaccion" msprop:Generator_ColumnPropNameInTable="NombreTransaccionColumn" msprop:Generator_UserColumnName="NombreTransaccion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MonedaRegistro" msprop:Generator_ColumnVarNameInTable="columnMonedaRegistro" msprop:Generator_ColumnPropNameInRow="MonedaRegistro" msprop:Generator_ColumnPropNameInTable="MonedaRegistroColumn" msprop:Generator_UserColumnName="MonedaRegistro" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NotaCreditoProveedor" msprop:Generator_TableClassName="NotaCreditoProveedorDataTable" msprop:Generator_TableVarName="tableNotaCreditoProveedor" msprop:Generator_TablePropName="NotaCreditoProveedor" msprop:Generator_RowDeletingName="NotaCreditoProveedorRowDeleting" msprop:Generator_RowChangingName="NotaCreditoProveedorRowChanging" msprop:Generator_RowEvHandlerName="NotaCreditoProveedorRowChangeEventHandler" msprop:Generator_RowDeletedName="NotaCreditoProveedorRowDeleted" msprop:Generator_UserTableName="NotaCreditoProveedor" msprop:Generator_RowChangedName="NotaCreditoProveedorRowChanged" msprop:Generator_RowEvArgName="NotaCreditoProveedorRowChangeEvent" msprop:Generator_RowClassName="NotaCreditoProveedorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Memo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMemo" msprop:Generator_ColumnPropNameInRow="Memo" msprop:Generator_ColumnPropNameInTable="MemoColumn" msprop:Generator_UserColumnName="Memo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Rate" msprop:Generator_ColumnVarNameInTable="columnRate" msprop:Generator_ColumnPropNameInRow="Rate" msprop:Generator_ColumnPropNameInTable="RateColumn" msprop:Generator_UserColumnName="Rate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Local" msprop:Generator_ColumnVarNameInTable="columnLocal" msprop:Generator_ColumnPropNameInRow="Local" msprop:Generator_ColumnPropNameInTable="LocalColumn" msprop:Generator_UserColumnName="Local" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Systema" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSystema" msprop:Generator_ColumnPropNameInRow="Systema" msprop:Generator_ColumnPropNameInTable="SystemaColumn" msprop:Generator_UserColumnName="Systema" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FP" msprop:Generator_ColumnVarNameInTable="columnFP" msprop:Generator_ColumnPropNameInRow="FP" msprop:Generator_ColumnPropNameInTable="FPColumn" msprop:Generator_UserColumnName="FP" type="xs:int" />
+              <xs:element name="FC" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFC" msprop:Generator_ColumnPropNameInRow="FC" msprop:Generator_ColumnPropNameInTable="FCColumn" msprop:Generator_UserColumnName="FC" type="xs:int" minOccurs="0" />
+              <xs:element name="AcctCode" msprop:Generator_ColumnVarNameInTable="columnAcctCode" msprop:Generator_ColumnPropNameInRow="AcctCode" msprop:Generator_ColumnPropNameInTable="AcctCodeColumn" msprop:Generator_UserColumnName="AcctCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_SCGD_Cod_Tran" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_Cod_Tran" msprop:Generator_ColumnPropNameInRow="U_SCGD_Cod_Tran" msprop:Generator_ColumnPropNameInTable="U_SCGD_Cod_TranColumn" msprop:Generator_UserColumnName="U_SCGD_Cod_Tran" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NombreTransaccion" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombreTransaccion" msprop:Generator_ColumnPropNameInRow="NombreTransaccion" msprop:Generator_ColumnPropNameInTable="NombreTransaccionColumn" msprop:Generator_UserColumnName="NombreTransaccion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_SCGD_Cod_Unid" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_Cod_Unid" msprop:Generator_ColumnPropNameInRow="U_SCGD_Cod_Unid" msprop:Generator_ColumnPropNameInTable="U_SCGD_Cod_UnidColumn" msprop:Generator_UserColumnName="U_SCGD_Cod_Unid" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MonedaRegistro" msprop:Generator_ColumnVarNameInTable="columnMonedaRegistro" msprop:Generator_ColumnPropNameInRow="MonedaRegistro" msprop:Generator_ColumnPropNameInTable="MonedaRegistroColumn" msprop:Generator_UserColumnName="MonedaRegistro" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TransId" msprop:Generator_ColumnVarNameInTable="columnTransId" msprop:Generator_ColumnPropNameInRow="TransId" msprop:Generator_ColumnPropNameInTable="TransIdColumn" msprop:Generator_UserColumnName="TransId" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AsientoSalidaInventario" />
+      <xs:field xpath="mstns:TransId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

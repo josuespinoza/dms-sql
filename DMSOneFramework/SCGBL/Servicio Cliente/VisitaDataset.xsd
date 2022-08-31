@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="VisitaDataset" targetNamespace="http://tempuri.org/ExpedienteDataset.xsd" xmlns:mstns="http://tempuri.org/ExpedienteDataset.xsd" xmlns="http://tempuri.org/ExpedienteDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="VisitaDataset" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="VisitaDataset" msprop:Generator_DataSetName="VisitaDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_Visita" msprop:Generator_UserTableName="SCGTA_TB_Visita" msprop:Generator_RowDeletedName="SCGTA_TB_VisitaRowDeleted" msprop:Generator_RowChangedName="SCGTA_TB_VisitaRowChanged" msprop:Generator_RowClassName="SCGTA_TB_VisitaRow" msprop:Generator_RowChangingName="SCGTA_TB_VisitaRowChanging" msprop:Generator_RowEvArgName="SCGTA_TB_VisitaRowChangeEvent" msprop:Generator_RowEvHandlerName="SCGTA_TB_VisitaRowChangeEventHandler" msprop:Generator_TableClassName="SCGTA_TB_VisitaDataTable" msprop:Generator_TableVarName="tableSCGTA_TB_Visita" msprop:Generator_RowDeletingName="SCGTA_TB_VisitaRowDeleting" msprop:Generator_TablePropName="SCGTA_TB_Visita">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NoVisita" msprop:Generator_UserColumnName="NoVisita" msprop:Generator_ColumnPropNameInRow="NoVisita" msprop:Generator_ColumnVarNameInTable="columnNoVisita" msprop:Generator_ColumnPropNameInTable="NoVisitaColumn" type="xs:decimal" />
+              <xs:element name="Estado" msprop:Generator_UserColumnName="Estado" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Estado" msprop:Generator_ColumnPropNameInTable="EstadoColumn" msprop:Generator_ColumnVarNameInTable="columnEstado" type="xs:string" minOccurs="0" />
+              <xs:element name="NoVehiculo" msprop:Generator_UserColumnName="NoVehiculo" msprop:nullValue="(Empty)" msprop:Generator_ColumnPropNameInRow="NoVehiculo" msprop:Generator_ColumnPropNameInTable="NoVehiculoColumn" msprop:Generator_ColumnVarNameInTable="columnNoVehiculo" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="Fecha_apertura" msprop:Generator_UserColumnName="Fecha_apertura" msprop:Generator_ColumnPropNameInRow="Fecha_apertura" msprop:Generator_ColumnVarNameInTable="columnFecha_apertura" msprop:Generator_ColumnPropNameInTable="Fecha_aperturaColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Fecha_compromiso" msprop:Generator_UserColumnName="Fecha_compromiso" msprop:Generator_ColumnPropNameInRow="Fecha_compromiso" msprop:Generator_ColumnVarNameInTable="columnFecha_compromiso" msprop:Generator_ColumnPropNameInTable="Fecha_compromisoColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Fecha_cierre" msprop:Generator_UserColumnName="Fecha_cierre" msprop:nullValue="_throw" msprop:Generator_ColumnVarNameInTable="columnFecha_cierre" msprop:Generator_ColumnPropNameInTable="Fecha_cierreColumn" msprop:Generator_ColumnPropNameInRow="Fecha_cierre" type="xs:string" minOccurs="0" />
+              <xs:element name="Asesor" msprop:Generator_UserColumnName="Asesor" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Asesor" msprop:Generator_ColumnPropNameInTable="AsesorColumn" msprop:Generator_ColumnVarNameInTable="columnAsesor" type="xs:string" minOccurs="0" />
+              <xs:element name="CodColor" msprop:Generator_UserColumnName="CodColor" msprop:Generator_ColumnPropNameInRow="CodColor" msprop:Generator_ColumnVarNameInTable="columnCodColor" msprop:Generator_ColumnPropNameInTable="CodColorColumn" type="xs:string" default="0" minOccurs="0" />
+              <xs:element name="Placa" msprop:Generator_UserColumnName="Placa" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Placa" msprop:Generator_ColumnPropNameInTable="PlacaColumn" msprop:Generator_ColumnVarNameInTable="columnPlaca" type="xs:string" minOccurs="0" />
+              <xs:element name="CardCode" msprop:Generator_UserColumnName="CardCode" msprop:Generator_ColumnPropNameInRow="CardCode" msprop:Generator_ColumnVarNameInTable="columnCardCode" msprop:Generator_ColumnPropNameInTable="CardCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CardName" msprop:Generator_UserColumnName="CardName" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="CardName" msprop:Generator_ColumnPropNameInTable="CardNameColumn" msprop:Generator_ColumnVarNameInTable="columnCardName" type="xs:string" minOccurs="0" />
+              <xs:element name="IDVehiculo" msprop:Generator_UserColumnName="IDVehiculo" msprop:Generator_ColumnPropNameInRow="IDVehiculo" msprop:Generator_ColumnVarNameInTable="columnIDVehiculo" msprop:Generator_ColumnPropNameInTable="IDVehiculoColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Cono" msprop:Generator_UserColumnName="Cono" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Cono" msprop:Generator_ColumnPropNameInTable="ConoColumn" msprop:Generator_ColumnVarNameInTable="columnCono" type="xs:string" minOccurs="0" />
+              <xs:element name="DescModelo" msprop:Generator_UserColumnName="DescModelo" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="DescModelo" msprop:Generator_ColumnPropNameInTable="DescModeloColumn" msprop:Generator_ColumnVarNameInTable="columnDescModelo" type="xs:string" minOccurs="0" />
+              <xs:element name="DescMarca" msprop:Generator_UserColumnName="DescMarca" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="DescMarca" msprop:Generator_ColumnPropNameInTable="DescMarcaColumn" msprop:Generator_ColumnVarNameInTable="columnDescMarca" type="xs:string" minOccurs="0" />
+              <xs:element name="DescEstilo" msprop:Generator_UserColumnName="DescEstilo" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="DescEstilo" msprop:Generator_ColumnPropNameInTable="DescEstiloColumn" msprop:Generator_ColumnVarNameInTable="columnDescEstilo" type="xs:string" minOccurs="0" />
+              <xs:element name="DescColor" msprop:Generator_UserColumnName="DescColor" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="DescColor" msprop:Generator_ColumnPropNameInTable="DescColorColumn" msprop:Generator_ColumnVarNameInTable="columnDescColor" type="xs:string" minOccurs="0" />
+              <xs:element name="AsesorNombre" msprop:Generator_UserColumnName="AsesorNombre" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnAsesorNombre" msprop:Generator_ColumnPropNameInTable="AsesorNombreColumn" msprop:Generator_ColumnPropNameInRow="AsesorNombre" type="xs:string" minOccurs="0" />
+              <xs:element name="IdentCliente" msprop:Generator_UserColumnName="IdentCliente" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnIdentCliente" msprop:Generator_ColumnPropNameInTable="IdentClienteColumn" msprop:Generator_ColumnPropNameInRow="IdentCliente" type="xs:string" minOccurs="0" />
+              <xs:element name="Hora_compromiso" msprop:Generator_UserColumnName="Hora_compromiso" msprop:Generator_ColumnPropNameInRow="Hora_compromiso" msprop:Generator_ColumnVarNameInTable="columnHora_compromiso" msprop:Generator_ColumnPropNameInTable="Hora_compromisoColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="Cotizacion" msprop:Generator_UserColumnName="Cotizacion" msprop:Generator_ColumnVarNameInTable="columnCotizacion" msprop:Generator_ColumnPropNameInRow="Cotizacion" msprop:Generator_ColumnPropNameInTable="CotizacionColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="CodMarca" msprop:Generator_UserColumnName="CodMarca" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="CodMarca" msprop:Generator_ColumnPropNameInTable="CodMarcaColumn" msprop:Generator_ColumnVarNameInTable="columnCodMarca" type="xs:string" minOccurs="0" />
+              <xs:element name="CodModelo" msprop:Generator_UserColumnName="CodModelo" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnCodModelo" msprop:Generator_ColumnPropNameInTable="CodModeloColumn" msprop:Generator_ColumnPropNameInRow="CodModelo" type="xs:string" minOccurs="0" />
+              <xs:element name="CodEstilo" msprop:Generator_UserColumnName="CodEstilo" msprop:nullValue="(Empty)" msprop:Generator_ColumnVarNameInTable="columnCodEstilo" msprop:Generator_ColumnPropNameInTable="CodEstiloColumn" msprop:Generator_ColumnPropNameInRow="CodEstilo" type="xs:string" minOccurs="0" />
+              <xs:element name="CodEstado" msprop:Generator_UserColumnName="CodEstado" msprop:nullValue="(Empty)" msprop:Generator_ColumnVarNameInTable="columnCodEstado" msprop:Generator_ColumnPropNameInTable="CodEstadoColumn" msprop:Generator_ColumnPropNameInRow="CodEstado" type="xs:string" minOccurs="0" />
+              <xs:element name="DescripcionEstadoVisita" msprop:Generator_UserColumnName="DescripcionEstadoVisita" msprop:Generator_ColumnPropNameInRow="DescripcionEstadoVisita" msprop:Generator_ColumnVarNameInTable="columnDescripcionEstadoVisita" msprop:Generator_ColumnPropNameInTable="DescripcionEstadoVisitaColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="ExpedienteDatasetKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_Visita" />
+      <xs:field xpath="mstns:NoVisita" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

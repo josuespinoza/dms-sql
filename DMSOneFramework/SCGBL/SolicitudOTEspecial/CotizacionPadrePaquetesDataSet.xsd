@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CotizacionPadrePaquetesDataSet" targetNamespace="http://tempuri.org/CotizacionPadrePaquetesDataSet.xsd" xmlns:mstns="http://tempuri.org/CotizacionPadrePaquetesDataSet.xsd" xmlns="http://tempuri.org/CotizacionPadrePaquetesDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CotizacionPadrePaquetesDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="CotizacionPadrePaquetesDataSet" msprop:Generator_UserDSName="CotizacionPadrePaquetesDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CotizacionPadrePaquetes" msprop:Generator_TableClassName="CotizacionPadrePaquetesDataTable" msprop:Generator_TableVarName="tableCotizacionPadrePaquetes" msprop:Generator_TablePropName="CotizacionPadrePaquetes" msprop:Generator_RowDeletingName="CotizacionPadrePaquetesRowDeleting" msprop:Generator_UserTableName="CotizacionPadrePaquetes" msprop:Generator_RowChangingName="CotizacionPadrePaquetesRowChanging" msprop:Generator_RowEvHandlerName="CotizacionPadrePaquetesRowChangeEventHandler" msprop:Generator_RowDeletedName="CotizacionPadrePaquetesRowDeleted" msprop:Generator_RowEvArgName="CotizacionPadrePaquetesRowChangeEvent" msprop:Generator_RowChangedName="CotizacionPadrePaquetesRowChanged" msprop:Generator_RowClassName="CotizacionPadrePaquetesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ItemCode" msprop:Generator_ColumnVarNameInTable="columnItemCode" msprop:Generator_ColumnPropNameInRow="ItemCode" msprop:Generator_ColumnPropNameInTable="ItemCodeColumn" msprop:Generator_UserColumnName="ItemCode" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum" msprop:Generator_ColumnVarNameInTable="columnLineNum" msprop:Generator_ColumnPropNameInRow="LineNum" msprop:Generator_ColumnPropNameInTable="LineNumColumn" msprop:Generator_UserColumnName="LineNum" type="xs:string" minOccurs="0" />
+              <xs:element name="VisOrder" msprop:Generator_ColumnVarNameInTable="columnVisOrder" msprop:Generator_ColumnPropNameInRow="VisOrder" msprop:Generator_ColumnPropNameInTable="VisOrderColumn" msprop:Generator_UserColumnName="VisOrder" type="xs:short" minOccurs="0" />
+              <xs:element name="IdRepuestosXOrden" msprop:Generator_ColumnVarNameInTable="columnIdRepuestosXOrden" msprop:Generator_ColumnPropNameInRow="IdRepuestosXOrden" msprop:Generator_ColumnPropNameInTable="IdRepuestosXOrdenColumn" msprop:Generator_UserColumnName="IdRepuestosXOrden" type="xs:string" minOccurs="0" />
+              <xs:element name="TreeType" msprop:Generator_ColumnVarNameInTable="columnTreeType" msprop:Generator_ColumnPropNameInRow="TreeType" msprop:Generator_ColumnPropNameInTable="TreeTypeColumn" msprop:Generator_UserColumnName="TreeType" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

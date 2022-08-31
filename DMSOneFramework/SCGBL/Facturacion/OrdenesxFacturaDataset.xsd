@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OrdenesxFacturaDataset" targetNamespace="http://tempuri.org/OrdenesxFacturaDataset.xsd" xmlns:mstns="http://tempuri.org/OrdenesxFacturaDataset.xsd" xmlns="http://tempuri.org/OrdenesxFacturaDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="OrdenesxFacturaDataset" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_DataSetName="OrdenesxFacturaDataset" msprop:Generator_UserDSName="OrdenesxFacturaDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_SP_SelOrdenesXFactura" msprop:Generator_TableClassName="SCGTA_SP_SelOrdenesXFacturaDataTable" msprop:Generator_TableVarName="tableSCGTA_SP_SelOrdenesXFactura" msprop:Generator_TablePropName="SCGTA_SP_SelOrdenesXFactura" msprop:Generator_RowDeletingName="SCGTA_SP_SelOrdenesXFacturaRowDeleting" msprop:Generator_UserTableName="SCGTA_SP_SelOrdenesXFactura" msprop:Generator_RowChangingName="SCGTA_SP_SelOrdenesXFacturaRowChanging" msprop:Generator_RowEvHandlerName="SCGTA_SP_SelOrdenesXFacturaRowChangeEventHandler" msprop:Generator_RowDeletedName="SCGTA_SP_SelOrdenesXFacturaRowDeleted" msprop:Generator_RowEvArgName="SCGTA_SP_SelOrdenesXFacturaRowChangeEvent" msprop:Generator_RowChangedName="SCGTA_SP_SelOrdenesXFacturaRowChanged" msprop:Generator_RowClassName="SCGTA_SP_SelOrdenesXFacturaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="U_SCGD_OT" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_OT" msprop:Generator_ColumnPropNameInRow="U_SCGD_OT" msprop:Generator_ColumnPropNameInTable="U_SCGD_OTColumn" msprop:Generator_UserColumnName="U_SCGD_OT" type="xs:string" minOccurs="0" />
+              <xs:element name="DOCNUM" msprop:Generator_ColumnVarNameInTable="columnDOCNUM" msprop:Generator_ColumnPropNameInRow="DOCNUM" msprop:Generator_ColumnPropNameInTable="DOCNUMColumn" msprop:Generator_UserColumnName="DOCNUM" type="xs:int" />
+              <xs:element name="DOCENTRY" msprop:Generator_ColumnVarNameInTable="columnDOCENTRY" msprop:Generator_ColumnPropNameInRow="DOCENTRY" msprop:Generator_ColumnPropNameInTable="DOCENTRYColumn" msprop:Generator_UserColumnName="DOCENTRY" type="xs:int" />
+              <xs:element name="DOCTOTAL" msprop:Generator_ColumnVarNameInTable="columnDOCTOTAL" msprop:Generator_ColumnPropNameInRow="DOCTOTAL" msprop:Generator_ColumnPropNameInTable="DOCTOTALColumn" msprop:Generator_UserColumnName="DOCTOTAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DOCDATE" msprop:Generator_ColumnVarNameInTable="columnDOCDATE" msprop:Generator_ColumnPropNameInRow="DOCDATE" msprop:Generator_ColumnPropNameInTable="DOCDATEColumn" msprop:Generator_UserColumnName="DOCDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ANULA_F" msprop:Generator_ColumnVarNameInTable="columnANULA_F" msprop:Generator_ColumnPropNameInRow="ANULA_F" msprop:Generator_ColumnPropNameInTable="ANULA_FColumn" msprop:Generator_UserColumnName="ANULA_F" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,120 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace DMS_Connector.Business_Logic.DataContract.Vehiculos
+{
+    public class Vehiculo
+    {
+        public String Code { get; set; }
+        public String Name { get; set; }
+        public Int32 DocEntry { get; set; }
+        public String Canceled { get; set; }
+        public String Object { get; set; }
+        public Int32? LogInst { get; set; }
+        public Int32? UserSign { get; set; }
+        public String Transfered { get; set; }
+        public String DataSource { get; set; }
+        public String U_Cod_Unid { get; set; }
+        public String U_Cod_Marc { get; set; }
+        public String U_Des_Marc { get; set; }
+        public String U_Cod_Mode { get; set; }
+        public String U_Des_Mode { get; set; }
+        public String U_Cod_Esti { get; set; }
+        public String U_Des_Esti { get; set; }
+        public Int16? U_Ano_Vehi { get; set; }
+        public String U_Num_Plac { get; set; }
+        public String U_Cod_Col { get; set; }
+        public String U_Des_Col { get; set; }
+        public String U_ColorTap { get; set; }
+        public String U_Num_VIN { get; set; }
+        public String U_Num_Mot { get; set; }
+        public String U_MarcaMot { get; set; }
+        public Int32? U_Cant_Pas { get; set; }
+        public String U_Cod_Ubic { get; set; }
+        public String U_Tipo { get; set; }
+        public String U_Estatus { get; set; }
+        public String U_Tipo_Tra { get; set; }
+        public Int32? U_Num_Cili { get; set; }
+        public String U_TipTecho { get; set; }
+        public String U_Carrocer { get; set; }
+        public Int32? U_CantPuer { get; set; }
+        public Int32? U_Peso { get; set; }
+        public Int32? U_Cilindra { get; set; }
+        public String U_Categori { get; set; }
+        public String U_Combusti { get; set; }
+        public String U_Tip_Cabi { get; set; }
+        public Int32? U_Potencia { get; set; }
+        public String U_Transmis { get; set; }
+        public String U_Accesori { get; set; }
+        public Int32? U_GarantKM { get; set; }
+        public Int32? U_GarantTM { get; set; }
+        public String U_CardCode { get; set; }
+        public String U_CardName { get; set; }
+        public DateTime? U_FechaVen { get; set; }
+        public Int32? U_CTOVTA { get; set; }
+        public Double? U_VTADOL { get; set; }
+        public Double? U_VTACOL { get; set; }
+        public DateTime? U_FCHINV { get; set; }
+        public Int32? U_NUMFAC { get; set; }
+        public String U_TIPINV { get; set; }
+        public DateTime? U_FCHRES { get; set; }
+        public String U_OBSRES { get; set; }
+        public String U_ARREST { get; set; }
+        public DateTime? U_FECFINR { get; set; }
+        public Double? U_SALINID { get; set; }
+        public Double? U_SALINIC { get; set; }
+        public Double? U_FLELOC { get; set; }
+        public Double? U_TIPCAM { get; set; }
+        public Double? U_COSINV { get; set; }
+        public Double? U_VALHAC { get; set; }
+        public Double? U_GASTRA { get; set; }
+        public Int32? U_Dispo { get; set; }
+        public String U_VENRES { get; set; }
+        public String U_Cod_Fab { get; set; }
+        public String U_Tipo_Ven { get; set; }
+        public Double? U_Precio { get; set; }
+        public DateTime? U_FchUSv { get; set; }
+        public DateTime? U_FchPrSv { get; set; }
+        public DateTime? U_FchRsva { get; set; }
+        public DateTime? U_FchVcRva { get; set; }
+        public String U_NoPedFb { get; set; }
+        public Int32? U_FrecSvc { get; set; }
+        public String U_fechaSync { get; set; }
+        public String U_ArtVent { get; set; }
+        public String U_Cli_Ven { get; set; }
+        public String U_Tipo_Reing { get; set; }
+        public String U_ClNo_Ven { get; set; }
+        public Double? U_CosPro { get; set; }
+        public String U_Moneda { get; set; }
+        public Double? U_ValorNet { get; set; }
+        public String U_ArtVentDesc { get; set; }
+        public String U_Des_Col_Tap { get; set; }
+        public String U_Clasificacion { get; set; }
+        public String U_Estado_Nuevo { get; set; }
+        public DateTime? U_Fha_Ing_Inv { get; set; }
+        public String U_CCar { get; set; }
+        public String U_Pote { get; set; }
+        public String U_DiEje { get; set; }
+        public String U_Ramv { get; set; }
+        public String U_Cant_Eje { get; set; }
+        public Double? U_Bono { get; set; }
+        public Int32? U_HorSer { get; set; }
+        public String U_DocRecepcion { get; set; }
+        public String U_Comentarios { get; set; }
+        public Double? U_Km_Unid { get; set; }
+        public String U_Cod_Prov { get; set; }
+        public String U_Nom_Prov { get; set; }
+        public String U_ContratoV { get; set; }
+        public String U_DocPedido { get; set; }
+        public Double? U_TCRSalIni { get; set; }
+        public String U_Cod_Tec { get; set; }
+        public String U_Consig { get; set; }
+        public DateTime? U_GaranIni { get; set; }
+        public DateTime? U_GaranFin { get; set; }
+        public List<AccesoriosXVehiculo> AccesoriosxVehiculo { get; set; }
+        public List<BonosXVehiculo> BonosXVehiculo { get; set; }
+        public List<TrazabilizadXVehiculo> TrazabilizadXVehiculo { get; set; }
+    }
+}

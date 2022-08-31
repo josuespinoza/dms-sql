@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorFaltaEvento" xml:space="preserve">
+    <value>Es necesario seleccionar un tipo de evento</value>
+  </data>
+  <data name="ErrorFaltaFecha" xml:space="preserve">
+    <value>Es necesario que ingresar una fecha</value>
+  </data>
+  <data name="ErrorFaltaGestion" xml:space="preserve">
+    <value>Es necesario seleccionar un tipo de gestión</value>
+  </data>
+  <data name="ErrorFaltanDatosLineas" xml:space="preserve">
+    <value>Hace falta información para agregar datos a la matriz</value>
+  </data>
+  <data name="ErrorFaltaTipoGasto" xml:space="preserve">
+    <value>Es necesario seleccionar el tipo del gasto</value>
+  </data>
+  <data name="ErrorNumeroNegativo" xml:space="preserve">
+    <value>El monto debe ser un número mayor a 0</value>
+  </data>
+  <data name="ErrorCopiarFecha" xml:space="preserve">
+    <value>Es necesario al menos disponer de un vehículo para copiar la fecha sobre él</value>
+  </data>
+  <data name="SeleccionVehiculos" xml:space="preserve">
+    <value>Es necesario seleccionar al menos un vehículo para conformar el grupo</value>
+  </data>
+  <data name="ErrorBorrarEvento" xml:space="preserve">
+    <value>Es necesario al menos seleccionar un vehículo para borrarlo del grupo</value>
+  </data>
+  <data name="ErrorFaltaNumGrupo" xml:space="preserve">
+    <value>Es necesario seleccionar un grupo para poder cargar las unidades en base al mismo</value>
+  </data>
+  <data name="ErrorExisteGasto" xml:space="preserve">
+    <value>El tipo de gasto seleccionado ya ha sido registrando en la unidad: </value>
+  </data>
+  <data name="ErrorMatrixGastos" xml:space="preserve">
+    <value>Es necesario disponer de al menos un vehículo en el grupo para calcular los gastos</value>
+  </data>
+  <data name="ErrorExisteExpediente" xml:space="preserve">
+    <value>El expediente ya existe para la unidad. Si desea agregar una nueva gestión, es necesario buscar el expediente y asignar la misma dentro de este. Ver expediente:</value>
+  </data>
+  <data name="ErrorSeleccionUnidad" xml:space="preserve">
+    <value>Es necesario al menos seleccionar una unidad para crear el respectivo expediente. </value>
+  </data>
+  <data name="ErrorExpedienteFaltaGestion" xml:space="preserve">
+    <value>Es necesario asociar al menos un tipo de seguimiento para crear el expediente</value>
+  </data>
+  <data name="ErrorExisteGastoMatrix" xml:space="preserve">
+    <value>El tipo de gasto seleccionado ya ha sido agregado. Ver fila: </value>
+  </data>
+  <data name="MensajeNumeroGrupo" xml:space="preserve">
+    <value>El número del grupo creado es el: </value>
+  </data>
+  <data name="BotonSi" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="ErrorMatrixGastoVacia" xml:space="preserve">
+    <value>Es necesario al menos que el grupo contenga un vehículo para aplicar los gastos</value>
+  </data>
+  <data name="MensajeConfirmacionGasto" xml:space="preserve">
+    <value>¿Está seguro de aplicar este tipo de gasto para el grupo?</value>
+  </data>
+  <data name="MensajeConfirmacionGestion" xml:space="preserve">
+    <value>¿Está seguro de aplicar este tipo de gestión para el grupo?</value>
+  </data>
+  <data name="ErrorPermisos" xml:space="preserve">
+    <value>No dispone de los permisos necesarios para utilizar esta funcionalidad</value>
+  </data>
+  <data name="ErrorGastoVacioGrupo" xml:space="preserve">
+    <value>Cada unidad dentro del grupo debe de tener asignado un gasto. Ver fila: </value>
+  </data>
+  <data name="ErrorMontoGrupo" xml:space="preserve">
+    <value>El monto debe ser un número mayor a 0. Ver fila: </value>
+  </data>
+  <data name="ErrorFechaGastoGrupo" xml:space="preserve">
+    <value>Es necesario asociarle la fecha al gasto. Ver fila: </value>
+  </data>
+  <data name="ErrorFechaEventoGrupo" xml:space="preserve">
+    <value>Es necesario asociarle la fecha al evento. Ver fila: </value>
+  </data>
+  <data name="ErrorMatrixEventoVacia" xml:space="preserve">
+    <value>Es necesario al menos que el grupo contenga un vehículo para aplicar los eventos</value>
+  </data>
+  <data name="MensajeConfirmacionGrupo" xml:space="preserve">
+    <value>¿Desea crear el grupo sin una descripción?</value>
+  </data>
+  <data name="rptAcuerdoDejarVehiculoAgencia" xml:space="preserve">
+    <value>Acuerdo para dejar el vehículo adquirido en la agencia hasta la entrega de placas</value>
+  </data>
+  <data name="rptAcuerdoEntregaPlacaAGV" xml:space="preserve">
+    <value>Acuerdo de entrega de copia de placa AGV</value>
+  </data>
+  <data name="rptEntregaPlaca" xml:space="preserve">
+    <value>Boleta de entrega de placa a cliente</value>
+  </data>
+  <data name="rptExpedientePlacas" xml:space="preserve">
+    <value>Expediente de placas por vehículo</value>
+  </data>
+  <data name="rptPortadaAGV" xml:space="preserve">
+    <value>Portada de placa AGV</value>
+  </data>
+  <data name="rptVehiculosTipoEvento" xml:space="preserve">
+    <value>Vehículos por Tipo de Evento</value>
+  </data>
+  <data name="ErrorSeleccionarExpediente" xml:space="preserve">
+    <value>Para imprimir el reporte es necesario disponer de un expediente</value>
+  </data>
+  <data name="ErrorSeleccionarReporte" xml:space="preserve">
+    <value>Debe al menos seleccionar un reporte para realizar la impresión</value>
+  </data>
+  <data name="ErrorRptVehiculosTipoTransferenciaFechaI" xml:space="preserve">
+    <value>Con el fin de cargar el reporte es necesario seleccionar la fecha de inicio para la búsqueda</value>
+  </data>
+  <data name="NombreRptVehiculosTipoEvento" xml:space="preserve">
+    <value>RF09-04</value>
+  </data>
+  <data name="ErrorRptVehiculosTipoTransferenciaFechaF" xml:space="preserve">
+    <value>Con el fin de cargar el reporte es necesario seleccionar la fecha final para la búsqueda</value>
+  </data>
+  <data name="ErrorRptTraspasoContratoNumCV" xml:space="preserve">
+    <value>Es necesario seleccionar un número de contrato para cargar el reporte</value>
+  </data>
+  <data name="NombreRptTraspasoContrato" xml:space="preserve">
+    <value>RF09-07</value>
+  </data>
+  <data name="rptContratoTraspaso" xml:space="preserve">
+    <value>Plan de Ventas (Legal)</value>
+  </data>
+  <data name="ErrorExpedienteFinalizado" xml:space="preserve">
+    <value>No se pueden realizar actualizaciones a este expediente debido a que el mismo se encuentra en estado finalizado</value>
+  </data>
+  <data name="rptEntregaEscritura" xml:space="preserve">
+    <value>Boleta de entrega de escritura a cliente</value>
+  </data>
+  <data name="rptReporte" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="NombreRptVehiculosTipoEventoComplemento3" xml:space="preserve">
+    <value>RF09-04C3</value>
+  </data>
+  <data name="rptVehiculosTipoEventoComplemento" xml:space="preserve">
+    <value>Vehículos que no contienen el Tipo de Evento Seleccionado</value>
+  </data>
+  <data name="NombreRptVehiculosTipoEventoComplemento1" xml:space="preserve">
+    <value>RF09-04C1</value>
+  </data>
+  <data name="NombreRptVehiculosTipoEventoComplemento2" xml:space="preserve">
+    <value>RF09-04C2</value>
+  </data>
+  <data name="ErrorFaltaFechaFinal" xml:space="preserve">
+    <value>Es necesario que ingresar una fecha de finalización para realizar la búsqueda</value>
+  </data>
+  <data name="ErrorFaltaFechaInicio" xml:space="preserve">
+    <value>Es necesario que ingresar una fecha de inicio para realizar la búsqueda</value>
+  </data>
+  <data name="NombreRptComision" xml:space="preserve">
+    <value>RF09-12</value>
+  </data>
+  <data name="rptComision" xml:space="preserve">
+    <value>Comisión de Placas</value>
+  </data>
+  <data name="ErrorFaltaProblema" xml:space="preserve">
+    <value>Debe seleccionar al menos un problema para imprimir el reporte</value>
+  </data>
+  <data name="NombreRptVehiculosProblemas" xml:space="preserve">
+    <value>RF09-13</value>
+  </data>
+  <data name="rptVehiculosProblemas" xml:space="preserve">
+    <value>Vehículos con Problemas</value>
+  </data>
+</root>

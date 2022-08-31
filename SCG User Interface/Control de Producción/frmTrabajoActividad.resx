@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraInicio.Name" xml:space="preserve">
+    <value>dtpHoraInicio</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraInicio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraInicio.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraInicio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaFin.Name" xml:space="preserve">
+    <value>dtpFechaFin</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaFin.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaFin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaInicio.Name" xml:space="preserve">
+    <value>dtpFechaInicio</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaInicio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaInicio.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaInicio.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraFin.Name" xml:space="preserve">
+    <value>dtpHoraFin</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraFin.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraFin.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblLineaInicio.Name" xml:space="preserve">
+    <value>lblLineaInicio</value>
+  </data>
+  <data name="&gt;&gt;lblLineaInicio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLineaInicio.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;lblLineaInicio.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblLineaFin.Name" xml:space="preserve">
+    <value>lblLineaFin</value>
+  </data>
+  <data name="&gt;&gt;lblLineaFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLineaFin.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;lblLineaFin.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;chkHoraFin.Name" xml:space="preserve">
+    <value>chkHoraFin</value>
+  </data>
+  <data name="&gt;&gt;chkHoraFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkHoraFin.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;chkHoraFin.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;chkHoraInicio.Name" xml:space="preserve">
+    <value>chkHoraInicio</value>
+  </data>
+  <data name="&gt;&gt;chkHoraInicio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkHoraInicio.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;chkHoraInicio.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="grpAsignarHoras.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grpAsignarHoras.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 57</value>
+  </data>
+  <data name="grpAsignarHoras.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 63</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grpAsignarHoras.TabIndex" type="System.Int32, mscorlib">
+    <value>422</value>
+  </data>
+  <data name="&gt;&gt;grpAsignarHoras.Name" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;grpAsignarHoras.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpAsignarHoras.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpAsignarHoras.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Panel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwM
+        EAwODxAPDgwTExQUExMcGxsbHCAgICAgICAgICD/2wBDAQcHBw0MDRgQEBgaFREVGiAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAAQABEDAREAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2f4u+J/iToltY/wDCA2Njq2pyLNLdaXdxTyTPBG8MfmQGKWBP
+        3bzrvVjkg5H3TQBoeBfFXiS9aHR/FdnDa+I/sEepXH2MOtv5c00karslZ5EZfL6EnPX5T8oV9QOypgcJ
+        8T/Cusa6tt9hsYdQgNtcWd3byvbKR5txaXCSKt7a39s4BssEPH3BHIyE2BQ+Gng/X9F1oy3umxadYQ6Y
+        LC3WKS0bLC7luiTHZW1hAmftBHyQjpk5JqeoHpVWB//Z
+</value>
+  </data>
+  <data name="Panel1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 35</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 16</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>5042</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dtpHoraInicio.CustomFormat" xml:space="preserve">
+    <value>HH:mm </value>
+  </data>
+  <data name="dtpHoraInicio.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtpHoraInicio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 11</value>
+  </data>
+  <data name="dtpHoraInicio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="dtpHoraInicio.TabIndex" type="System.Int32, mscorlib">
+    <value>436</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraInicio.Name" xml:space="preserve">
+    <value>dtpHoraInicio</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraInicio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraInicio.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraInicio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dtpFechaFin.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtpFechaFin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 33</value>
+  </data>
+  <data name="dtpFechaFin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="dtpFechaFin.TabIndex" type="System.Int32, mscorlib">
+    <value>436</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaFin.Name" xml:space="preserve">
+    <value>dtpFechaFin</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaFin.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaFin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dtpFechaInicio.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtpFechaInicio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 11</value>
+  </data>
+  <data name="dtpFechaInicio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="dtpFechaInicio.TabIndex" type="System.Int32, mscorlib">
+    <value>435</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaInicio.Name" xml:space="preserve">
+    <value>dtpFechaInicio</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaInicio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaInicio.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaInicio.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dtpHoraFin.CustomFormat" xml:space="preserve">
+    <value>HH:mm </value>
+  </data>
+  <data name="dtpHoraFin.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dtpHoraFin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 34</value>
+  </data>
+  <data name="dtpHoraFin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="dtpHoraFin.TabIndex" type="System.Int32, mscorlib">
+    <value>426</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraFin.Name" xml:space="preserve">
+    <value>dtpHoraFin</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraFin.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;dtpHoraFin.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblLineaInicio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 29</value>
+  </data>
+  <data name="lblLineaInicio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 1</value>
+  </data>
+  <data name="lblLineaInicio.TabIndex" type="System.Int32, mscorlib">
+    <value>428</value>
+  </data>
+  <data name="&gt;&gt;lblLineaInicio.Name" xml:space="preserve">
+    <value>lblLineaInicio</value>
+  </data>
+  <data name="&gt;&gt;lblLineaInicio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLineaInicio.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;lblLineaInicio.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblLineaFin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 52</value>
+  </data>
+  <data name="lblLineaFin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 1</value>
+  </data>
+  <data name="lblLineaFin.TabIndex" type="System.Int32, mscorlib">
+    <value>429</value>
+  </data>
+  <data name="&gt;&gt;lblLineaFin.Name" xml:space="preserve">
+    <value>lblLineaFin</value>
+  </data>
+  <data name="&gt;&gt;lblLineaFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLineaFin.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;lblLineaFin.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkHoraFin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkHoraFin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 34</value>
+  </data>
+  <data name="chkHoraFin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 18</value>
+  </data>
+  <data name="chkHoraFin.TabIndex" type="System.Int32, mscorlib">
+    <value>424</value>
+  </data>
+  <data name="chkHoraFin.Text" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="&gt;&gt;chkHoraFin.Name" xml:space="preserve">
+    <value>chkHoraFin</value>
+  </data>
+  <data name="&gt;&gt;chkHoraFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkHoraFin.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;chkHoraFin.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chkHoraInicio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkHoraInicio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="chkHoraInicio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 18</value>
+  </data>
+  <data name="chkHoraInicio.TabIndex" type="System.Int32, mscorlib">
+    <value>422</value>
+  </data>
+  <data name="chkHoraInicio.Text" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="&gt;&gt;chkHoraInicio.Name" xml:space="preserve">
+    <value>chkHoraInicio</value>
+  </data>
+  <data name="&gt;&gt;chkHoraInicio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkHoraInicio.Parent" xml:space="preserve">
+    <value>grpAsignarHoras</value>
+  </data>
+  <data name="&gt;&gt;chkHoraInicio.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnCancelar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwM
+        EAwODxAPDgwTExQUExMcGxsbHCAgICAgICAgICD/2wBDAQcHBw0MDRgQEBgaFREVGiAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAASAOMDAREAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD6D/tMep/M1zDD+0x6n8zQAf2mPU/maAD+0x6n8zQAf2oo/i/U
+        0AH9pj1P5mgA/tMep/M0AH9pj1P5mgA/tMep/M0AH9pj1P5mgA/tNfU/maAAaop6MfzNAB/aY9T+ZoAP
+        7THqfzNAB/aY9T+ZoAP7THqfzNAB/aY9T+ZoAP7THqfzNAB/ai5xu59MmgA/tMep/M0AH9pj1P5mgA/t
+        Mep/M0AH9pj1P5mgA/tMep/M0AH9pj1P5mgA/tRT/F+poAP7THqfzNAB/aY9T+ZoAP7THqfzNAHKf2gv
+        t/n8aAD+0F9v8/jQAf2gvt/n8aAD+0F9v8/jQAf2gvt/n8aAD+0F9v8AP40AH9oL7f5/GgA/tBfb/P40
+        AH9oL7f5/GgA/tBfb/P40AH9oL7f5/GgA/tBfb/P40AH9oL7f5/GgA/tBfb/AD+NAB/aC+3+fxoAP7QX
+        2/z+NAB/aC+3+fxoAP7QX2/z+NAB/aC+3+fxoAP7QX2/z+NAB/aC+3+fxoAP7QX2/wA/jQAf2gvt/n8a
+        AD+0F9v8/jQAf2gvt/n8aAD+0F9v8/jQAf2gvt/n8aAD+0F9v8/jQAf2gvt/n8aAOX3t6mgA3t6mgA3t
+        6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6m
+        gA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgD
+        /9k=
+</value>
+  </data>
+  <data name="btnCancelar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnCancelar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 183</value>
+  </data>
+  <data name="btnCancelar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="btnCancelar.TabIndex" type="System.Int32, mscorlib">
+    <value>424</value>
+  </data>
+  <data name="btnCancelar.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="&gt;&gt;btnCancelar.Name" xml:space="preserve">
+    <value>btnCancelar</value>
+  </data>
+  <data name="&gt;&gt;btnCancelar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancelar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancelar.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnAsignar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwM
+        EAwODxAPDgwTExQUExMcGxsbHCAgICAgICAgICD/2wBDAQcHBw0MDRgQEBgaFREVGiAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAASAOMDAREAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD6D/tMep/M1zDD+0x6n8zQAf2mPU/maAD+0x6n8zQAf2oo/i/U
+        0AH9pj1P5mgA/tMep/M0AH9pj1P5mgA/tMep/M0AH9pj1P5mgA/tNfU/maAAaop6MfzNAB/aY9T+ZoAP
+        7THqfzNAB/aY9T+ZoAP7THqfzNAB/aY9T+ZoAP7THqfzNAB/ai5xu59MmgA/tMep/M0AH9pj1P5mgA/t
+        Mep/M0AH9pj1P5mgA/tMep/M0AH9pj1P5mgA/tRT/F+poAP7THqfzNAB/aY9T+ZoAP7THqfzNAHKf2gv
+        t/n8aAD+0F9v8/jQAf2gvt/n8aAD+0F9v8/jQAf2gvt/n8aAD+0F9v8AP40AH9oL7f5/GgA/tBfb/P40
+        AH9oL7f5/GgA/tBfb/P40AH9oL7f5/GgA/tBfb/P40AH9oL7f5/GgA/tBfb/AD+NAB/aC+3+fxoAP7QX
+        2/z+NAB/aC+3+fxoAP7QX2/z+NAB/aC+3+fxoAP7QX2/z+NAB/aC+3+fxoAP7QX2/wA/jQAf2gvt/n8a
+        AD+0F9v8/jQAf2gvt/n8aAD+0F9v8/jQAf2gvt/n8aAD+0F9v8/jQAf2gvt/n8aAOX3t6mgA3t6mgA3t
+        6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6m
+        gA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgA3t6mgD
+        /9k=
+</value>
+  </data>
+  <data name="btnAsignar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnAsignar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 183</value>
+  </data>
+  <data name="btnAsignar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="btnAsignar.TabIndex" type="System.Int32, mscorlib">
+    <value>423</value>
+  </data>
+  <data name="btnAsignar.Text" xml:space="preserve">
+    <value>Asignar</value>
+  </data>
+  <data name="&gt;&gt;btnAsignar.Name" xml:space="preserve">
+    <value>btnAsignar</value>
+  </data>
+  <data name="&gt;&gt;btnAsignar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAsignar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAsignar.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblActividad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 10</value>
+  </data>
+  <data name="lblActividad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 13</value>
+  </data>
+  <data name="lblActividad.TabIndex" type="System.Int32, mscorlib">
+    <value>440</value>
+  </data>
+  <data name="&gt;&gt;lblActividad.Name" xml:space="preserve">
+    <value>lblActividad</value>
+  </data>
+  <data name="&gt;&gt;lblActividad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblActividad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblActividad.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 24</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 1</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>439</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblActividadTitulo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblActividadTitulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 10</value>
+  </data>
+  <data name="lblActividadTitulo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblActividadTitulo.TabIndex" type="System.Int32, mscorlib">
+    <value>438</value>
+  </data>
+  <data name="lblActividadTitulo.Text" xml:space="preserve">
+    <value>Actividad</value>
+  </data>
+  <data name="&gt;&gt;lblActividadTitulo.Name" xml:space="preserve">
+    <value>lblActividadTitulo</value>
+  </data>
+  <data name="&gt;&gt;lblActividadTitulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblActividadTitulo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblActividadTitulo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblColaborador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 28</value>
+  </data>
+  <data name="lblColaborador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 14</value>
+  </data>
+  <data name="lblColaborador.TabIndex" type="System.Int32, mscorlib">
+    <value>437</value>
+  </data>
+  <data name="&gt;&gt;lblColaborador.Name" xml:space="preserve">
+    <value>lblColaborador</value>
+  </data>
+  <data name="&gt;&gt;lblColaborador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblColaborador.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblColaborador.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblLine3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 42</value>
+  </data>
+  <data name="lblLine3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 1</value>
+  </data>
+  <data name="lblLine3.TabIndex" type="System.Int32, mscorlib">
+    <value>435</value>
+  </data>
+  <data name="&gt;&gt;lblLine3.Name" xml:space="preserve">
+    <value>lblLine3</value>
+  </data>
+  <data name="&gt;&gt;lblLine3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLine3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblLine3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblColaboradorTitulo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblColaboradorTitulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 28</value>
+  </data>
+  <data name="lblColaboradorTitulo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="lblColaboradorTitulo.TabIndex" type="System.Int32, mscorlib">
+    <value>434</value>
+  </data>
+  <data name="lblColaboradorTitulo.Text" xml:space="preserve">
+    <value>Colaborador</value>
+  </data>
+  <data name="&gt;&gt;lblColaboradorTitulo.Name" xml:space="preserve">
+    <value>lblColaboradorTitulo</value>
+  </data>
+  <data name="&gt;&gt;lblColaboradorTitulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblColaboradorTitulo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblColaboradorTitulo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="rbtRangoHoras.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtRangoHoras.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 46</value>
+  </data>
+  <data name="rbtRangoHoras.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="rbtRangoHoras.TabIndex" type="System.Int32, mscorlib">
+    <value>441</value>
+  </data>
+  <data name="rbtRangoHoras.Text" xml:space="preserve">
+    <value>Rango Horas</value>
+  </data>
+  <data name="&gt;&gt;rbtRangoHoras.Name" xml:space="preserve">
+    <value>rbtRangoHoras</value>
+  </data>
+  <data name="&gt;&gt;rbtRangoHoras.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtRangoHoras.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rbtRangoHoras.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbtTiempo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtTiempo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="rbtTiempo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 18</value>
+  </data>
+  <data name="rbtTiempo.TabIndex" type="System.Int32, mscorlib">
+    <value>443</value>
+  </data>
+  <data name="rbtTiempo.Text" xml:space="preserve">
+    <value>Minutos</value>
+  </data>
+  <data name="&gt;&gt;rbtTiempo.Name" xml:space="preserve">
+    <value>rbtTiempo</value>
+  </data>
+  <data name="&gt;&gt;rbtTiempo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtTiempo.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;rbtTiempo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 33</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 1</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>428</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtTiempo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtTiempo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 15</value>
+  </data>
+  <data name="txtTiempo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="txtTiempo.TabIndex" type="System.Int32, mscorlib">
+    <value>445</value>
+  </data>
+  <data name="&gt;&gt;txtTiempo.Name" xml:space="preserve">
+    <value>txtTiempo</value>
+  </data>
+  <data name="&gt;&gt;txtTiempo.Type" xml:space="preserve">
+    <value>NEWTEXTBOX.NEWTEXTBOX_CTRL, NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtTiempo.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;txtTiempo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="GroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 126</value>
+  </data>
+  <data name="GroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 43</value>
+  </data>
+  <data name="GroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>445</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Name" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwM
+        EAwODxAPDgwTExQUExMcGxsbHCAgICAgICAgICD/2wBDAQcHBw0MDRgQEBgaFREVGiAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAAQABEDAREAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2f4u+J/iToltY/wDCA2Njq2pyLNLdaXdxTyTPBG8MfmQGKWBP
+        3bzrvVjkg5H3TQBoeBfFXiS9aHR/FdnDa+I/sEepXH2MOtv5c00karslZ5EZfL6EnPX5T8oV9QOypgcJ
+        8T/Cusa6tt9hsYdQgNtcWd3byvbKR5txaXCSKt7a39s4BssEPH3BHIyE2BQ+Gng/X9F1oy3umxadYQ6Y
+        LC3WKS0bLC7luiTHZW1hAmftBHyQjpk5JqeoHpVWB//Z
+</value>
+  </data>
+  <data name="Panel2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 71</value>
+  </data>
+  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 16</value>
+  </data>
+  <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>5041</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>302, 216</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAQAEAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAgAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAAAAAAIAAAAA
+        AAAAAAACAgAAAAACAAAAAAAAAAAAAgIAAAAAAgAAAgICAgICAgICAAAAAAIAAAIAAAAAAAAAAgAAAAAC
+        AAACAAAAAAAAAAACAAAAAgAAAgAAAAAAAAAAAAIAAAIAAAIAAAAAAAAAAAAAAgACAAACAgICAgICAgIC
+        AgIAAgAAAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAACAAAAAAACAgICAgICAgICAgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAD//wAAgAcAAL/nAAC/5wAAsAcAALf3AAC3+wAAt/0AALf+
+        AACwAAAAv+8AAL/vAACADwAA//8AAP//AAA=
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Asignar Horas</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmTrabajoActividad</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>SCG.UX.Windows.SAP.frmPlantillaSAP, SCG.UX.Windows.SAP, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

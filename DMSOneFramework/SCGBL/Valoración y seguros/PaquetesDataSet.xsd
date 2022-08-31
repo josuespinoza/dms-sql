@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PaquetesDataSet" targetNamespace="http://tempuri.org/PaquetesDataSet.xsd" xmlns:mstns="http://tempuri.org/PaquetesDataSet.xsd" xmlns="http://tempuri.org/PaquetesDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PaquetesDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="PaquetesDataSet" msprop:Generator_UserDSName="PaquetesDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PaquetesDataSet" msprop:Generator_TableClassName="PaquetesDataSetDataTable" msprop:Generator_TableVarName="tablePaquetesDataSet" msprop:Generator_TablePropName="_PaquetesDataSet" msprop:Generator_RowDeletingName="PaquetesDataSetRowDeleting" msprop:Generator_UserTableName="PaquetesDataSet" msprop:Generator_RowChangingName="PaquetesDataSetRowChanging" msprop:Generator_RowEvHandlerName="PaquetesDataSetRowChangeEventHandler" msprop:Generator_RowDeletedName="PaquetesDataSetRowDeleted" msprop:Generator_RowEvArgName="PaquetesDataSetRowChangeEvent" msprop:Generator_RowChangedName="PaquetesDataSetRowChanged" msprop:Generator_RowClassName="PaquetesDataSetRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ItemCode" msprop:Generator_ColumnVarNameInTable="columnItemCode" msprop:Generator_ColumnPropNameInRow="ItemCode" msprop:Generator_ColumnPropNameInTable="ItemCodeColumn" msprop:Generator_UserColumnName="ItemCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Dscription" msprop:Generator_ColumnVarNameInTable="columnDscription" msprop:Generator_ColumnPropNameInRow="Dscription" msprop:Generator_ColumnPropNameInTable="DscriptionColumn" msprop:Generator_UserColumnName="Dscription" type="xs:string" minOccurs="0" />
+              <xs:element name="U_SCGD_Numero_OT" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_Numero_OT" msprop:Generator_ColumnPropNameInRow="U_SCGD_Numero_OT" msprop:Generator_ColumnPropNameInTable="U_SCGD_Numero_OTColumn" msprop:Generator_UserColumnName="U_SCGD_Numero_OT" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" msprop:Generator_UserColumnName="Quantity" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum" msprop:Generator_ColumnVarNameInTable="columnLineNum" msprop:Generator_ColumnPropNameInRow="LineNum" msprop:Generator_ColumnPropNameInTable="LineNumColumn" msprop:Generator_UserColumnName="LineNum" type="xs:string" minOccurs="0" />
+              <xs:element name="TipoArticulo" msprop:Generator_ColumnVarNameInTable="columnTipoArticulo" msprop:Generator_ColumnPropNameInRow="TipoArticulo" msprop:Generator_ColumnPropNameInTable="TipoArticuloColumn" msprop:Generator_UserColumnName="TipoArticulo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

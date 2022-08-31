@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPages_SCGMasterPage" Codebehind="SCGMasterPage.master.cs" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+
+
+<%@ Register src="../UserControl/SCGAccordionMenu.ascx" tagname="SCGAccordionMenu" tagprefix="uc2" %>
+
+<%@ Register src="../UserControl/SCGJqueryAccordionMenu.ascx" tagname="SCGJqueryAccordionMenu" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SCG Master Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+        <link rel="shortcut icon" href="../App_Themes/SCGBaseTheme/icno 3.ico"/>
+    <link href="../App_Themes/SCGJqueryAccordionTheme/SCGJqueryAccordion.css" rel="stylesheet"
+        type="text/css" />
+
+
+    <link href="../App_Themes/SCGRoundedDeepBlueTheme/SCGRoundedDeepBlueStyle.css" 
+        rel="stylesheet" type="text/css" />
+   
+</head>
+  
+<body>
+<div id= "Wrapper">
+    <form id="form1" runat="server">
+  <div id="Banner"> 
+  
+      <asp:Image ID="imgLogoScgBanner" CssClass="AlignImageRight"  runat="server" 
+          ImageUrl="~/App_Themes/SCGRoundedDeepBlueTheme/Logodmspeq.png"/>
+ 
+      <asp:Image ID="Imgbanneroad" CssClass="AlignImageleft"  runat="server" 
+          ImageUrl="~/App_Themes/SCGRoundedDeepBlueTheme/Carrodmsone.png"
+          Height="115px" Width="250px"/>
+      </div>
+<div id="MiscelaneousPanel">
+   <div class="AlignImageleft">
+    <asp:SiteMapPath ID="SCGSitemapPath" CssClass="SiteMapPath" runat="server"         ParentLevelsDisplayed="2" ForeColor="black" Font-Size="10px" Height="21px">
+    </asp:SiteMapPath>
+</div>
+<div class="AlignImageRight" style=" margin-right:15px">
+ <asp:LoginName ID="SCGLoginName" runat="server" 
+        ForeColor="#333333" />
+  <asp:LoginStatus ID="SCGLoginStatus" runat="server" ForeColor="#333333"  />
+  
+   </div>
+    </div>
+<div id= "LeftPanel">
+<div>  
+    
+        <uc1:SCGJqueryAccordionMenu ID="SCGJqueryAccordionMenu1" runat="server" />
+    
+        </div>
+</div>
+    <div id= "Content">
+
+     <%-- <div id= "TitleContent" class="BlueTitleBar">
+          </div>--%>
+      <asp:ContentPlaceHolder id="cphAddonBase" runat="server">
+    
+    
+        </asp:ContentPlaceHolder>
+    </div>
+    
+     <div id= "Footer">
+         <asp:Image ID="imgLogoSCG" ImageUrl="~/App_Themes/SCGRoundedDeepBlueTheme/logoscg.png"
+             AlternateText="Software & Consulting Group" runat="server" Height="22px" 
+             Width="49px"  />
+    <span>&nbsp;
+    &nbsp;Derechos reservados 2003-2010 Software & Consulting Group 
+     </div>
+    </form>
+      </div>
+</body>
+
+</html>

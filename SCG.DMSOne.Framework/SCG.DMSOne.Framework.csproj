@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{86819DD4-6443-4F85-8226-6DE9D8AE9F1D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SCG.DMSOne.Framework</RootNamespace>
+    <AssemblyName>SCG.DMSOne.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.SAPbobsCOM">
+      <HintPath>..\..\CommonBin\SboInterops\Interop.SAPbobsCOM.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.SAPbouiCOM, Version=8.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\CommonBin\SboInterops\Interop.SAPbouiCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesorioUDOContratoVenta.cs" />
+    <Compile Include="UDOOrden\ControlColaboradorLineaUDOOrden.cs" />
+    <Compile Include="UDOOrden\ControlColaboradorUDOOrden.cs" />
+    <Compile Include="UDOOrden\EncabezadoUDOOrden.cs" />
+    <Compile Include="UDOOrden\UDOOrden.cs" />
+    <Compile Include="UDOVehiculo\ListaAccesoriosUDOVehiculos.cs" />
+    <Compile Include="UDOVehiculo\ListaTrazabilidadUDOVehiculo.cs" />
+    <Compile Include="UDOVehiculo\AccesorioUDOVehiculos.cs" />
+    <Compile Include="SolicitudOTEsp\EncabezadoUDOSolOTEsp.cs" />
+    <Compile Include="SolicitudOTEsp\LineaUDOSolOTEsp.cs" />
+    <Compile Include="SolicitudOTEsp\ListaLineasUDOSolOTEsp.cs" />
+    <Compile Include="SolicitudOTEsp\UDOSolOTEsp.cs" />
+    <Compile Include="EncabezadoUDOCampana.cs" />
+    <Compile Include="EncabezadoUDOPrestamo.cs" />
+    <Compile Include="ChooseFromListAccountsFilter.cs" />
+    <Compile Include="EncabezadoUDOPrestReversados.cs" />
+    <Compile Include="LineaUDOSalidaVehiculo.cs" />
+    <Compile Include="ListaPagosReversados.cs" />
+    <Compile Include="DocumentosLegalesUDOPlacas.cs" />
+    <Compile Include="EncabezadoUDOGrupoPlacas.cs" />
+    <Compile Include="EncabezadoUDOGrupoPlacasRelacion.cs" />
+    <Compile Include="EncabezadoUDOPlacas.cs" />
+    <Compile Include="GastosInscripcionUDOPlacas.cs" />
+    <Compile Include="InscripcionUDOPlacas.cs" />
+    <Compile Include="ListaDocumentosLegalesUDOPlacas.cs" />
+    <Compile Include="ListaGastosInscripcionUDOPlacas.cs" />
+    <Compile Include="ListaInscripcionUDOPlacas.cs" />
+    <Compile Include="ListaRevisionVehicularUDOPlacas.cs" />
+    <Compile Include="ListaVehiculosUDOCampana.cs" />
+    <Compile Include="MenuManager\DmsOneMenusManager.cs" />
+    <Compile Include="ListaUDOTrasladoCostos.cs" />
+    <Compile Include="LineaUDOTrasladoCostos.cs" />
+    <Compile Include="EncabezadoUDOTrasladoCostos.cs" />
+    <Compile Include="MenuManager\MenuAction.cs" />
+    <Compile Include="MenuManager\MenuEntry.cs" />
+    <Compile Include="MenuManager\RecursiveMenuException.cs" />
+    <Compile Include="PagosReversadosUDOPrestRev.cs" />
+    <Compile Include="UDOVehiculo\TrazabilidadUDOVehiculo.cs" />
+    <Compile Include="UDOCampana.cs" />
+    <Compile Include="UDOPrestReversados.cs" />
+    <Compile Include="RevisionVehicularUDOPlacas.cs" />
+    <Compile Include="UDOGrupoPlacas.cs" />
+    <Compile Include="UDOGrupoPlacasRelacion.cs" />
+    <Compile Include="UDOPlacas.cs" />
+    <Compile Include="UDOTrasladoCostos.cs" />
+    <Compile Include="LineaUDOEntradaVehiculo.cs" />
+    <Compile Include="ListaPlanRealUDOPrestamo.cs" />
+    <Compile Include="ListaPlanTeoricoUDOPrestamo.cs" />
+    <Compile Include="ListaUDOEntradaVehiculo.cs" />
+    <Compile Include="EncabezadoUDOEntradaVehiculo.cs" />
+    <Compile Include="UDOFacturaInterna\EncabezadoUDOFacturaInterna.cs" />
+    <Compile Include="ListaLineasUDOSalidaVehiculo.cs" />
+    <Compile Include="PlanRealUDOPrestamo.cs" />
+    <Compile Include="PlanTeoricoUDOPrestamo.cs" />
+    <Compile Include="UDOEntradaVehiculo.cs" />
+    <Compile Include="UDOFacturaInterna\UDOFacturaInterna.cs" />
+    <Compile Include="DesgloceCobroUDOContratoVenta.cs" />
+    <Compile Include="EncabezadoUDOContratoVenta.cs" />
+    <Compile Include="EncabezadoUDOSalidaVehiculo.cs" />
+    <Compile Include="LineaFacturaUDOContratoVenta.cs" />
+    <Compile Include="ListaAccesoriosUDOContratoVenta.cs" />
+    <Compile Include="UDOVehiculo\EncabezadoUDOVehiculos.cs" />
+    <Compile Include="ListaDesgloceCobroUDOContratoVenta.cs" />
+    <Compile Include="ListaLineasFacturaUDOContratoVenta.cs" />
+    <Compile Include="UDOContratoVenta.cs" />
+    <Compile Include="UDOPrestamo.cs" />
+    <Compile Include="UDOSalidaVehiculo.cs" />
+    <Compile Include="UDOVehiculo\UDOVehiculos.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VehiculoUDOCampana.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SCG.SBOFramework\SCG.SBOFramework.csproj">
+      <Project>{5956FFF3-24E5-4406-9EF0-67134A934865}</Project>
+      <Name>SCG.SBOFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

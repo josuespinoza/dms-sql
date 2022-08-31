@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="configuration" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="configuration" msdata:IsDataSet="true" msdata:Locale="es-CR">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="appSettings">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="add" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="key" type="xs:string" />
+									<xs:attribute name="value" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="configurationKey1">
+			<xs:selector xpath=".//add" />
+			<xs:field xpath="@key" />
+		</xs:key>
+	</xs:element>
+</xs:schema>

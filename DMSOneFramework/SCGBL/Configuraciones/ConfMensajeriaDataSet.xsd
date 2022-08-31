@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ConfMensajeriaDataSet" targetNamespace="http://tempuri.org/ConfMensajeriaDataSet.xsd" xmlns:mstns="http://tempuri.org/ConfMensajeriaDataSet.xsd" xmlns="http://tempuri.org/ConfMensajeriaDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ConfMensajeriaDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ConfMensajeriaDataSet" msprop:Generator_UserDSName="ConfMensajeriaDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_ConfiguracionMensajeria" msprop:Generator_TableClassName="SCGTA_TB_ConfiguracionMensajeriaDataTable" msprop:Generator_TableVarName="tableSCGTA_TB_ConfiguracionMensajeria" msprop:Generator_TablePropName="SCGTA_TB_ConfiguracionMensajeria" msprop:Generator_RowDeletingName="SCGTA_TB_ConfiguracionMensajeriaRowDeleting" msprop:Generator_UserTableName="SCGTA_TB_ConfiguracionMensajeria" msprop:Generator_RowChangingName="SCGTA_TB_ConfiguracionMensajeriaRowChanging" msprop:Generator_RowEvHandlerName="SCGTA_TB_ConfiguracionMensajeriaRowChangeEventHandler" msprop:Generator_RowDeletedName="SCGTA_TB_ConfiguracionMensajeriaRowDeleted" msprop:Generator_RowEvArgName="SCGTA_TB_ConfiguracionMensajeriaRowChangeEvent" msprop:Generator_RowChangedName="SCGTA_TB_ConfiguracionMensajeriaRowChanged" msprop:Generator_RowClassName="SCGTA_TB_ConfiguracionMensajeriaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdConfMensajeria" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdConfMensajeria" msprop:Generator_ColumnPropNameInRow="IdConfMensajeria" msprop:Generator_ColumnPropNameInTable="IdConfMensajeriaColumn" msprop:Generator_UserColumnName="IdConfMensajeria" type="xs:int" />
+              <xs:element name="CodCentroCosto" msprop:Generator_ColumnVarNameInTable="columnCodCentroCosto" msprop:Generator_ColumnPropNameInRow="CodCentroCosto" msprop:Generator_ColumnPropNameInTable="CodCentroCostoColumn" msprop:Generator_UserColumnName="CodCentroCosto" type="xs:int" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="EncargadoAccesorio" msprop:Generator_ColumnVarNameInTable="columnEncargadoAccesorio" msprop:Generator_ColumnPropNameInRow="EncargadoAccesorio" msprop:Generator_ColumnPropNameInTable="EncargadoAccesorioColumn" msprop:Generator_UserColumnName="EncargadoAccesorio" type="xs:string" minOccurs="0" />
+              <xs:element name="EncargadoRepuesto" msprop:Generator_ColumnVarNameInTable="columnEncargadoRepuesto" msprop:Generator_ColumnPropNameInRow="EncargadoRepuesto" msprop:Generator_ColumnPropNameInTable="EncargadoRepuestoColumn" msprop:Generator_UserColumnName="EncargadoRepuesto" type="xs:string" minOccurs="0" />
+              <xs:element name="EncargadoSuministro" msprop:Generator_ColumnVarNameInTable="columnEncargadoSuministro" msprop:Generator_ColumnPropNameInRow="EncargadoSuministro" msprop:Generator_ColumnPropNameInTable="EncargadoSuministroColumn" msprop:Generator_UserColumnName="EncargadoSuministro" type="xs:string" minOccurs="0" />
+              <xs:element name="EstadoLogico" msprop:Generator_ColumnVarNameInTable="columnEstadoLogico" msprop:Generator_ColumnPropNameInRow="EstadoLogico" msprop:Generator_ColumnPropNameInTable="EstadoLogicoColumn" msprop:Generator_UserColumnName="EstadoLogico" type="xs:int" minOccurs="0" />
+              <xs:element name="CentroCosto" msprop:Generator_ColumnVarNameInTable="columnCentroCosto" msprop:Generator_ColumnPropNameInRow="CentroCosto" msprop:Generator_ColumnPropNameInTable="CentroCostoColumn" msprop:Generator_UserColumnName="CentroCosto" type="xs:string" minOccurs="0" />
+              <xs:element name="EncargadoServicio" msprop:Generator_ColumnVarNameInTable="columnEncargadoServicio" msprop:Generator_ColumnPropNameInRow="EncargadoServicio" msprop:Generator_ColumnPropNameInTable="EncargadoServicioColumn" msprop:Generator_UserColumnName="EncargadoServicio" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="SCGTA_TB_ConfiguracionMensajeriaKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_ConfiguracionMensajeria" />
+      <xs:field xpath="mstns:IdConfMensajeria" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

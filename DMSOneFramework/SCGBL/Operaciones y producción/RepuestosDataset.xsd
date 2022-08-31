@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RepuestosDataset" targetNamespace="http://tempuri.org/RepuestosDataset.xsd" xmlns:mstns="http://tempuri.org/RepuestosDataset.xsd" xmlns="http://tempuri.org/RepuestosDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RepuestosDataset" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_DataSetName="RepuestosDataset" msprop:Generator_UserDSName="RepuestosDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_RepuestosxOrden" msprop:Generator_UserTableName="SCGTA_TB_RepuestosxOrden" msprop:Generator_RowEvArgName="SCGTA_TB_RepuestosxOrdenRowChangeEvent" msprop:Generator_TableVarName="tableSCGTA_TB_RepuestosxOrden" msprop:Generator_TablePropName="SCGTA_TB_RepuestosxOrden" msprop:Generator_RowDeletingName="SCGTA_TB_RepuestosxOrdenRowDeleting" msprop:Generator_RowChangingName="SCGTA_TB_RepuestosxOrdenRowChanging" msprop:Generator_RowDeletedName="SCGTA_TB_RepuestosxOrdenRowDeleted" msprop:Generator_TableClassName="SCGTA_TB_RepuestosxOrdenDataTable" msprop:Generator_RowChangedName="SCGTA_TB_RepuestosxOrdenRowChanged" msprop:Generator_RowEvHandlerName="SCGTA_TB_RepuestosxOrdenRowChangeEventHandler" msprop:Generator_RowClassName="SCGTA_TB_RepuestosxOrdenRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NoRepuesto" msprop:Generator_ColumnVarNameInTable="columnNoRepuesto" msprop:Generator_ColumnPropNameInRow="NoRepuesto" msprop:Generator_ColumnPropNameInTable="NoRepuestoColumn" msprop:Generator_UserColumnName="NoRepuesto" type="xs:int" />
+              <xs:element name="NoOrden" msprop:Generator_ColumnVarNameInTable="columnNoOrden" msprop:Generator_ColumnPropNameInRow="NoOrden" msprop:Generator_ColumnPropNameInTable="NoOrdenColumn" msprop:Generator_UserColumnName="NoOrden" type="xs:string" />
+              <xs:element name="CodEstadoRep" msprop:Generator_ColumnVarNameInTable="columnCodEstadoRep" msprop:Generator_ColumnPropNameInRow="CodEstadoRep" msprop:Generator_ColumnPropNameInTable="CodEstadoRepColumn" msprop:Generator_UserColumnName="CodEstadoRep" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Adicional" msprop:Generator_ColumnVarNameInTable="columnAdicional" msprop:Generator_ColumnPropNameInRow="Adicional" msprop:Generator_ColumnPropNameInTable="AdicionalColumn" msprop:Generator_UserColumnName="Adicional" type="xs:boolean" minOccurs="0" />
+              <xs:element name="EstadoDescripcion" msprop:Generator_ColumnVarNameInTable="columnEstadoDescripcion" msprop:Generator_ColumnPropNameInRow="EstadoDescripcion" msprop:Generator_ColumnPropNameInTable="EstadoDescripcionColumn" msprop:Generator_UserColumnName="EstadoDescripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum" msprop:Generator_ColumnVarNameInTable="columnLineNum" msprop:Generator_ColumnPropNameInRow="LineNum" msprop:Generator_ColumnPropNameInTable="LineNumColumn" msprop:Generator_UserColumnName="LineNum" type="xs:int" minOccurs="0" />
+              <xs:element name="itemName" msprop:Generator_ColumnVarNameInTable="columnitemName" msprop:Generator_ColumnPropNameInRow="itemName" msprop:Generator_ColumnPropNameInTable="itemNameColumn" msprop:Generator_UserColumnName="itemName" type="xs:string" minOccurs="0" />
+              <xs:element name="EstadoRep" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="EstadoRep" msprop:Generator_ColumnVarNameInTable="columnEstadoRep" msprop:Generator_ColumnPropNameInTable="EstadoRepColumn" msprop:Generator_UserColumnName="EstadoRep" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha_Compromiso" msprop:Generator_ColumnVarNameInTable="columnFecha_Compromiso" msprop:Generator_ColumnPropNameInRow="Fecha_Compromiso" msprop:Generator_ColumnPropNameInTable="Fecha_CompromisoColumn" msprop:Generator_UserColumnName="Fecha_Compromiso" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CantidadEstado" msprop:Generator_ColumnVarNameInTable="columnCantidadEstado" msprop:Generator_ColumnPropNameInRow="CantidadEstado" msprop:Generator_ColumnPropNameInTable="CantidadEstadoColumn" msprop:Generator_UserColumnName="CantidadEstado" type="xs:string" minOccurs="0" />
+              <xs:element name="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_RepuestosxOrden" />
+      <xs:field xpath="mstns:NoRepuesto" />
+      <xs:field xpath="mstns:NoOrden" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

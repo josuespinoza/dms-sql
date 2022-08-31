@@ -1,0 +1,213 @@
+﻿
+*
+{
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+
+#Wrapper
+{
+	min-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Banner
+{
+    background-image: url(../SCGRoundedDeepBlueTheme/LINEAHORIZONTALAZUL1.png);
+    height: 115px;
+    background-repeat: repeat-x;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #999999;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left-width: 1px;
+}
+
+
+#Banneradentro
+{
+    background-image: url(BANNEROADONE1.png);
+    float: right;
+    background-repeat: no-repeat;
+}
+
+/*
+#lineagrisbanner
+{
+    border-width: 0px;
+    background-image: url(lineadelgadagris.png);
+    background-repeat: repeat-x;
+    height: 10px;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    border-top-style: 0;
+    border-right-style: 0;
+    border-bottom-style: 0;
+    border-left-style: 0;
+    border-top-color: 0;
+    border-right-color: 0;
+    border-bottom-color: 0;
+    border-left-color: 0;
+}
+*/
+
+#ADSpanel
+{
+	width: 550px;
+	float: left;
+
+	
+}
+#LoginPanel
+{
+	width: 351px;
+	margin-left: 550px;
+}
+#Content
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 900px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #999999;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #999999;
+}
+#LoginFrame
+{
+    background-color: #053758;
+    padding-top: 50px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-color: #808080;
+    border-left-color: #808080;
+}
+#Footer
+{
+    text-align: center;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(LINEAHORIZONTALAZUL1.png);
+    background-repeat: repeat-x;
+    height: 30px;
+    color: #FFFFFF;
+    border-top-color: #808080;
+    border-top-style: solid;
+    border-top-width: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+#Login
+{
+    background-color: #D6D6D6;
+    padding: 10px;
+    line-height: 25px;
+    width: 250px;
+}
+.alinearIzquierda
+{
+	float: left;
+	width: 35%;
+}
+.DisplayBlock
+{
+	display: block;
+	float: none;
+	clear:both;
+	
+}
+.alinearDerecha
+{
+	float: right;
+}
+#imgLogoAddon
+{
+	margin-top: 120px;
+}
+
+
+#fondodefooter
+{
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#leyendafooter
+{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    float: none;
+    font-size: small;
+    height: 17px;
+    display: inline;
+}
+
+#BordeSupIzq
+{
+    background-image: url(BordeSupIzqAZUL.png);
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 15px;
+    float: left;
+}
+
+#BordeSupDer
+{
+    background-image: url(BordeSupDerAZUL.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+#BordeInfIzq
+{
+    background-image: url(BordeInfIzqAZUL.png);
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 15px;
+    float: left;
+}
+
+#BordeInfDer
+{
+    background-image: url(BordeInfDerAZUL.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+
+.ContenidodeBorde
+{
+    background-color: #D4D7DB;
+    width: 270px;
+    margin-left:49px;
+    height: 15px;
+}
+
+body
+{
+}
+#lineagrisbanner
+{
+    background-image: url(lineadelgadagris.png);
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}

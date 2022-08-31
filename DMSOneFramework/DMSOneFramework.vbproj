@@ -1,0 +1,2726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9AC48AE4-957F-4DAB-A079-CD660429F436}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DMSOneFramework</RootNamespace>
+    <AssemblyName>DMSOneFramework</AssemblyName>
+    <MyType>Windows</MyType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DMSOneFramework.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DMSOneFramework.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Automotriz|AnyCPU' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Automotriz\</OutputPath>
+    <DocumentationFile>DMSOneFramework.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug x86|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug x86\</OutputPath>
+    <DocumentationFile>DMSOneFramework.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>DMSOneFramework.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>DMSOneFramework.xml</DocumentationFile>
+    <Optimize>false</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <DefineDebug>true</DefineDebug>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Automotriz|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Automotriz\</OutputPath>
+    <DocumentationFile>DMSOneFramework.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug x86|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug x86\</OutputPath>
+    <DocumentationFile>DMSOneFramework.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>DMSOneFramework.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>DMSOneFramework.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Automotriz|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Automotriz\</OutputPath>
+    <DocumentationFile>DMSOneFramework.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug x86|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug x86\</OutputPath>
+    <DocumentationFile>DMSOneFramework.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.SAPbobsCOM, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\CommonBin\SboInterops\Interop.SAPbobsCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SAPbouiCOM, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\CommonBin\SboInterops\Interop.SAPbouiCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="ManipuladorClienteDLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\ManipuladorClienteDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="SCG.UX.Windows.SAP, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\SCG.UX.Windows.SAP.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="DMSOneFramework.SCGDataAccess" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ResourceFrameWork.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceFrameWork.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\AddOn\ConfiguracionesGeneralesDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfiguracionesGeneralesDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\AddOn\CuentasAdicionalesDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CuentasAdicionalesDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\AddOn\CuentasInventarioDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CuentasInventarioDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\AddOn\ImpuestosDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ImpuestosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\AddOn\ItemsGastosDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemsGastosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\AddOn\ItemsGastosDataset.vb">
+      <DependentUpon>ItemsGastosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\AddOn\ItemsVentasDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemsVentasDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\AddOn\SeriesDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeriesDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\AddOn\SeriesLotesDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeriesLotesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\AddOn\TransferenciasPorCotizacionDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TransferenciasPorCotizacionDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\BLConexion.vb" />
+    <Compile Include="SCGBL\ConfiguracionApp\ConfBodegasXCentroCostoDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfBodegasXCentroCostoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\ConfiguracionApp\ConfCatalogoRepXMarcaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfCatalogoRepXMarcaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\ConfiguracionApp\ConfCatalogoRepXMarcaDataset.vb">
+      <DependentUpon>ConfCatalogoRepXMarcaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\ConfiguracionApp\ConfiguracionDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfiguracionDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\ConfiguracionApp\ConfiguracionDataSet.vb">
+      <DependentUpon>ConfiguracionDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\ConfiguracionApp\ProveedorXMarcaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProveedorXMarcaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\ConfiguracionApp\ProveedorXMarcaDataset.vb">
+      <DependentUpon>ProveedorXMarcaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\ActividadesDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ActividadesDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\ActividadesXProcesoDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ActividadesXProcesoDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\AgenciasDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AgenciasDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\AgendaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AgendaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\AgendaDataset.vb">
+      <DependentUpon>AgendaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\BodegasSBODataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BodegasSBODataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\BoletasCalidadDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BoletasCalidadDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\CentroCostoDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CentroCostoDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\ClasesVehiculoDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClasesVehiculoDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\CoberturaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoberturaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\ColoresDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ColoresDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\ComponentesDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComponentesDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\ConfMensajeriaDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfMensajeriaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\ConfOrdenesEspeciales.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfOrdenesEspeciales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\DeducibleDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DeducibleDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\EstadoExpedienteDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EstadoExpedienteDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\EstadoRequisitoDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EstadoRequisitoDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\EstadoTramiteDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EstadoTramiteDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\EstiloDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EstiloDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\FaseProduccionDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaseProduccionDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\MarcaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MarcaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\ModelosDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\ParametrosDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ParametrosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\ParametrosDataset.vb">
+      <DependentUpon>ParametrosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\PiezaPrincipalDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PiezaPrincipalDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\ProcesosGrupoDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProcesosGrupoDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\ProveedoresDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProveedoresDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\RampasDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RampasDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\RazonesCitaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RazonesCitaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\RazonesReprocesoDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RazonesReprocesoDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\RazonesSuspensionDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RazonesSuspensionDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\RequisitosDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RequisitosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\SCGTA_VW_Tran_CompDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SCGTA_VW_Tran_CompDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\SeccionesDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeccionesDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\TipoOrdenDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TipoOrdenDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Configuraciones\UsuariosOTEspecialDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsuariosOTEspecialDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Costos\ColaboradoresCostearDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ColaboradoresCostearDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Costos\CuentasConfDetaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CuentasConfDetaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Facturacion\ConfiguracionArticuloVenta.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfiguracionArticuloVenta.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Facturacion\ConfiguracionArticuloVenta.vb">
+      <DependentUpon>ConfiguracionArticuloVenta.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Facturacion\ConfiguraFacturaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfiguraFacturaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Facturacion\OrdenesxFacturaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrdenesxFacturaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Facturacion\PresupuestosDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PresupuestosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Facturacion\PresupuestosDataSet.vb">
+      <DependentUpon>PresupuestosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Facturacion\RegNotaCreditoDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegNotaCreditoDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Facturacion\RepuestoFacturaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepuestoFacturaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\MensajeriaSBO_DMS\DestinaXMensajeSBODMSDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DestinaXMensajeSBODMSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Mensajes\Mensajeria.vb" />
+    <Compile Include="SCGBL\Operaciones y producción\Cotizacion_LineasDataset.vb">
+      <DependentUpon>Cotizacion_LineasDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\EstadoWebDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EstadoWebDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\EstadoxRepuestos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EstadoxRepuestos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\EstadoxRepuestos.vb">
+      <DependentUpon>EstadoxRepuestos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\OrdenHijaActualizaCostosDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrdenHijaActualizaCostosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\OtrosGastosDataSet.vb">
+      <DependentUpon>OtrosGastosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Requisiciones\EncabezadoTrasladoDMSData.vb" />
+    <Compile Include="SCGBL\MetodosSAP\MetodosCompartidosSBOCls.vb" />
+    <Compile Include="SCGBL\MetodosSAP\TransferenciaItems.vb" />
+    <Compile Include="SCGBL\Operaciones y producción\AdicionalesXOrdenDataset.Designer.vb">
+      <DependentUpon>AdicionalesXOrdenDataset.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\CambioBodegaProcesoDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CambioBodegaProcesoDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\CambioCuentaProcesoDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CambioCuentaProcesoDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\ColaboradorDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ColaboradorDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\ColaboradorDataset.vb">
+      <DependentUpon>ColaboradorDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\CostosxOrdenDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CostosxOrdenDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\Cotizacion_LineasDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cotizacion_LineasDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\DuracionXFaseDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DuracionXFaseDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\EstadoRepuestosResourcesDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EstadoRepuestosResourcesDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\FacturasEspecialesDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FacturasEspecialesDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\FaseXOrdenEstadosDataset.designer.vb">
+      <DependentUpon>FaseXOrdenEstadosDataset.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\FaseXOrdenEstadosDataset.vb">
+      <DependentUpon>FaseXOrdenEstadosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\ItemSolicitudEspecificoDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemSolicitudEspecificoDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\ItemsRepuestosSuministrosDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemsRepuestosSuministrosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\ItemsSAPDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemsSAPDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\ItemsSAPDataset.vb">
+      <DependentUpon>ItemsSAPDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\LineNumsOTOriginal.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LineNumsOTOriginal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\ListaAplicadaxOrdenDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListaAplicadaxOrdenDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\OrdendeCompraDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrdendeCompraDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\OrdendeCompraDataset.vb">
+      <DependentUpon>OrdendeCompraDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\OrdenEspecialDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrdenEspecialDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\OrdenTrabajoDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrdenTrabajoDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\OrdenTrabajoDataset.vb">
+      <DependentUpon>OrdenTrabajoDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\OtrosGastosDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtrosGastosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\RampasXOrdenDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RampasXOrdenDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\RampasXOrdenDataset.vb">
+      <DependentUpon>RampasXOrdenDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\RendimientoxOrdenDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RendimientoxOrdenDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\RendMontoReparacionDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RendMontoReparacionDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\ReprocesosxOrdenDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReprocesosxOrdenDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\RepuestosDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepuestosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\RepuestosProveduriaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepuestosProveduriaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\RepuestosProveduriaDataset.vb">
+      <DependentUpon>RepuestosProveduriaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\ServiciosExternosDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServiciosExternosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\SolicitudEspecificosDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SolicitudEspecificosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\SolicitudEspecificosDataset.vb">
+      <DependentUpon>SolicitudEspecificosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\SuministrosDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SuministrosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\SuministrosDataset.vb">
+      <DependentUpon>SuministrosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\SuministrosFullDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SuministrosFullDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\SuministrosXOrdenDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SuministrosXOrdenDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Operaciones y producción\SuspensionesxOrdenDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SuspensionesxOrdenDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Requisiciones\Requisiciones_LineasDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Requisiciones_LineasDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Requisiciones\Requisiciones_LineasDataset.vb">
+      <DependentUpon>Requisiciones_LineasDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\SalidasVehiculos\LineasSalidaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LineasSalidaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\SalidasVehiculos\LineasSalidaDataset.vb">
+      <DependentUpon>LineasSalidaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\SalidasVehiculos\SalidaMercanciaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalidaMercanciaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\SalidasVehiculos\SalidaMercanciaDataset.vb">
+      <DependentUpon>SalidaMercanciaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\CalendarioAgendaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CalendarioAgendaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\CitasDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CitasDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\CitasDataset.vb">
+      <DependentUpon>CitasDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\ClienteDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClienteDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\ConfigServidorCorreoDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfigServidorCorreoDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\DestinatariosDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DestinatariosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\OcupacionDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OcupacionDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\ProgramacionCitas\Citas.Designer.vb">
+      <DependentUpon>Citas.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\ProgramacionCitas\Citas.vb">
+      <DependentUpon>Citas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\ProgramacionCitas\ProgramacionCitasDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProgramacionCitasDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\QUT1Dataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QUT1Dataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\VehiculosDataset.vb">
+      <DependentUpon>VehiculosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\VisitaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VisitaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\Visita_ImagenesDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Visita_ImagenesDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\InventarioDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InventarioDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\PublicidadEnvioDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PublicidadEnvioDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\RegistroDataset.Designer.vb">
+      <DependentUpon>RegistroDataset.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\RequesitoxtramiteDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RequesitoxtramiteDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\RequisitosxTramiteDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RequisitosxTramiteDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\RequisitosyTramitesDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RequisitosyTramitesDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\ServiciosGruaDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServiciosGruaDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\TramitesDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TramitesDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Servicio Cliente\VehiculosDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VehiculosDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\SolicitudOTEspecial\CotizacionPadrePaquetesDataSet.Designer.vb">
+      <DependentUpon>CotizacionPadrePaquetesDataSet.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="SCGBL\SolicitudOTEspecial\LineasSolOTEspecialDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LineasSolOTEspecialDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Valoración y seguros\ActividadesXFaseDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ActividadesXFaseDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Valoración y seguros\ActividadesXFaseDataset.vb">
+      <DependentUpon>ActividadesXFaseDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Valoración y seguros\FasesXOrdenDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FasesXOrdenDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Valoración y seguros\ListasxOrdenDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListasxOrdenDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Valoración y seguros\OrdenDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrdenDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Valoración y seguros\PaquetesDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaquetesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Valoración y seguros\RepuestosNoExistentesDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepuestosNoExistentesDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Valoración y seguros\RepuestosxOrdenDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepuestosxOrdenDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Valoración y seguros\RepuestosxOrdenDataset.vb">
+      <DependentUpon>RepuestosxOrdenDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Valoración y seguros\SeguroDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeguroDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Valoración y seguros\Sistema Mitchell\ActRepMitchellDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ActRepMitchellDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGBL\Valoración y seguros\Sistema Mitchell\TiposDeValorxCategriadataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TiposDeValorxCategriadataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCGCommon\clsCompany.vb" />
+    <Compile Include="SCGCommon\ExceptionsSBO.vb" />
+    <Compile Include="SCGCommon\ManejoErroresEH.vb" />
+    <Compile Include="SCGDA\ActividadesRepuestosDataAdapter.vb" />
+    <Compile Include="SCGDA\ActividadesXFaseDataAdapter.vb" />
+    <Compile Include="SCGDA\Addons\ConfiguracionesGeneralesAddon.vb" />
+    <Compile Include="SCGDA\ClsRepuestosSBO.vb" />
+    <Compile Include="SCGDA\Configuracion.vb" />
+    <Compile Include="SCGDA\ConfiguracionApp\ConfCatalogoRepXMarcaDataAdapter.vb" />
+    <Compile Include="SCGDA\ConfiguracionApp\ConfiguracionDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\ActividadesDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\ActividadesXProcesoDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\AgenciasDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\AgendaDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\BodegasDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\BoletasCalidadDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\CentroCostoDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\ClaseDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\CoberturasDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\ColoresDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\ComponentesDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\ConfBodegasXCCDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\ConfMensajeriaDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\ConfOTsEspecialesDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\RampasDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\DeduciblesDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\EstadoExpedienteDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\EstadoRequisitoDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\EstadoTramiteDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\EstiloDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\FaseProduccionDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\MarcaDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\ModelosDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\ParametrosDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\PiezaPrincipalDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\ProcesosDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\ProveedoresDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\RazonesCitaDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\RazonesReprocesoDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\RazonesSuspensionDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\RequisitosDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\SeccionesDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\TipoOrdenDataAdapter.vb" />
+    <Compile Include="SCGDA\Configuraciones\UsuariosOTEspecialDataAdapter.vb" />
+    <Compile Include="SCGDA\Costos\CostosDataAdapter.vb" />
+    <Compile Include="SCGDA\Costos\CostosSBO.vb" />
+    <Compile Include="SCGDA\DAConexion.vb" />
+    <Compile Include="SCGDA\DocMarketingDataAdapter.vb" />
+    <Compile Include="SCGDA\Facturacion\ConfiguraFacturaDataAdapter.vb" />
+    <Compile Include="SCGDA\Facturacion\OrdenesXFacturaDataAdapter.vb" />
+    <Compile Include="SCGDA\Facturacion\RegNotaCreditoDataAdapter.vb" />
+    <Compile Include="SCGDA\Facturacion\RepuestosFacturaDataAdapter.vb" />
+    <Compile Include="SCGDA\Facturacion\SBO Facturacion\ClsFacturacionSBO.vb" />
+    <Compile Include="SCGDA\GlobalesDA.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\AdicionalesXOrdenDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\ColaboradorDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\CostosxOrdenDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\EstadoRepuestosResourcesDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\EstadoWebDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\FacturasEspecialesDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\FaseXOrdenEstadosDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\ItemSolicitudEspecificoDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\ItemsRepuestosSuministrosDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\ListaAplicadaxOrdenDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\OQUTDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\OrdenTrabajoDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\PaquetesxOrdenDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\RampasXOrdenAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\RendimientoDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\ReprocesosxOrdenDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\RepuestosProveeduriaDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\RepuestosxEstadoDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\RepuestosxOrdenDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\SeriesLotesDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\SolicitudEspecificosDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\SuministrosDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\SuspensionesxOrdenDataAdapter.vb" />
+    <Compile Include="SCGDA\Operaciones y producción\TiemposMuertosDataAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\CalendarioAgendaDataAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\CitasDataAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\ClientesDataAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\DestinatariosDataAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\MensajeriaSBOTallerDataAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\QUT1DataAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\SBO Cliente\CotizacionCLS.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\VisitasDataAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\Expediente_ImagenesDataAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\InventarioDataAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\PublicidadEnviosAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\RegistroDataAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\RequisitosxTramiteDataAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\SBO Cliente\ClsClientesSBO.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\ServiciosGruaDataAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\TramiteDataAdapter.vb" />
+    <Compile Include="SCGDA\Servicio Cliente\VehiculosDataAdapter.vb" />
+    <Compile Include="SCGDA\SolicitudOTEspecial\LineasSolicitudOTEspecialDataAdapter.vb" />
+    <Compile Include="SCGDA\Utilitarios.vb" />
+    <Compile Include="SCGDA\Valoración y seguros\FasesXOrdenDataAdapter.vb" />
+    <Compile Include="SCGDA\Valoración y seguros\ListasxOrdenDataAdapter.vb" />
+    <Compile Include="SCGDA\Valoración y seguros\RepuestosDataAdapter.vb" />
+    <Compile Include="SCGDA\Valoración y seguros\SeguroDataAdapter.vb" />
+    <Compile Include="SCGSBO\GlobalesSBO.vb" />
+    <Compile Include="SCGSBO\GlobalFunctionsSBO.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceFramework.en-Us.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceFrameWork.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceFrameWork.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\ActividadesRepuestosDataset.xsc">
+      <DependentUpon>ActividadesRepuestosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\ActividadesRepuestosDataset.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\ActividadesRepuestosDataset.xss">
+      <DependentUpon>ActividadesRepuestosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\ActividadesRepuestosDataset.xsx">
+      <DependentUpon>ActividadesRepuestosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\ConfiguracionesGeneralesDataset.xsc">
+      <DependentUpon>ConfiguracionesGeneralesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\ConfiguracionesGeneralesDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConfiguracionesGeneralesDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\AddOn\ConfiguracionesGeneralesDataset.xss">
+      <DependentUpon>ConfiguracionesGeneralesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\CuentasAdicionalesDataset.xsc">
+      <DependentUpon>CuentasAdicionalesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\CuentasAdicionalesDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CuentasAdicionalesDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\AddOn\CuentasAdicionalesDataset.xss">
+      <DependentUpon>CuentasAdicionalesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\CuentasInventarioDataset.xsc">
+      <DependentUpon>CuentasInventarioDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\CuentasInventarioDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CuentasInventarioDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\AddOn\CuentasInventarioDataset.xss">
+      <DependentUpon>CuentasInventarioDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\ImpuestosDataset.xsc">
+      <DependentUpon>ImpuestosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\ImpuestosDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ImpuestosDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\AddOn\ImpuestosDataset.xss">
+      <DependentUpon>ImpuestosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\ItemsGastosDataset.xsc">
+      <DependentUpon>ItemsGastosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\ItemsGastosDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItemsGastosDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\AddOn\ItemsGastosDataset.xss">
+      <DependentUpon>ItemsGastosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\ItemsVentasDataset.xsc">
+      <DependentUpon>ItemsVentasDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\ItemsVentasDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItemsVentasDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\AddOn\ItemsVentasDataset.xss">
+      <DependentUpon>ItemsVentasDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\SeriesDataset.xsc">
+      <DependentUpon>SeriesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\SeriesDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SeriesDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\AddOn\SeriesDataset.xss">
+      <DependentUpon>SeriesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\SeriesLotesDataSet.xsc">
+      <DependentUpon>SeriesLotesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\SeriesLotesDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SeriesLotesDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\AddOn\SeriesLotesDataSet.xss">
+      <DependentUpon>SeriesLotesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\TransferenciasPorCotizacionDataSet.xsc">
+      <DependentUpon>TransferenciasPorCotizacionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\AddOn\TransferenciasPorCotizacionDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TransferenciasPorCotizacionDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\AddOn\TransferenciasPorCotizacionDataSet.xss">
+      <DependentUpon>TransferenciasPorCotizacionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\ConfiguracionApp\ConfBodegasXCentroCostoDataSet.xsc">
+      <DependentUpon>ConfBodegasXCentroCostoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\ConfiguracionApp\ConfBodegasXCentroCostoDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConfBodegasXCentroCostoDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\ConfiguracionApp\ConfBodegasXCentroCostoDataSet.xss">
+      <DependentUpon>ConfBodegasXCentroCostoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\ConfiguracionApp\ConfCatalogoRepXMarcaDataset.xsc">
+      <DependentUpon>ConfCatalogoRepXMarcaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\ConfiguracionApp\ConfCatalogoRepXMarcaDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConfCatalogoRepXMarcaDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\ConfiguracionApp\ConfCatalogoRepXMarcaDataset.xss">
+      <DependentUpon>ConfCatalogoRepXMarcaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\ConfiguracionApp\ConfiguracionDataSet.xsc">
+      <DependentUpon>ConfiguracionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\ConfiguracionApp\ConfiguracionDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConfiguracionDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\ConfiguracionApp\ConfiguracionDataSet.xss">
+      <DependentUpon>ConfiguracionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\ConfiguracionApp\ProveedorXMarcaDataset.xsc">
+      <DependentUpon>ProveedorXMarcaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\ConfiguracionApp\ProveedorXMarcaDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProveedorXMarcaDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\ConfiguracionApp\ProveedorXMarcaDataset.xss">
+      <DependentUpon>ProveedorXMarcaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ActividadesDataset.xsc">
+      <DependentUpon>ActividadesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ActividadesDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ActividadesDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\ActividadesDataset.xss">
+      <DependentUpon>ActividadesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ActividadesDataset.xsx">
+      <DependentUpon>ActividadesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ActividadesXProcesoDataset.xsc">
+      <DependentUpon>ActividadesXProcesoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ActividadesXProcesoDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ActividadesXProcesoDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\ActividadesXProcesoDataset.xss">
+      <DependentUpon>ActividadesXProcesoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ActividadesXProcesoDataset.xsx">
+      <DependentUpon>ActividadesXProcesoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\AgenciasDataset.xsc">
+      <DependentUpon>AgenciasDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\AgenciasDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AgenciasDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\AgenciasDataset.xss">
+      <DependentUpon>AgenciasDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\AgenciasDataset.xsx">
+      <DependentUpon>AgenciasDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\AgendaDataset.xsc">
+      <DependentUpon>AgendaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\AgendaDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AgendaDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Configuraciones\AgendaDataset.xss">
+      <DependentUpon>AgendaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\BodegasSBODataset.xsc">
+      <DependentUpon>BodegasSBODataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\BodegasSBODataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BodegasSBODataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Configuraciones\BodegasSBODataset.xss">
+      <DependentUpon>BodegasSBODataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\BoletasCalidadDataset.xsc">
+      <DependentUpon>BoletasCalidadDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\BoletasCalidadDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BoletasCalidadDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\BoletasCalidadDataset.xss">
+      <DependentUpon>BoletasCalidadDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\BoletasCalidadDataset.xsx">
+      <DependentUpon>BoletasCalidadDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\CentroCostoDataset.xsc">
+      <DependentUpon>CentroCostoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\CentroCostoDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CentroCostoDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\CentroCostoDataset.xss">
+      <DependentUpon>CentroCostoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\CentroCostoDataset.xsx">
+      <DependentUpon>CentroCostoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ClasesVehiculoDataset.xsc">
+      <DependentUpon>ClasesVehiculoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ClasesVehiculoDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ClasesVehiculoDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\ClasesVehiculoDataset.xss">
+      <DependentUpon>ClasesVehiculoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ClasesVehiculoDataset.xsx">
+      <DependentUpon>ClasesVehiculoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\CoberturaDataset.xsc">
+      <DependentUpon>CoberturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\CoberturaDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CoberturaDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\CoberturaDataset.xss">
+      <DependentUpon>CoberturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\CoberturaDataset.xsx">
+      <DependentUpon>CoberturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ColoresDataset.xsc">
+      <DependentUpon>ColoresDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ColoresDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ColoresDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\ColoresDataset.xss">
+      <DependentUpon>ColoresDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ColoresDataset.xsx">
+      <DependentUpon>ColoresDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ComponentesDataset.xsc">
+      <DependentUpon>ComponentesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ComponentesDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ComponentesDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\ComponentesDataset.xss">
+      <DependentUpon>ComponentesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ComponentesDataset.xsx">
+      <DependentUpon>ComponentesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ConfMensajeriaDataSet.xsc">
+      <DependentUpon>ConfMensajeriaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ConfMensajeriaDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConfMensajeriaDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Configuraciones\ConfMensajeriaDataSet.xss">
+      <DependentUpon>ConfMensajeriaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ConfOrdenesEspeciales.xsc">
+      <DependentUpon>ConfOrdenesEspeciales.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ConfOrdenesEspeciales.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConfOrdenesEspeciales.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Configuraciones\ConfOrdenesEspeciales.xss">
+      <DependentUpon>ConfOrdenesEspeciales.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\DeducibleDataset.xsc">
+      <DependentUpon>DeducibleDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\DeducibleDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DeducibleDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\DeducibleDataset.xss">
+      <DependentUpon>DeducibleDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\DeducibleDataset.xsx">
+      <DependentUpon>DeducibleDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstadoExpedienteDataset.xsc">
+      <DependentUpon>EstadoExpedienteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstadoExpedienteDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EstadoExpedienteDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstadoExpedienteDataset.xss">
+      <DependentUpon>EstadoExpedienteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstadoExpedienteDataset.xsx">
+      <DependentUpon>EstadoExpedienteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstadoRequisitoDataset.xsc">
+      <DependentUpon>EstadoRequisitoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstadoRequisitoDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EstadoRequisitoDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstadoRequisitoDataset.xss">
+      <DependentUpon>EstadoRequisitoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstadoRequisitoDataset.xsx">
+      <DependentUpon>EstadoRequisitoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstadoTramiteDataset.xsc">
+      <DependentUpon>EstadoTramiteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstadoTramiteDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EstadoTramiteDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstadoTramiteDataset.xss">
+      <DependentUpon>EstadoTramiteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstadoTramiteDataset.xsx">
+      <DependentUpon>EstadoTramiteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstiloDataset.xsc">
+      <DependentUpon>EstiloDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstiloDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EstiloDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstiloDataset.xss">
+      <DependentUpon>EstiloDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\EstiloDataset.xsx">
+      <DependentUpon>EstiloDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\FaseProduccionDataset.xsc">
+      <DependentUpon>FaseProduccionDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\FaseProduccionDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FaseProduccionDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\FaseProduccionDataset.xss">
+      <DependentUpon>FaseProduccionDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\FaseProduccionDataset.xsx">
+      <DependentUpon>FaseProduccionDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\MarcaDataset.xsc">
+      <DependentUpon>MarcaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\MarcaDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MarcaDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\MarcaDataset.xss">
+      <DependentUpon>MarcaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\MarcaDataset.xsx">
+      <DependentUpon>MarcaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ModelosDataset.xsc">
+      <DependentUpon>ModelosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ModelosDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ModelosDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\ModelosDataset.xss">
+      <DependentUpon>ModelosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ModelosDataset.xsx">
+      <DependentUpon>ModelosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ParametrosDataset.xsc">
+      <DependentUpon>ParametrosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ParametrosDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ParametrosDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\ParametrosDataset.xss">
+      <DependentUpon>ParametrosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ParametrosDataset.xsx">
+      <DependentUpon>ParametrosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\PiezaPrincipalDataset.xsc">
+      <DependentUpon>PiezaPrincipalDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\PiezaPrincipalDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PiezaPrincipalDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\PiezaPrincipalDataset.xss">
+      <DependentUpon>PiezaPrincipalDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\PiezaPrincipalDataset.xsx">
+      <DependentUpon>PiezaPrincipalDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ProcesosGrupoDataset.xsc">
+      <DependentUpon>ProcesosGrupoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ProcesosGrupoDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProcesosGrupoDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\ProcesosGrupoDataset.xss">
+      <DependentUpon>ProcesosGrupoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ProveedoresDataset.xsc">
+      <DependentUpon>ProveedoresDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\ProveedoresDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProveedoresDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\ProveedoresDataset.xss">
+      <DependentUpon>ProveedoresDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\RampasDataSet.xsc">
+      <DependentUpon>RampasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\RampasDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RampasDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Configuraciones\RampasDataSet.xss">
+      <DependentUpon>RampasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\RazonesCitaDataset.xsc">
+      <DependentUpon>RazonesCitaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\RazonesCitaDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RazonesCitaDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\RazonesCitaDataset.xss">
+      <DependentUpon>RazonesCitaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\RazonesReprocesoDataset.xsc">
+      <DependentUpon>RazonesReprocesoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\RazonesReprocesoDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RazonesReprocesoDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\RazonesReprocesoDataset.xss">
+      <DependentUpon>RazonesReprocesoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\RazonesSuspensionDataset.xsc">
+      <DependentUpon>RazonesSuspensionDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\RazonesSuspensionDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RazonesSuspensionDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\RazonesSuspensionDataset.xss">
+      <DependentUpon>RazonesSuspensionDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\RequisitosDataset.xsc">
+      <DependentUpon>RequisitosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\RequisitosDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RequisitosDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\RequisitosDataset.xss">
+      <DependentUpon>RequisitosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\SCGTA_VW_Tran_CompDataset.xsc">
+      <DependentUpon>SCGTA_VW_Tran_CompDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\SCGTA_VW_Tran_CompDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SCGTA_VW_Tran_CompDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Configuraciones\SCGTA_VW_Tran_CompDataset.xss">
+      <DependentUpon>SCGTA_VW_Tran_CompDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\SeccionesDataset.xsc">
+      <DependentUpon>SeccionesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\SeccionesDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SeccionesDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\SeccionesDataset.xss">
+      <DependentUpon>SeccionesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\TipoOrdenDataset.xsc">
+      <DependentUpon>TipoOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\TipoOrdenDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TipoOrdenDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Configuraciones\TipoOrdenDataset.xss">
+      <DependentUpon>TipoOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\TipoOrdenDataset.xsx">
+      <DependentUpon>TipoOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\UsuariosOTEspecialDataset.xsc">
+      <DependentUpon>UsuariosOTEspecialDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Configuraciones\UsuariosOTEspecialDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UsuariosOTEspecialDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Configuraciones\UsuariosOTEspecialDataset.xss">
+      <DependentUpon>UsuariosOTEspecialDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Costos\ColaboradoresCostearDataSet.xsc">
+      <DependentUpon>ColaboradoresCostearDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Costos\ColaboradoresCostearDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ColaboradoresCostearDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Costos\ColaboradoresCostearDataSet.xss">
+      <DependentUpon>ColaboradoresCostearDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Costos\CuentasConfDetaDataset.xsc">
+      <DependentUpon>CuentasConfDetaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Costos\CuentasConfDetaDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CuentasConfDetaDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Costos\CuentasConfDetaDataset.xss">
+      <DependentUpon>CuentasConfDetaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Costos\CuentasConfDetaDataset.xsx">
+      <DependentUpon>CuentasConfDetaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\ConfiguracionArticuloVenta.xsc">
+      <DependentUpon>ConfiguracionArticuloVenta.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\ConfiguracionArticuloVenta.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConfiguracionArticuloVenta.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Facturacion\ConfiguracionArticuloVenta.xss">
+      <DependentUpon>ConfiguracionArticuloVenta.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\ConfiguraFacturaDataset.xsc">
+      <DependentUpon>ConfiguraFacturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\ConfiguraFacturaDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConfiguraFacturaDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Facturacion\ConfiguraFacturaDataset.xss">
+      <DependentUpon>ConfiguraFacturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\ConfiguraFacturaDataset.xsx">
+      <DependentUpon>ConfiguraFacturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\OrdenesxFacturaDataset.xsc">
+      <DependentUpon>OrdenesxFacturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\OrdenesxFacturaDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrdenesxFacturaDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Facturacion\OrdenesxFacturaDataset.xss">
+      <DependentUpon>OrdenesxFacturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\OrdenesxFacturaDataset.xsx">
+      <DependentUpon>OrdenesxFacturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\PresupuestosDataSet.xsc">
+      <DependentUpon>PresupuestosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\PresupuestosDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PresupuestosDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Facturacion\PresupuestosDataSet.xss">
+      <DependentUpon>PresupuestosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\RegNotaCreditoDataset.xsc">
+      <DependentUpon>RegNotaCreditoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\RegNotaCreditoDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RegNotaCreditoDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Facturacion\RegNotaCreditoDataset.xss">
+      <DependentUpon>RegNotaCreditoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\RegNotaCreditoDataset.xsx">
+      <DependentUpon>RegNotaCreditoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\RepuestoFacturaDataset.xsc">
+      <DependentUpon>RepuestoFacturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\RepuestoFacturaDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepuestoFacturaDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Facturacion\RepuestoFacturaDataset.xss">
+      <DependentUpon>RepuestoFacturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Facturacion\RepuestoFacturaDataset.xsx">
+      <DependentUpon>RepuestoFacturaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\MensajeriaSBO_DMS\DestinaXMensajeSBODMSDataSet.xsc">
+      <DependentUpon>DestinaXMensajeSBODMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\MensajeriaSBO_DMS\DestinaXMensajeSBODMSDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DestinaXMensajeSBODMSDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\MensajeriaSBO_DMS\DestinaXMensajeSBODMSDataSet.xss">
+      <DependentUpon>DestinaXMensajeSBODMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\AdicionalesXOrdenDataset.xsc">
+      <DependentUpon>AdicionalesXOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\AdicionalesXOrdenDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AdicionalesXOrdenDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\AdicionalesXOrdenDataset.xss">
+      <DependentUpon>AdicionalesXOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\AdicionalesXOrdenDataset.xsx">
+      <DependentUpon>AdicionalesXOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\CambioBodegaProcesoDataset.xsc">
+      <DependentUpon>CambioBodegaProcesoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\CambioBodegaProcesoDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CambioBodegaProcesoDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\CambioBodegaProcesoDataset.xss">
+      <DependentUpon>CambioBodegaProcesoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\CambioCuentaProcesoDataset.xsc">
+      <DependentUpon>CambioCuentaProcesoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\CambioCuentaProcesoDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CambioCuentaProcesoDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\CambioCuentaProcesoDataset.xss">
+      <DependentUpon>CambioCuentaProcesoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ColaboradorDataset.xsc">
+      <DependentUpon>ColaboradorDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ColaboradorDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ColaboradorDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ColaboradorDataset.xss">
+      <DependentUpon>ColaboradorDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ColaboradorDataset.xsx">
+      <DependentUpon>ColaboradorDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\CostosxOrdenDataset.xsc">
+      <DependentUpon>CostosxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\CostosxOrdenDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CostosxOrdenDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\CostosxOrdenDataset.xss">
+      <DependentUpon>CostosxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\CostosxOrdenDataset.xsx">
+      <DependentUpon>CostosxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\Cotizacion_LineasDataset.xsc">
+      <DependentUpon>Cotizacion_LineasDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\Cotizacion_LineasDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cotizacion_LineasDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\Cotizacion_LineasDataset.xss">
+      <DependentUpon>Cotizacion_LineasDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\DuracionXFaseDataset.xsc">
+      <DependentUpon>DuracionXFaseDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\DuracionXFaseDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DuracionXFaseDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\DuracionXFaseDataset.xss">
+      <DependentUpon>DuracionXFaseDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\DuracionXFaseDataset.xsx">
+      <DependentUpon>DuracionXFaseDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\EstadoRepuestosResourcesDataset.xsc">
+      <DependentUpon>EstadoRepuestosResourcesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\EstadoRepuestosResourcesDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EstadoRepuestosResourcesDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\EstadoRepuestosResourcesDataset.xss">
+      <DependentUpon>EstadoRepuestosResourcesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\EstadoWebDataset.xsc">
+      <DependentUpon>EstadoWebDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\EstadoWebDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EstadoWebDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\EstadoWebDataset.xss">
+      <DependentUpon>EstadoWebDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\EstadoxRepuestos.xsc">
+      <DependentUpon>EstadoxRepuestos.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\EstadoxRepuestos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>EstadoxRepuestos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\EstadoxRepuestos.xss">
+      <DependentUpon>EstadoxRepuestos.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\EstadoxRepuestos.xsx">
+      <DependentUpon>EstadoxRepuestos.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\FacturasEspecialesDataset.xsc">
+      <DependentUpon>FacturasEspecialesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\FacturasEspecialesDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FacturasEspecialesDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\FacturasEspecialesDataset.xss">
+      <DependentUpon>FacturasEspecialesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\FaseXOrdenEstadosDataset.xsc">
+      <DependentUpon>FaseXOrdenEstadosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\FaseXOrdenEstadosDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>FaseXOrdenEstadosDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\FaseXOrdenEstadosDataset.xss">
+      <DependentUpon>FaseXOrdenEstadosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\FaseXOrdenEstadosDataset.xsx">
+      <DependentUpon>FaseXOrdenEstadosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ItemSolicitudEspecificoDataset.xsc">
+      <DependentUpon>ItemSolicitudEspecificoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ItemSolicitudEspecificoDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItemSolicitudEspecificoDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ItemSolicitudEspecificoDataset.xss">
+      <DependentUpon>ItemSolicitudEspecificoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ItemsRepuestosSuministrosDataset.xsc">
+      <DependentUpon>ItemsRepuestosSuministrosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ItemsRepuestosSuministrosDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItemsRepuestosSuministrosDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ItemsRepuestosSuministrosDataset.xss">
+      <DependentUpon>ItemsRepuestosSuministrosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ItemsSAPDataset.xsc">
+      <DependentUpon>ItemsSAPDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ItemsSAPDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItemsSAPDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ItemsSAPDataset.xss">
+      <DependentUpon>ItemsSAPDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ItemsSAPDataset.xsx">
+      <DependentUpon>ItemsSAPDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\LineNumsOTOriginal.xsc">
+      <DependentUpon>LineNumsOTOriginal.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\LineNumsOTOriginal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LineNumsOTOriginal.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\LineNumsOTOriginal.xss">
+      <DependentUpon>LineNumsOTOriginal.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ListaAplicadaxOrdenDataset.xsc">
+      <DependentUpon>ListaAplicadaxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ListaAplicadaxOrdenDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ListaAplicadaxOrdenDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ListaAplicadaxOrdenDataset.xss">
+      <DependentUpon>ListaAplicadaxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ListaAplicadaxOrdenDataset.xsx">
+      <DependentUpon>ListaAplicadaxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OrdendeCompraDataset.xsc">
+      <DependentUpon>OrdendeCompraDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OrdendeCompraDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrdendeCompraDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OrdendeCompraDataset.xss">
+      <DependentUpon>OrdendeCompraDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OrdendeCompraDataset.xsx">
+      <DependentUpon>OrdendeCompraDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OrdenEspecialDataset.xsc">
+      <DependentUpon>OrdenEspecialDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OrdenEspecialDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrdenEspecialDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OrdenEspecialDataset.xss">
+      <DependentUpon>OrdenEspecialDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OrdenHijaActualizaCostosDataset.xsc">
+      <DependentUpon>OrdenHijaActualizaCostosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OrdenHijaActualizaCostosDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrdenHijaActualizaCostosDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OrdenHijaActualizaCostosDataset.xss">
+      <DependentUpon>OrdenHijaActualizaCostosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OrdenTrabajoDataset.xsc">
+      <DependentUpon>OrdenTrabajoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OrdenTrabajoDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrdenTrabajoDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OrdenTrabajoDataset.xss">
+      <DependentUpon>OrdenTrabajoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OtrosGastosDataSet.xsc">
+      <DependentUpon>OtrosGastosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OtrosGastosDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtrosGastosDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\OtrosGastosDataSet.xss">
+      <DependentUpon>OtrosGastosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RampasXOrdenDataset.xsc">
+      <DependentUpon>RampasXOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RampasXOrdenDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RampasXOrdenDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RampasXOrdenDataset.xss">
+      <DependentUpon>RampasXOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RendimientoxOrdenDataset.xsc">
+      <DependentUpon>RendimientoxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RendimientoxOrdenDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RendimientoxOrdenDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RendimientoxOrdenDataset.xss">
+      <DependentUpon>RendimientoxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RendimientoxOrdenDataset.xsx">
+      <DependentUpon>RendimientoxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RendMontoReparacionDataset.xsc">
+      <DependentUpon>RendMontoReparacionDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RendMontoReparacionDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RendMontoReparacionDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RendMontoReparacionDataset.xss">
+      <DependentUpon>RendMontoReparacionDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RendMontoReparacionDataset.xsx">
+      <DependentUpon>RendMontoReparacionDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ReprocesosxOrdenDataset.xsc">
+      <DependentUpon>ReprocesosxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ReprocesosxOrdenDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReprocesosxOrdenDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ReprocesosxOrdenDataset.xss">
+      <DependentUpon>ReprocesosxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ReprocesosxOrdenDataset.xsx">
+      <DependentUpon>ReprocesosxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RepuestosDataset.xsc">
+      <DependentUpon>RepuestosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RepuestosDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepuestosDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RepuestosDataset.xss">
+      <DependentUpon>RepuestosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RepuestosDataset.xsx">
+      <DependentUpon>RepuestosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RepuestosProveduriaDataset.xsc">
+      <DependentUpon>RepuestosProveduriaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RepuestosProveduriaDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepuestosProveduriaDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RepuestosProveduriaDataset.xss">
+      <DependentUpon>RepuestosProveduriaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\RepuestosProveduriaDataset.xsx">
+      <DependentUpon>RepuestosProveduriaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ServiciosExternosDataset.xsc">
+      <DependentUpon>ServiciosExternosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ServiciosExternosDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ServiciosExternosDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\ServiciosExternosDataset.xss">
+      <DependentUpon>ServiciosExternosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SolicitudEspecificosDataset.xsc">
+      <DependentUpon>SolicitudEspecificosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SolicitudEspecificosDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SolicitudEspecificosDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SolicitudEspecificosDataset.xss">
+      <DependentUpon>SolicitudEspecificosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuministrosDataset.xsc">
+      <DependentUpon>SuministrosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuministrosDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SuministrosDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuministrosDataset.xss">
+      <DependentUpon>SuministrosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuministrosDataset.xsx">
+      <DependentUpon>SuministrosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuministrosFullDataset.xsc">
+      <DependentUpon>SuministrosFullDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuministrosFullDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SuministrosFullDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuministrosFullDataset.xss">
+      <DependentUpon>SuministrosFullDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuministrosFullDataset.xsx">
+      <DependentUpon>SuministrosFullDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuministrosXOrdenDataset.xsc">
+      <DependentUpon>SuministrosXOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuministrosXOrdenDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SuministrosXOrdenDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuministrosXOrdenDataset.xss">
+      <DependentUpon>SuministrosXOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuministrosXOrdenDataset.xsx">
+      <DependentUpon>SuministrosXOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuspensionesxOrdenDataset.xsc">
+      <DependentUpon>SuspensionesxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuspensionesxOrdenDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SuspensionesxOrdenDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuspensionesxOrdenDataset.xss">
+      <DependentUpon>SuspensionesxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Operaciones y producción\SuspensionesxOrdenDataset.xsx">
+      <DependentUpon>SuspensionesxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Requisiciones\Requisiciones_LineasDataset.xsc">
+      <DependentUpon>Requisiciones_LineasDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Requisiciones\Requisiciones_LineasDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Requisiciones_LineasDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Requisiciones\Requisiciones_LineasDataset.xss">
+      <DependentUpon>Requisiciones_LineasDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\SalidasVehiculos\LineasSalidaDataset.xsc">
+      <DependentUpon>LineasSalidaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\SalidasVehiculos\LineasSalidaDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LineasSalidaDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\SalidasVehiculos\LineasSalidaDataset.xss">
+      <DependentUpon>LineasSalidaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\SalidasVehiculos\SalidaMercanciaDataset.xsc">
+      <DependentUpon>SalidaMercanciaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\SalidasVehiculos\SalidaMercanciaDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalidaMercanciaDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\SalidasVehiculos\SalidaMercanciaDataset.xss">
+      <DependentUpon>SalidaMercanciaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\CalendarioAgendaDataset.xsc">
+      <DependentUpon>CalendarioAgendaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\CalendarioAgendaDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CalendarioAgendaDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\CalendarioAgendaDataset.xss">
+      <DependentUpon>CalendarioAgendaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\CitasDataset.xsc">
+      <DependentUpon>CitasDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\CitasDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CitasDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\CitasDataset.xss">
+      <DependentUpon>CitasDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\CitasDataset.xsx">
+      <DependentUpon>CitasDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ClienteDataset.xsc">
+      <DependentUpon>ClienteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ClienteDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ClienteDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ClienteDataset.xss">
+      <DependentUpon>ClienteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ClienteDataset.xsx">
+      <DependentUpon>ClienteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ConfigServidorCorreoDataset.xsc">
+      <DependentUpon>ConfigServidorCorreoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ConfigServidorCorreoDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConfigServidorCorreoDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ConfigServidorCorreoDataset.xss">
+      <DependentUpon>ConfigServidorCorreoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ConfigServidorCorreoDataset.xsx">
+      <DependentUpon>ConfigServidorCorreoDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\DestinatariosDataset.xsc">
+      <DependentUpon>DestinatariosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\DestinatariosDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DestinatariosDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\DestinatariosDataset.xss">
+      <DependentUpon>DestinatariosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\DestinatariosDataset.xsx">
+      <DependentUpon>DestinatariosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\OcupacionDataset.xsc">
+      <DependentUpon>OcupacionDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\OcupacionDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OcupacionDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\OcupacionDataset.xss">
+      <DependentUpon>OcupacionDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ProgramacionCitas\Citas.xsc">
+      <DependentUpon>Citas.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ProgramacionCitas\Citas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Citas.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ProgramacionCitas\Citas.xss">
+      <DependentUpon>Citas.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ProgramacionCitas\ProgramacionCitasDataSet.xsc">
+      <DependentUpon>ProgramacionCitasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ProgramacionCitas\ProgramacionCitasDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProgramacionCitasDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ProgramacionCitas\ProgramacionCitasDataSet.xss">
+      <DependentUpon>ProgramacionCitasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\QUT1Dataset.xsc">
+      <DependentUpon>QUT1Dataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\QUT1Dataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QUT1Dataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\QUT1Dataset.xss">
+      <DependentUpon>QUT1Dataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\VisitaDataset.xsc">
+      <DependentUpon>VisitaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\VisitaDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VisitaDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\VisitaDataset.xss">
+      <DependentUpon>VisitaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\VisitaDataset.xsx">
+      <DependentUpon>VisitaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\Visita_ImagenesDataset.xsc">
+      <DependentUpon>Visita_ImagenesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\Visita_ImagenesDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Visita_ImagenesDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\Visita_ImagenesDataset.xss">
+      <DependentUpon>Visita_ImagenesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\Visita_ImagenesDataset.xsx">
+      <DependentUpon>Visita_ImagenesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\InventarioDataset.xsc">
+      <DependentUpon>InventarioDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\InventarioDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InventarioDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\InventarioDataset.xss">
+      <DependentUpon>InventarioDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\InventarioDataset.xsx">
+      <DependentUpon>InventarioDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\PublicidadEnvioDataset.xsc">
+      <DependentUpon>PublicidadEnvioDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\PublicidadEnvioDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PublicidadEnvioDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\PublicidadEnvioDataset.xss">
+      <DependentUpon>PublicidadEnvioDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\PublicidadEnvioDataset.xsx">
+      <DependentUpon>PublicidadEnvioDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RegistroDataset.xsc">
+      <DependentUpon>RegistroDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RegistroDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RegistroDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RegistroDataset.xss">
+      <DependentUpon>RegistroDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RegistroDataset.xsx">
+      <DependentUpon>RegistroDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RequesitoxtramiteDataset.xsc">
+      <DependentUpon>RequesitoxtramiteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RequesitoxtramiteDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RequesitoxtramiteDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RequesitoxtramiteDataset.xss">
+      <DependentUpon>RequesitoxtramiteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RequesitoxtramiteDataset.xsx">
+      <DependentUpon>RequesitoxtramiteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RequisitosxTramiteDataset.xsc">
+      <DependentUpon>RequisitosxTramiteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RequisitosxTramiteDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RequisitosxTramiteDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RequisitosxTramiteDataset.xss">
+      <DependentUpon>RequisitosxTramiteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RequisitosxTramiteDataset.xsx">
+      <DependentUpon>RequisitosxTramiteDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RequisitosyTramitesDataset.xsc">
+      <DependentUpon>RequisitosyTramitesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RequisitosyTramitesDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RequisitosyTramitesDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RequisitosyTramitesDataset.xss">
+      <DependentUpon>RequisitosyTramitesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\RequisitosyTramitesDataset.xsx">
+      <DependentUpon>RequisitosyTramitesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ServiciosGruaDataset.xsc">
+      <DependentUpon>ServiciosGruaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ServiciosGruaDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ServiciosGruaDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ServiciosGruaDataset.xss">
+      <DependentUpon>ServiciosGruaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\ServiciosGruaDataset.xsx">
+      <DependentUpon>ServiciosGruaDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\TramitesDataset.xsc">
+      <DependentUpon>TramitesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\TramitesDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TramitesDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\TramitesDataset.xss">
+      <DependentUpon>TramitesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\TramitesDataset.xsx">
+      <DependentUpon>TramitesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\VehiculosDataset.xsc">
+      <DependentUpon>VehiculosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\VehiculosDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VehiculosDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\VehiculosDataset.xss">
+      <DependentUpon>VehiculosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Servicio Cliente\VehiculosDataset.xsx">
+      <DependentUpon>VehiculosDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\SolicitudOTEspecial\CotizacionPadrePaquetesDataSet.xsc">
+      <DependentUpon>CotizacionPadrePaquetesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\SolicitudOTEspecial\CotizacionPadrePaquetesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CotizacionPadrePaquetesDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\SolicitudOTEspecial\CotizacionPadrePaquetesDataSet.xss">
+      <DependentUpon>CotizacionPadrePaquetesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\SolicitudOTEspecial\LineasSolOTEspecialDataSet.xsc">
+      <DependentUpon>LineasSolOTEspecialDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\SolicitudOTEspecial\LineasSolOTEspecialDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LineasSolOTEspecialDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\SolicitudOTEspecial\LineasSolOTEspecialDataSet.xss">
+      <DependentUpon>LineasSolOTEspecialDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\ActividadesXFaseDataset.xsc">
+      <DependentUpon>ActividadesXFaseDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\ActividadesXFaseDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ActividadesXFaseDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\ActividadesXFaseDataset.xss">
+      <DependentUpon>ActividadesXFaseDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\ActividadesXFaseDataset.xsx">
+      <DependentUpon>ActividadesXFaseDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\FasesXOrdenDataset.xsc">
+      <DependentUpon>FasesXOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\FasesXOrdenDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FasesXOrdenDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\FasesXOrdenDataset.xss">
+      <DependentUpon>FasesXOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\FasesXOrdenDataset.xsx">
+      <DependentUpon>FasesXOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\ListasxOrdenDataset.xsc">
+      <DependentUpon>ListasxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\ListasxOrdenDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ListasxOrdenDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\ListasxOrdenDataset.xss">
+      <DependentUpon>ListasxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\ListasxOrdenDataset.xsx">
+      <DependentUpon>ListasxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\OrdenDataset.xsc">
+      <DependentUpon>OrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\OrdenDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrdenDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\OrdenDataset.xss">
+      <DependentUpon>OrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\OrdenDataset.xsx">
+      <DependentUpon>OrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\PaquetesDataSet.xsc">
+      <DependentUpon>PaquetesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\PaquetesDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PaquetesDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\PaquetesDataSet.xss">
+      <DependentUpon>PaquetesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\RepuestosNoExistentesDataset.xsc">
+      <DependentUpon>RepuestosNoExistentesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\RepuestosNoExistentesDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepuestosNoExistentesDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\RepuestosNoExistentesDataset.xss">
+      <DependentUpon>RepuestosNoExistentesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\RepuestosNoExistentesDataset.xsx">
+      <DependentUpon>RepuestosNoExistentesDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\RepuestosxOrdenDataset.xsc">
+      <DependentUpon>RepuestosxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\RepuestosxOrdenDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepuestosxOrdenDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\RepuestosxOrdenDataset.xss">
+      <DependentUpon>RepuestosxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\RepuestosxOrdenDataset.xsx">
+      <DependentUpon>RepuestosxOrdenDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\SeguroDataset.xsc">
+      <DependentUpon>SeguroDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\SeguroDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SeguroDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\SeguroDataset.xss">
+      <DependentUpon>SeguroDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\SeguroDataset.xsx">
+      <DependentUpon>SeguroDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\Sistema Mitchell\ActRepMitchellDataset.xsc">
+      <DependentUpon>ActRepMitchellDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\Sistema Mitchell\ActRepMitchellDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ActRepMitchellDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\Sistema Mitchell\ActRepMitchellDataset.xss">
+      <DependentUpon>ActRepMitchellDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\Sistema Mitchell\ActRepMitchellDataset.xsx">
+      <DependentUpon>ActRepMitchellDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\Sistema Mitchell\TiposDeValorxCategriadataset.xsc">
+      <DependentUpon>TiposDeValorxCategriadataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\Sistema Mitchell\TiposDeValorxCategriadataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TiposDeValorxCategriadataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\Sistema Mitchell\TiposDeValorxCategriadataset.xss">
+      <DependentUpon>TiposDeValorxCategriadataset.xsd</DependentUpon>
+    </None>
+    <None Include="SCGBL\Valoración y seguros\Sistema Mitchell\TiposDeValorxCategriadataset.xsx">
+      <DependentUpon>TiposDeValorxCategriadataset.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XML_Direccion_WebService.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SCGDA\MensajeriaSBO_DMS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DMS_Connector\DMS_Connector.csproj">
+      <Project>{085DE67A-A389-498F-ADBA-DB234DFF447E}</Project>
+      <Name>DMS_Connector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG.DMSOne.Framework\SCG.DMSOne.Framework.csproj">
+      <Project>{86819DD4-6443-4F85-8226-6DE9D8AE9F1D}</Project>
+      <Name>SCG.DMSOne.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG.Requisiciones\SCG.Requisiciones.csproj">
+      <Project>{DDFFBC6C-8CED-49D0-B339-85047C11E4E7}</Project>
+      <Name>SCG.Requisiciones</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG.SBOFramework\SCG.SBOFramework.csproj">
+      <Project>{5956FFF3-24E5-4406-9EF0-67134A934865}</Project>
+      <Name>SCG.SBOFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

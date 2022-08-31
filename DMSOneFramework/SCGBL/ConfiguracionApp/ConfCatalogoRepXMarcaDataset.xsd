@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ConfCatalogoRepXMarcaDataset" targetNamespace="http://tempuri.org/ConfCatalogoRepXMarcaDataset.xsd" xmlns:mstns="http://tempuri.org/ConfCatalogoRepXMarcaDataset.xsd" xmlns="http://tempuri.org/ConfCatalogoRepXMarcaDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="DMSMatrizProduccionConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="DMSMatrizProduccionConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.DMSMatrizProduccionConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ConfCatalogoRepXMarcaDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ConfCatalogoRepXMarcaDataset" msprop:Generator_DataSetName="ConfCatalogoRepXMarcaDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_ConfCatalogoRepxMarca" msprop:Generator_UserTableName="SCGTA_TB_ConfCatalogoRepxMarca" msprop:Generator_RowDeletedName="SCGTA_TB_ConfCatalogoRepxMarcaRowDeleted" msprop:Generator_RowChangedName="SCGTA_TB_ConfCatalogoRepxMarcaRowChanged" msprop:Generator_RowClassName="SCGTA_TB_ConfCatalogoRepxMarcaRow" msprop:Generator_RowChangingName="SCGTA_TB_ConfCatalogoRepxMarcaRowChanging" msprop:Generator_RowEvArgName="SCGTA_TB_ConfCatalogoRepxMarcaRowChangeEvent" msprop:Generator_RowEvHandlerName="SCGTA_TB_ConfCatalogoRepxMarcaRowChangeEventHandler" msprop:Generator_TableClassName="SCGTA_TB_ConfCatalogoRepxMarcaDataTable" msprop:Generator_TableVarName="tableSCGTA_TB_ConfCatalogoRepxMarca" msprop:Generator_RowDeletingName="SCGTA_TB_ConfCatalogoRepxMarcaRowDeleting" msprop:Generator_TablePropName="SCGTA_TB_ConfCatalogoRepxMarca">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" default="0" />
+              <xs:element name="CodMarca" msprop:Generator_UserColumnName="CodMarca" msprop:Generator_ColumnVarNameInTable="columnCodMarca" msprop:Generator_ColumnPropNameInRow="CodMarca" msprop:Generator_ColumnPropNameInTable="CodMarcaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Servidor" msprop:Generator_UserColumnName="Servidor" msprop:Generator_ColumnVarNameInTable="columnServidor" msprop:Generator_ColumnPropNameInRow="Servidor" msprop:Generator_ColumnPropNameInTable="ServidorColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UsuarioServidor" msprop:Generator_UserColumnName="UsuarioServidor" msprop:Generator_ColumnVarNameInTable="columnUsuarioServidor" msprop:Generator_ColumnPropNameInRow="UsuarioServidor" msprop:Generator_ColumnPropNameInTable="UsuarioServidorColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PasswordServidor" msprop:Generator_UserColumnName="PasswordServidor" msprop:Generator_ColumnVarNameInTable="columnPasswordServidor" msprop:Generator_ColumnPropNameInRow="PasswordServidor" msprop:Generator_ColumnPropNameInTable="PasswordServidorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Compañia" msprop:Generator_UserColumnName="Compañia" msprop:Generator_ColumnVarNameInTable="columnCompañia" msprop:Generator_ColumnPropNameInRow="Compañia" msprop:Generator_ColumnPropNameInTable="CompañiaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BDCompañia" msprop:Generator_UserColumnName="BDCompañia" msprop:Generator_ColumnVarNameInTable="columnBDCompañia" msprop:Generator_ColumnPropNameInRow="BDCompañia" msprop:Generator_ColumnPropNameInTable="BDCompañiaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CodAlmacen" msprop:Generator_UserColumnName="CodAlmacen" msprop:Generator_ColumnVarNameInTable="columnCodAlmacen" msprop:Generator_ColumnPropNameInRow="CodAlmacen" msprop:Generator_ColumnPropNameInTable="CodAlmacenColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CodListaPrecio" msprop:Generator_UserColumnName="CodListaPrecio" msprop:Generator_ColumnVarNameInTable="columnCodListaPrecio" msprop:Generator_ColumnPropNameInRow="CodListaPrecio" msprop:Generator_ColumnPropNameInTable="CodListaPrecioColumn" type="xs:int" />
+              <xs:element name="NombAlmacen" msprop:Generator_UserColumnName="NombAlmacen" msprop:Generator_ColumnVarNameInTable="columnNombAlmacen" msprop:Generator_ColumnPropNameInRow="NombAlmacen" msprop:Generator_ColumnPropNameInTable="NombAlmacenColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NombListaPrecios" msprop:Generator_UserColumnName="NombListaPrecios" msprop:Generator_ColumnVarNameInTable="columnNombListaPrecios" msprop:Generator_ColumnPropNameInRow="NombListaPrecios" msprop:Generator_ColumnPropNameInTable="NombListaPreciosColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescMarca" msprop:Generator_UserColumnName="DescMarca" msprop:nullValue="(Empty)" msprop:Generator_ColumnVarNameInTable="columnDescMarca" msprop:Generator_ColumnPropNameInTable="DescMarcaColumn" msprop:Generator_ColumnPropNameInRow="DescMarca" type="xs:string" minOccurs="0" />
+              <xs:element name="UsuarioSBO" msprop:Generator_UserColumnName="UsuarioSBO" msprop:Generator_ColumnVarNameInTable="columnUsuarioSBO" msprop:Generator_ColumnPropNameInRow="UsuarioSBO" msprop:Generator_ColumnPropNameInTable="UsuarioSBOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PasswordSBO" msprop:Generator_UserColumnName="PasswordSBO" msprop:Generator_ColumnVarNameInTable="columnPasswordSBO" msprop:Generator_ColumnPropNameInRow="PasswordSBO" msprop:Generator_ColumnPropNameInTable="PasswordSBOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Check" msprop:Generator_UserColumnName="Check" msprop:Generator_ColumnPropNameInRow="Check" msprop:Generator_ColumnVarNameInTable="columnCheck" msprop:Generator_ColumnPropNameInTable="CheckColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="CardCodeProveedor" msprop:Generator_UserColumnName="CardCodeProveedor" msprop:nullValue="(Empty)" msprop:Generator_ColumnVarNameInTable="columnCardCodeProveedor" msprop:Generator_ColumnPropNameInTable="CardCodeProveedorColumn" msprop:Generator_ColumnPropNameInRow="CardCodeProveedor" type="xs:string" minOccurs="0" />
+              <xs:element name="CardNameProveedor" msprop:Generator_UserColumnName="CardNameProveedor" msprop:nullValue="(Empty)" msprop:Generator_ColumnVarNameInTable="columnCardNameProveedor" msprop:Generator_ColumnPropNameInTable="CardNameProveedorColumn" msprop:Generator_ColumnPropNameInRow="CardNameProveedor" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_ConfCatalogoRepxMarca" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

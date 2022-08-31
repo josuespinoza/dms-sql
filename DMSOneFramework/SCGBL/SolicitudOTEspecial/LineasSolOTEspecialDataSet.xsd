@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LineasSolOTEspecialDataSet" targetNamespace="http://tempuri.org/LineasSolOTEspecialDataSet.xsd" xmlns:mstns="http://tempuri.org/LineasSolOTEspecialDataSet.xsd" xmlns="http://tempuri.org/LineasSolOTEspecialDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LineasSolOTEspecialDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="LineasSolOTEspecialDataSet" msprop:Generator_UserDSName="LineasSolOTEspecialDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LineasSolicitudOTEspecial" msprop:Generator_TableClassName="LineasSolicitudOTEspecialDataTable" msprop:Generator_TableVarName="tableLineasSolicitudOTEspecial" msprop:Generator_TablePropName="LineasSolicitudOTEspecial" msprop:Generator_RowDeletingName="LineasSolicitudOTEspecialRowDeleting" msprop:Generator_UserTableName="LineasSolicitudOTEspecial" msprop:Generator_RowChangingName="LineasSolicitudOTEspecialRowChanging" msprop:Generator_RowEvHandlerName="LineasSolicitudOTEspecialRowChangeEventHandler" msprop:Generator_RowDeletedName="LineasSolicitudOTEspecialRowDeleted" msprop:Generator_RowEvArgName="LineasSolicitudOTEspecialRowChangeEvent" msprop:Generator_RowChangedName="LineasSolicitudOTEspecialRowChanged" msprop:Generator_RowClassName="LineasSolicitudOTEspecialRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DocEntry" msprop:Generator_ColumnVarNameInTable="columnDocEntry" msprop:Generator_ColumnPropNameInRow="DocEntry" msprop:Generator_ColumnPropNameInTable="DocEntryColumn" msprop:Generator_UserColumnName="DocEntry" type="xs:string" minOccurs="0" />
+              <xs:element name="U_ItemCode" msprop:Generator_ColumnVarNameInTable="columnU_ItemCode" msprop:Generator_ColumnPropNameInRow="U_ItemCode" msprop:Generator_ColumnPropNameInTable="U_ItemCodeColumn" msprop:Generator_UserColumnName="U_ItemCode" type="xs:string" minOccurs="0" />
+              <xs:element name="U_IdRxO" msprop:Generator_ColumnVarNameInTable="columnU_IdRxO" msprop:Generator_ColumnPropNameInRow="U_IdRxO" msprop:Generator_ColumnPropNameInTable="U_IdRxOColumn" msprop:Generator_UserColumnName="U_IdRxO" type="xs:string" minOccurs="0" />
+              <xs:element name="U_Descrip" msprop:Generator_ColumnVarNameInTable="columnU_Descrip" msprop:Generator_ColumnPropNameInRow="U_Descrip" msprop:Generator_ColumnPropNameInTable="U_DescripColumn" msprop:Generator_UserColumnName="U_Descrip" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

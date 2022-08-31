@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Requisiciones_LineasDataset" targetNamespace="http://tempuri.org/Requisiciones_LineasDataset.xsd" xmlns:mstns="http://tempuri.org/Requisiciones_LineasDataset.xsd" xmlns="http://tempuri.org/Requisiciones_LineasDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Requisiciones_LineasDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Requisiciones_LineasDataset" msprop:Generator_UserDSName="Requisiciones_LineasDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGD_LINEAS_REQ" msprop:Generator_TableClassName="SCGD_LINEAS_REQDataTable" msprop:Generator_TableVarName="tableSCGD_LINEAS_REQ" msprop:Generator_TablePropName="SCGD_LINEAS_REQ" msprop:Generator_RowDeletingName="SCGD_LINEAS_REQRowDeleting" msprop:Generator_UserTableName="SCGD_LINEAS_REQ" msprop:Generator_RowChangingName="SCGD_LINEAS_REQRowChanging" msprop:Generator_RowEvHandlerName="SCGD_LINEAS_REQRowChangeEventHandler" msprop:Generator_RowDeletedName="SCGD_LINEAS_REQRowDeleted" msprop:Generator_RowEvArgName="SCGD_LINEAS_REQRowChangeEvent" msprop:Generator_RowChangedName="SCGD_LINEAS_REQRowChanged" msprop:Generator_RowClassName="SCGD_LINEAS_REQRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DocEntry" msprop:Generator_ColumnVarNameInTable="columnDocEntry" msprop:Generator_ColumnPropNameInRow="DocEntry" msprop:Generator_ColumnPropNameInTable="DocEntryColumn" msprop:Generator_UserColumnName="DocEntry" type="xs:int" />
+              <xs:element name="LineId" msprop:Generator_ColumnVarNameInTable="columnLineId" msprop:Generator_ColumnPropNameInRow="LineId" msprop:Generator_ColumnPropNameInTable="LineIdColumn" msprop:Generator_UserColumnName="LineId" type="xs:int" />
+              <xs:element name="VisOrder" msprop:Generator_ColumnVarNameInTable="columnVisOrder" msprop:Generator_ColumnPropNameInRow="VisOrder" msprop:Generator_ColumnPropNameInTable="VisOrderColumn" msprop:Generator_UserColumnName="VisOrder" type="xs:int" minOccurs="0" />
+              <xs:element name="Object" msprop:Generator_ColumnVarNameInTable="columnObject" msprop:Generator_ColumnPropNameInRow="_Object" msprop:Generator_ColumnPropNameInTable="ObjectColumn" msprop:Generator_UserColumnName="Object" type="xs:string" minOccurs="0" />
+              <xs:element name="LogInst" msprop:Generator_ColumnVarNameInTable="columnLogInst" msprop:Generator_ColumnPropNameInRow="LogInst" msprop:Generator_ColumnPropNameInTable="LogInstColumn" msprop:Generator_UserColumnName="LogInst" type="xs:string" minOccurs="0" />
+              <xs:element name="U_SCGD_DescArticulo" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_DescArticulo" msprop:Generator_ColumnPropNameInRow="U_SCGD_DescArticulo" msprop:Generator_ColumnPropNameInTable="U_SCGD_DescArticuloColumn" msprop:Generator_UserColumnName="U_SCGD_DescArticulo" type="xs:string" minOccurs="0" />
+              <xs:element name="U_SCGD_CodBodOrigen" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_CodBodOrigen" msprop:Generator_ColumnPropNameInRow="U_SCGD_CodBodOrigen" msprop:Generator_ColumnPropNameInTable="U_SCGD_CodBodOrigenColumn" msprop:Generator_UserColumnName="U_SCGD_CodBodOrigen" type="xs:string" minOccurs="0" />
+              <xs:element name="U_SCGD_CantDispo" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_CantDispo" msprop:Generator_ColumnPropNameInRow="U_SCGD_CantDispo" msprop:Generator_ColumnPropNameInTable="U_SCGD_CantDispoColumn" msprop:Generator_UserColumnName="U_SCGD_CantDispo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="U_SCGD_CodBodDest" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_CodBodDest" msprop:Generator_ColumnPropNameInRow="U_SCGD_CodBodDest" msprop:Generator_ColumnPropNameInTable="U_SCGD_CodBodDestColumn" msprop:Generator_UserColumnName="U_SCGD_CodBodDest" type="xs:string" minOccurs="0" />
+              <xs:element name="U_SCGD_CodTipoArt" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_CodTipoArt" msprop:Generator_ColumnPropNameInRow="U_SCGD_CodTipoArt" msprop:Generator_ColumnPropNameInTable="U_SCGD_CodTipoArtColumn" msprop:Generator_UserColumnName="U_SCGD_CodTipoArt" type="xs:int" minOccurs="0" />
+              <xs:element name="U_SCGD_TipoArticulo" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_TipoArticulo" msprop:Generator_ColumnPropNameInRow="U_SCGD_TipoArticulo" msprop:Generator_ColumnPropNameInTable="U_SCGD_TipoArticuloColumn" msprop:Generator_UserColumnName="U_SCGD_TipoArticulo" type="xs:string" minOccurs="0" />
+              <xs:element name="U_SCGD_CantSol" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_CantSol" msprop:Generator_ColumnPropNameInRow="U_SCGD_CantSol" msprop:Generator_ColumnPropNameInTable="U_SCGD_CantSolColumn" msprop:Generator_UserColumnName="U_SCGD_CantSol" type="xs:decimal" minOccurs="0" />
+              <xs:element name="U_SCGD_CantRec" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_CantRec" msprop:Generator_ColumnPropNameInRow="U_SCGD_CantRec" msprop:Generator_ColumnPropNameInTable="U_SCGD_CantRecColumn" msprop:Generator_UserColumnName="U_SCGD_CantRec" type="xs:decimal" minOccurs="0" />
+              <xs:element name="U_SCGD_CantATransf" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_CantATransf" msprop:Generator_ColumnPropNameInRow="U_SCGD_CantATransf" msprop:Generator_ColumnPropNameInTable="U_SCGD_CantATransfColumn" msprop:Generator_UserColumnName="U_SCGD_CantATransf" type="xs:decimal" minOccurs="0" />
+              <xs:element name="U_SCGD_Estado" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_Estado" msprop:Generator_ColumnPropNameInRow="U_SCGD_Estado" msprop:Generator_ColumnPropNameInTable="U_SCGD_EstadoColumn" msprop:Generator_UserColumnName="U_SCGD_Estado" type="xs:string" minOccurs="0" />
+              <xs:element name="U_SCGD_CCosto" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_CCosto" msprop:Generator_ColumnPropNameInRow="U_SCGD_CCosto" msprop:Generator_ColumnPropNameInTable="U_SCGD_CCostoColumn" msprop:Generator_UserColumnName="U_SCGD_CCosto" type="xs:int" minOccurs="0" />
+              <xs:element name="U_SCGD_CodArticulo" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_CodArticulo" msprop:Generator_ColumnPropNameInRow="U_SCGD_CodArticulo" msprop:Generator_ColumnPropNameInTable="U_SCGD_CodArticuloColumn" msprop:Generator_UserColumnName="U_SCGD_CodArticulo" type="xs:string" minOccurs="0" />
+              <xs:element name="U_SCGD_CodEst" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_CodEst" msprop:Generator_ColumnPropNameInRow="U_SCGD_CodEst" msprop:Generator_ColumnPropNameInTable="U_SCGD_CodEstColumn" msprop:Generator_UserColumnName="U_SCGD_CodEst" type="xs:int" minOccurs="0" />
+              <xs:element name="U_SCGD_ChK" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_ChK" msprop:Generator_ColumnPropNameInRow="U_SCGD_ChK" msprop:Generator_ColumnPropNameInTable="U_SCGD_ChKColumn" msprop:Generator_UserColumnName="U_SCGD_ChK" type="xs:int" minOccurs="0" />
+              <xs:element name="U_SCGD_CantPen" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_CantPen" msprop:Generator_ColumnPropNameInRow="U_SCGD_CantPen" msprop:Generator_ColumnPropNameInTable="U_SCGD_CantPenColumn" msprop:Generator_UserColumnName="U_SCGD_CantPen" type="xs:decimal" minOccurs="0" />
+              <xs:element name="U_SCGD_LNumOr" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_LNumOr" msprop:Generator_ColumnPropNameInRow="U_SCGD_LNumOr" msprop:Generator_ColumnPropNameInTable="U_SCGD_LNumOrColumn" msprop:Generator_UserColumnName="U_SCGD_LNumOr" type="xs:int" minOccurs="0" />
+              <xs:element name="U_SCGD_DocOr" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_DocOr" msprop:Generator_ColumnPropNameInRow="U_SCGD_DocOr" msprop:Generator_ColumnPropNameInTable="U_SCGD_DocOrColumn" msprop:Generator_UserColumnName="U_SCGD_DocOr" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGD_LINEAS_REQ" />
+      <xs:field xpath="mstns:DocEntry" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

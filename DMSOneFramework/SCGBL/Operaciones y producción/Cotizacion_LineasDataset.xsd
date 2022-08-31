@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Cotizacion_LineasDataset" targetNamespace="http://tempuri.org/Cotizacion_LineasDataset.xsd" xmlns:mstns="http://tempuri.org/Cotizacion_LineasDataset.xsd" xmlns="http://tempuri.org/Cotizacion_LineasDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Cotizacion_LineasDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Cotizacion_LineasDataset" msprop:Generator_UserDSName="Cotizacion_LineasDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Cotizacion_Lineas" msprop:Generator_TableClassName="Cotizacion_LineasDataTable" msprop:Generator_RowEvArgName="Cotizacion_LineasRowChangeEvent" msprop:Generator_TableVarName="tableCotizacion_Lineas" msprop:Generator_TablePropName="Cotizacion_Lineas" msprop:Generator_RowDeletingName="Cotizacion_LineasRowDeleting" msprop:Generator_UserTableName="Cotizacion_Lineas" msprop:Generator_RowChangingName="Cotizacion_LineasRowChanging" msprop:Generator_RowDeletedName="Cotizacion_LineasRowDeleted" msprop:Generator_RowChangedName="Cotizacion_LineasRowChanged" msprop:Generator_RowEvHandlerName="Cotizacion_LineasRowChangeEventHandler" msprop:Generator_RowClassName="Cotizacion_LineasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DocEntry" msprop:Generator_ColumnVarNameInTable="columnDocEntry" msprop:Generator_ColumnPropNameInRow="DocEntry" msprop:Generator_ColumnPropNameInTable="DocEntryColumn" msprop:Generator_UserColumnName="DocEntry" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum" msprop:Generator_ColumnVarNameInTable="columnLineNum" msprop:Generator_ColumnPropNameInRow="LineNum" msprop:Generator_ColumnPropNameInTable="LineNumColumn" msprop:Generator_UserColumnName="LineNum" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemCode" msprop:Generator_ColumnVarNameInTable="columnItemCode" msprop:Generator_ColumnPropNameInRow="ItemCode" msprop:Generator_ColumnPropNameInTable="ItemCodeColumn" msprop:Generator_UserColumnName="ItemCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" msprop:Generator_UserColumnName="Quantity" type="xs:string" minOccurs="0" />
+              <xs:element name="OpenQty" msprop:Generator_ColumnVarNameInTable="columnOpenQty" msprop:Generator_ColumnPropNameInRow="OpenQty" msprop:Generator_ColumnPropNameInTable="OpenQtyColumn" msprop:Generator_UserColumnName="OpenQty" type="xs:string" minOccurs="0" />
+              <xs:element name="U_SCGD_IdRepxOrd" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_IdRepxOrd" msprop:Generator_ColumnPropNameInRow="U_SCGD_IdRepxOrd" msprop:Generator_ColumnPropNameInTable="U_SCGD_IdRepxOrdColumn" msprop:Generator_UserColumnName="U_SCGD_IdRepxOrd" type="xs:string" minOccurs="0" />
+              <xs:element name="U_SCGD_Aprobado" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_Aprobado" msprop:Generator_ColumnPropNameInRow="U_SCGD_Aprobado" msprop:Generator_ColumnPropNameInTable="U_SCGD_AprobadoColumn" msprop:Generator_UserColumnName="U_SCGD_Aprobado" type="xs:string" minOccurs="0" />
+              <xs:element name="U_SCGD_Traslad" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_Traslad" msprop:Generator_ColumnPropNameInRow="U_SCGD_Traslad" msprop:Generator_ColumnPropNameInTable="U_SCGD_TrasladColumn" msprop:Generator_UserColumnName="U_SCGD_Traslad" type="xs:string" minOccurs="0" />
+              <xs:element name="U_SCGD_CodEspecifico" msprop:Generator_ColumnVarNameInTable="columnU_SCGD_CodEspecifico" msprop:Generator_ColumnPropNameInRow="U_SCGD_CodEspecifico" msprop:Generator_ColumnPropNameInTable="U_SCGD_CodEspecificoColumn" msprop:Generator_UserColumnName="U_SCGD_CodEspecifico" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Cotizacion_LineasKey1">
+      <xs:selector xpath=".//mstns:Cotizacion_Lineas" />
+      <xs:field xpath="mstns:DocEntry" />
+      <xs:field xpath="mstns:LineNum" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

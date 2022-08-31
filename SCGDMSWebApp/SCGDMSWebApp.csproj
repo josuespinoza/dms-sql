@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C91B025B-9C5C-4BE6-BF47-83B35907001D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SCGDMSWebApp</RootNamespace>
+    <AssemblyName>SCGDMSWebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\CommonBin\Assemblies\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControl">
+      <HintPath>..\..\CommonBin\Assemblies\FlashControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SCGSeguridadWeb, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Main\CommonBin\Assemblies\SCGSeguridadWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\..\CommonBin\Assemblies\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MasterPages\SCGMasterPage.master.cs">
+      <DependentUpon>SCGMasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\SCGMasterPage.master.designer.cs">
+      <DependentUpon>SCGMasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\SCGUserDescMasterPage.master.cs">
+      <DependentUpon>SCGUserDescMasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\SCGUserDescMasterPage.master.designer.cs">
+      <DependentUpon>SCGUserDescMasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Default3.aspx.cs">
+      <DependentUpon>Default3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Default3.aspx.designer.cs">
+      <DependentUpon>Default3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Default4.aspx.cs">
+      <DependentUpon>Default4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal\Default4.aspx.designer.cs">
+      <DependentUpon>Default4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\DetalleOrdenTrabajo.aspx.cs">
+      <DependentUpon>DetalleOrdenTrabajo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal\DetalleOrdenTrabajo.aspx.designer.cs">
+      <DependentUpon>DetalleOrdenTrabajo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\EstadoPostVenta.aspx.cs">
+      <DependentUpon>EstadoPostVenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal\EstadoPostVenta.aspx.designer.cs">
+      <DependentUpon>EstadoPostVenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\PruebaCookie.aspx.cs">
+      <DependentUpon>PruebaCookie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal\PruebaCookie.aspx.designer.cs">
+      <DependentUpon>PruebaCookie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SCGErrorPage.aspx.cs">
+      <DependentUpon>SCGErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCGErrorPage.aspx.designer.cs">
+      <DependentUpon>SCGErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SCGInicio.aspx.cs">
+      <DependentUpon>SCGInicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCGInicio.aspx.designer.cs">
+      <DependentUpon>SCGInicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\SCGAccordionMenu.ascx.cs">
+      <DependentUpon>SCGAccordionMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\SCGAccordionMenu.ascx.designer.cs">
+      <DependentUpon>SCGAccordionMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\SCGBasicMenu.ascx.cs">
+      <DependentUpon>SCGBasicMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\SCGBasicMenu.ascx.designer.cs">
+      <DependentUpon>SCGBasicMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\SCGJqueryAccordionMenu.ascx.cs">
+      <DependentUpon>SCGJqueryAccordionMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\SCGJqueryAccordionMenu.ascx.designer.cs">
+      <DependentUpon>SCGJqueryAccordionMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\SCGWOStatusDisplay.ascx.cs">
+      <DependentUpon>SCGWOStatusDisplay.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\SCGWOStatusDisplay.ascx.designer.cs">
+      <DependentUpon>SCGWOStatusDisplay.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\AccordionMenuTheme\AccordionMenuStyle.css" />
+    <Content Include="App_Themes\AccordionMenuTheme\accordionPaneHeader.jpg" />
+    <Content Include="App_Themes\AccordionMenuTheme\accordionPaneHeader1.jpg" />
+    <Content Include="App_Themes\AccordionMenuTheme\menuItem.jpg" />
+    <Content Include="App_Themes\AccordionMenuTheme\menuItem1.jpg" />
+    <Content Include="App_Themes\AccordionMenuTheme\menuItemSelection.jpg" />
+    <Content Include="App_Themes\AccordionMenuTheme\menuItemSelection1.jpg" />
+    <Content Include="App_Themes\MiscelaneosLayOutStyles\BordeGrisDer.png" />
+    <Content Include="App_Themes\MiscelaneosLayOutStyles\BordeGrisIzq.png" />
+    <Content Include="App_Themes\MiscelaneosLayOutStyles\TabsStyle.css" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\background.jpg" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\banner.png" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\banner1.png" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\banner2.png" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\bannerdms.png" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\bannerf.png" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\banneroad %282%29.png" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\banneroad.png" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\Design.png" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\icno 3.ico" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\infoBar.png" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\logodms.png" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\logoscg.png" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\menuItem.jpg" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\menuItemSelection.jpg" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\SCGBackgroundFillStyle.css" />
+    <Content Include="App_Themes\SCGBackGroundFillTheme\SCGBackgroundFillStyle1.css" />
+    <Content Include="App_Themes\SCGBaseTheme\background.jpg" />
+    <Content Include="App_Themes\SCGBaseTheme\banner.jpg" />
+    <Content Include="App_Themes\SCGBaseTheme\Design.png" />
+    <Content Include="App_Themes\SCGBaseTheme\dmsBanner.jpg" />
+    <Content Include="App_Themes\SCGBaseTheme\icno 3.ico" />
+    <Content Include="App_Themes\SCGBaseTheme\infoBar.jpg" />
+    <Content Include="App_Themes\SCGBaseTheme\logoscg.png" />
+    <Content Include="App_Themes\SCGBaseTheme\menuItem.jpg" />
+    <Content Include="App_Themes\SCGBaseTheme\menuItemSelection.jpg" />
+    <Content Include="App_Themes\SCGBaseTheme\SCGBaseStyle.css" />
+    <Content Include="App_Themes\SCGInicioTheme\BANNEROADONE1.png" />
+    <Content Include="App_Themes\SCGInicioTheme\BordeInfDer.png" />
+    <Content Include="App_Themes\SCGInicioTheme\BordeInfDerA.png" />
+    <Content Include="App_Themes\SCGInicioTheme\BordeInfDerAZ.png" />
+    <Content Include="App_Themes\SCGInicioTheme\BordeInfDerAZUL.png" />
+    <Content Include="App_Themes\SCGInicioTheme\BordeInfIzq.png" />
+    <Content Include="App_Themes\SCGInicioTheme\BordeInfIzqA.png" />
+    <Content Include="App_Themes\SCGInicioTheme\BordeInfIzqAZUL.png" />
+    <Content Include="App_Themes\SCGInicioTheme\BordeSupDer.png" />
+    <Content Include="App_Themes\SCGInicioTheme\BordeSupDerA.png" />
+    <Content Include="App_Themes\SCGInicioTheme\BordeSupDerAZUL.png" />
+    <Content Include="App_Themes\SCGInicioTheme\BordeSupIzq.png" />
+    <Content Include="App_Themes\SCGInicioTheme\BordeSupIzqA.png" />
+    <Content Include="App_Themes\SCGInicioTheme\BordeSupIzqAZUL.png" />
+    <Content Include="App_Themes\SCGInicioTheme\FOOTER.png" />
+    <Content Include="App_Themes\SCGInicioTheme\Imagenhelpdesk.png" />
+    <Content Include="App_Themes\SCGInicioTheme\Imagenhelpdesk2.png" />
+    <Content Include="App_Themes\SCGInicioTheme\lineadelgadagris.png" />
+    <Content Include="App_Themes\SCGInicioTheme\LINEAHORIZONTALAZUL1.png" />
+    <Content Include="App_Themes\SCGInicioTheme\LogoDMSLogingrande.png" />
+    <Content Include="App_Themes\SCGInicioTheme\LogoOadLoging.png" />
+    <Content Include="App_Themes\SCGInicioTheme\logoscg.png" />
+    <Content Include="App_Themes\SCGInicioTheme\LogoSCGLogin.png" />
+    <Content Include="App_Themes\SCGInicioTheme\SCGInicio.css" />
+    <Content Include="App_Themes\SCGJqueryAccordionTheme\accordionPaneHeader.jpg" />
+    <Content Include="App_Themes\SCGJqueryAccordionTheme\menuHead2.jpg" />
+    <Content Include="App_Themes\SCGJqueryAccordionTheme\menuItem.jpg" />
+    <Content Include="App_Themes\SCGJqueryAccordionTheme\menuItemSelection.jpg" />
+    <Content Include="App_Themes\SCGJqueryAccordionTheme\SCGJqueryAccordion.css" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\background.jpg" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\banner.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\banner1.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\banner2.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\bannerdms.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\bannerf.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\banneroad.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\BANNEROADONE1.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\Carrodmsone.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\FOOTER.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\grislinea.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\icno 3.ico" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\Imagenhelpdesk.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\InfDer.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\infIzq.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\infoBar.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\LINEADEMENUGRIS.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\LINEADEMENUGRIS1.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\lineagris2.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\LINEAHORIZONTALAZUL1.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\Logoderechoscg.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\logodms.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\LogoDMSLogingrande.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\Logodmspeq.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\LOGOOADDERECHO1.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\logoscg.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\menuItem.jpg" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\menuItemSelection.jpg" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\SCGRoundedDeepBlueStyle.css" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\SupDer.png" />
+    <Content Include="App_Themes\SCGRoundedDeepBlueTheme\SupIzq.png" />
+    <Content Include="barraamarilla.png" />
+    <Content Include="barraroja.png" />
+    <Content Include="barraverde.png" />
+    <Content Include="Global.asax" />
+    <Content Include="Javascript\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Javascript\jquery-1.4.1.js" />
+    <Content Include="Javascript\jquery.cookie.js" />
+    <Content Include="Javascript\treeviewCheck.js" />
+    <Content Include="MasterPages\jquery.cookie.js" />
+    <Content Include="Principal\barraamarilla.png" />
+    <Content Include="Principal\barraceleste.png" />
+    <Content Include="Principal\barraroja.png" />
+    <Content Include="Principal\barraverde.png" />
+    <Content Include="Principal\Default.aspx" />
+    <Content Include="Principal\Default2.aspx" />
+    <Content Include="Principal\Default2.aspx.vb" />
+    <Content Include="Principal\Default3.aspx" />
+    <Content Include="Principal\Default4.aspx" />
+    <Content Include="Principal\DetalleOrdenTrabajo.aspx" />
+    <Content Include="Principal\EstadoPostVenta.aspx" />
+    <Content Include="Principal\PruebaCookie.aspx" />
+    <Content Include="Principal\warning.gif" />
+    <Content Include="Principal\warningBlanco.png" />
+    <Content Include="SCGCommonImages\Abajo.png" />
+    <Content Include="SCGCommonImages\bannerlogin.png" />
+    <Content Include="SCGCommonImages\bannerlogin1.png" />
+    <Content Include="SCGCommonImages\Lado.png" />
+    <Content Include="SCGCommonImages\linea.png" />
+    <Content Include="SCGCommonImages\logo.png" />
+    <Content Include="SCGCommonImages\logodms.png" />
+    <Content Include="SCGCommonImages\logooad.png" />
+    <Content Include="SCGCommonImages\logoscg.png" />
+    <Content Include="SCGCommonImages\scglogo.png" />
+    <Content Include="SCGErrorPage.aspx" />
+    <Content Include="SCGInicio.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SWF\Dash Publicidad Exterior v1.swf" />
+    <Content Include="SWF\DMS\AC_en-us.xml" />
+    <Content Include="SWF\DMS\AC_es-cr.xml" />
+    <Content Include="SWF\DMS\AF_en-us.xml" />
+    <Content Include="SWF\DMS\AF_es-cr.xml" />
+    <Content Include="SWF\DMS\Ana.jpg" />
+    <Content Include="SWF\DMS\DMS peq.png" />
+    <Content Include="SWF\DMS\DMSAnalytics_3.5.swf" />
+    <Content Include="SWF\DMS\DMSjpg.jpg" />
+    <Content Include="SWF\DMS\Edge.jpg" />
+    <Content Include="SWF\DMS\Escape.jpg" />
+    <Content Include="SWF\DMS\Explorer.jpg" />
+    <Content Include="SWF\DMS\Felipe.jpg" />
+    <Content Include="SWF\DMS\Fusion.jpg" />
+    <Content Include="SWF\DMS\Juan.jpg" />
+    <Content Include="SWF\DMS\Logo.jpg" />
+    <Content Include="SWF\DMS\María.jpg" />
+    <Content Include="SWF\DMS\Pedro.jpg" />
+    <Content Include="SWF\DMS\Ranger.jpg" />
+    <Content Include="SWF\DMS\Serv_PostVenta.swf" />
+    <Content Include="SWF\DMS\TodosEmpleados.jpg" />
+    <Content Include="SWF\DMS\TodosModelos.jpg" />
+    <Content Include="SWF\DMS\UM_en-us.xml" />
+    <Content Include="SWF\DMS\UM_es-cr.xml" />
+    <Content Include="SWF\PaqueteSCG\AC.xml" />
+    <Content Include="SWF\PaqueteSCG\AF.xml" />
+    <Content Include="SWF\PaqueteSCG\DMSAnalytics 3.5.swf" />
+    <Content Include="SWF\PaqueteSCG\Images\Ana.jpg" />
+    <Content Include="SWF\PaqueteSCG\Images\Edge.jpg" />
+    <Content Include="SWF\PaqueteSCG\Images\Escape.jpg" />
+    <Content Include="SWF\PaqueteSCG\Images\Explorer.jpg" />
+    <Content Include="SWF\PaqueteSCG\Images\Felipe.jpg" />
+    <Content Include="SWF\PaqueteSCG\Images\Fusion.jpg" />
+    <Content Include="SWF\PaqueteSCG\Images\Juan.jpg" />
+    <Content Include="SWF\PaqueteSCG\Images\Logo.jpg" />
+    <Content Include="SWF\PaqueteSCG\Images\María.jpg" />
+    <Content Include="SWF\PaqueteSCG\Images\Pedro.jpg" />
+    <Content Include="SWF\PaqueteSCG\Images\Ranger.jpg" />
+    <Content Include="SWF\PaqueteSCG\Images\TodosEmpleados.jpg" />
+    <Content Include="SWF\PaqueteSCG\Images\TodosModelos.jpg" />
+    <Content Include="SWF\PaqueteSCG\UM.xml" />
+    <Content Include="SWF\SCG v3.3 Sin XML.swf" />
+    <Content Include="SWF\screenshotDashboard.PNG" />
+    <Content Include="UserControl\SCGAccordionMenu.ascx" />
+    <Content Include="UserControl\SCGBasicMenu.ascx" />
+    <Content Include="UserControl\SCGJqueryAccordionMenu.ascx" />
+    <Content Include="UserControl\SCGWOStatusDisplay.ascx" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\SCGErrorPage.aspx.en-US.resx" />
+    <Content Include="App_LocalResources\SCGErrorPage.aspx.resx" />
+    <Content Include="App_LocalResources\SCGInicio.aspx.en-US.resx" />
+    <Content Include="App_LocalResources\SCGInicio.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\SCGMasterPage.master" />
+    <Content Include="MasterPages\SCGUserDescMasterPage.master" />
+    <None Include="SWF\PaqueteSCG\SCG v3.5.xlf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Seguridad\App_LocalResources\AddUser.aspx.en-US.resx" />
+    <Content Include="Seguridad\App_LocalResources\AddUser.aspx.resx" />
+    <Content Include="Seguridad\App_LocalResources\ChangePassword.aspx.en-US.resx" />
+    <Content Include="Seguridad\App_LocalResources\ChangePassword.aspx.resx" />
+    <Content Include="Seguridad\App_LocalResources\MenuManagement.aspx.en-US.resx" />
+    <Content Include="Seguridad\App_LocalResources\MenuManagement.aspx.resx" />
+    <Content Include="Seguridad\App_LocalResources\Users.aspx.en-US.resx" />
+    <Content Include="Seguridad\App_LocalResources\Users.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50499</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,59 @@
+﻿.menu_list {
+	width: 190px;
+}
+.menu_head {
+	background-position: right;
+	color: #FFFFFF;
+	background-color: #596A84;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0px;
+	cursor: pointer;
+	background: #7F8BA1 no-repeat right;
+	background-repeat: repeat-x;
+	height: 30px;
+	line-height: 25px;
+	text-indent: 8px;
+	width: 190px;
+	background-image: url(accordionPaneHeader.jpg);
+}
+.menu_head2 
+        {
+	display: block;
+	color: #000000;
+	background-color: #EFEFEF;
+	padding-left: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	background-image: url('menuItem.jpg');
+	background-repeat: repeat-x;
+	width: 180px;
+	line-height: 25px;
+	text-indent: 8px;
+}
+.menu_body 
+{
+	
+	display:none;
+	width: 180px;
+}
+.menu_body a
+{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #F1F1F1;
+	display: block;
+	color: #000000;
+	background-color: #FFFFFF;
+	padding-left: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	background-repeat: repeat-x;
+	width: 180px;
+	line-height: 25px;
+	text-indent: 20px;
+}
+.menu_body a:hover{
+  color: #000000;
+  text-decoration:underline;
+  }

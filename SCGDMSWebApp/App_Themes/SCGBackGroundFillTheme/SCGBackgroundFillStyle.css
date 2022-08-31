@@ -1,0 +1,234 @@
+﻿body {
+	background-image: url('background.jpg');
+	background-repeat: repeat-x;
+	background-color: #CBCBCB;
+}
+*
+{
+	padding: 0px;
+	margin: 0px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+}
+#Wrapper
+{
+	min-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #DEDCD3;
+}
+#Banner
+{
+	background-image: url('banner.png');
+	height: 113px;
+	background-repeat: no-repeat;
+	background-color: #A2C4D5;
+}
+#LeftPanel
+{
+	width: 190px;
+	float: left;
+	min-height: 600px;
+	height: auto;
+	margin-top: 3px;
+}
+#Content
+{
+	border: 1px solid #999999;
+	background-color: #FFFFFF;
+	margin-left: 195px;
+	min-height: 600px;
+	height: inherit;
+	margin-right: 5px;
+	margin-top: 3px;
+	width: inherit;
+	min-width:700px;
+	padding-bottom: 15px;
+}
+#MiscelaneousPanel
+{
+	background-image: url('infoBar.png');
+	min-height: 23px;
+	background-repeat: repeat-y;
+	background-color: #EBB253;
+	clear: both;
+	height: 21px;
+}
+.BlueTitleBar
+{
+	background-color: #003366;
+	color: #FFFFFF;
+	padding-left: 20px;
+	height: 25px;
+}
+#MenuContainer
+{
+	margin-top: 3px;
+	margin-left: 2px;
+	width: 183px;
+	background-color: #FFFFFF;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #FFFFFF;
+}
+#Footer
+{
+	background-color: #003366;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 3px;
+	border-top-color: #F4AC00;
+	height: 35px;
+	margin-top: 2px;
+	text-align: center;
+	font-size: x-small;
+}
+/*.MenuStyle
+{
+	width: 180px;
+}*/
+
+
+/*#MenuContainer a:link, a:visited
+{
+	color: #666666;
+	display: block;
+	width: 181px;
+	line-height: 25px;
+}*/
+
+/*#MenuContainer a:hover
+{
+	color: #FFFFFF;
+	display: block;
+	background-image: url('menuItemSelection.jpg');
+	background-repeat: no-repeat;
+	background-color: #666666;
+	height: 30px;
+	line-height: 25px;
+}*/
+
+
+.AlignImageRight
+{
+	float: right;
+}
+#UserStatus
+{
+	list-style-type: none;
+	clear: both;
+	color: #000000;
+	width: 500px;
+	float: right;
+}
+#UserStatus li
+{
+	line-height: 25px;
+	float: right;
+	width: 120px;
+}
+.SiteMapPath
+{
+	margin: 0px;
+	font-size: 10px;
+	color: #FFFFFF;
+	background-color: #1A3865;
+	height: 100%;
+	padding-left: 5px;
+	padding-right: 10px;
+	padding-top: 2px;
+}
+#ContentPanel
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width:900px;
+	min-width:900px;
+}
+
+
+.Medidas
+{
+	margin: 10px 0px 10px 10px;
+}
+.Medidas Label
+{
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	float: left;
+	line-height: 23px;
+}
+#ContentPanel
+{
+	padding-top: 50px;
+	padding-right: 0px;
+	position: relative;
+}
+#WizardContainer
+{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #929292;
+}
+.Table
+{
+	line-height: 19px;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #CCCCCC;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	border-left-width: 1px;
+	border-left-style: solid;
+}
+.Table th
+{
+	padding: 10px 5px 5px 5px;
+	background-color: #2D4569;
+	color: #FFFFFF;
+}
+.Table td
+{
+	margin: 0px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+.Table tr
+{
+	background-color: #FFFFFF;
+}
+.Table tr.AlterNate
+{
+	background-color: #CCCCCC;
+}
+.Table tr:hover td, .Table tr:hover td a, .Table tr:hover th a {
+	background-color: #EBEBEB;
+}
+
+
+/*.Table tr a:link, a:visited
+{
+	display:block;
+}*/
+/*#Pager > a:link, #Pager > a:visited
+{
+	width: 2px;
+}*/
+#Pager
+{
+	width: inherit;
+}
+.treeview
+{
+	border: 1px solid #C0C0C0;
+	font-size: medium;
+	height: 300px;
+	padding: 0px;
+	overflow: scroll;
+}

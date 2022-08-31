@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EstadoWebDataset" targetNamespace="http://tempuri.org/EstadoWebDataset.xsd" xmlns:mstns="http://tempuri.org/EstadoWebDataset.xsd" xmlns="http://tempuri.org/EstadoWebDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="EstadoWebDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="EstadoWebDataset" msprop:Generator_UserDSName="EstadoWebDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_EstadoWeb" msprop:Generator_TableClassName="SCGTA_TB_EstadoWebDataTable" msprop:Generator_TableVarName="tableSCGTA_TB_EstadoWeb" msprop:Generator_TablePropName="SCGTA_TB_EstadoWeb" msprop:Generator_RowDeletingName="SCGTA_TB_EstadoWebRowDeleting" msprop:Generator_UserTableName="SCGTA_TB_EstadoWeb" msprop:Generator_RowChangingName="SCGTA_TB_EstadoWebRowChanging" msprop:Generator_RowEvHandlerName="SCGTA_TB_EstadoWebRowChangeEventHandler" msprop:Generator_RowDeletedName="SCGTA_TB_EstadoWebRowDeleted" msprop:Generator_RowEvArgName="SCGTA_TB_EstadoWebRowChangeEvent" msprop:Generator_RowChangedName="SCGTA_TB_EstadoWebRowChanged" msprop:Generator_RowClassName="SCGTA_TB_EstadoWebRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDEstadoWeb" msprop:Generator_ColumnVarNameInTable="columnIDEstadoWeb" msprop:Generator_ColumnPropNameInRow="IDEstadoWeb" msprop:Generator_ColumnPropNameInTable="IDEstadoWebColumn" msprop:Generator_UserColumnName="IDEstadoWeb" type="xs:int" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="DescripcionEnUS" msprop:Generator_ColumnVarNameInTable="columnDescripcionEnUS" msprop:Generator_ColumnPropNameInRow="DescripcionEnUS" msprop:Generator_ColumnPropNameInTable="DescripcionEnUSColumn" msprop:Generator_UserColumnName="DescripcionEnUS" type="xs:string" minOccurs="0" />
+              <xs:element name="EstadoLogico" msprop:Generator_ColumnVarNameInTable="columnEstadoLogico" msprop:Generator_ColumnPropNameInRow="EstadoLogico" msprop:Generator_ColumnPropNameInTable="EstadoLogicoColumn" msprop:Generator_UserColumnName="EstadoLogico" type="xs:unsignedByte" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

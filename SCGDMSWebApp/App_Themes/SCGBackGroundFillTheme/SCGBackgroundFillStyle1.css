@@ -1,0 +1,135 @@
+﻿body {
+	background-image: url('background.jpg');
+	background-repeat: repeat-x;
+	background-color: #CBCBCB;
+}
+*
+{
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+#Wrapper
+{
+	min-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #DEDCD3;
+}
+#Banner
+{
+	background-image: url('banner.png');
+	height: 113px;
+	background-repeat: no-repeat;
+	background-color: #A2C4D5;
+}
+#LeftPanel
+{
+	width: 190px;
+	float: left;
+	min-height: 600px;
+	height: auto;
+	margin-top: 3px;
+}
+#Content
+{
+	border: 1px solid #999999;
+	background-color: #FFFFFF;
+	margin-left: 195px;
+	min-height: 600px;
+	height: inherit;
+	margin-right: 5px;
+	margin-top: 3px;
+	width: inherit;
+}
+#MiscelaneousPanel
+{
+	background-image: url('infoBar.png');
+	min-height: 23px;
+	background-repeat: repeat-y;
+	background-color: #FFDFB2;
+}
+.BlueTitleBar
+{
+	background-color: #003366;
+	color: #FFFFFF;
+	padding-left: 20px;
+	height: 25px;
+}
+#MenuContainer
+{
+	margin-top: 3px;
+	margin-left: 2px;
+	width: 183px;
+	background-color: #FFFFFF;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #FFFFFF;
+}
+#Footer
+{
+	background-color: #003366;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 3px;
+	border-top-color: #F4AC00;
+	height: 35px;
+	margin-top: 2px;
+	text-align: center;
+	font-size: x-small;
+}
+.MenuItemStyle
+{
+	background-image: url('menuItem.jpg');
+	font-size: small;
+	height: 30px;
+	width: 150px;
+}
+/*.MenuStyle
+{
+	width: 180px;
+}*/
+
+.MenuItemHoverStyle
+{
+	background-image: url('menuItemSelection.jpg');
+}
+
+
+#MenuContainer a:link, a:visited
+{
+	color: #666666;
+	display: block;
+	width: 181px;
+	line-height: 25px;
+}
+
+#MenuContainer a:hover
+{
+	color: #FFFFFF;
+	display: block;
+	background-image: url('menuItemSelection.jpg');
+	background-repeat: no-repeat;
+	background-color: #666666;
+	height: 30px;
+	line-height: 25px;
+}
+
+
+.AlignImageRight
+{
+	float: right;
+}
+#UserStatus
+{
+	list-style-type: none;
+}
+#UserStatus li
+{
+	display: inline;
+	line-height: 25px;
+}

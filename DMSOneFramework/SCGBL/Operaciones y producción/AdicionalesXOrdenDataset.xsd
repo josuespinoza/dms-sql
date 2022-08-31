@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AdicionalesXOrdenDataset" targetNamespace="http://tempuri.org/AdicionalesXOrdenDataset.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/AdicionalesXOrdenDataset.xsd" xmlns:mstns="http://tempuri.org/AdicionalesXOrdenDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="AdicionalesXOrdenDataset" msdata:IsDataSet="true">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="SCGTA_TB_AdicionalesXOrden">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" />
+                            <xs:element name="NoAdicional" type="xs:int" />
+                            <xs:element name="NoOrden" type="xs:string" />
+                            <xs:element name="MontoMO" type="xs:decimal" />
+                            <xs:element name="CantidadRep" type="xs:decimal" />
+                            <xs:element name="CantidadSum" type="xs:decimal" />
+                            <xs:element name="Fecha" type="xs:dateTime" />
+                            <xs:element name="MontoSum" type="xs:decimal" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+        <xs:unique name="AdicionalesXOrdenDatasetKey1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:SCGTA_TB_AdicionalesXOrden" />
+            <xs:field xpath="mstns:ID" />
+        </xs:unique>
+    </xs:element>
+</xs:schema>

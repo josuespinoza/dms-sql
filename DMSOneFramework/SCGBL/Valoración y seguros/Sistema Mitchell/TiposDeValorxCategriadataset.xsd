@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TiposDeValorxCategria" targetNamespace="http://tempuri.org/TiposDeValorxCategria.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/TiposDeValorxCategria.xsd"
+	xmlns:mstns="http://tempuri.org/TiposDeValorxCategria.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="TiposDeValorxCategriadataset" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="SCGTB_TA_TiposDeValorxCategria">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idTipoLabor" type="xs:int" />
+							<xs:element name="idCategoriaLabor" type="xs:int" />
+							<xs:element name="NoOrden" type="xs:string" />
+							<xs:element name="HorasAsignadas" type="xs:decimal" />
+							<xs:element name="Tipo_x0020_Labor" type="xs:string" minOccurs="0" default="&quot;&quot;" />
+							<xs:element name="Categoría_x0020_de_x0020_Labor" type="xs:string" minOccurs="0" default="&quot;&quot;" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="TiposDeValorxCategriadatasetKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:SCGTB_TA_TiposDeValorxCategria" />
+			<xs:field xpath="mstns:idTipoLabor" />
+			<xs:field xpath="mstns:idCategoriaLabor" />
+			<xs:field xpath="mstns:NoOrden" />
+		</xs:key>
+	</xs:element>
+</xs:schema>

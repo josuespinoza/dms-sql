@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OcupacionDataset" targetNamespace="http://tempuri.org/OcupacionDataset.xsd" xmlns:mstns="http://tempuri.org/OcupacionDataset.xsd" xmlns="http://tempuri.org/OcupacionDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="OcupacionDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="OcupacionDataset" msprop:Generator_DataSetName="OcupacionDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_Ocupacion" msprop:Generator_UserTableName="SCGTA_TB_Ocupacion" msprop:Generator_RowDeletedName="SCGTA_TB_OcupacionRowDeleted" msprop:Generator_RowChangedName="SCGTA_TB_OcupacionRowChanged" msprop:Generator_RowClassName="SCGTA_TB_OcupacionRow" msprop:Generator_RowChangingName="SCGTA_TB_OcupacionRowChanging" msprop:Generator_RowEvArgName="SCGTA_TB_OcupacionRowChangeEvent" msprop:Generator_RowEvHandlerName="SCGTA_TB_OcupacionRowChangeEventHandler" msprop:Generator_TableClassName="SCGTA_TB_OcupacionDataTable" msprop:Generator_TableVarName="tableSCGTA_TB_Ocupacion" msprop:Generator_RowDeletingName="SCGTA_TB_OcupacionRowDeleting" msprop:Generator_TablePropName="SCGTA_TB_Ocupacion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="Hora" msprop:Generator_UserColumnName="Hora" msprop:Generator_ColumnVarNameInTable="columnHora" msprop:Generator_ColumnPropNameInRow="Hora" msprop:Generator_ColumnPropNameInTable="HoraColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HoraConFecha" msprop:Generator_UserColumnName="HoraConFecha" msprop:Generator_ColumnPropNameInRow="HoraConFecha" msprop:Generator_ColumnVarNameInTable="columnHoraConFecha" msprop:Generator_ColumnPropNameInTable="HoraConFechaColumn" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_Ocupacion" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

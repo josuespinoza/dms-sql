@@ -1,0 +1,1364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HANA_AsignacionesOTInterna" xml:space="preserve">
+    <value>SELECT DISTINCT cc."Code" AS "ID", q1."U_SCGD_Sucur" || '-' || CAST(q1."LineNum" AS varchar) || '-' || cc."Code" AS "IDRepXOrd", 
+	itm."U_SCGD_T_Fase" AS "NoFase", q1."ItemCode", q1."U_SCGD_DurSt" AS "DuracionAprobada", cc."Code" AS "NoOrden", 
+	q1."Dscription" AS "ItemName", cc."U_Estad" AS "Estado", fp."Name" AS "Descripcion", emp."empID" AS "IDEmp", 
+	(emp."firstName" || ' ' || emp."lastName") AS "NombreEmp", q1."DocEntry" AS "NumCot", q1."LineNum", 0 AS "U_SCGD_DurSt", 
+	0 AS "U_SCGD_TiempoReal", 0 AS "Price" 
+FROM "@SCGD_CTRLCOL" cc INNER JOIN QUT1 q1 ON cc."Code" = q1."U_SCGD_NoOT" AND cc."U_IdAct" = q1.U_SCGD_ID 
+	INNER JOIN OITM itm ON q1."ItemCode" = itm."ItemCode" LEFT OUTER JOIN "@SCGD_FASEPRODUCCION" fp ON itm."U_SCGD_T_Fase" = fp."Code" 
+	INNER JOIN OHEM emp ON cc."U_Colab" = emp."empID" 
+WHERE cc."Code" = '{0}'</value>
+  </data>
+  <data name="HANA_EdicionRegistroTiempo" xml:space="preserve">
+    <value>SELECT T3."LineId", T4."empID", CONCAT(T4."firstName", CONCAT(' ', T4."lastName")) AS "Name", T2."Dscription" AS "Service", T3."U_CosRe" AS "RealCost", T3."U_CosEst" AS "StandardCost", T3."U_DFIni" AS "StartDate", T3."U_HFIni" AS "StartTime", T3."U_DFFin" AS "EndDate", T3."U_HFFin" AS "EndTime", T2."U_SCGD_DurSt" AS "StandardDuration", T4."U_SCGD_sALXHORA" AS "HourlyWage", IFNULL(T5."U_ExtraHourRate", 0) AS "ExtraHourRate", T3."U_TMin" AS "TotalMinutes", IFNULL(T4."U_SCGD_WorksWeekends", 'N') AS "WorksWeekends" FROM "@SCGD_OT" T0 INNER JOIN "OQUT" T1 ON T0."U_DocEntry" = T1."DocEntry" INNER JOIN "QUT1" T2 ON T1."DocEntry" = T2."DocEntry" INNER JOIN "@SCGD_CTRLCOL" T3 ON T0."Code" = T3."Code" AND T2."U_SCGD_ID" = T3."U_IdAct" INNER JOIN "OHEM" T4 ON T3."U_Colab" = T4."empID" INNER JOIN "@SCGD_CONF_SUCURSAL" T5 ON T0."U_Sucu" = T5."U_Sucurs" WHERE T0."Code" = '{0}' AND T3."U_Estad" IN ('{1}', '{2}') Order By T4."empID", T3."LineId"</value>
+  </data>
+  <data name="HANA_ExisteOrdenCompraNC" xml:space="preserve">
+    <value>SELECT COUNT(*) AS "Cuenta" FROM "RPC1" T0  
+INNER JOIN "PCH1" T1  ON T0."BaseEntry" = T1."DocEntry" AND T0."BaseLine" = T1."LineNum" AND T0."BaseType" = T1."ObjType"
+LEFT JOIN "PDN1" T2  ON T1."BaseEntry" = T2."DocEntry" AND T1."BaseLine" = T2."LineNum" AND T1."BaseType" = T2."ObjType"
+WHERE T0."DocEntry" = '{0}' AND (T1."BaseType" = '22' OR T2."BaseType" = '22')</value>
+  </data>
+  <data name="HANA_QueryCosteos" xml:space="preserve">
+    <value>SELECT CASE 
+         WHEN (SELECT Count(1) AS "QTY" 
+               FROM   "@SCGD_VEHICULO" 
+               WHERE  ( "U_Cod_Unid" = '{0}' ) 
+                      AND ( U_SALINID &lt;&gt; 0 ) 
+                      AND ( U_SALINID IS NOT NULL )) &gt; 0 THEN 1 
+         ELSE 
+           CASE 
+             WHEN (SELECT Count(1) 
+                   FROM   "@SCGD_VEHICULO" "@SCGD_VEHICULO_1" 
+                   WHERE  ( "U_Cod_Unid" = '{0}' ) 
+                          AND ( U_SALINIC &lt;&gt; 0 ) 
+                          AND ( U_SALINIC IS NOT NULL )) &gt; 0 THEN 1 
+             ELSE 
+               CASE 
+                 WHEN (SELECT Count(1) 
+                       FROM   JDT1 JDT1_1 
+                              INNER JOIN OJDT OJDT_1 
+                                      ON JDT1_1."TransId" = OJDT_1."TransId" 
+                              LEFT OUTER JOIN ORTT ORTT_1 
+                                           ON OJDT_1."RefDate" = 
+                                              ORTT_1."RateDate" 
+                                              AND ( 
+                              ORTT_1."Currency" = JDT1_1."FCCurrency" 
+                               OR ( JDT1_1."FCCurrency" IS NULL 
+                                     OR JDT1_1."FCCurrency" = '{3}' ) 
+                                  AND ORTT_1."Currency" = '{1}' ) 
+                       WHERE  ( JDT1_1."U_SCGD_Cod_Unidad" = '{0}' ) 
+                              AND ( JDT1_1."SYSDeb" &lt;&gt; 0 ) 
+                              AND ( OJDT_1."TransId" NOT IN 
+                                    (SELECT L."U_NoAsient" 
+                                     FROM   "@SCGD_GRLINES" L 
+                                    INNER JOIN "@SCGD_GOODRECEIVE" GR 
+                                            ON GR."DocEntry" = 
+                                               L."DocEntry" 
+                                               AND GR."U_Unidad" = 
+                                                   '{0}' 
+                                               AND L."U_NoAsient" IS 
+                                                   NOT NULL) 
+                                  ) 
+                              AND ( OJDT_1."RefDate" &lt;= '{4}' ) 
+                              AND ( JDT1_1."U_SCGD_Cod_Tran" IN (SELECT "Code" 
+                                                                 FROM 
+                                    "@SCGD_TRAN_COMP" "@SCGD_TRAN_COMP_7") 
+                                  ) 
+                               OR ( JDT1_1."U_SCGD_Cod_Unidad" = '{0}' ) 
+                                  AND ( OJDT_1."TransId" NOT IN 
+                                        (SELECT L."U_NoAsient" 
+                                         FROM 
+                                        "@SCGD_GRLINES" L 
+                                        INNER JOIN "@SCGD_GOODRECEIVE" 
+                                                   GR 
+                                                ON GR."DocEntry" = 
+                                                   L."DocEntry" 
+                                                   AND GR."U_Unidad" = 
+                                                       '{0}' 
+                                                   AND L."U_NoAsient" 
+                                                       IS NOT 
+                                                       NULL) 
+                                      ) 
+                                  AND ( OJDT_1."RefDate" &lt;= '{4}' ) 
+                                  AND ( JDT1_1."U_SCGD_Cod_Unidad" IN (SELECT 
+                                        "Code" 
+                                                                       FROM 
+                                        "@SCGD_TRAN_COMP" "@SCGD_TRAN_COMP_5") ) 
+                                  AND ( JDT1_1."FCDebit" &lt;&gt; 0 ) 
+                               OR ( JDT1_1."U_SCGD_Cod_Unidad" = '{0}' ) 
+                                  AND ( OJDT_1."TransId" NOT IN 
+                                        (SELECT L."U_NoAsient" 
+                                         FROM 
+                                        "@SCGD_GRLINES" L 
+                                        INNER JOIN "@SCGD_GOODRECEIVE" 
+                                                   GR 
+                                                ON GR."DocEntry" = 
+                                                   L."DocEntry" 
+                                                   AND GR."U_Unidad" = 
+                                                       '{0}' 
+                                                   AND L."U_NoAsient" 
+                                                       IS NOT 
+                                                       NULL) 
+                                      ) 
+                                  AND ( OJDT_1."RefDate" &lt;= '{4}' ) 
+                                  AND ( JDT1_1."U_SCGD_Cod_Tran" IN (SELECT 
+                                        "Code" 
+                                                                     FROM 
+                                        "@SCGD_TRAN_COMP" "@SCGD_TRAN_COMP_4") 
+                                      ) 
+                                  AND ( JDT1_1."Debit" &lt;&gt; 0 )) &gt; 0 THEN 1 
+                 ELSE 
+                   CASE 
+                     WHEN (SELECT Count(1) 
+                           FROM   JDT1 JDT1 
+                                  INNER JOIN OJDT OJDT 
+                                          ON JDT1."TransId" = OJDT."TransId" 
+                                  LEFT OUTER JOIN ORTT ORTT 
+                                               ON OJDT."RefDate" = 
+                                                  ORTT."RateDate" 
+                                                  AND ( 
+                                  ORTT."Currency" = JDT1."FCCurrency" 
+                                   OR ( JDT1."FCCurrency" IS NULL 
+                                         OR JDT1."FCCurrency" = '{2}' 
+                                      ) 
+                                      AND ORTT."Currency" = '{1}' ) 
+                           WHERE  ( JDT1."U_SCGD_Cod_Unidad" = '{0}' ) 
+                                  AND ( JDT1."SYSCred" &lt;&gt; 0 ) 
+                                  AND ( OJDT."TransId" NOT IN 
+                                        (SELECT L."U_NoAsient" 
+                                         FROM   "@SCGD_GRLINES" L 
+                                        INNER JOIN "@SCGD_GOODRECEIVE" GR 
+                                                ON GR."DocEntry" = 
+                                                   L."DocEntry" 
+                                                   AND GR."U_Unidad" = '{0}' 
+                                                   AND L."U_NoAsient" IS NOT 
+                                                       NULL) ) 
+                                  AND ( OJDT."RefDate" &lt;= '{4}' ) 
+                                  AND ( JDT1."U_SCGD_Cod_Tran" IN (SELECT "Code" 
+                                                                   FROM 
+                                        "@SCGD_TRAN_COMP" "@SCGD_TRAN_COMP_3") ) 
+                                   OR ( JDT1."U_SCGD_Cod_Unidad" = '{0}' ) 
+                                      AND ( OJDT."TransId" NOT IN 
+                                            (SELECT L."U_NoAsient" 
+                                             FROM   "@SCGD_GRLINES" L 
+                                            INNER JOIN "@SCGD_GOODRECEIVE" 
+                                                       GR 
+                                                    ON GR."DocEntry" = 
+                                                       L."DocEntry" 
+                                                       AND GR."U_Unidad" = 
+                                                           '{0}' 
+                                                       AND L."U_NoAsient" IS 
+                                                           NOT 
+                                                           NULL) ) 
+                                      AND ( OJDT."RefDate" &lt;= '{4}' ) 
+                                      AND ( JDT1."U_SCGD_Cod_Tran" IN (SELECT 
+                                            "Code" 
+                                                                       FROM 
+                                            "@SCGD_TRAN_COMP" 
+                                            "@SCGD_TRAN_COMP_2") ) 
+                                      AND ( JDT1."fcCredit" &lt;&gt; 0 ) 
+                                   OR ( JDT1."U_SCGD_Cod_Unidad" = '{0}' ) 
+                                      AND ( OJDT."TransId" NOT IN 
+                                            (SELECT L."U_NoAsient" 
+                                             FROM   "@SCGD_GRLINES" L 
+                                            INNER JOIN "@SCGD_GOODRECEIVE" 
+                                                       GR 
+                                                    ON GR."DocEntry" = 
+                                                       L."DocEntry" 
+                                                       AND GR."U_Unidad" = 
+                                                           '{0}' 
+                                                       AND L."U_NoAsient" IS 
+                                                           NOT 
+                                                           NULL) ) 
+                                      AND ( OJDT."RefDate" &lt;= '{4}' ) 
+                                      AND ( JDT1."U_SCGD_Cod_Tran" IN (SELECT 
+                                            "Code" 
+                                                                       FROM 
+                                            "@SCGD_TRAN_COMP" 
+                                            "@SCGD_TRAN_COMP_1") ) 
+                                      AND ( JDT1."Credit" &lt;&gt; 0 )) &gt; 0 THEN 1 
+                     ELSE 
+                       CASE 
+                         WHEN (SELECT Count(1) 
+                               FROM   PCH1 
+                                      INNER JOIN OPCH 
+                                              ON PCH1."DocEntry" = 
+                                                 OPCH."DocEntry" 
+                                      INNER JOIN OJDT 
+                                              ON OPCH."TransId" = OJDT."TransId" 
+                               WHERE  ( PCH1."U_SCGD_Cod_Unid" = '{0}' ) 
+                                      AND ( OPCH."DocType" = '{5}' 
+                                             OR OPCH."DocType" = '{6}' ) 
+                                      AND ( OJDT."TransId" NOT IN 
+                                            (SELECT L."U_NoAsient" 
+                                             FROM   "@SCGD_GRLINES" L 
+                                            INNER JOIN "@SCGD_GOODRECEIVE" GR 
+                                                    ON GR."DocEntry" = 
+                                                       L."DocEntry" 
+                                                       AND GR."U_Unidad" = '{0}' 
+                                                       AND L."U_NoAsient" IS NOT 
+                                                           NULL) ) 
+                                      AND ( OPCH."DocDate" &lt;= '{4}' ) 
+                                      AND ( PCH1."U_SCGD_Cod_Tran" IN (SELECT 
+                                            "Code" 
+                                                                       FROM 
+                                            "@SCGD_TRAN_COMP" 
+                                            "@SCGD_TRAN_COMP_1") )) &gt; 
+                              0 
+                       THEN 
+                         1 
+                         ELSE 
+                           CASE 
+                             WHEN (SELECT Count(1) 
+                                   FROM   RPC1 
+                                          INNER JOIN ORPC 
+                                                  ON RPC1."DocEntry" = 
+                                                     ORPC."DocEntry" 
+                                                     AND RPC1."TrgetEntry" IS 
+                                                         NULL 
+                                          INNER JOIN OJDT 
+                                                  ON ORPC."TransId" = 
+                                                     OJDT."TransId" 
+                                   WHERE  ( RPC1."U_SCGD_Cod_Unid" = '{0}' ) 
+                                          AND ( ORPC."DocType" = '{5}' 
+                                                 OR ORPC."DocType" = '{6}' ) 
+                                          AND ( OJDT."TransId" NOT IN 
+                                                (SELECT L."U_NoAsient" 
+                                                 FROM   "@SCGD_GRLINES" L 
+                                                INNER JOIN "@SCGD_GOODRECEIVE" 
+                                                           GR 
+                                                        ON GR."DocEntry" = 
+                                                           L."DocEntry" 
+                                                           AND GR."U_Unidad" = 
+                                                               '{0}' 
+                                                           AND L."U_NoAsient" IS 
+                                                               NOT 
+                                                               NULL) ) 
+                                          AND ( ORPC."DocDate" &lt;= '{4}' ) 
+                                          AND ( RPC1."U_SCGD_Cod_Tran" IN ( 
+                                                SELECT 
+                                                "Code" 
+                                                                           FROM 
+                                                "@SCGD_TRAN_COMP" 
+                                                "@SCGD_TRAN_COMP_1") 
+                                              )) &gt; 
+                                  0 
+                           THEN 
+                             1 
+                             ELSE 
+                               CASE 
+                                 WHEN (SELECT Count(1) 
+                                       FROM   INV1 
+                                              INNER JOIN OINV 
+                                                      ON INV1."DocEntry" = 
+                                                         OINV."DocEntry" 
+                                                         AND "TrgetEntry" IS 
+                                                             NULL 
+                                              INNER JOIN OJDT 
+                                                      ON OINV."TransId" = 
+                                                         OJDT."TransId" 
+                                       WHERE  OINV."U_SCGD_Cod_Unidad" = '{0}' 
+                                              AND OINV."DocType" = '{5}' 
+                                              AND OJDT."TransId" NOT IN (SELECT 
+                                                  "U_NoAsient" 
+                                                                         FROM 
+                                                  "@SCGD_GRLINES" L 
+                                                  INNER JOIN "@SCGD_GOODRECEIVE" 
+                                                             GR 
+                                                          ON GR."DocEntry" = 
+                                                             L."DocEntry" 
+                                                             AND GR."U_Unidad" = 
+                                                                 '{0}' 
+                                                             AND "U_NoAsient" IS 
+                                                                 NOT 
+                                                                 NULL) 
+                                              AND OINV."DocDate" &lt;= '{4}') &gt; 0 
+                               THEN 1 
+                                 ELSE 
+                                   CASE 
+                                     WHEN (SELECT Count(1) 
+                                           FROM   OIGE 
+                                                  INNER JOIN IGE1 
+                                                          ON IGE1."DocEntry" = 
+                                                             OIGE."DocEntry" 
+                                                  INNER JOIN OJDT 
+                                                          ON OIGE."TransId" = 
+                                                             OJDT."TransId" 
+                                           WHERE 
+                                     ( OIGE."U_SCGD_Procesad" = 1 ) 
+                                     AND ( OIGE."U_SCGD_Cod_Unidad" 
+                                           = 
+                                           '{0}' ) 
+                                     AND ( OIGE."U_SCGD_Num_Vehiculo" IS 
+                                           NOT 
+                                           NULL 
+                                         ) 
+                                     AND ( OJDT."RefDate" &lt;= '{4}' ) 
+                                     AND ( OJDT."TransId" NOT IN 
+                                           (SELECT L."U_NoAsient" 
+                                            FROM   "@SCGD_GRLINES" L 
+                                           INNER JOIN "@SCGD_GOODRECEIVE" 
+                                                      GR 
+                                                   ON GR."DocEntry" = 
+                                                      L."DocEntry" 
+                                                      AND GR."U_Unidad" = 
+                                                          '{0}' 
+                                                      AND L."U_NoAsient" 
+                                                          IS 
+                                                          NOT 
+                                                          NULL) )) &gt; 0 
+                                   THEN 1 
+                                     ELSE 0 
+                                   END 
+                               END 
+                           END 
+                       END 
+                   END 
+               END 
+           END 
+       END 
+FROM   DUMMY</value>
+  </data>
+  <data name="HANA_QueryCosteosAsientos" xml:space="preserve">
+    <value>SELECT Count(1) FROM   "JDT1" "JDT1_1" 
+       INNER JOIN "OJDT" "OJDT_1" 
+               ON "JDT1_1"."TransId" = "OJDT_1"."TransId" 
+       LEFT OUTER JOIN "ORTT" "ORTT_1" ON "OJDT_1"."RefDate" = "ORTT_1"."RateDate" 
+            AND ( "ORTT_1"."Currency" = "JDT1_1"."FCCurrency" 
+                OR ( "JDT1_1"."FCCurrency" IS NULL OR "JDT1_1"."FCCurrency" = '{2}' ) 
+                AND "ORTT_1"."Currency" = '{1}' ) 
+WHERE  ( "JDT1_1"."U_SCGD_Cod_Unidad" = '{0}' ) 
+		AND ( "JDT1_1"."SYSDeb" &lt;&gt; 0 ) 
+		AND ( "OJDT_1"."TransId" NOT IN 
+			(SELECT "L"."U_NoAsient" FROM "@SCGD_GRLINES" "L" 
+                INNER JOIN "@SCGD_GOODRECEIVE" "GR" ON "GR"."DocEntry" = "L"."DocEntry" 
+                AND "GR"."U_Unidad" = '{0}' AND "L"."U_NoAsient" IS NOT NULL) ) 
+		AND ( "OJDT_1"."RefDate" &lt;= '{3}' ) 
+		AND ( "JDT1_1"."U_SCGD_Cod_Tran" IN (SELECT "Code" FROM "@SCGD_TRAN_COMP" "@SCGD_TRAN_COMP_7") ) 
+		OR ( "JDT1_1"."U_SCGD_Cod_Unidad" = '{0}' ) 
+           AND ( "OJDT_1"."TransId" NOT IN 
+			(SELECT "L"."U_NoAsient" FROM "@SCGD_GRLINES" "L" 
+                INNER JOIN "@SCGD_GOODRECEIVE" "GR" ON "GR"."DocEntry" = "L"."DocEntry" 
+                AND "GR"."U_Unidad" = '{0}' AND "L"."U_NoAsient" IS NOT NULL) )
+		AND ( "OJDT_1"."RefDate" &lt;= '{3}' ) 
+		AND ( "JDT1_1"."U_SCGD_Cod_Unidad" IN (SELECT "Code" FROM "@SCGD_TRAN_COMP" "@SCGD_TRAN_COMP_5") )
+		AND ( "JDT1_1"."FCDebit" &lt;&gt; 0 ) 
+        OR ( "JDT1_1"."U_SCGD_Cod_Unidad" = '{0}' ) 
+        AND ( "OJDT_1"."TransId" NOT IN 
+		   (SELECT "L"."U_NoAsient" FROM "@SCGD_GRLINES" "L" 
+				INNER JOIN "@SCGD_GOODRECEIVE" "GR" ON "GR"."DocEntry" = "L"."DocEntry" 
+				AND "GR"."U_Unidad" = '{0}' AND "L"."U_NoAsient" IS NOT NULL) )
+        AND ( "OJDT_1"."RefDate" &lt;= '{3}' ) 
+        AND ( "JDT1_1"."U_SCGD_Cod_Tran" IN (SELECT "Code" FROM "@SCGD_TRAN_COMP" "@SCGD_TRAN_COMP_4") )
+        AND ( "JDT1_1"."Debit" &lt;&gt; 0 )</value>
+  </data>
+  <data name="HANA_QueryCosteosAsientos2" xml:space="preserve">
+    <value>(SELECT Count(1) 
+FROM   "JDT1" "JDT1" 
+        INNER JOIN "OJDT" "OJDT" ON "JDT1"."TransId" = "OJDT"."TransId" 
+        LEFT OUTER JOIN "ORTT" "ORTT" ON "OJDT"."RefDate" = "ORTT"."RateDate" 
+            AND ( "ORTT"."Currency" = "JDT1"."FCCurrency" OR ( "JDT1"."FCCurrency" IS NULL OR "JDT1"."FCCurrency" = '{2}' ) 
+            AND "ORTT"."Currency" = '{1}' ) 
+WHERE  ( "JDT1"."U_SCGD_Cod_Unidad" = '{0}' ) 
+        AND ( "JDT1"."SYSCred" &lt;&gt; 0 ) 
+        AND ( "OJDT"."TransId" NOT IN 
+			(SELECT "L"."U_NoAsient" FROM   "@SCGD_GRLINES" "L" 
+                INNER JOIN "@SCGD_GOODRECEIVE" "GR" ON "GR"."DocEntry" = "L"."DocEntry"
+                AND "GR"."U_Unidad" = '{0}' AND "L"."U_NoAsient" IS NOT NULL) )
+        AND ( "OJDT"."RefDate" &lt;= '{3}' ) 
+        AND ( "JDT1"."U_SCGD_Cod_Tran" IN 
+			(SELECT "Code" FROM "@SCGD_TRAN_COMP" "@SCGD_TRAN_COMP_3") )
+        OR ( "JDT1"."U_SCGD_Cod_Unidad" = '{0}' ) 
+        AND ( "OJDT"."TransId" NOT IN 
+			(SELECT "L"."U_NoAsient" FROM "@SCGD_GRLINES" "L" 
+				INNER JOIN "@SCGD_GOODRECEIVE" "GR"
+				ON "GR"."DocEntry" = "L"."DocEntry" AND "GR"."U_Unidad" = '{0}'
+				AND "L"."U_NoAsient" IS NOT NULL) )
+        AND ( "OJDT"."RefDate" &lt;= '{3}' ) 
+        AND ( "JDT1"."U_SCGD_Cod_Tran" IN (SELECT "Code" FROM   "@SCGD_TRAN_COMP" "@SCGD_TRAN_COMP_2") )
+        AND ( "JDT1"."fcCredit" &lt;&gt; 0 ) 
+        OR ( "JDT1"."U_SCGD_Cod_Unidad" = '{0}' ) 
+        AND ( "OJDT"."TransId" NOT IN 
+			(SELECT "L"."U_NoAsient" FROM   "@SCGD_GRLINES" "L" 
+                INNER JOIN "@SCGD_GOODRECEIVE" "GR" ON "GR"."DocEntry" = "L"."DocEntry"
+                AND "GR"."U_Unidad" = '{0}'AND "L"."U_NoAsient" IS NOT NULL) )
+        AND ( "OJDT"."RefDate" &lt;= '{3}' ) 
+        AND ( "JDT1"."U_SCGD_Cod_Tran" IN (SELECT "Code" FROM   "@SCGD_TRAN_COMP" "@SCGD_TRAN_COMP_1") )
+        AND ( "JDT1"."Credit" &lt;&gt; 0 ))</value>
+  </data>
+  <data name="HANA_QueryCosteosFacCli" xml:space="preserve">
+    <value>SELECT Count(1) FROM "INV1"
+    INNER JOIN "OINV" ON "INV1"."DocEntry" = "OINV"."DocEntry" AND "TrgetEntry" IS NULL 
+    INNER JOIN "OJDT" ON "OINV"."TransId" = "OJDT"."TransId" 
+WHERE  "OINV"."U_SCGD_Cod_Unidad" = '{0}' 
+    AND "OINV"."DocType" = '{2}' 
+    AND "OJDT"."TransId" NOT IN 
+		(SELECT "U_NoAsient" FROM "@SCGD_GRLINES" "L"
+        INNER JOIN "@SCGD_GOODRECEIVE" "GR" ON "GR"."DocEntry" = "L"."DocEntry" 
+		AND "GR"."U_Unidad" = '{0}' AND "U_NoAsient" IS NOT NULL)
+    AND "OINV"."DocDate" &lt;= '{1}'</value>
+  </data>
+  <data name="HANA_QueryCosteosFacRes" xml:space="preserve">
+    <value>SELECT Count(1) FROM   "PCH1" 
+        INNER JOIN "OPCH" ON "PCH1"."DocEntry" = "OPCH"."DocEntry" 
+        INNER JOIN "OJDT" ON "OPCH"."TransId" = "OJDT"."TransId" 
+WHERE  ( "PCH1"."U_SCGD_Cod_Unid" = '{0}' ) 
+        AND ( "OPCH"."DocType" = '{2}' OR "OPCH"."DocType" = '{3}' ) 
+        AND ( "OJDT"."TransId" NOT IN 
+		(SELECT "L"."U_NoAsient" FROM   "@SCGD_GRLINES" "L" 
+        INNER JOIN "@SCGD_GOODRECEIVE" "GR" ON "GR"."DocEntry" = "L"."DocEntry"
+        AND "GR"."U_Unidad" = '{0}' AND "L"."U_NoAsient" IS NOT NULL) )
+        AND ( "OPCH"."DocDate" &lt;= '{1}' ) AND ( "PCH1"."U_SCGD_Cod_Tran" IN 
+			(SELECT "Code" FROM "@SCGD_TRAN_COMP" "@SCGD_TRAN_COMP_1") )</value>
+  </data>
+  <data name="HANA_QueryCosteosNotCre" xml:space="preserve">
+    <value>SELECT Count(1) FROM   "RPC1" 
+	INNER JOIN "ORPC" ON "RPC1"."DocEntry" = "ORPC"."DocEntry" AND "RPC1"."TrgetEntry" IS NULL 
+	INNER JOIN "OJDT" ON "ORPC"."TransId" = "OJDT"."TransId" 
+WHERE  ( "RPC1"."U_SCGD_Cod_Unid" = '{0}' ) AND ( "ORPC"."DocType" = '{2}' 
+    OR "ORPC"."DocType" = '{3}' ) AND ( "OJDT"."TransId" NOT IN 
+	(SELECT "L"."U_NoAsient" FROM   "@SCGD_GRLINES" "L" INNER JOIN "@SCGD_GOODRECEIVE" "GR"
+		ON "GR"."DocEntry" = "L"."DocEntry" AND "GR"."U_Unidad" = '{0}' AND "L"."U_NoAsient" IS NOT NULL) )
+	AND ( "ORPC"."DocDate" &lt;= '{1}' ) 
+	AND ( "RPC1"."U_SCGD_Cod_Tran" IN (SELECT "Code" FROM   "@SCGD_TRAN_COMP" "@SCGD_TRAN_COMP_1") )</value>
+  </data>
+  <data name="HANA_QueryCosteosVehi" xml:space="preserve">
+    <value>SELECT Count(1) AS "QTY" FROM   "@SCGD_VEHICULO" 
+WHERE  ( "U_Cod_Unid" = '{0}' ) AND ( "U_SALINID" &lt;&gt; 0 ) AND ( "U_SALINID" IS NOT NULL )</value>
+  </data>
+  <data name="HANA_QueryDocumentos" xml:space="preserve">
+    <value>SELECT CASE WHEN '{0}' &lt;&gt; '' AND (SELECT COUNT(1) FROM "@SCGD_GOODISSUE" WHERE "U_Unidad" = '{0}') &gt; 0 THEN 1 ELSE 
+CASE WHEN '{0}' &lt;&gt; '' AND (SELECT COUNT(1) FROM "@SCGD_GOODRECEIVE" WHERE "U_Unidad" = '{0}') &gt; 0 THEN 1 ELSE 
+CASE WHEN '{1}' &lt;&gt; '' AND (SELECT COUNT(1) FROM "OQUT" WHERE "U_SCGD_Num_Vehiculo" = '{1}') &gt; 0 THEN 1 ELSE 
+CASE WHEN '{0}' &lt;&gt; '' AND (SELECT COUNT(1) AS "cou" FROM "@SCGD_CVENTA" WHERE "U_Cod_Unid" = '{0}' AND "U_Estado" &lt;&gt; 0) &gt; 0 THEN 1 ELSE
+CASE WHEN '{0}' &lt;&gt; '' AND (SELECT COUNT(1) FROM "RPC1" WHERE "U_SCGD_Cod_Unid" = '{0}') &gt; 0 THEN 1 ELSE 
+CASE WHEN '{0}' &lt;&gt; '' AND (SELECT COUNT(1) FROM "PCH1" WHERE "U_SCGD_Cod_Unid" = '{0}') &gt; 0 THEN 1 ELSE 
+CASE WHEN '{0}' &lt;&gt; '' AND (SELECT COUNT(1) FROM "JDT1" WHERE "U_SCGD_Cod_Unidad" = '{0}') &gt; 0 THEN 1 ELSE 
+0 
+END END END END END END END FROM DUMMY</value>
+  </data>
+  <data name="HANA_QueryNombreEmpleadoXOT" xml:space="preserve">
+    <value>SELECT T1."firstName" || ' ' || T1."lastName" FROM "OQUT" T0, "OHEM" T1 WHERE T0."OwnerCode" = T1."empID" AND T0."U_SCGD_Numero_OT" = '{0}'</value>
+  </data>
+  <data name="QueryExpeXModelo" xml:space="preserve">
+    <value>SELECT exm."Code", exm."Name", "U_Cod_Marca", "U_Cod_Modelo", "U_Cod_Estilo", "U_Num_Cili", "U_Cant_Puerta", "U_Cant_Pasaj", "U_Cant_Ejes", "U_Peso", "U_Cilindrada", "U_Potencia", "U_Categoria", "U_Marca_Mot", "U_Transmis", "U_Carroceria", "U_Tipo_Trac", "U_Tipo_Cabina", "U_Combusti", "U_GarantKM", "U_GarantTM", "U_Tipo_Techo", "U_Cod_Tec", "U_Cod_MarComer", cav."U_ArtVent", cav."Code" "CodeAV" FROM "@SCGD_ESPEXMODE" exm ¿#? LEFT JOIN "@SCGD_CONF_ART_VENTA" cav ¿#? ON exm."U_Cod_MarComer" = cav."Name" {0}</value>
+  </data>
+  <data name="SQL_AsignacionesOTInterna" xml:space="preserve">
+    <value>select distinct cc.Code ID, q1.U_SCGD_Sucur+'-'+Cast(q1.LineNum as varchar)+'-'+cc.Code as IDRepXOrd, itm.U_SCGD_T_Fase NoFase, q1.ItemCode, q1.U_SCGD_DurSt DuracionAprobada, cc.Code NoOrden, q1.Dscription ItemName, 
+	cc.U_Estad Estado, fp.Name Descripcion, emp.empID IDEmp, (emp.firstName + ' ' + emp.lastName) as NombreEmp, 
+	q1.docEntry as NumCot, q1.LineNum, 0 U_SCGD_DurSt, 0	U_SCGD_TiempoReal, 0 as Price 
+from [@SCGD_CTRLCOL] cc with (nolock) 
+	inner Join QUT1 q1 with (nolock) on cc.code = q1.U_SCGD_NoOT and cc.U_IdAct = q1.U_SCGD_ID 
+	inner join OITM itm with (nolock) on q1.ItemCode = itm.ItemCode 
+	left join [@SCGD_FASEPRODUCCION] fp with (nolock) on itm.U_SCGD_T_Fase = fp.Code 
+	inner join OHEM emp with (nolock) on cc. U_Colab = emp.empID 
+WHERE cc.Code = '{0}'</value>
+  </data>
+  <data name="SQL_EdicionRegistroTiempo" xml:space="preserve">
+    <value>SELECT T3."LineId", T4."empID", CONCAT(T4."firstName", CONCAT(' ', T4."lastName")) AS "Name", T2."Dscription" AS "Service", T3."U_CosRe" AS "RealCost", T3."U_CosEst" AS "StandardCost", T3."U_DFIni" AS "StartDate", T3."U_HFIni" AS "StartTime", T3."U_DFFin" AS "EndDate", T3."U_HFFin" AS "EndTime", T2."U_SCGD_DurSt" AS "StandardDuration", T4."U_SCGD_sALXHORA" AS "HourlyWage", ISNULL(T5."U_ExtraHourRate", 0) AS "ExtraHourRate", T3."U_TMin" AS "TotalMinutes", ISNULL(T4."U_SCGD_WorksWeekends", 'N') AS "WorksWeekends" FROM "@SCGD_OT" T0 WITH (nolock) INNER JOIN "OQUT" T1  WITH (nolock) ON T0."U_DocEntry" = T1."DocEntry" INNER JOIN "QUT1" T2 WITH (nolock)  ON T1."DocEntry" = T2."DocEntry" INNER JOIN "@SCGD_CTRLCOL" T3 WITH (nolock)  ON T0."Code" = T3."Code" AND T2."U_SCGD_ID" = T3."U_IdAct" INNER JOIN "OHEM" T4 WITH (nolock)  ON T3."U_Colab" = T4."empID" INNER JOIN "@SCGD_CONF_SUCURSAL" T5 WITH (nolock)  ON T0."U_Sucu" = T5."U_Sucurs" WHERE T0."Code" = '{0}' AND T3."U_Estad" IN ('{1}', '{2}') Order By T4."empID", T3."LineId"</value>
+  </data>
+  <data name="SQL_ExisteOrdenCompraNC" xml:space="preserve">
+    <value>SELECT COUNT(*) AS "Cuenta" FROM "RPC1" T0 WITH (nolock) 
+INNER JOIN "PCH1" T1 WITH (nolock) ON T0."BaseEntry" = T1."DocEntry" AND T0."BaseLine" = T1."LineNum" AND T0."BaseType" = T1."ObjType"
+LEFT JOIN "PDN1" T2 WITH (nolock) ON T1."BaseEntry" = T2."DocEntry" AND T1."BaseLine" = T2."LineNum" AND T1."BaseType" = T2."ObjType"
+WHERE T0."DocEntry" = '{0}' AND (T1."BaseType" = '22' OR T2."BaseType" = '22')</value>
+  </data>
+  <data name="SQL_QueryCosteos" xml:space="preserve">
+    <value>SELECT CASE 
+         WHEN (SELECT Count(1) AS QTY 
+               FROM   "@SCGD_VEHICULO" WITH (nolock) 
+               WHERE  ( U_Cod_Unid = '{0}' ) 
+                      AND ( U_SALINID &lt;&gt; 0 ) 
+                      AND ( U_SALINID IS NOT NULL )) &gt; 0 THEN 1 
+         ELSE 
+           CASE 
+             WHEN (SELECT Count(1) 
+                   FROM   "@SCGD_VEHICULO" AS "@SCGD_VEHICULO_1" WITH (nolock) 
+                   WHERE  ( U_Cod_Unid = '{0}' ) 
+                          AND ( U_SALINIC &lt;&gt; 0 ) 
+                          AND ( U_SALINIC IS NOT NULL )) &gt; 0 THEN 1 
+             ELSE 
+               CASE 
+                 WHEN (SELECT Count(1) 
+                       FROM   JDT1 AS JDT1_1 WITH (nolock) 
+                              INNER JOIN OJDT AS OJDT_1 WITH (nolock) 
+                                      ON JDT1_1.TransId = OJDT_1.TransId 
+                              LEFT OUTER JOIN ORTT AS ORTT_1 WITH (nolock) 
+                                           ON OJDT_1.RefDate = ORTT_1.RateDate 
+                                              AND ( 
+                              ORTT_1.Currency = JDT1_1.FCCurrency 
+                               OR ( JDT1_1.FCCurrency IS NULL 
+                                     OR JDT1_1.FCCurrency = '{3}' 
+                                  ) 
+                                  AND ORTT_1.Currency = '{1}' ) 
+                       WHERE  ( JDT1_1.U_SCGD_Cod_Unidad = '{0}' ) 
+                              AND ( JDT1_1.SYSDeb &lt;&gt; 0 ) 
+                              AND ( OJDT_1.TransId NOT IN (SELECT L.U_NoAsient 
+                                                           FROM 
+                                    "@SCGD_GRLINES" AS L WITH (nolock) 
+                                    INNER JOIN "@SCGD_GOODRECEIVE" AS GR  WITH (nolock) 
+                                             ON GR.DocEntry = L.DocEntry 
+                                               AND 
+                                    GR.U_Unidad = '{0}' 
+                                               AND L.U_NoAsient IS NOT 
+                                                   NULL) ) 
+                              AND ( OJDT_1.RefDate &lt;= '{4}' ) 
+                              AND ( JDT1_1.U_SCGD_Cod_Tran IN (SELECT Code 
+                                                               FROM 
+                                    "@SCGD_TRAN_COMP" AS "@SCGD_TRAN_COMP_7" WITH (nolock) 
+                                                              ) ) 
+                               OR ( JDT1_1.U_SCGD_Cod_Unidad = '{0}' ) 
+                                  AND ( OJDT_1.TransId NOT IN 
+                                        (SELECT L.U_NoAsient 
+                                         FROM 
+                                        "@SCGD_GRLINES" AS L WITH (nolock ) 
+                                        INNER JOIN "@SCGD_GOODRECEIVE" AS GR  WITH (nolock) 
+                                                  ON GR.DocEntry = L.DocEntry 
+                                                   AND GR.U_Unidad = '{0}' 
+                                                   AND L.U_NoAsient IS NOT NULL) 
+                                      ) 
+                                  AND ( OJDT_1.RefDate &lt;= '{4}' 
+                                      ) 
+                                  AND ( JDT1_1.U_SCGD_Cod_Unidad IN 
+                                        (SELECT Code 
+                                         FROM 
+                                        "@SCGD_TRAN_COMP" AS "@SCGD_TRAN_COMP_5"  WITH (nolock) 
+                                        ) 
+                                      ) 
+                                  AND ( JDT1_1.FCDebit &lt;&gt; 0 ) 
+                               OR ( JDT1_1.U_SCGD_Cod_Unidad = '{0}' ) 
+                                  AND ( OJDT_1.TransId NOT IN 
+                                        (SELECT L.U_NoAsient 
+                                         FROM 
+                                        "@SCGD_GRLINES" AS L WITH (nolock ) 
+                                        INNER JOIN "@SCGD_GOODRECEIVE" AS GR  WITH (nolock) 
+                                                ON GR.DocEntry = L.DocEntry 
+                                                   AND GR.U_Unidad = '{0}' 
+                                                   AND L.U_NoAsient IS NOT NULL) 
+                                      ) 
+                                  AND ( OJDT_1.RefDate &lt;= '{4}' 
+                                      ) 
+                                  AND ( JDT1_1.U_SCGD_Cod_Tran IN (SELECT Code 
+                                                                   FROM 
+                                        "@SCGD_TRAN_COMP" AS "@SCGD_TRAN_COMP_4"  WITH (nolock) 
+                                                                  ) ) 
+                                  AND ( JDT1_1.Debit &lt;&gt; 0 )) &gt; 0 THEN 1 
+                 ELSE 
+                   CASE 
+                     WHEN (SELECT Count(1) 
+                           FROM   JDT1 AS JDT1 WITH (nolock) 
+                                  INNER JOIN OJDT AS OJDT WITH (nolock) 
+                                          ON JDT1.TransId = OJDT.TransId 
+                                  LEFT OUTER JOIN ORTT AS ORTT WITH (nolock) 
+                                               ON OJDT.RefDate = ORTT.RateDate 
+                                                  AND ( 
+                                  ORTT.Currency = JDT1.FCCurrency 
+                                   OR ( JDT1.FCCurrency IS NULL 
+                                         OR JDT1.FCCurrency = '{2}' ) 
+                                      AND ORTT.Currency = '{1}' ) 
+                           WHERE  ( JDT1.U_SCGD_Cod_Unidad = '{0}' ) 
+                                  AND ( JDT1.SYSCred &lt;&gt; 0 ) 
+                                  AND ( OJDT.TransId NOT IN (SELECT L.U_NoAsient 
+                                                             FROM 
+                                        "@SCGD_GRLINES" AS L WITH (nolock) 
+                                        INNER JOIN "@SCGD_GOODRECEIVE" AS GR  WITH (nolock) 
+                                                  ON GR.DocEntry = L.DocEntry 
+                                                   AND GR.U_Unidad = '{0}' 
+                                                   AND L.U_NoAsient IS NOT 
+                                                       NULL) ) 
+                                  AND ( OJDT.RefDate &lt;= '{4}' ) 
+                                  AND ( JDT1.U_SCGD_Cod_Tran IN 
+                                        (SELECT Code 
+                                         FROM 
+                                        "@SCGD_TRAN_COMP" AS "@SCGD_TRAN_COMP_3"  WITH (nolock) 
+                                        ) 
+                                      ) 
+                                   OR ( JDT1.U_SCGD_Cod_Unidad = '{0}' ) 
+                                      AND ( OJDT.TransId NOT IN 
+                                            (SELECT L.U_NoAsient 
+                                             FROM 
+                                            "@SCGD_GRLINES" AS L WITH (nolock) 
+                                            INNER JOIN "@SCGD_GOODRECEIVE" AS GR WITH (nolock) 
+                                                     ON GR.DocEntry = 
+                                                       L.DocEntry 
+                                                       AND 
+                                            GR.U_Unidad = '{0}' 
+                                                       AND L.U_NoAsient IS NOT 
+                                                           NULL) ) 
+                                      AND ( OJDT.RefDate &lt;= 
+                                            '{4}' ) 
+                                      AND ( JDT1.U_SCGD_Cod_Tran IN (SELECT Code 
+                                                                     FROM 
+                                            "@SCGD_TRAN_COMP" AS 
+                                            "@SCGD_TRAN_COMP_2"  WITH (nolock) ) 
+                                          ) 
+                                      AND ( JDT1.fcCredit &lt;&gt; 0 ) 
+                                   OR ( JDT1.U_SCGD_Cod_Unidad = '{0}' ) 
+                                      AND ( OJDT.TransId NOT IN 
+                                            (SELECT L.U_NoAsient 
+                                             FROM 
+                                            "@SCGD_GRLINES" AS L WITH (nolock) 
+                                            INNER JOIN "@SCGD_GOODRECEIVE" AS GR  WITH (nolock)  
+                                                    ON GR.DocEntry = 
+                                                       L.DocEntry 
+                                                       AND 
+                                            GR.U_Unidad = '{0}' 
+                                                       AND L.U_NoAsient IS NOT 
+                                                           NULL) ) 
+                                      AND ( OJDT.RefDate &lt;= 
+                                            '{4}' ) 
+                                      AND ( JDT1.U_SCGD_Cod_Tran IN (SELECT Code 
+                                                                     FROM 
+                                            "@SCGD_TRAN_COMP" AS 
+                                            "@SCGD_TRAN_COMP_1" WITH (nolock) ) 
+                                          ) 
+                                      AND ( JDT1.Credit &lt;&gt; 0 )) &gt; 0 THEN 1 
+                     ELSE 
+                       CASE 
+                         WHEN (SELECT Count(1) 
+                               FROM   PCH1 WITH (nolock) 
+                                      INNER JOIN OPCH WITH (nolock) 
+                                              ON PCH1.DocEntry = OPCH.DocEntry 
+                                      INNER JOIN OJDT WITH (nolock) 
+                                              ON OPCH.TransId = OJDT.TransId 
+                               WHERE  ( PCH1.U_SCGD_Cod_Unid = '{0}' ) 
+                                      AND ( OPCH.DocType = '{5}' 
+                                             OR OPCH.DocType = '{6}' ) 
+                                      AND ( OJDT.TransId NOT IN 
+                                            (SELECT L.U_NoAsient 
+                                             FROM 
+                                            "@SCGD_GRLINES" AS L WITH (nolock) 
+                                            INNER JOIN "@SCGD_GOODRECEIVE" AS GR  WITH (nolock) 
+                                                       ON GR.DocEntry = L.DocEntry 
+                                                       AND 
+                                            GR.U_Unidad = '{0}' 
+                                                       AND L.U_NoAsient IS NOT 
+                                                           NULL) ) 
+                                      AND ( OPCH.DocDate &lt;= 
+                                            '{4}' ) 
+                                      AND ( PCH1.U_SCGD_Cod_Tran IN (SELECT Code 
+                                                                     FROM 
+                                            "@SCGD_TRAN_COMP" AS 
+                                            "@SCGD_TRAN_COMP_1"  WITH (nolock) ) 
+                                          )) &gt; 0 THEN 1 
+                         ELSE 
+                           CASE 
+                             WHEN (SELECT Count(1) 
+                                   FROM   RPC1 WITH (nolock) 
+                                          INNER JOIN ORPC WITH (nolock) 
+                                                  ON RPC1.DocEntry = 
+                                                     ORPC.DocEntry 
+                                                     AND RPC1.TrgetEntry IS NULL 
+                                          INNER JOIN OJDT WITH (nolock) 
+                                                  ON ORPC.TransId = OJDT.TransId 
+                                   WHERE  ( RPC1.U_SCGD_Cod_Unid = '{0}' ) 
+                                          AND ( ORPC.DocType = '{5}' 
+                                                 OR ORPC.DocType = '{6}' ) 
+                                          AND ( OJDT.TransId NOT IN 
+                                                (SELECT L.U_NoAsient 
+                                                 FROM 
+                                                "@SCGD_GRLINES" AS L WITH (nolock) 
+                                                INNER JOIN "@SCGD_GOODRECEIVE" AS GR  WITH (nolock) 
+                                                        ON GR.DocEntry = 
+                                                           L.DocEntry 
+                                                           AND 
+                                                GR.U_Unidad = '{0}' 
+                                                           AND L.U_NoAsient IS 
+                                                               NOT 
+                                                               NULL) ) 
+                                          AND ( ORPC.DocDate &lt;= 
+                                                '{4}' ) 
+                                          AND ( RPC1.U_SCGD_Cod_Tran IN (SELECT 
+                                                Code 
+                                                                         FROM 
+                                                "@SCGD_TRAN_COMP" AS 
+                                                "@SCGD_TRAN_COMP_1"  WITH (nolock) ) 
+                                              )) &gt; 0 THEN 1 
+                             ELSE 
+                               CASE 
+                                 WHEN (SELECT Count(1) 
+                                       FROM   INV1 WITH (nolock) 
+                                              INNER JOIN OINV WITH (nolock) 
+                                                      ON INV1.DocEntry = 
+                                                         OINV.DocEntry 
+                                                         AND TrgetEntry IS NULL 
+                                              INNER JOIN OJDT WITH (nolock) 
+                                                      ON OINV.TransId = 
+                                                         OJDT.TransId 
+                                       WHERE  OINV.U_SCGD_Cod_Unidad = '{0}' 
+                                              AND OINV.DocType = '{5}' 
+                                              AND OJDT.TransId NOT IN 
+                                                  (SELECT 
+                                                  U_NoAsient 
+                                                                       FROM 
+                                                  "@SCGD_GRLINES" L WITH (nolock) 
+                                      INNER JOIN "@SCGD_GOODRECEIVE" GR  WITH (nolock) 
+                                                 ON GR.DocEntry = L.DocEntry 
+                                                 AND GR.U_Unidad = '{0}' 
+                                                 AND U_NoAsient IS NOT NULL 
+                                      ) 
+                                              AND OINV.DocDate &lt;= 
+                                                  '{4}' 
+                                      ) &gt; 0 THEN 1 
+                                 ELSE 
+                                   CASE 
+                                     WHEN (SELECT Count(1) 
+                                           FROM   OIGE WITH (nolock) 
+                                                  INNER JOIN IGE1 WITH (nolock) 
+                                                          ON IGE1.DocEntry = 
+                                                             OIGE.DocEntry 
+                                                  INNER JOIN OJDT WITH (nolock) 
+                                                          ON OIGE.TransId = 
+                                                             OJDT.TransId 
+                                           WHERE  ( OIGE.U_SCGD_Procesad = 1 ) 
+                                                  AND ( OIGE.U_SCGD_Cod_Unidad = 
+                                                        '{0}' ) 
+                                                  AND ( OIGE.U_SCGD_Num_Vehiculo 
+                                                        IS NOT 
+                                                        NULL ) 
+                                                  AND ( OJDT.RefDate &lt;= 
+                                                        '{4}' ) 
+                                                  AND ( OJDT.TransId NOT IN 
+                                                        (SELECT L.U_NoAsient 
+                                                         FROM 
+                                                        "@SCGD_GRLINES" AS L WITH (nolock) 
+                                          INNER JOIN "@SCGD_GOODRECEIVE" AS GR WITH (nolock) 
+                                                  ON GR.DocEntry = 
+                                                     L.DocEntry 
+                                                     AND 
+                                          GR.U_Unidad = '{0}' 
+                                                     AND L.U_NoAsient IS 
+                                                         NOT 
+                                                         NULL) )) &gt; 0 THEN 1 
+                                     ELSE 0 
+                                   END 
+                               END 
+                           END 
+                       END 
+                   END 
+               END 
+           END 
+       END</value>
+  </data>
+  <data name="SQL_QueryCosteosAsientos" xml:space="preserve">
+    <value>SELECT Count(1) 
+                       FROM   JDT1 AS JDT1_1 WITH (nolock) 
+                              INNER JOIN OJDT AS OJDT_1 WITH (nolock) 
+                                      ON JDT1_1.TransId = OJDT_1.TransId 
+                              LEFT OUTER JOIN ORTT AS ORTT_1 WITH (nolock) 
+                                           ON OJDT_1.RefDate = ORTT_1.RateDate 
+                                              AND ( 
+                              ORTT_1.Currency = JDT1_1.FCCurrency 
+                               OR ( JDT1_1.FCCurrency IS NULL 
+                                     OR JDT1_1.FCCurrency = '{2}' 
+                                  ) 
+                                  AND ORTT_1.Currency = '{1}' ) 
+                       WHERE  ( JDT1_1.U_SCGD_Cod_Unidad = '{0}' ) 
+                              AND ( JDT1_1.SYSDeb &lt;&gt; 0 ) 
+                              AND ( OJDT_1.TransId NOT IN (SELECT L.U_NoAsient 
+                                                           FROM 
+                                    "@SCGD_GRLINES" AS L WITH (nolock) 
+                                    INNER JOIN "@SCGD_GOODRECEIVE" AS GR  WITH (nolock) 
+                                             ON GR.DocEntry = L.DocEntry 
+                                               AND 
+                                    GR.U_Unidad = '{0}' 
+                                               AND L.U_NoAsient IS NOT 
+                                                   NULL) ) 
+                              AND ( OJDT_1.RefDate &lt;= '{3}' ) 
+                              AND ( JDT1_1.U_SCGD_Cod_Tran IN (SELECT Code 
+                                                               FROM 
+                                    "@SCGD_TRAN_COMP" AS "@SCGD_TRAN_COMP_7" WITH (nolock) 
+                                                              ) ) 
+                               OR ( JDT1_1.U_SCGD_Cod_Unidad = '{0}' ) 
+                                  AND ( OJDT_1.TransId NOT IN 
+                                        (SELECT L.U_NoAsient 
+                                         FROM 
+                                        "@SCGD_GRLINES" AS L WITH (nolock ) 
+                                        INNER JOIN "@SCGD_GOODRECEIVE" AS GR  WITH (nolock) 
+                                                  ON GR.DocEntry = L.DocEntry 
+                                                   AND GR.U_Unidad = '{0}' 
+                                                   AND L.U_NoAsient IS NOT NULL) 
+                                      ) 
+                                  AND ( OJDT_1.RefDate &lt;= '{3}' 
+                                      ) 
+                                  AND ( JDT1_1.U_SCGD_Cod_Unidad IN 
+                                        (SELECT Code 
+                                         FROM 
+                                        "@SCGD_TRAN_COMP" AS "@SCGD_TRAN_COMP_5"  WITH (nolock) 
+                                        ) 
+                                      ) 
+                                  AND ( JDT1_1.FCDebit &lt;&gt; 0 ) 
+                               OR ( JDT1_1.U_SCGD_Cod_Unidad = '{0}' ) 
+                                  AND ( OJDT_1.TransId NOT IN 
+                                        (SELECT L.U_NoAsient 
+                                         FROM 
+                                        "@SCGD_GRLINES" AS L WITH (nolock ) 
+                                        INNER JOIN "@SCGD_GOODRECEIVE" AS GR  WITH (nolock) 
+                                                ON GR.DocEntry = L.DocEntry 
+                                                   AND GR.U_Unidad = '{0}' 
+                                                   AND L.U_NoAsient IS NOT NULL) 
+                                      ) 
+                                  AND ( OJDT_1.RefDate &lt;= '{3}' 
+                                      ) 
+                                  AND ( JDT1_1.U_SCGD_Cod_Tran IN (SELECT Code 
+                                                                   FROM 
+                                        "@SCGD_TRAN_COMP" AS "@SCGD_TRAN_COMP_4"  WITH (nolock) 
+                                                                  ) ) 
+                                  AND ( JDT1_1.Debit &lt;&gt; 0 )</value>
+  </data>
+  <data name="SQL_QueryCosteosAsientos2" xml:space="preserve">
+    <value>SELECT Count(1) 
+FROM   JDT1 AS JDT1 WITH (nolock) 
+    INNER JOIN OJDT AS OJDT WITH (nolock) 
+        ON JDT1.TransId = OJDT.TransId 
+    LEFT OUTER JOIN ORTT AS ORTT WITH (nolock) 
+        ON OJDT.RefDate = ORTT.RateDate AND (ORTT.Currency = JDT1.FCCurrency OR ( JDT1.FCCurrency IS NULL OR JDT1.FCCurrency = '{2}' ) 
+        AND ORTT.Currency = '{1}' ) 
+WHERE  ( JDT1.U_SCGD_Cod_Unidad = '{0}' ) 
+    AND ( JDT1.SYSCred &lt;&gt; 0 ) 
+    AND ( OJDT.TransId NOT IN (SELECT L.U_NoAsient FROM "@SCGD_GRLINES" AS L WITH (nolock) 
+        INNER JOIN "@SCGD_GOODRECEIVE" AS GR  WITH (nolock) 
+                    ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL) ) 
+    AND ( OJDT.RefDate &lt;= '{3}' ) 
+    AND ( JDT1.U_SCGD_Cod_Tran IN 
+        (SELECT Code FROM "@SCGD_TRAN_COMP" AS "@SCGD_TRAN_COMP_3"  WITH (nolock))) 
+    OR ( JDT1.U_SCGD_Cod_Unidad = '{0}' ) 
+        AND ( OJDT.TransId NOT IN (SELECT L.U_NoAsient FROM 
+            "@SCGD_GRLINES" AS L WITH (nolock) 
+            INNER JOIN "@SCGD_GOODRECEIVE" AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND 
+            GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL) ) 
+        AND ( OJDT.RefDate &lt;= '{3}' ) 
+        AND ( JDT1.U_SCGD_Cod_Tran IN (SELECT Code FROM "@SCGD_TRAN_COMP" AS "@SCGD_TRAN_COMP_2"  WITH (nolock) )) 
+        AND ( JDT1.fcCredit &lt;&gt; 0 ) 
+    OR ( JDT1.U_SCGD_Cod_Unidad = '{0}' ) 
+        AND ( OJDT.TransId NOT IN  (SELECT L.U_NoAsient FROM "@SCGD_GRLINES" AS L WITH (nolock) 
+            INNER JOIN "@SCGD_GOODRECEIVE" AS GR  WITH (nolock)  
+                    ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL) ) 
+        AND ( OJDT.RefDate &lt;=  '{3}' ) 
+        AND ( JDT1.U_SCGD_Cod_Tran IN (SELECT Code FROM "@SCGD_TRAN_COMP" AS "@SCGD_TRAN_COMP_1" WITH (nolock) )) AND ( JDT1.Credit &lt;&gt; 0 )</value>
+  </data>
+  <data name="SQL_QueryCosteosFacCli" xml:space="preserve">
+    <value>SELECT Count(1) 
+FROM   INV1 WITH (nolock) 
+        INNER JOIN OINV WITH (nolock) 
+                ON INV1.DocEntry = 
+                    OINV.DocEntry 
+                    AND TrgetEntry IS NULL 
+        INNER JOIN OJDT WITH (nolock) 
+                ON OINV.TransId = 
+                    OJDT.TransId 
+WHERE  OINV.U_SCGD_Cod_Unidad = '{0}' 
+        AND OINV.DocType = '{2}' 
+        AND OJDT.TransId NOT IN 
+            (SELECT U_NoAsient FROM 
+            "@SCGD_GRLINES" L WITH (nolock) 
+INNER JOIN "@SCGD_GOODRECEIVE" GR  WITH (nolock) 
+            ON GR.DocEntry = L.DocEntry 
+            AND GR.U_Unidad = '{0}' 
+            AND U_NoAsient IS NOT NULL ) 
+        AND OINV.DocDate &lt;= '{1}'</value>
+  </data>
+  <data name="SQL_QueryCosteosFacRes" xml:space="preserve">
+    <value>SELECT Count(1) 
+FROM   PCH1 WITH (nolock) 
+    INNER JOIN OPCH WITH (nolock) 
+            ON PCH1.DocEntry = OPCH.DocEntry 
+    INNER JOIN OJDT WITH (nolock) 
+            ON OPCH.TransId = OJDT.TransId 
+WHERE  ( PCH1.U_SCGD_Cod_Unid = '{0}' ) 
+    AND ( OPCH.DocType = '{2}'OR OPCH.DocType = '{3}' ) 
+    AND ( OJDT.TransId NOT IN (SELECT L.U_NoAsient FROM "@SCGD_GRLINES" AS L WITH (nolock) 
+        INNER JOIN "@SCGD_GOODRECEIVE" AS GR  WITH (nolock) ON GR.DocEntry = L.DocEntry AND 
+        GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL) ) 
+    AND ( OPCH.DocDate &lt;= '{1}' ) 
+    AND ( PCH1.U_SCGD_Cod_Tran IN (SELECT Code FROM "@SCGD_TRAN_COMP" AS "@SCGD_TRAN_COMP_1"  WITH (nolock)))</value>
+  </data>
+  <data name="SQL_QueryCosteosNotCre" xml:space="preserve">
+    <value>SELECT Count(1) 
+FROM   RPC1 WITH (nolock) 
+        INNER JOIN ORPC WITH (nolock) 
+                ON RPC1.DocEntry = 
+                    ORPC.DocEntry 
+                    AND RPC1.TrgetEntry IS NULL 
+        INNER JOIN OJDT WITH (nolock) 
+                ON ORPC.TransId = OJDT.TransId 
+WHERE  ( RPC1.U_SCGD_Cod_Unid = '{0}' ) 
+        AND ( ORPC.DocType = '{2}' 
+                OR ORPC.DocType = '{3}' ) 
+        AND ( OJDT.TransId NOT IN 
+            (SELECT L.U_NoAsient FROM "@SCGD_GRLINES" AS L WITH (nolock) 
+            INNER JOIN "@SCGD_GOODRECEIVE" AS GR  WITH (nolock) 
+                    ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL)) 
+        AND ( ORPC.DocDate &lt;= '{1}' ) 
+        AND ( RPC1.U_SCGD_Cod_Tran IN (SELECT Code FROM "@SCGD_TRAN_COMP" AS "@SCGD_TRAN_COMP_1"  WITH (nolock)))</value>
+  </data>
+  <data name="SQL_QueryCosteosSalMer" xml:space="preserve">
+    <value>SELECT Count(1) 
+                                           FROM   OIGE WITH (nolock) 
+                                                  INNER JOIN IGE1 WITH (nolock) 
+                                                          ON IGE1.DocEntry = OIGE.DocEntry 
+                                                  INNER JOIN OJDT WITH (nolock) 
+                                                          ON OIGE.TransId = OJDT.TransId 
+                                           WHERE  ( OIGE.U_SCGD_Procesad = 1 ) 
+                                                  AND ( OIGE.U_SCGD_Cod_Unidad = '{0}' ) 
+                                                  AND ( OIGE.U_SCGD_Num_Vehiculo IS NOT NULL ) 
+                                                  AND ( OJDT.RefDate &lt;= '{1}' ) 
+                                                  AND ( OJDT.TransId NOT IN 
+                                                        (SELECT L.U_NoAsient FROM "@SCGD_GRLINES" AS L WITH (nolock) 
+                                          INNER JOIN "@SCGD_GOODRECEIVE" AS GR WITH (nolock) 
+                                                  ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL) )</value>
+  </data>
+  <data name="SQL_QueryCosteosVehi" xml:space="preserve">
+    <value>SELECT Count(1) AS QTY 
+               FROM   "@SCGD_VEHICULO" WITH (nolock) 
+               WHERE  ( U_Cod_Unid = '{0}' ) 
+                      AND ( U_SALINID &lt;&gt; 0 ) 
+                      AND ( U_SALINID IS NOT NULL )</value>
+  </data>
+  <data name="SQL_QueryDocumentos" xml:space="preserve">
+    <value>Select Case when '{0}' &lt;&gt; '' AND (select  count(1) cou from [@SCGD_CVENTA] with (nolock) where U_Cod_Unid = '{0}' and U_Estado &lt;&gt; 0 ) &gt; 0 then 1 else
+Case when '{0}' &lt;&gt; '' AND  (select count(1) from [@SCGD_GOODISSUE] with (nolock) where U_Unidad = '{0}') &gt; 0 then 1 else 
+Case when '{0}' &lt;&gt; '' AND  (select count(1) from [@SCGD_GOODRECEIVE] with (nolock) where U_Unidad =  '{0}' ) &gt; 0 then 1 else
+Case when '{1}' &lt;&gt; '' AND (select count(1) from OQUT with (nolock) where U_SCGD_Num_Vehiculo = '{1}') &gt; 0 then 1 else
+Case when '{0}' &lt;&gt; '' AND  (select count(1) from RPC1 with (nolock) where U_SCGD_Cod_Unid = '{0}' ) &gt; 0 then 1 else 
+Case when '{0}' &lt;&gt; '' AND  (select count(1) from PCH1 with (nolock) where U_SCGD_Cod_Unid = '{0}' ) &gt; 0 then 1 else 
+Case when '{0}' &lt;&gt; '' AND  (select count(1) from JDT1 with (nolock) where U_SCGD_Cod_Unidad = '{0}') &gt; 0 then 1 else
+						0
+End End End End End End End</value>
+  </data>
+  <data name="SQL_QueryInconsisCompras" xml:space="preserve">
+    <value>DECLARE @AprobadoSI AS INT
+SET @AprobadoSI = 1
+DECLARE @TrasladadoNO AS INT
+SET @TrasladadoNO = 1
+
+DECLARE @TransaccionCompra AS VARCHAR(1)
+SET @TransaccionCompra = '2'
+
+SELECT 'N' AS 'Check', T0.DocEntry, T1.LineNum, T1.ItemCode, T1.Dscription, T2.Quantity AS 'CantidadEntrada', T1.U_SCGD_TipArt AS 'ArtType', @TransaccionCompra AS 'TrnsType', CAST('' AS varchar(254)) AS 'Remarks'
+
+FROM  "OQUT" T0 WITH (nolock)
+INNER JOIN "QUT1" T1 WITH (nolock) ON T0.DocEntry = T1.DocEntry
+INNER JOIN "PDN1" T2 WITH (nolock) ON T1.U_SCGD_ID = T2.U_SCGD_ID --Entrada de Mercancías Compras
+WHERE
+T0.DocStatus = 'O' AND T0.U_SCGD_Estado_CotID &lt;&gt; '4'
+AND T0.CreateDate &gt;= DATEADD(MM, -2, GETDATE()) AND T2.DocDate &gt;= DATEADD(MM, -2, GETDATE())
+AND T1.U_SCGD_Aprobado = @AprobadoSI AND T1.U_SCGD_Traslad = @TrasladadoNO AND T1.U_SCGD_Compra = 'Y' AND (T1.U_SCGD_CSol&gt; 0 OR T1.U_SCGD_CPen &gt; 0) AND T1.U_SCGD_CRec = 0
+
+UNION
+
+SELECT 'N' AS 'Check', T0.DocEntry, T1.LineNum, T1.ItemCode, T1.Dscription, T2.Quantity AS 'CantidadEntrada', T1.U_SCGD_TipArt AS 'ArtType', @TransaccionCompra AS 'TrnsType', CAST('' AS varchar(254)) AS 'Remarks'
+
+FROM  "OQUT" T0 WITH (nolock)
+INNER JOIN "QUT1" T1 WITH (nolock) ON T0.DocEntry = T1.DocEntry
+INNER JOIN "PCH1" T2 WITH (nolock) ON T1.U_SCGD_ID = T2.U_SCGD_ID --Factura de Compras
+WHERE
+T0.DocStatus = 'O' AND T0.U_SCGD_Estado_CotID &lt;&gt; '4'
+AND T0.CreateDate &gt;= DATEADD(MM, -2, GETDATE()) AND T2.DocDate &gt;= DATEADD(MM, -2, GETDATE())
+AND T1.U_SCGD_Aprobado = @AprobadoSI AND T1.U_SCGD_Traslad = @TrasladadoNO AND T1.U_SCGD_Compra = 'Y' AND (T1.U_SCGD_CSol&gt; 0 OR T1.U_SCGD_CPen &gt; 0) AND T1.U_SCGD_CRec = 0</value>
+  </data>
+  <data name="SQL_QueryInconsisRequisiciones" xml:space="preserve">
+    <value>SELECT 'N' AS 'Check', T0.DocEntry, T1.LineNum, T1.ItemCode, T1.Dscription, T3.U_SCGD_CantRec AS 'CantidadEntrada', T1.U_SCGD_TipArt AS 'ArtType', '1' AS 'TrnsType', CAST('' AS varchar(254)) AS 'Remarks'
+FROM "OQUT" T0 WITH (nolock)
+INNER JOIN "QUT1" T1 WITH (nolock) ON T0.DocEntry = T1.DocEntry
+INNER JOIN "@SCGD_REQUISICIONES" T2 WITH (nolock) ON T0.U_SCGD_Numero_OT = T2.U_SCGD_NoOrden
+INNER JOIN "@SCGD_LINEAS_REQ" T3 WITH (nolock) ON T2.DocEntry = T3.DocEntry AND T1.U_SCGD_ID = T3.U_SCGD_ID
+WHERE
+T0.DocStatus = 'O' AND T0.CreateDate&gt;=DATEADD(MM, -2, getdate()) AND T0.U_SCGD_Estado_CotID &lt;&gt; '4'
+AND T1.U_SCGD_Aprobado = 1 AND T1.U_SCGD_Traslad = 4 AND T1.U_SCGD_TipArt IN ('1', '3') 
+AND T1.U_SCGD_CPBo &gt; 0 AND T3.U_SCGD_CodEst = 2</value>
+  </data>
+  <data name="SQL_QueryNombreEmpleadoXOT" xml:space="preserve">
+    <value>Select T1."firstName" + ' ' + T1."lastName"  From [OQUT] T0 ,[OHEM] T1 Where T0."OwnerCode" = T1."empID" and T0."U_SCGD_Numero_OT" = '{0}'</value>
+  </data>
+  <data name="SQL_QueryOcupacionMensual" xml:space="preserve">
+    <value>SELECT X1.name, X1.Empleado, CAST(SUM(X1.Enero) AS nvarchar(20)) AS 'Enero', CAST(SUM(X1.Febrero) AS nvarchar(20)) AS 'Febrero', CAST(SUM(X1.Marzo) AS nvarchar(20)) AS 'Marzo', CAST(SUM(X1.Abril) AS nvarchar(20)) AS 'Abril', CAST(SUM(X1.Mayo) AS nvarchar(20)) AS 'Mayo', CAST(SUM(X1.Junio) AS nvarchar(20)) AS 'Junio', CAST(SUM(X1.Julio) AS nvarchar(20)) AS 'Julio', CAST(SUM(X1.Agosto) AS nvarchar(20)) AS 'Agosto', CAST(SUM(X1.Septiembre) AS nvarchar(20)) AS 'Septiembre', CAST(SUM(X1.Octubre) AS nvarchar(20)) AS 'Octubre', CAST(SUM(X1.Noviembre) AS nvarchar(20)) AS 'Noviembre', CAST(SUM(X1.Diciembre) AS nvarchar(20)) AS 'Diciembre' FROM(
+
+--Ocupación mensual de los asesores
+SELECT T1.name, (T0."lastName" + ' ' + T0."firstName") AS 'Empleado',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{0}' AND '{1}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Enero',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{2}' AND '{3}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Febrero',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{4}' AND '{5}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Marzo',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{6}' AND '{7}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Abril',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{8}' AND '{9}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Mayo',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{10}' AND '{11}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Junio',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{12}' AND '{13}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Julio',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{14}' AND '{15}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Agosto',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{16}' AND '{17}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Septiembre',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{18}' AND '{19}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Octubre',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{20}' AND '{21}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Noviembre',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{22}' AND '{23}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Diciembre'
+
+FROM "OHEM" T0
+LEFT JOIN "OHPS" T1 ON T0.position = T1.posID
+INNER JOIN "@SCGD_CITA" T2 ON T0.empID = T2.U_Cod_Asesor
+INNER JOIN "@SCGD_AGENDA" T3 ON T2.U_Cod_Agenda = T3.DocNum
+WHERE 
+T0."U_SCGD_TipoEmp" = 'A' AND T0."branch" = '{24}' 
+AND T2."U_FechaCita" Between '{0}' AND '{23}'
+AND T2."U_Estado" &lt;&gt; '3' AND T2."U_Cod_Sucursal" = '{24}'
+Group By T1.name, T0.lastName, T0.firstName
+
+UNION ALL
+
+--Ocupación mensual de los técnicos sin orden de trabajo
+SELECT T1.name, (T0."lastName" + ' ' + T0."firstName") AS 'Empleado',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{0}' AND '{1}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Enero',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{2}' AND '{3}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Febrero',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{4}' AND '{5}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Marzo',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{6}' AND '{7}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Abril',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{8}' AND '{9}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Mayo',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{10}' AND '{11}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Junio',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{12}' AND '{13}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Julio',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{14}' AND '{15}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Agosto',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{16}' AND '{17}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Septiembre',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{18}' AND '{19}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Octubre',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{20}' AND '{21}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Noviembre',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita Between '{22}' AND '{23}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Diciembre'
+
+FROM "OHEM" T0
+LEFT JOIN "OHPS" T1 ON T0.position = T1.posID
+INNER JOIN "@SCGD_CITA" T2 ON T0.empID = T2.U_Cod_Tecnico
+INNER JOIN "OQUT" T3 ON T2."U_Num_Cot" = T3."DocEntry"
+INNER JOIN "QUT1" T4 ON T4.DocEntry = T3.DocEntry
+WHERE 
+T0."U_SCGD_TipoEmp" = 'T' AND T0."branch" = '{24}' 
+AND T2."U_FechaCita" Between '{0}' AND '{23}'
+AND T2."U_Estado" &lt;&gt; '3' AND T2."U_Cod_Sucursal" = '{24}'
+AND T3.U_SCGD_Numero_OT IS NULL
+Group By T1.name, T0.lastName, T0.firstName
+
+UNION ALL
+
+--Ocupación mensual con actividades asignadas y orden de trabajo
+SELECT T1.name, (T0."lastName" + ' ' + T0."firstName") AS 'Empleado',
+ISNULL(SUM(CASE WHEN T2.U_FechPro Between '{0}' AND '{1}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Enero',
+ISNULL(SUM(CASE WHEN T2.U_FechPro Between '{2}' AND '{3}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Febrero',
+ISNULL(SUM(CASE WHEN T2.U_FechPro Between '{4}' AND '{5}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Marzo',
+ISNULL(SUM(CASE WHEN T2.U_FechPro Between '{6}' AND '{7}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Abril',
+ISNULL(SUM(CASE WHEN T2.U_FechPro Between '{8}' AND '{9}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Mayo',
+ISNULL(SUM(CASE WHEN T2.U_FechPro Between '{10}' AND '{11}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Junio',
+ISNULL(SUM(CASE WHEN T2.U_FechPro Between '{12}' AND '{13}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Julio',
+ISNULL(SUM(CASE WHEN T2.U_FechPro Between '{14}' AND '{15}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Agosto',
+ISNULL(SUM(CASE WHEN T2.U_FechPro Between '{16}' AND '{17}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Septiembre',
+ISNULL(SUM(CASE WHEN T2.U_FechPro Between '{18}' AND '{19}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Octubre',
+ISNULL(SUM(CASE WHEN T2.U_FechPro Between '{20}' AND '{21}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Noviembre',
+ISNULL(SUM(CASE WHEN T2.U_FechPro Between '{22}' AND '{23}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Diciembre'
+
+FROM "OHEM" T0
+LEFT JOIN "OHPS" T1 ON T0.position = T1.posID
+INNER JOIN "@SCGD_CTRLCOL" T2 ON T2.U_Colab = T0.empID
+INNER JOIN OQUT T3 ON T2.Code = T3.U_SCGD_Numero_OT
+INNER JOIN QUT1 T4 ON T3.DocEntry = T4.DocEntry
+WHERE T0."branch" = '{24}' AND T3.U_SCGD_idSucursal = '{24}' --T0."U_SCGD_TipoEmp" = 'T' AND
+AND T2.U_FechPro Between '{0}' AND '{23}'
+AND T2.U_IdAct = T4.U_SCGD_ID AND T2.LineId = (SELECT TOP 1 S0.LineId FROM "@SCGD_CTRLCOL" S0 WHERE S0.Code = T3.U_SCGD_Numero_OT AND S0.U_IdAct = T2.U_IdAct AND S0.U_Colab = T0.empID)
+AND T3.U_SCGD_Numero_OT IS NOT NULL
+
+Group By T1.name, T0.lastName, T0.firstName
+
+UNION ALL
+
+--Bloqueos de los técnicos por meses
+SELECT T1.name, (T0."lastName" + ' ' + T0."firstName") AS 'Empleado',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{24}' AND S1.U_FechI Between '{0}' AND '{1}' AND S1.U_IdMec = T0.empID) AS 'Enero',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{24}' AND S1.U_FechI Between '{2}' AND '{3}' AND S1.U_IdMec = T0.empID) AS 'Febrero',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{24}' AND S1.U_FechI Between '{4}' AND '{5}' AND S1.U_IdMec = T0.empID) AS 'Marzo',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{24}' AND S1.U_FechI Between '{6}' AND '{7}' AND S1.U_IdMec = T0.empID) AS 'Abril',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{24}' AND S1.U_FechI Between '{8}' AND '{9}' AND S1.U_IdMec = T0.empID) AS 'Mayo',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{24}' AND S1.U_FechI Between '{10}' AND '{11}' AND S1.U_IdMec = T0.empID) AS 'Junio',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{24}' AND S1.U_FechI Between '{12}' AND '{13}' AND S1.U_IdMec = T0.empID) AS 'Julio',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{24}' AND S1.U_FechI Between '{14}' AND '{15}' AND S1.U_IdMec = T0.empID) AS 'Agosto',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{24}' AND S1.U_FechI Between '{16}' AND '{17}' AND S1.U_IdMec = T0.empID) AS 'Septiembre',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{24}' AND S1.U_FechI Between '{18}' AND '{19}' AND S1.U_IdMec = T0.empID) AS 'Octubre',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{24}' AND S1.U_FechI Between '{20}' AND '{21}' AND S1.U_IdMec = T0.empID) AS 'Noviembre',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{24}' AND S1.U_FechI Between '{22}' AND '{23}' AND S1.U_IdMec = T0.empID) AS 'Diciembre'
+
+FROM "OHEM" T0
+LEFT JOIN "OHPS" T1 ON T0.position = T1.posID
+WHERE T0."U_SCGD_TipoEmp" = 'T' AND T0."branch" = '{24}'
+
+UNION ALL
+
+--Query para poder mostrar todos los empleados de la sucursal aunque no tengan citas ni actividades asignadas
+SELECT T1.name, (T0."lastName" + ' ' + T0."firstName") AS 'Empleado',
+0 AS 'Enero',
+0 AS 'Febrero',
+0 AS 'Marzo',
+0 AS 'Abril',
+0 AS 'Mayo',
+0 AS 'Junio',
+0 AS 'Julio',
+0 AS 'Agosto',
+0 AS 'Septiembre',
+0 AS 'Octubre',
+0 AS 'Noviembre',
+0 AS 'Diciembre'
+FROM "OHEM" T0
+LEFT JOIN "OHPS" T1 ON T0.position = T1.posID
+WHERE T0.branch = '{24}' AND T0.U_SCGD_TipoEmp IS NOT NULL
+
+) X1 Group By X1.Empleado, X1.name Order By X1.Empleado</value>
+  </data>
+  <data name="SQL_QueryOcupacionSemanal" xml:space="preserve">
+    <value>SELECT X1.name, X1.Empleado, CAST(SUM(X1.Lunes) AS nvarchar(20)) AS 'Lunes', CAST(SUM(X1.Martes) AS nvarchar(20)) AS 'Martes', CAST(SUM(X1.Miercoles) AS nvarchar(20)) AS 'Miercoles', CAST(SUM(X1.Jueves) AS nvarchar(20)) AS 'Jueves', CAST(SUM(X1.Viernes) AS nvarchar(20)) AS 'Viernes', CAST(SUM(X1.Sabado) AS nvarchar(20)) AS 'Sabado', CAST(SUM(X1.Domingo) AS nvarchar(20)) AS 'Domingo', CAST(SUM(X1.LunesS2) AS nvarchar(20)) AS 'LunesS2', CAST(SUM(X1.MartesS2) AS nvarchar(20)) AS 'MartesS2', CAST(SUM(X1.MiercolesS2) AS nvarchar(20)) AS 'MiercolesS2', CAST(SUM(X1.JuevesS2) AS nvarchar(20)) AS 'JuevesS2', CAST(SUM(X1.ViernesS2) AS nvarchar(20)) AS 'ViernesS2', CAST(SUM(X1.SabadoS2) AS nvarchar(20)) AS 'SabadoS2', CAST(SUM(X1.DomingoS2) AS nvarchar(20)) AS 'DomingoS2'
+
+FROM (
+
+--Ocupación semanal de los asesores
+SELECT T1.name, (T0."lastName" + ' ' + T0."firstName") AS 'Empleado',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{0}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Lunes',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{1}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Martes',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{2}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Miercoles',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{3}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Jueves',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{4}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Viernes',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{5}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Sabado',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{6}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'Domingo',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{8}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'LunesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{9}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'MartesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{10}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'MiercolesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{11}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'JuevesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{12}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'ViernesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{13}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'SabadoS2',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{14}' THEN CAST(ISNULL(T3.U_IntervaloCitas, 15) AS int) ELSE 0 END),0) AS 'DomingoS2'
+
+FROM "OHEM" T0
+LEFT JOIN "OHPS" T1 ON T0.position = T1.posID
+INNER JOIN "@SCGD_CITA" T2 ON T0.empID = T2.U_Cod_Asesor
+INNER JOIN "@SCGD_AGENDA" T3 ON T2.U_Cod_Agenda = T3.DocNum
+WHERE 
+T0."U_SCGD_TipoEmp" = 'A' AND T0."branch" = '{7}' 
+AND T2."U_FechaCita" Between '{0}' AND '{14}'
+AND T2."U_Estado" &lt;&gt; '3' AND T2."U_Cod_Sucursal" = '{7}'
+Group By T1.name, T0.lastName, T0.firstName
+
+UNION ALL
+
+--Ocupación semanal de los técnicos sin orden de trabajo
+SELECT T1.name, (T0."lastName" + ' ' + T0."firstName") AS 'Empleado',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{0}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Lunes',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{1}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Martes',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{2}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Miercoles',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{3}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Jueves',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{4}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Viernes',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{5}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Sabado',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{6}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Domingo',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{8}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'LunesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{9}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'MartesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{10}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'MiercolesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{11}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'JuevesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{12}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'ViernesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{13}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'SabadoS2',
+ISNULL(SUM(CASE WHEN T2.U_FechaCita = '{14}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'DomingoS2'
+
+FROM "OHEM" T0
+LEFT JOIN "OHPS" T1 ON T0.position = T1.posID
+INNER JOIN "@SCGD_CITA" T2 ON T0.empID = T2.U_Cod_Tecnico
+INNER JOIN "OQUT" T3 ON T2."U_Num_Cot" = T3."DocEntry"
+INNER JOIN "QUT1" T4 ON T4.DocEntry = T3.DocEntry
+WHERE 
+T0."U_SCGD_TipoEmp" = 'T' AND T0."branch" = '{7}' 
+AND T2."U_FechaCita" Between '{0}' AND '{14}'
+AND T2."U_Estado" &lt;&gt; '3' AND T2."U_Cod_Sucursal" = '{7}'
+AND T3.U_SCGD_Numero_OT IS NULL
+Group By T1.name, T0.lastName, T0.firstName
+
+UNION ALL
+
+--Ocupación semanal con actividades asignadas y orden de trabajo
+SELECT T1.name, (T0."lastName" + ' ' + T0."firstName") AS 'Empleado',
+ISNULL(SUM(CASE WHEN T2.U_FechPro = '{0}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Lunes',
+ISNULL(SUM(CASE WHEN T2.U_FechPro = '{1}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Martes',
+ISNULL(SUM(CASE WHEN T2.U_FechPro = '{2}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Miercoles',
+ISNULL(SUM(CASE WHEN T2.U_FechPro = '{3}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Jueves',
+ISNULL(SUM(CASE WHEN T2.U_FechPro = '{4}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Viernes',
+ISNULL(SUM(CASE WHEN T2.U_FechPro = '{5}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Sabado',
+ISNULL(SUM(CASE WHEN T2.U_FechPro = '{6}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'Domingo',
+ISNULL(SUM(CASE WHEN T2.U_FechPro = '{8}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'LunesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechPro = '{9}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'MartesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechPro = '{10}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'MiercolesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechPro = '{11}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'JuevesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechPro = '{12}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'ViernesS2',
+ISNULL(SUM(CASE WHEN T2.U_FechPro = '{13}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'SabadoS2',
+ISNULL(SUM(CASE WHEN T2.U_FechPro = '{14}' THEN ISNULL(T4.U_SCGD_DurSt, 0) ELSE 0 END),0) AS 'DomingoS2'
+
+FROM "OHEM" T0
+LEFT JOIN "OHPS" T1 ON T0.position = T1.posID
+INNER JOIN "@SCGD_CTRLCOL" T2 ON T2.U_Colab = T0.empID
+INNER JOIN OQUT T3 ON T2.Code = T3.U_SCGD_Numero_OT
+INNER JOIN QUT1 T4 ON T3.DocEntry = T4.DocEntry
+WHERE T0."branch" = '{7}' AND T3.U_SCGD_idSucursal = '{7}' --T0."U_SCGD_TipoEmp" = 'T' AND
+AND T2.U_FechPro Between '{0}' AND '{14}'
+AND T2.U_IdAct = T4.U_SCGD_ID AND T2.LineId = (SELECT TOP 1 S0.LineId FROM "@SCGD_CTRLCOL" S0 WHERE S0.Code = T3.U_SCGD_Numero_OT AND S0.U_IdAct = T2.U_IdAct AND S0.U_Colab = T0.empID)
+AND T3.U_SCGD_Numero_OT IS NOT NULL
+
+Group By T1.name, T0.lastName, T0.firstName
+
+UNION ALL
+
+--Bloqueos de los técnicos por semanas
+SELECT T1.name, (T0."lastName" + ' ' + T0."firstName") AS 'Empleado',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{7}' AND S1.U_FechI = '{0}' AND S1.U_IdMec = T0.empID) AS 'Lunes',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{7}' AND S1.U_FechI = '{1}' AND S1.U_IdMec = T0.empID) AS 'Martes',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{7}' AND S1.U_FechI = '{2}' AND S1.U_IdMec = T0.empID) AS 'Miercoles',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{7}' AND S1.U_FechI = '{3}' AND S1.U_IdMec = T0.empID) AS 'Jueves',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{7}' AND S1.U_FechI = '{4}' AND S1.U_IdMec = T0.empID) AS 'Viernes',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{7}' AND S1.U_FechI = '{5}' AND S1.U_IdMec = T0.empID) AS 'Sabado',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{7}' AND S1.U_FechI = '{6}' AND S1.U_IdMec = T0.empID) AS 'Domingo',
+
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{7}' AND S1.U_FechI = '{8}' AND S1.U_IdMec = T0.empID) AS 'LunesS2',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{7}' AND S1.U_FechI = '{9}' AND S1.U_IdMec = T0.empID) AS 'MartesS2',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{7}' AND S1.U_FechI = '{10}' AND S1.U_IdMec = T0.empID) AS 'MiercolesS2',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{7}' AND S1.U_FechI = '{11}' AND S1.U_IdMec = T0.empID) AS 'JuevesS2',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{7}' AND S1.U_FechI = '{12}' AND S1.U_IdMec = T0.empID) AS 'ViernesS2',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{7}' AND S1.U_FechI = '{13}' AND S1.U_IdMec = T0.empID) AS 'SabadoS2',
+(SELECT -1 * ISNULL(SUM((S1.U_HoraF - S1.U_HorI) / 100),0) FROM "@SCGD_BLOCMEC" S1 WHERE S1.U_IdSucu = '{7}' AND S1.U_FechI = '{14}' AND S1.U_IdMec = T0.empID) AS 'DomingoS2'
+
+FROM "OHEM" T0
+LEFT JOIN "OHPS" T1 ON T0.position = T1.posID
+WHERE T0."U_SCGD_TipoEmp" = 'T' AND T0."branch" = '{7}'
+
+UNION ALL
+
+SELECT T1.name, (T0."lastName" + ' ' + T0."firstName") AS 'Empleado',
+0 AS 'Lunes',0 AS 'Martes',0 AS 'Miercoles',0 AS 'Jueves',0 AS 'Viernes',0 AS 'Sabado',0 AS 'Domingo',
+0 AS 'LunesS2',0 AS 'MartesS2',0 AS 'MiercolesS2',0 AS 'JuevesS2',0 AS 'ViernesS2',0 AS 'SabadoS2',0 AS 'DomingoS2'
+FROM "OHEM" T0
+LEFT JOIN "OHPS" T1 ON T0.position = T1.posID
+WHERE T0.branch = '{7}' AND T0.U_SCGD_TipoEmp IS NOT NULL
+
+) X1 Group By X1.Empleado, X1.name Order By X1.Empleado</value>
+  </data>
+  <data name="String1HANA_QueryCosteosSalMer" xml:space="preserve">
+    <value>SELECT Count(1) FROM "OIGE" 
+        INNER JOIN "IGE1" ON "IGE1"."DocEntry" = "OIGE"."DocEntry" 
+        INNER JOIN "OJDT" ON "OIGE"."TransId" = "OJDT"."TransId" 
+WHERE  ( "OIGE"."U_SCGD_Procesad" = 1 ) 
+        AND ( "OIGE"."U_SCGD_Cod_Unidad" = '{0}' ) 
+        AND ( "OIGE"."U_SCGD_Num_Vehiculo" IS NOT NULL ) 
+        AND ( "OJDT"."RefDate" &lt;= '{1}' ) 
+        AND ( "OJDT"."TransId" NOT IN 
+			(SELECT "L"."U_NoAsient" FROM "@SCGD_GRLINES" "L" 
+				INNER JOIN "@SCGD_GOODRECEIVE" GR ON "GR"."DocEntry" = "L"."DocEntry" 
+				AND "GR"."U_Unidad" = '{0}' AND "L"."U_NoAsient" IS NOT NULL) )</value>
+  </data>
+</root>

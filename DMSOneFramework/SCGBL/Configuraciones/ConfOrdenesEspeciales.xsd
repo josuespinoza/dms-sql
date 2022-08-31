@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ConfOrdenesEspeciales" targetNamespace="http://tempuri.org/ConfOrdenesEspeciales.xsd" xmlns:mstns="http://tempuri.org/ConfOrdenesEspeciales.xsd" xmlns="http://tempuri.org/ConfOrdenesEspeciales.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ConfOrdenesEspeciales" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ConfOrdenesEspeciales" msprop:Generator_DataSetName="ConfOrdenesEspeciales">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_ConfOrdenesEspeciales" msprop:Generator_UserTableName="SCGTA_TB_ConfOrdenesEspeciales" msprop:Generator_RowDeletedName="SCGTA_TB_ConfOrdenesEspecialesRowDeleted" msprop:Generator_RowChangedName="SCGTA_TB_ConfOrdenesEspecialesRowChanged" msprop:Generator_RowClassName="SCGTA_TB_ConfOrdenesEspecialesRow" msprop:Generator_RowChangingName="SCGTA_TB_ConfOrdenesEspecialesRowChanging" msprop:Generator_RowEvArgName="SCGTA_TB_ConfOrdenesEspecialesRowChangeEvent" msprop:Generator_RowEvHandlerName="SCGTA_TB_ConfOrdenesEspecialesRowChangeEventHandler" msprop:Generator_TableClassName="SCGTA_TB_ConfOrdenesEspecialesDataTable" msprop:Generator_TableVarName="tableSCGTA_TB_ConfOrdenesEspeciales" msprop:Generator_RowDeletingName="SCGTA_TB_ConfOrdenesEspecialesRowDeleting" msprop:Generator_TablePropName="SCGTA_TB_ConfOrdenesEspeciales">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="IDTipoOrden" msprop:Generator_UserColumnName="IDTipoOrden" msprop:Generator_ColumnPropNameInRow="IDTipoOrden" msprop:Generator_ColumnVarNameInTable="columnIDTipoOrden" msprop:Generator_ColumnPropNameInTable="IDTipoOrdenColumn" type="xs:int" />
+              <xs:element name="IDAsesor" msprop:Generator_UserColumnName="IDAsesor" msprop:Generator_ColumnPropNameInRow="IDAsesor" msprop:Generator_ColumnVarNameInTable="columnIDAsesor" msprop:Generator_ColumnPropNameInTable="IDAsesorColumn" type="xs:int" />
+              <xs:element name="CardCodeCliente" msprop:Generator_UserColumnName="CardCodeCliente" msprop:Generator_ColumnPropNameInRow="CardCodeCliente" msprop:Generator_ColumnVarNameInTable="columnCardCodeCliente" msprop:Generator_ColumnPropNameInTable="CardCodeClienteColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CardNameCliente" msprop:Generator_UserColumnName="CardNameCliente" msprop:Generator_ColumnPropNameInRow="CardNameCliente" msprop:Generator_ColumnVarNameInTable="columnCardNameCliente" msprop:Generator_ColumnPropNameInTable="CardNameClienteColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NombreAsesor" msprop:Generator_UserColumnName="NombreAsesor" msprop:Generator_ColumnPropNameInRow="NombreAsesor" msprop:Generator_ColumnVarNameInTable="columnNombreAsesor" msprop:Generator_ColumnPropNameInTable="NombreAsesorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DescTipoOrden" msprop:Generator_UserColumnName="DescTipoOrden" msprop:Generator_ColumnPropNameInRow="DescTipoOrden" msprop:Generator_ColumnVarNameInTable="columnDescTipoOrden" msprop:Generator_ColumnPropNameInTable="DescTipoOrdenColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UsaListaPrecios" msprop:Generator_UserColumnName="UsaListaPrecios" msprop:Generator_ColumnPropNameInRow="UsaListaPrecios" msprop:Generator_ColumnVarNameInTable="columnUsaListaPrecios" msprop:Generator_ColumnPropNameInTable="UsaListaPreciosColumn" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_ConfOrdenesEspeciales" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

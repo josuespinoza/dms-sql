@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AgendaDataset" targetNamespace="http://tempuri.org/AgendaDataset.xsd" xmlns:mstns="http://tempuri.org/AgendaDataset.xsd" xmlns="http://tempuri.org/AgendaDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AgendaDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="AgendaDataset" msprop:Generator_DataSetName="AgendaDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_Agendas" msprop:Generator_UserTableName="SCGTA_TB_Agendas" msprop:Generator_RowDeletedName="SCGTA_TB_AgendasRowDeleted" msprop:Generator_RowChangedName="SCGTA_TB_AgendasRowChanged" msprop:Generator_RowClassName="SCGTA_TB_AgendasRow" msprop:Generator_RowChangingName="SCGTA_TB_AgendasRowChanging" msprop:Generator_RowEvArgName="SCGTA_TB_AgendasRowChangeEvent" msprop:Generator_RowEvHandlerName="SCGTA_TB_AgendasRowChangeEventHandler" msprop:Generator_TableClassName="SCGTA_TB_AgendasDataTable" msprop:Generator_TableVarName="tableSCGTA_TB_Agendas" msprop:Generator_RowDeletingName="SCGTA_TB_AgendasRowDeleting" msprop:Generator_TablePropName="SCGTA_TB_Agendas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="Agenda" msprop:Generator_UserColumnName="Agenda" msprop:Generator_ColumnVarNameInTable="columnAgenda" msprop:Generator_ColumnPropNameInRow="Agenda" msprop:Generator_ColumnPropNameInTable="AgendaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EstadoLogico" msprop:Generator_UserColumnName="EstadoLogico" msprop:Generator_ColumnVarNameInTable="columnEstadoLogico" msprop:Generator_ColumnPropNameInRow="EstadoLogico" msprop:Generator_ColumnPropNameInTable="EstadoLogicoColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IntervaloCitas" msprop:Generator_UserColumnName="IntervaloCitas" msprop:Generator_ColumnPropNameInRow="IntervaloCitas" msprop:Generator_ColumnVarNameInTable="columnIntervaloCitas" msprop:Generator_ColumnPropNameInTable="IntervaloCitasColumn" type="xs:int" default="15" minOccurs="0" />
+              <xs:element name="Abreviatura" msprop:Generator_UserColumnName="Abreviatura" msprop:Generator_ColumnVarNameInTable="columnAbreviatura" msprop:Generator_ColumnPropNameInRow="Abreviatura" msprop:Generator_ColumnPropNameInTable="AbreviaturaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CodTecnico" msprop:Generator_UserColumnName="CodTecnico" msprop:Generator_ColumnPropNameInRow="CodTecnico" msprop:Generator_ColumnVarNameInTable="columnCodTecnico" msprop:Generator_ColumnPropNameInTable="CodTecnicoColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="CodAsesor" msprop:Generator_UserColumnName="CodAsesor" msprop:Generator_ColumnPropNameInRow="CodAsesor" msprop:Generator_ColumnVarNameInTable="columnCodAsesor" msprop:Generator_ColumnPropNameInTable="CodAsesorColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="RazonCita" msprop:Generator_UserColumnName="RazonCita" msprop:Generator_ColumnPropNameInRow="RazonCita" msprop:Generator_ColumnVarNameInTable="columnRazonCita" msprop:Generator_ColumnPropNameInTable="RazonCitaColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="ArticuloCita" msprop:Generator_UserColumnName="ArticuloCita" msprop:Generator_ColumnPropNameInRow="ArticuloCita" msprop:Generator_ColumnVarNameInTable="columnArticuloCita" msprop:Generator_ColumnPropNameInTable="ArticuloCitaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DescripcionAsesor" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DescripcionAsesor" msprop:Generator_ColumnVarNameInTable="columnDescripcionAsesor" msprop:Generator_ColumnPropNameInRow="DescripcionAsesor" msprop:Generator_ColumnPropNameInTable="DescripcionAsesorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DescripcionTecnico" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DescripcionTecnico" msprop:Generator_ColumnVarNameInTable="columnDescripcionTecnico" msprop:Generator_ColumnPropNameInRow="DescripcionTecnico" msprop:Generator_ColumnPropNameInTable="DescripcionTecnicoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DescripcionRazonCita" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DescripcionRazonCita" msprop:Generator_ColumnVarNameInTable="columnDescripcionRazonCita" msprop:Generator_ColumnPropNameInRow="DescripcionRazonCita" msprop:Generator_ColumnPropNameInTable="DescripcionRazonCitaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DescripcionArticulo" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DescripcionArticulo" msprop:Generator_ColumnVarNameInTable="columnDescripcionArticulo" msprop:Generator_ColumnPropNameInRow="DescripcionArticulo" msprop:Generator_ColumnPropNameInTable="DescripcionArticuloColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_Agendas" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

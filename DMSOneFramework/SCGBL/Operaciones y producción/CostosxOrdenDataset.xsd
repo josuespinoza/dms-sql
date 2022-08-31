@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="CostosxOrdenDataset" targetNamespace="http://tempuri.org/CostosxOrdenDataset.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/CostosxOrdenDataset.xsd"
+	xmlns:mstns="http://tempuri.org/CostosxOrdenDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="CostosxOrdenDataset" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="SCGTA_SP_SelCostosxOrden">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="NoOrden" type="xs:string" />
+							<xs:element name="CostoSuministro" type="xs:decimal" minOccurs="0" default="0" />
+							<xs:element name="CostoRepuesto" type="xs:decimal" minOccurs="0" default="0" />
+							<xs:element name="CostoSuministroPintura" type="xs:decimal" minOccurs="0" default="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="CostosxOrdenDatasetKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:SCGTA_SP_SelCostosxOrden" />
+			<xs:field xpath="mstns:NoOrden" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

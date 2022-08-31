@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ActRepMitchellDataset" targetNamespace="http://tempuri.org/ActRepMitchellDataset.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/ActRepMitchellDataset.xsd"
+	xmlns:mstns="http://tempuri.org/ActRepMitchellDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="ActRepMitchellDataset" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="SCGTA_TB_ActRepMitchell">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="EstimateId" type="xs:string" />
+							<xs:element name="SupplementNumber" type="xs:short" />
+							<xs:element name="SeqNum" type="xs:short" />
+							<xs:element name="Type" type="xs:string" minOccurs="0" />
+							<xs:element name="CEGLabor" type="xs:float" minOccurs="0" />
+							<xs:element name="CEGPrice" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PartId" type="xs:int" minOccurs="0" />
+							<xs:element name="CEGLabOp" type="xs:short" minOccurs="0" />
+							<xs:element name="CEGLabCat" type="xs:short" minOccurs="0" />
+							<xs:element name="CEGDescription" type="xs:string" minOccurs="0" />
+							<xs:element name="CEGPartNumber" type="xs:string" minOccurs="0" />
+							<xs:element name="CEGPartType" type="xs:short" minOccurs="0" />
+							<xs:element name="DescriptionOverride" type="xs:string" minOccurs="0" />
+							<xs:element name="CalcLabor" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HoursOverride" type="xs:decimal" />
+							<xs:element name="PartTypeOverride" type="xs:int" minOccurs="0" />
+							<xs:element name="Sectionid" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="ActRepMitchellDatasetKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:SCGTA_TB_ActRepMitchell" />
+			<xs:field xpath="mstns:EstimateId" />
+			<xs:field xpath="mstns:SupplementNumber" />
+			<xs:field xpath="mstns:SeqNum" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

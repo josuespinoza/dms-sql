@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ConfiguraFacturaDataset" targetNamespace="http://tempuri.org/ConfiguraFacturaDataset.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/ConfiguraFacturaDataset.xsd"
+	xmlns:mstns="http://tempuri.org/ConfiguraFacturaDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="ConfiguraFacturaDataset" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="SCGTA_TB_ConfFacturacion">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Consecutivo" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="ItemCodeManoObra" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemCodeRepuestos" type="xs:string" minOccurs="0" />
+							<xs:element name="ItemCodeSuministros" type="xs:string" minOccurs="0" />
+							<xs:element name="ImpManoObra" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ImpRepuestos" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ImpSuministros" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ImpCodigoMO" type="xs:string" minOccurs="0" />
+							<xs:element name="ImpCodigoSum" type="xs:string" minOccurs="0" />
+							<xs:element name="ImpCodigoRep" type="xs:string" minOccurs="0" />
+							<xs:element name="DscriptionMO" type="xs:string" minOccurs="0" />
+							<xs:element name="DscriptionSum" type="xs:string" minOccurs="0" />
+							<xs:element name="DscriptionRep" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="ConfiguraFacturaDatasetKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:SCGTA_TB_ConfFacturacion" />
+			<xs:field xpath="mstns:Consecutivo" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

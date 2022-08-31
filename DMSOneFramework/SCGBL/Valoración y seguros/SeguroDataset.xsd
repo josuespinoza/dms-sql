@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="SeguroDataset" targetNamespace="http://tempuri.org/SeguroDataset.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/SeguroDataset.xsd" xmlns:mstns="http://tempuri.org/SeguroDataset.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="SeguroDataset" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="SCGTA_TB_Seguro">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="NoOrden" type="xs:string" />
+							<xs:element name="NoSeguro" type="xs:int" />
+							<xs:element name="CodAgencia" type="xs:int" minOccurs="0" />
+							<xs:element name="CodDeducible" type="xs:string" minOccurs="0" />
+							<xs:element name="CodCobertura" type="xs:int" minOccurs="0" />
+							<xs:element name="NoCaso" type="xs:string" minOccurs="0" />
+							<xs:element name="NoPoliza" type="xs:string" minOccurs="0" />
+							<xs:element name="NoReferencia" type="xs:string" minOccurs="0" />
+							<xs:element name="MontoAsegurado" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ValorRealVehiculo" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Infraseguro" type="xs:string" minOccurs="0" />
+							<xs:element name="AcreedorPrendario" type="xs:string" minOccurs="0" />
+							<xs:element name="VigenciaInicio" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="VigenciaFin" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Perito" type="xs:string" minOccurs="0" />
+							<xs:element name="Ajustador" type="xs:string" minOccurs="0" />
+							<xs:element name="FechaAccidente" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FechaAvaluo" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="MontoAvaluo" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MontoManoObra" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Solicitud" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="DetalleGeneral" type="xs:string" minOccurs="0" />
+							<xs:element name="DetalleAvaluo" type="xs:string" minOccurs="0" />
+							<xs:element name="MontoManoObraAdicional" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MontoRepuestoAdicional" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FechaSolicitudAdicional" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Agencia" type="xs:string" minOccurs="0" />
+							<xs:element name="Cono" type="xs:int" minOccurs="0" />
+							<xs:element name="Placa" type="xs:string" minOccurs="0" />
+							<xs:element name="Marca" type="xs:string" minOccurs="0" />
+							<xs:element name="Estado" type="xs:string" minOccurs="0" />
+							<xs:element name="NoAvaluo" type="xs:string" minOccurs="0" />
+							<xs:element name="MontoSuministros" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MontoMaterialPintura" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MontoMaterialTaller" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="SeguroDatasetKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:SCGTA_TB_Seguro" />
+			<xs:field xpath="mstns:NoOrden" />
+			<xs:field xpath="mstns:NoSeguro" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

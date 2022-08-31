@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BodegasSBODataset" targetNamespace="http://tempuri.org/BodegasSBODataset.xsd" xmlns:mstns="http://tempuri.org/BodegasSBODataset.xsd" xmlns="http://tempuri.org/BodegasSBODataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="DMSAutomotrizProduccionConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="DMSAutomotrizProduccionConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.DMSAutomotrizProduccionConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BodegasSBODataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="BodegasSBODataset" msprop:Generator_DataSetName="BodegasSBODataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_VW_Bodegas" msprop:Generator_UserTableName="SCGTA_VW_Bodegas" msprop:Generator_RowDeletedName="SCGTA_VW_BodegasRowDeleted" msprop:Generator_TableClassName="SCGTA_VW_BodegasDataTable" msprop:Generator_RowChangedName="SCGTA_VW_BodegasRowChanged" msprop:Generator_RowClassName="SCGTA_VW_BodegasRow" msprop:Generator_RowChangingName="SCGTA_VW_BodegasRowChanging" msprop:Generator_RowEvArgName="SCGTA_VW_BodegasRowChangeEvent" msprop:Generator_RowEvHandlerName="SCGTA_VW_BodegasRowChangeEventHandler" msprop:Generator_TablePropName="SCGTA_VW_Bodegas" msprop:Generator_TableVarName="tableSCGTA_VW_Bodegas" msprop:Generator_RowDeletingName="SCGTA_VW_BodegasRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WhsCode" msprop:Generator_UserColumnName="WhsCode" msprop:Generator_ColumnPropNameInRow="WhsCode" msprop:Generator_ColumnVarNameInTable="columnWhsCode" msprop:Generator_ColumnPropNameInTable="WhsCodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WhsName" msprop:Generator_UserColumnName="WhsName" msprop:Generator_ColumnPropNameInRow="WhsName" msprop:Generator_ColumnVarNameInTable="columnWhsName" msprop:Generator_ColumnPropNameInTable="WhsNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_VW_Bodegas" />
+      <xs:field xpath="mstns:WhsCode" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

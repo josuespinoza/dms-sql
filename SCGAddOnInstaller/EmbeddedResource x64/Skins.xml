@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<SkinDataSet xmlns="http://tempuri.org/SkinDataSet.xsd">
+  <ArchivoSkin>
+    <NombreMenu>SAP 8.8</NombreMenu>
+    <NombreSkin>sbo8.8.ssk</NombreSkin>
+    <UsarSkin>true</UsarSkin>
+    <ColorMenuPadreNormal>57,93,173</ColorMenuPadreNormal>
+    <ColorMenuPadreOver>57,117,206</ColorMenuPadreOver>
+    <ColorMenuHijoNormal>74,125,214</ColorMenuHijoNormal>
+    <ColorMenuHijoOver>57,97,189</ColorMenuHijoOver>
+    <ColorLetraMenu>255,255,255</ColorLetraMenu>
+    <Active>true</Active>
+    <ChangeDataGridColors>true</ChangeDataGridColors>
+    <SkinColorDialogs>true</SkinColorDialogs>
+    <SkinDialogs>true</SkinDialogs>
+    <SkinFormOnly>false</SkinFormOnly>
+    <SkinScrollBar>true</SkinScrollBar>
+    <ColorFondoPrincipal>255,255,255</ColorFondoPrincipal> 
+  </ArchivoSkin>
+  <ArchivoSkin>
+    <NombreMenu>SAP 2007</NombreMenu>
+    <NombreSkin>sbo2007.ssk</NombreSkin>
+    <UsarSkin>false</UsarSkin>
+    <ColorMenuPadreNormal>222,223,206</ColorMenuPadreNormal>
+    <ColorMenuPadreOver>173,173,140</ColorMenuPadreOver>
+    <ColorMenuHijoNormal>245,243,230</ColorMenuHijoNormal>
+    <ColorMenuHijoOver>255,207,49</ColorMenuHijoOver>
+    <ColorLetraMenu>0,0,0</ColorLetraMenu>
+    <Active>true</Active>
+    <ChangeDataGridColors>true</ChangeDataGridColors>
+    <SkinColorDialogs>true</SkinColorDialogs>
+    <SkinDialogs>true</SkinDialogs>
+    <SkinFormOnly>false</SkinFormOnly>
+    <SkinScrollBar>true</SkinScrollBar>
+    <ColorFondoPrincipal>156,186,206</ColorFondoPrincipal> 
+  </ArchivoSkin>
+</SkinDataSet>

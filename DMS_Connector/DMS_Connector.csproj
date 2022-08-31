@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{085DE67A-A389-498F-ADBA-DB234DFF447E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DMS_Connector</RootNamespace>
+    <AssemblyName>DMS_Connector</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\DMS_Connector.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.SAPbobsCOM, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\CommonBin\SboInterops\Interop.SAPbobsCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SAPbouiCOM, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\CommonBin\SboInterops\Interop.SAPbouiCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business Logic\DataContract\Articulo\oArticulo.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Configuracion Sucursal\Horario.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Configuracion.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Configuracion Sucursal\Aprobaciones_Sucursal.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Configuracion Sucursal\Bodegas_CentroCosto.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Configuracion Sucursal\Configuracion_OT_Interna..cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Configuracion Sucursal\Configuracion_Sucursal.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Configuracion Sucursal\Configuracion_Tipo_Orden.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Dimensiones\Dimensiones.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Dimensiones\DimensionesOT.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Dimensiones\DimensionesOT_Lineas.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Dimensiones\Dimensiones_Lineas.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Generales\Aprobado.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Generales\Trasladado.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Numeraciones\Numeracion.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Generales\TipoOT.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Mensajeria\Mensajeria.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Mensajeria\Mensajeria_Lineas.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Numeraciones\Numeracion_Lineas.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Parametrizaciones Generales\Admin.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Parametrizaciones Generales\Admin1.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Parametrizaciones Generales\Admin2.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Parametrizaciones Generales\Admin3.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Parametrizaciones Generales\Admin4.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Parametrizaciones Generales\Admin5.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Parametrizaciones Generales\Admin6.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Parametrizaciones Generales\Admin7.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Parametrizaciones Generales\Admin8.cs" />
+    <Compile Include="Business Logic\DataContract\Configuracion\Parametrizaciones Generales\Admin9.cs" />
+    <Compile Include="Business Logic\DataContract\Contrato de Ventas\AccesoriosXContrato.cs" />
+    <Compile Include="Business Logic\DataContract\Contrato de Ventas\BonosXContrato.cs" />
+    <Compile Include="Business Logic\DataContract\Contrato de Ventas\Carga_Contrato.cs" />
+    <Compile Include="Business Logic\DataContract\Contrato de Ventas\CVenta.cs" />
+    <Compile Include="Business Logic\DataContract\Contrato de Ventas\HistorialContrato.cs" />
+    <Compile Include="Business Logic\DataContract\Contrato de Ventas\LineasRes.cs" />
+    <Compile Include="Business Logic\DataContract\Contrato de Ventas\LineasSum.cs" />
+    <Compile Include="Business Logic\DataContract\Contrato de Ventas\OtrosCostosXContrato.cs" />
+    <Compile Include="Business Logic\DataContract\Contrato de Ventas\TramitesXContrato.cs" />
+    <Compile Include="Business Logic\DataContract\Contrato de Ventas\UsadosXContrato.cs" />
+    <Compile Include="Business Logic\DataContract\Contrato de Ventas\VehiculosXContrato.cs" />
+    <Compile Include="Business Logic\DataContract\Impuesto\Impuesto.cs" />
+    <Compile Include="Business Logic\DataContract\Impuesto\TaxCodeDeterminationDC.cs" />
+    <Compile Include="Business Logic\DataContract\Integracion\InterfazJohnDeereDC.cs" />
+    <Compile Include="Business Logic\DataContract\Localizacion\CABYS.cs" />
+    <Compile Include="Business Logic\DataContract\Localizacion\CodigosHacienda.cs" />
+    <Compile Include="Business Logic\DataContract\Orden de Trabajo\Carga_OT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business Logic\DataContract\Orden de Trabajo\ControlColaborador.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business Logic\DataContract\Orden de Trabajo\ImagenesOT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business Logic\DataContract\Orden de Trabajo\OrdenDeTrabajo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business Logic\DataContract\Orden de Trabajo\TrackingArticulos.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business Logic\DataContract\Requisiciones\LineaRequisicion.cs" />
+    <Compile Include="Business Logic\DataContract\Requisiciones\Requisicion.cs" />
+    <Compile Include="Business Logic\DataContract\SAPDocumento\oDocumento.cs" />
+    <Compile Include="Business Logic\DataContract\SAPDocumento\oLineasDocumento.cs" />
+    <Compile Include="Business Logic\DataContract\Vehiculos\AccesoriosXVehiculo.cs" />
+    <Compile Include="Business Logic\DataContract\Vehiculos\BonosXVehiculo.cs" />
+    <Compile Include="Business Logic\DataContract\Vehiculos\Carga_Vehiculo.cs" />
+    <Compile Include="Business Logic\DataContract\Vehiculos\TrazabilizadXVehiculo.cs" />
+    <Compile Include="Business Logic\DataContract\Vehiculos\Vehiculo.cs" />
+    <Compile Include="Business Logic\ImpuestoBL.cs" />
+    <Compile Include="Business Logic\Queries\Queries.CatchingEvents.cs" />
+    <Compile Include="Business Logic\Queries\Queries.Citas.cs" />
+    <Compile Include="Business Logic\Queries\Queries.ConfGeneral.cs" />
+    <Compile Include="Business Logic\Queries\Queries.ContratoVentas.cs" />
+    <Compile Include="Business Logic\Queries\Queries.Cotizacion.cs" />
+    <Compile Include="Business Logic\Queries\Queries.DMSConnector.cs" />
+    <Compile Include="Business Logic\Queries\Queries.OrdenVenta.cs" />
+    <Compile Include="Business Logic\Queries\Queries.Requisiciones.cs" />
+    <Compile Include="Business Logic\Queries\Queries.SeleccionarRepuestosOT.cs" />
+    <Compile Include="Business Logic\Queries\QueriesRecursos.cs" />
+    <Compile Include="Business Logic\Queries\Queries.Utilitarios.cs" />
+    <Compile Include="Business Logic\Queries\Queries.Vehiculos.cs" />
+    <Compile Include="Business Logic\Queries\QueriesControl.cs" />
+    <Compile Include="Data Access\Company.cs" />
+    <Compile Include="Data Access\GeneralEnums.cs" />
+    <Compile Include="Data Access\Helpers.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Referencias\ManipuladorClienteDLL.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,85 @@
+﻿h2
+{
+    color: #FF7800;
+    font-size: 1.1em;
+    padding-top: 8px;
+}
+h2 label
+{
+    color: #003366;
+    font-size: 1.1em;
+}
+.Container
+{
+    width: 830px;
+    margin-left: auto;
+    padding-top: 3px;
+    margin-right: auto;
+}
+.Medidas input
+{
+    border: 1px solid #003366;
+    margin: 0px 15px 0px 0px;
+    padding: 0px;
+    width: 160px;
+    float: left;
+    line-height: 23px;
+    color: #003366;
+}
+.Medidas Label
+{
+    margin: 0px;
+    padding: 0px;
+    width: 170px;
+    float: left;
+    line-height: 23px;
+}
+.Medidas
+{
+    margin: 5px 0px 5px 5px;
+    width: 800px;
+    overflow: auto;
+}
+.FilterPanel
+{
+    background-color: #E4E5E3;
+    padding: 9px 5px 5px 5px;
+    color: #003366;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #999999;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #999999;
+}
+hr
+{
+    color: #003366;
+}
+div.tab
+{
+    overflow: hidden;
+    height: 28px;
+}
+div.tab .centro
+    {
+    background-color: #E4E5E3;
+    height: 28px;
+    float: left;
+}
+div.tab .izq
+ {
+    background-image: url(BordeGrisIzq.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 14px;
+    height: 28px;
+}
+div.tab .der
+ {
+    background-image: url(BordeGrisDer.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 14px;
+    height: 58px;
+}

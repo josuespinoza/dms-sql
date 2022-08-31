@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ScgToolBar1.Appearance" type="System.Windows.Forms.ToolBarAppearance, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ScgToolBar1.DropDownArrows" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ScgToolBar1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ScgToolBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ScgToolBar1.ShowToolTips" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ScgToolBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>847, 28</value>
+  </data>
+  <data name="ScgToolBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>5086</value>
+  </data>
+  <data name="&gt;&gt;ScgToolBar1.Name" xml:space="preserve">
+    <value>ScgToolBar1</value>
+  </data>
+  <data name="&gt;&gt;ScgToolBar1.Type" xml:space="preserve">
+    <value>Proyecto_SCGToolBar.SCGToolBar, Proyecto SCGToolBar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ScgToolBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ScgToolBar1.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 96</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 1</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>5101</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblEncargadoAcc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblEncargadoAcc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEncargadoAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 80</value>
+  </data>
+  <data name="lblEncargadoAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 16</value>
+  </data>
+  <data name="lblEncargadoAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>5102</value>
+  </data>
+  <data name="lblEncargadoAcc.Text" xml:space="preserve">
+    <value>Encargado Accesorios</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoAcc.Name" xml:space="preserve">
+    <value>lblEncargadoAcc</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoAcc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoAcc.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblLine1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLine1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 62</value>
+  </data>
+  <data name="lblLine1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 1</value>
+  </data>
+  <data name="lblLine1.TabIndex" type="System.Int32, mscorlib">
+    <value>5099</value>
+  </data>
+  <data name="&gt;&gt;lblLine1.Name" xml:space="preserve">
+    <value>lblLine1</value>
+  </data>
+  <data name="&gt;&gt;lblLine1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLine1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblLine1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblCentroCosto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="lblCentroCosto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCentroCosto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 47</value>
+  </data>
+  <data name="lblCentroCosto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 15</value>
+  </data>
+  <data name="lblCentroCosto.TabIndex" type="System.Int32, mscorlib">
+    <value>5100</value>
+  </data>
+  <data name="lblCentroCosto.Text" xml:space="preserve">
+    <value>Centro de Costo</value>
+  </data>
+  <data name="&gt;&gt;lblCentroCosto.Name" xml:space="preserve">
+    <value>lblCentroCosto</value>
+  </data>
+  <data name="&gt;&gt;lblCentroCosto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCentroCosto.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCentroCosto.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txtEncargadoAcc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtEncargadoAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 77</value>
+  </data>
+  <data name="txtEncargadoAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>673, 20</value>
+  </data>
+  <data name="txtEncargadoAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>5098</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoAcc.Name" xml:space="preserve">
+    <value>txtEncargadoAcc</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoAcc.Type" xml:space="preserve">
+    <value>NEWTEXTBOX.NEWTEXTBOX_CTRL, NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoAcc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoAcc.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="picEncargadoAcc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picEncargadoAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>822, 80</value>
+  </data>
+  <data name="picEncargadoAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 17</value>
+  </data>
+  <data name="picEncargadoAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>5094</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoAcc.Name" xml:space="preserve">
+    <value>picEncargadoAcc</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoAcc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoAcc.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="dtgConfMensajeria.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 210</value>
+  </data>
+  <data name="dtgConfMensajeria.Size" type="System.Drawing.Size, System.Drawing">
+    <value>826, 290</value>
+  </data>
+  <data name="dtgConfMensajeria.TabIndex" type="System.Int32, mscorlib">
+    <value>5093</value>
+  </data>
+  <data name="&gt;&gt;dtgConfMensajeria.Name" xml:space="preserve">
+    <value>dtgConfMensajeria</value>
+  </data>
+  <data name="&gt;&gt;dtgConfMensajeria.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtgConfMensajeria.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtgConfMensajeria.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 127</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 1</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>5105</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblEncargadoRep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblEncargadoRep.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEncargadoRep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 111</value>
+  </data>
+  <data name="lblEncargadoRep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 16</value>
+  </data>
+  <data name="lblEncargadoRep.TabIndex" type="System.Int32, mscorlib">
+    <value>5106</value>
+  </data>
+  <data name="lblEncargadoRep.Text" xml:space="preserve">
+    <value>Encargado Repuestos</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoRep.Name" xml:space="preserve">
+    <value>lblEncargadoRep</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoRep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoRep.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoRep.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtEncargadoRep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtEncargadoRep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 108</value>
+  </data>
+  <data name="txtEncargadoRep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>673, 20</value>
+  </data>
+  <data name="txtEncargadoRep.TabIndex" type="System.Int32, mscorlib">
+    <value>5104</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoRep.Name" xml:space="preserve">
+    <value>txtEncargadoRep</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoRep.Type" xml:space="preserve">
+    <value>NEWTEXTBOX.NEWTEXTBOX_CTRL, NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoRep.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoRep.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="picEncargadoRep.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picEncargadoRep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>822, 111</value>
+  </data>
+  <data name="picEncargadoRep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 17</value>
+  </data>
+  <data name="picEncargadoRep.TabIndex" type="System.Int32, mscorlib">
+    <value>5103</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoRep.Name" xml:space="preserve">
+    <value>picEncargadoRep</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoRep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoRep.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoRep.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 157</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 1</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>5109</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblEncargadoSum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblEncargadoSum.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEncargadoSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 141</value>
+  </data>
+  <data name="lblEncargadoSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 16</value>
+  </data>
+  <data name="lblEncargadoSum.TabIndex" type="System.Int32, mscorlib">
+    <value>5110</value>
+  </data>
+  <data name="lblEncargadoSum.Text" xml:space="preserve">
+    <value>Encargado Suministros</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoSum.Name" xml:space="preserve">
+    <value>lblEncargadoSum</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoSum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoSum.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtEncargadoSum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtEncargadoSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 138</value>
+  </data>
+  <data name="txtEncargadoSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>673, 20</value>
+  </data>
+  <data name="txtEncargadoSum.TabIndex" type="System.Int32, mscorlib">
+    <value>5108</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoSum.Name" xml:space="preserve">
+    <value>txtEncargadoSum</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoSum.Type" xml:space="preserve">
+    <value>NEWTEXTBOX.NEWTEXTBOX_CTRL, NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoSum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoSum.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="picEncargadoSum.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picEncargadoSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>822, 141</value>
+  </data>
+  <data name="picEncargadoSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 17</value>
+  </data>
+  <data name="picEncargadoSum.TabIndex" type="System.Int32, mscorlib">
+    <value>5107</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoSum.Name" xml:space="preserve">
+    <value>picEncargadoSum</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoSum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoSum.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cboCentroCosto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 41</value>
+  </data>
+  <data name="cboCentroCosto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="cboCentroCosto.TabIndex" type="System.Int32, mscorlib">
+    <value>5111</value>
+  </data>
+  <data name="&gt;&gt;cboCentroCosto.Name" xml:space="preserve">
+    <value>cboCentroCosto</value>
+  </data>
+  <data name="&gt;&gt;cboCentroCosto.Type" xml:space="preserve">
+    <value>SCGComboBox.SCGComboBox, SCGComboBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboCentroCosto.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cboCentroCosto.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtIdConfMensajeria.Location" type="System.Drawing.Point, System.Drawing">
+    <value>517, 41</value>
+  </data>
+  <data name="txtIdConfMensajeria.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtIdConfMensajeria.TabIndex" type="System.Int32, mscorlib">
+    <value>5112</value>
+  </data>
+  <data name="txtIdConfMensajeria.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txtIdConfMensajeria.Name" xml:space="preserve">
+    <value>txtIdConfMensajeria</value>
+  </data>
+  <data name="&gt;&gt;txtIdConfMensajeria.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtIdConfMensajeria.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtIdConfMensajeria.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 189</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 1</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>5114</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblEncargadoSer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblEncargadoSer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEncargadoSer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 173</value>
+  </data>
+  <data name="lblEncargadoSer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 16</value>
+  </data>
+  <data name="lblEncargadoSer.TabIndex" type="System.Int32, mscorlib">
+    <value>5115</value>
+  </data>
+  <data name="lblEncargadoSer.Text" xml:space="preserve">
+    <value>Encargado Producción</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoSer.Name" xml:space="preserve">
+    <value>lblEncargadoSer</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoSer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoSer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblEncargadoSer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtEncargadoSer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtEncargadoSer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 170</value>
+  </data>
+  <data name="txtEncargadoSer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>673, 20</value>
+  </data>
+  <data name="txtEncargadoSer.TabIndex" type="System.Int32, mscorlib">
+    <value>5113</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoSer.Name" xml:space="preserve">
+    <value>txtEncargadoSer</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoSer.Type" xml:space="preserve">
+    <value>NEWTEXTBOX.NEWTEXTBOX_CTRL, NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoSer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtEncargadoSer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="picEncargadoSer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picEncargadoSer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>822, 170</value>
+  </data>
+  <data name="picEncargadoSer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 17</value>
+  </data>
+  <data name="picEncargadoSer.TabIndex" type="System.Int32, mscorlib">
+    <value>5116</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoSer.Name" xml:space="preserve">
+    <value>picEncargadoSer</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoSer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoSer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picEncargadoSer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>847, 512</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>&lt;SCG&gt;Configuración Mensajería</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmConfMensajeria</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>SCG.UX.Windows.SAP.frmPlantillaSAP, SCG.UX.Windows.SAP, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

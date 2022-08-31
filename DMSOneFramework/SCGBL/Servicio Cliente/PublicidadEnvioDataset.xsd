@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PublicidadEnvioDataset" targetNamespace="http://tempuri.org/PruebaEnvioDataset.xsd" xmlns:mstns="http://tempuri.org/PruebaEnvioDataset.xsd" xmlns="http://tempuri.org/PruebaEnvioDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PublicidadEnvioDataset" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="PublicidadEnvioDataset" msprop:Generator_DataSetName="PublicidadEnvioDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_EnvioPublicidad" msprop:Generator_UserTableName="SCGTA_TB_EnvioPublicidad" msprop:Generator_RowDeletedName="SCGTA_TB_EnvioPublicidadRowDeleted" msprop:Generator_TableClassName="SCGTA_TB_EnvioPublicidadDataTable" msprop:Generator_RowChangedName="SCGTA_TB_EnvioPublicidadRowChanged" msprop:Generator_RowClassName="SCGTA_TB_EnvioPublicidadRow" msprop:Generator_RowChangingName="SCGTA_TB_EnvioPublicidadRowChanging" msprop:Generator_RowEvArgName="SCGTA_TB_EnvioPublicidadRowChangeEvent" msprop:Generator_RowEvHandlerName="SCGTA_TB_EnvioPublicidadRowChangeEventHandler" msprop:Generator_TablePropName="SCGTA_TB_EnvioPublicidad" msprop:Generator_TableVarName="tableSCGTA_TB_EnvioPublicidad" msprop:Generator_RowDeletingName="SCGTA_TB_EnvioPublicidadRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdEnvioPublicidad" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="IdEnvioPublicidad" msprop:Generator_ColumnPropNameInRow="IdEnvioPublicidad" msprop:Generator_ColumnVarNameInTable="columnIdEnvioPublicidad" msprop:Generator_ColumnPropNameInTable="IdEnvioPublicidadColumn" type="xs:int" />
+              <xs:element name="EtiquetaPublicidad" msprop:Generator_UserColumnName="EtiquetaPublicidad" msprop:Generator_ColumnPropNameInRow="EtiquetaPublicidad" msprop:Generator_ColumnVarNameInTable="columnEtiquetaPublicidad" msprop:Generator_ColumnPropNameInTable="EtiquetaPublicidadColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HoraEnvio" msprop:Generator_UserColumnName="HoraEnvio" msprop:Generator_ColumnPropNameInRow="HoraEnvio" msprop:Generator_ColumnVarNameInTable="columnHoraEnvio" msprop:Generator_ColumnPropNameInTable="HoraEnvioColumn" type="xs:dateTime" />
+              <xs:element name="FechaEnvio" msprop:Generator_UserColumnName="FechaEnvio" msprop:Generator_ColumnPropNameInRow="FechaEnvio" msprop:Generator_ColumnVarNameInTable="columnFechaEnvio" msprop:Generator_ColumnPropNameInTable="FechaEnvioColumn" type="xs:dateTime" />
+              <xs:element name="Asunto" msprop:Generator_UserColumnName="Asunto" msprop:Generator_ColumnPropNameInRow="Asunto" msprop:Generator_ColumnVarNameInTable="columnAsunto" msprop:Generator_ColumnPropNameInTable="AsuntoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Material" msprop:Generator_UserColumnName="Material" msprop:Generator_ColumnPropNameInRow="Material" msprop:Generator_ColumnVarNameInTable="columnMaterial" msprop:Generator_ColumnPropNameInTable="MaterialColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Detalle" msprop:Generator_UserColumnName="Detalle" msprop:Generator_ColumnPropNameInRow="Detalle" msprop:Generator_ColumnVarNameInTable="columnDetalle" msprop:Generator_ColumnPropNameInTable="DetalleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Enviado" msprop:Generator_UserColumnName="Enviado" msprop:Generator_ColumnPropNameInRow="Enviado" msprop:Generator_ColumnVarNameInTable="columnEnviado" msprop:Generator_ColumnPropNameInTable="EnviadoColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SCGTA_TB_DetalleEnvioPublicidad" msprop:Generator_UserTableName="SCGTA_TB_DetalleEnvioPublicidad" msprop:Generator_RowDeletedName="SCGTA_TB_DetalleEnvioPublicidadRowDeleted" msprop:Generator_TableClassName="SCGTA_TB_DetalleEnvioPublicidadDataTable" msprop:Generator_RowChangedName="SCGTA_TB_DetalleEnvioPublicidadRowChanged" msprop:Generator_RowClassName="SCGTA_TB_DetalleEnvioPublicidadRow" msprop:Generator_RowChangingName="SCGTA_TB_DetalleEnvioPublicidadRowChanging" msprop:Generator_RowEvArgName="SCGTA_TB_DetalleEnvioPublicidadRowChangeEvent" msprop:Generator_RowEvHandlerName="SCGTA_TB_DetalleEnvioPublicidadRowChangeEventHandler" msprop:Generator_TablePropName="SCGTA_TB_DetalleEnvioPublicidad" msprop:Generator_TableVarName="tableSCGTA_TB_DetalleEnvioPublicidad" msprop:Generator_RowDeletingName="SCGTA_TB_DetalleEnvioPublicidadRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idEnvioPublicidad" msprop:Generator_UserColumnName="idEnvioPublicidad" msprop:Generator_ColumnPropNameInRow="idEnvioPublicidad" msprop:Generator_ColumnVarNameInTable="columnidEnvioPublicidad" msprop:Generator_ColumnPropNameInTable="idEnvioPublicidadColumn" type="xs:int" />
+              <xs:element name="CardCode" msprop:Generator_UserColumnName="CardCode" msprop:Generator_ColumnPropNameInRow="CardCode" msprop:Generator_ColumnVarNameInTable="columnCardCode" msprop:Generator_ColumnPropNameInTable="CardCodeColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="PruebaEnvioDatasetKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_EnvioPublicidad" />
+      <xs:field xpath="mstns:IdEnvioPublicidad" />
+    </xs:unique>
+    <xs:unique name="PublicidadEnvioDatasetKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_DetalleEnvioPublicidad" />
+      <xs:field xpath="mstns:idEnvioPublicidad" />
+      <xs:field xpath="mstns:CardCode" />
+    </xs:unique>
+    <xs:keyref name="SCGTA_TB_EnvioPublicidadSCGTA_TB_DetalleEnvioPublicidad" refer="PruebaEnvioDatasetKey1" msprop:rel_Generator_UserRelationName="SCGTA_TB_EnvioPublicidadSCGTA_TB_DetalleEnvioPublicidad" msprop:rel_Generator_RelationVarName="relationSCGTA_TB_EnvioPublicidadSCGTA_TB_DetalleEnvioPublicidad" msprop:rel_Generator_UserChildTable="SCGTA_TB_DetalleEnvioPublicidad" msprop:rel_Generator_UserParentTable="SCGTA_TB_EnvioPublicidad" msprop:rel_Generator_ParentPropName="SCGTA_TB_EnvioPublicidadRow" msprop:rel_Generator_ChildPropName="GetSCGTA_TB_DetalleEnvioPublicidadRows">
+      <xs:selector xpath=".//mstns:SCGTA_TB_DetalleEnvioPublicidad" />
+      <xs:field xpath="mstns:idEnvioPublicidad" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,4451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActulizarLineasOT" xml:space="preserve">
+    <value>Updating Work Order Lines</value>
+  </data>
+  <data name="AddonInicializado" xml:space="preserve">
+    <value>Addon Started</value>
+  </data>
+  <data name="AddonNoInicializado" xml:space="preserve">
+    <value>DMS One Addon not started. Error code: {0}</value>
+  </data>
+  <data name="ADMINForm" xml:space="preserve">
+    <value>\Formularios\ParamGenAddon.enUS.xml</value>
+  </data>
+  <data name="AgregandoMenus" xml:space="preserve">
+    <value>Adding Menus</value>
+  </data>
+  <data name="AgregueLineaParaCantidad" xml:space="preserve">
+    <value>Add a new line to increase quantity</value>
+  </data>
+  <data name="AjusteVentaVehículo" xml:space="preserve">
+    <value>Cost adjustment due to sale of vehicle </value>
+  </data>
+  <data name="Año" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="AprobadoSeEncuentra" xml:space="preserve">
+    <value> was approved. It is </value>
+  </data>
+  <data name="Asesor" xml:space="preserve">
+    <value>Advisor: </value>
+  </data>
+  <data name="bod_Bill" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="bod_DebitMemo" xml:space="preserve">
+    <value>Debit Memo</value>
+  </data>
+  <data name="bod_ExemptBill" xml:space="preserve">
+    <value>Debit Memo</value>
+  </data>
+  <data name="bod_ExportInvoice" xml:space="preserve">
+    <value>Export Invoice</value>
+  </data>
+  <data name="bod_InvoiceExempt" xml:space="preserve">
+    <value>Exempt Invoice</value>
+  </data>
+  <data name="bod_PurchaseDebitMemo" xml:space="preserve">
+    <value>Purchase Debit Memo</value>
+  </data>
+  <data name="BuscadorContratoVentas" xml:space="preserve">
+    <value>\Formularios\ContratosVentaTramite.enUS.xml</value>
+  </data>
+  <data name="ButtonArchivosDigitales" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="CambiarLineasCotizacion" xml:space="preserve">
+    <value>Can not change the quotation's lines.</value>
+  </data>
+  <data name="CambiosNoAplicadosOT" xml:space="preserve">
+    <value>Changes made were not applied because work order is closed or cancelled.</value>
+  </data>
+  <data name="CantidadNoAumenta" xml:space="preserve">
+    <value> can not be increased because is has already been processed. </value>
+  </data>
+  <data name="CapAño" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="CapCliente" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="CapCono" xml:space="preserve">
+    <value>Cone #</value>
+  </data>
+  <data name="CapEmpleado" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="CapEstadoCotizacion" xml:space="preserve">
+    <value>OT Status</value>
+  </data>
+  <data name="CapEstilo" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="CapFechaDeCompromiso" xml:space="preserve">
+    <value>Commitment Date</value>
+  </data>
+  <data name="CapFechaRecepción" xml:space="preserve">
+    <value>Date Received</value>
+  </data>
+  <data name="CapGasolina" xml:space="preserve">
+    <value>Fuel Tank</value>
+  </data>
+  <data name="CapGeneraOrden" xml:space="preserve">
+    <value>Generates W.O.</value>
+  </data>
+  <data name="CapGeneraRecepcion" xml:space="preserve">
+    <value>Print W.O.</value>
+  </data>
+  <data name="CapHoraCompra" xml:space="preserve">
+    <value>Commitment Time</value>
+  </data>
+  <data name="CapHoraRecepcion" xml:space="preserve">
+    <value>Received Time</value>
+  </data>
+  <data name="CapIDCliente" xml:space="preserve">
+    <value>Customer ID</value>
+  </data>
+  <data name="CapIDEmpleado" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="CapKilometraje" xml:space="preserve">
+    <value>Milleage</value>
+  </data>
+  <data name="CapMarca" xml:space="preserve">
+    <value>Make</value>
+  </data>
+  <data name="CapModelo" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="CapNoCita" xml:space="preserve">
+    <value>Appointment #</value>
+  </data>
+  <data name="CapNoCotizacion" xml:space="preserve">
+    <value>Quotation #</value>
+  </data>
+  <data name="CapNoFacturaInterna" xml:space="preserve">
+    <value>Internal Invoice No.</value>
+  </data>
+  <data name="CapNoOrdenTrabajo" xml:space="preserve">
+    <value>W.O. #</value>
+  </data>
+  <data name="CapNoOrdenVenta" xml:space="preserve">
+    <value>Sales Order #</value>
+  </data>
+  <data name="CapNoUnidad" xml:space="preserve">
+    <value>Unit #</value>
+  </data>
+  <data name="CapNoVisita" xml:space="preserve">
+    <value>Visit #</value>
+  </data>
+  <data name="CapOrdenDeTrabajo" xml:space="preserve">
+    <value>Work Order</value>
+  </data>
+  <data name="CapOTReferencia" xml:space="preserve">
+    <value>W.O. - Ref.</value>
+  </data>
+  <data name="CapPlaca" xml:space="preserve">
+    <value>License Plate</value>
+  </data>
+  <data name="CapTipoOrdendeTrabajo" xml:space="preserve">
+    <value>W.O. Type</value>
+  </data>
+  <data name="CapVIN" xml:space="preserve">
+    <value>Chassis #</value>
+  </data>
+  <data name="CargaDeudaAsumidaEmpresa" xml:space="preserve">
+    <value>Take over used car debt.</value>
+  </data>
+  <data name="CerradoCreacionNuevaInstancia" xml:space="preserve">
+    <value>Closed due to creation of a new instance.</value>
+  </data>
+  <data name="ClienteFacturaVehiculos" xml:space="preserve">
+    <value>Must select a customer for the vehicle to be invoiced</value>
+  </data>
+  <data name="ClienteRequierePago" xml:space="preserve">
+    <value>The customer must not require a payment.</value>
+  </data>
+  <data name="CodigosFacturasVehiculos" xml:space="preserve">
+    <value>The ítems to be used in the invoice are not correctly configured.</value>
+  </data>
+  <data name="CompañiaSinSucursal" xml:space="preserve">
+    <value>This Make has no Workshop database.</value>
+  </data>
+  <data name="Comprar" xml:space="preserve">
+    <value>Buy</value>
+  </data>
+  <data name="ConfiguracionInicializada" xml:space="preserve">
+    <value>Set up inicialized, reload the window.</value>
+  </data>
+  <data name="CONFLINEASRES" xml:space="preserve">
+    <value>\Formularios\ConfDesglosePago.enUS.xml</value>
+  </data>
+  <data name="ConfLineasSum" xml:space="preserve">
+    <value>\Formularios\ConfLineasFactura.enUS.xml</value>
+  </data>
+  <data name="ContratoCorrespondiente" xml:space="preserve">
+    <value>Based on Sales Contract # </value>
+  </data>
+  <data name="Contratode" xml:space="preserve">
+    <value>for the client: </value>
+  </data>
+  <data name="ContratoModificado" xml:space="preserve">
+    <value>Sale Contract Updated</value>
+  </data>
+  <data name="ContratoNoFacturable" xml:space="preserve">
+    <value>Contract status does not allow invoicing</value>
+  </data>
+  <data name="ContratoVenta" xml:space="preserve">
+    <value>\Formularios\ContratoVenta.enUS.xml</value>
+  </data>
+  <data name="Cotizacion" xml:space="preserve">
+    <value>\Formularios\CerrarOrdenesTrabajo.enUS.xml</value>
+  </data>
+  <data name="CotizacionFI" xml:space="preserve">
+    <value>\Formularios\CerrarOrdenesTrabajoInternas.enUS.xml</value>
+  </data>
+  <data name="CotizacionSinAsesor" xml:space="preserve">
+    <value>Quotation must have an advisor.</value>
+  </data>
+  <data name="CotizacionSinLineas" xml:space="preserve">
+    <value>Quotation has no lines approved. </value>
+  </data>
+  <data name="CotizacionSinTipo" xml:space="preserve">
+    <value>Quotation has no order type</value>
+  </data>
+  <data name="CotizacionSinVehiculo" xml:space="preserve">
+    <value>Quotation has no vehicle assined</value>
+  </data>
+  <data name="CreandoOrden" xml:space="preserve">
+    <value>Creating Work Order</value>
+  </data>
+  <data name="CreandoVisita" xml:space="preserve">
+    <value>Creating Visit</value>
+  </data>
+  <data name="DescripcionDocumentosDeuda" xml:space="preserve">
+    <value>Debt Document</value>
+  </data>
+  <data name="DescripcionDocumentosDeudaOtros" xml:space="preserve">
+    <value>Other Debt Documents</value>
+  </data>
+  <data name="DescripcionFacturaProveedor" xml:space="preserve">
+    <value>A/P Invoice</value>
+  </data>
+  <data name="DescripcionFacturaVentas" xml:space="preserve">
+    <value>A/R Invoice</value>
+  </data>
+  <data name="DescripcionGastosInscripcion" xml:space="preserve">
+    <value>Additional Expenses</value>
+  </data>
+  <data name="DescripcionGastosPrenda" xml:space="preserve">
+    <value>Plegde Expenses</value>
+  </data>
+  <data name="DescripcionNotasCredito" xml:space="preserve">
+    <value>Credit Memo</value>
+  </data>
+  <data name="DescripcionNotasCreditoDescuentos" xml:space="preserve">
+    <value>Discount Credit Memo</value>
+  </data>
+  <data name="DescripcionNotasCreditoOtros" xml:space="preserve">
+    <value>Other Credit Memos</value>
+  </data>
+  <data name="DescripcionNotasCreditoUsados" xml:space="preserve">
+    <value>Used Car Credit Memo</value>
+  </data>
+  <data name="DescripciónPrecioAccesorios" xml:space="preserve">
+    <value>Accesories</value>
+  </data>
+  <data name="DescripcionPrecioVehículo" xml:space="preserve">
+    <value>Sales Price</value>
+  </data>
+  <data name="DescripcionSaldoInicial" xml:space="preserve">
+    <value>Open Balance</value>
+  </data>
+  <data name="DescripcionSaldoInicialLocal" xml:space="preserve">
+    <value>Local Currency Open Balance</value>
+  </data>
+  <data name="DescripcionSaldoInicialSistema" xml:space="preserve">
+    <value>System Currency Open Balance</value>
+  </data>
+  <data name="DescuentoPorCompraDeVehículo" xml:space="preserve">
+    <value>Discount applied to purchase of vehicle </value>
+  </data>
+  <data name="DetalleVehiculos" xml:space="preserve">
+    <value>\Formularios\MaestroVehiculos.enUS.xml</value>
+  </data>
+  <data name="DeudaSinProveedor" xml:space="preserve">
+    <value>No vendor has been asociated to used car debt</value>
+  </data>
+  <data name="Devolucion" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="El_Item" xml:space="preserve">
+    <value>The Item </value>
+  </data>
+  <data name="ElContratoVenta" xml:space="preserve">
+    <value>The sales contract </value>
+  </data>
+  <data name="EliminarLineasCotizacion" xml:space="preserve">
+    <value>Can not delete lines</value>
+  </data>
+  <data name="EnUnValorDe" xml:space="preserve">
+    <value> by amount of </value>
+  </data>
+  <data name="EnviandoAlertas" xml:space="preserve">
+    <value>Sending Alerts</value>
+  </data>
+  <data name="EstadoOrdenCancelada" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="EstadoOrdenEnproceso" xml:space="preserve">
+    <value>In Process</value>
+  </data>
+  <data name="EstadoOrdenFinalizada" xml:space="preserve">
+    <value>Finalized</value>
+  </data>
+  <data name="EstadoOrdenNoIniciada" xml:space="preserve">
+    <value>Not Started</value>
+  </data>
+  <data name="EstadoOrdenSuspendida" xml:space="preserve">
+    <value>Suspended</value>
+  </data>
+  <data name="FacturaInterna" xml:space="preserve">
+    <value>\Formularios\FacturaInterna.enUS.xml</value>
+  </data>
+  <data name="FichaVehículo" xml:space="preserve">
+    <value>Vehicle card</value>
+  </data>
+  <data name="FormInventarioVehiculos" xml:space="preserve">
+    <value>\Formularios\InventarioVehiculos.enUS.xml</value>
+  </data>
+  <data name="GeneroOV" xml:space="preserve">
+    <value> the document for sales order # was generated</value>
+  </data>
+  <data name="GOODENTForm" xml:space="preserve">
+    <value>\Formularios\IngresoContableVehiculo.enUS.xml</value>
+  </data>
+  <data name="GOODISSUE" xml:space="preserve">
+    <value>\Formularios\SalidaContableVehiculo.enUS.xml</value>
+  </data>
+  <data name="GuardandoResultados" xml:space="preserve">
+    <value>Saving process results.</value>
+  </data>
+  <data name="GuardarCambios" xml:space="preserve">
+    <value>Save changes?</value>
+  </data>
+  <data name="ImprimirFicha" xml:space="preserve">
+    <value>Printing Vehicle Card</value>
+  </data>
+  <data name="ImprimirOT" xml:space="preserve">
+    <value>Printing Work Order</value>
+  </data>
+  <data name="ImprimirOTFallo" xml:space="preserve">
+    <value>Must create an order before printing</value>
+  </data>
+  <data name="InicializandoAddon" xml:space="preserve">
+    <value>Starting Addon</value>
+  </data>
+  <data name="ErrorVendedorContrato" xml:space="preserve">
+    <value>You must select a valid vendors for this contract</value>
+  </data>
+  <data name="InventarioInsuficiente" xml:space="preserve">
+    <value> is not, What do you want to do? </value>
+  </data>
+  <data name="ItemCantidadInventario" xml:space="preserve">
+    <value>Stock of item </value>
+  </data>
+  <data name="LabelArchivosDigitales" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="LacantidadDelItem" xml:space="preserve">
+    <value>Quantity of item '</value>
+  </data>
+  <data name="LaCotizacionNo" xml:space="preserve">
+    <value>The Quotation #  </value>
+  </data>
+  <data name="LaSumade" xml:space="preserve">
+    <value> by the amount </value>
+  </data>
+  <data name="LineaTrasladadaOrden" xml:space="preserve">
+    <value>Line translated to work order.</value>
+  </data>
+  <data name="Listado_GR" xml:space="preserve">
+    <value>\Formularios\EntradasSinProcesar.enUS.xml</value>
+  </data>
+  <data name="ListadoContratos" xml:space="preserve">
+    <value>\Formularios\ListadoContratos.enUS.xml</value>
+  </data>
+  <data name="MalConfigurado" xml:space="preserve">
+    <value> is not correctly configured</value>
+  </data>
+  <data name="MensajeAjusteOTEspecial" xml:space="preserve">
+    <value>Automatic adjustment on special work order creation.</value>
+  </data>
+  <data name="MensajeAsientoAjusteOTEspecial" xml:space="preserve">
+    <value>Journal Entry for Adjustment in Special W.O. creation</value>
+  </data>
+  <data name="MensajeCancelarCotizacion" xml:space="preserve">
+    <value>A quotation cannot be canceled while it is linked to a W.O.</value>
+  </data>
+  <data name="MensajecargandoCostos" xml:space="preserve">
+    <value>Loading Costs</value>
+  </data>
+  <data name="MensajeCargandoTipoCambio" xml:space="preserve">
+    <value>Loading Exchange Rate</value>
+  </data>
+  <data name="MensajeCerrarCotizacion" xml:space="preserve">
+    <value>A quotation linked to a W.O. cannot be closed</value>
+  </data>
+  <data name="MensajeConsecutivoDiferente" xml:space="preserve">
+    <value>The actual posted document number is: </value>
+  </data>
+  <data name="MensajeContratoAprobado" xml:space="preserve">
+    <value>Sales Contract to approve</value>
+  </data>
+  <data name="MensajeContratoRechazado" xml:space="preserve">
+    <value>Sales Contract rejected</value>
+  </data>
+  <data name="MensajeCopiarACotizacion" xml:space="preserve">
+    <value>A quotation linked to a Work order cannot be copied to any kind of document.</value>
+  </data>
+  <data name="MensajeCotizacionActualizada" xml:space="preserve">
+    <value>Work Order has been updated</value>
+  </data>
+  <data name="MensajeCotizacionBaseFinalizada" xml:space="preserve">
+    <value>Base quotation is closed. Changes won't be applied.</value>
+  </data>
+  <data name="MensajeCotizacionCreada" xml:space="preserve">
+    <value>New Work Order has been created</value>
+  </data>
+  <data name="MensajeCrearDocumentoAntesImprimir" xml:space="preserve">
+    <value>Must create the document to print it</value>
+  </data>
+  <data name="MensajeError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="MensajeIngresarFecha" xml:space="preserve">
+    <value>Must write date</value>
+  </data>
+  <data name="MensajeNoPeriodoPago" xml:space="preserve">
+    <value>Sales Contract has no payment term.</value>
+  </data>
+  <data name="MensajeNotaCreditoIngresoInventario" xml:space="preserve">
+    <value>Credit Note for Inventory Good receipt</value>
+  </data>
+  <data name="MensajeProcesandoGoodIssue" xml:space="preserve">
+    <value>Processing Good Issue</value>
+  </data>
+  <data name="MensajeProcesandoGoodReceipt" xml:space="preserve">
+    <value>Processing Good Receipt</value>
+  </data>
+  <data name="MensajeRepuestoRecibido" xml:space="preserve">
+    <value>Parts or external services has been received</value>
+  </data>
+  <data name="MensajeSeleccionarTipo" xml:space="preserve">
+    <value>Must select a type</value>
+  </data>
+  <data name="MensajeTipoCambioNoCoincide" xml:space="preserve">
+    <value>Exchange rate do not match. Reload the information.</value>
+  </data>
+  <data name="MensajeTiposinCuentaAsociada" xml:space="preserve">
+    <value>This W.O. type has not been linked to an G/L account</value>
+  </data>
+  <data name="MensajeTraslado" xml:space="preserve">
+    <value>Stock Transfer</value>
+  </data>
+  <data name="MensajeTraspasoCosto" xml:space="preserve">
+    <value>Cost Transfer</value>
+  </data>
+  <data name="Ninguno" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="NIVELES_PVForm" xml:space="preserve">
+    <value>\Formularios\ConfiguracionAccesos.enUS.xml</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoFacturaInterna" xml:space="preserve">
+    <value>Internal Invoice #</value>
+  </data>
+  <data name="NoPudoCrear" xml:space="preserve">
+    <value> could not be processed due to: </value>
+  </data>
+  <data name="NopuedeModificar" xml:space="preserve">
+    <value>You can not change this document after you have added it. Continue?</value>
+  </data>
+  <data name="NotaCreditoAplicableCompraVehículo" xml:space="preserve">
+    <value>Credit Memo applied to purchase of vehicle </value>
+  </data>
+  <data name="NotaDébitoGeneradaCompra" xml:space="preserve">
+    <value>Debit Memo applied to purchase of </value>
+  </data>
+  <data name="ObservacionTrackingParte2" xml:space="preserve">
+    <value>returned. The date and hour were </value>
+  </data>
+  <data name="ObservacionTrackingParte4" xml:space="preserve">
+    <value> Received</value>
+  </data>
+  <data name="ObservacionTrackingParte5" xml:space="preserve">
+    <value> open quantity </value>
+  </data>
+  <data name="ObservacionTrackingParte6" xml:space="preserve">
+    <value> without pending</value>
+  </data>
+  <data name="ObservacionTrackingParte7" xml:space="preserve">
+    <value>.The date and hour of delivery were</value>
+  </data>
+  <data name="ObservacionTrackingParte8" xml:space="preserve">
+    <value> and the date and hour of commitment were</value>
+  </data>
+  <data name="ObservacionTrackingParte9" xml:space="preserve">
+    <value> and the date and hour of commitment were not established</value>
+  </data>
+  <data name="OrdenInicial" xml:space="preserve">
+    <value>Checking if original order must be cancelled</value>
+  </data>
+  <data name="OrdenRecepcion" xml:space="preserve">
+    <value>Work Order</value>
+  </data>
+  <data name="OT_Referencia" xml:space="preserve">
+    <value>Referenced W.O. : </value>
+  </data>
+  <data name="PagoDeudaAsumidaVehículo" xml:space="preserve">
+    <value>Payment of used car debt.</value>
+  </data>
+  <data name="PendienteTraslado" xml:space="preserve">
+    <value>Transfer Pending</value>
+  </data>
+  <data name="Placa" xml:space="preserve">
+    <value>License Plate</value>
+  </data>
+  <data name="PlacaYaRegistrada" xml:space="preserve">
+    <value>This license plate is already registered. Do you want to load that vehicle?
+</value>
+  </data>
+  <data name="PorLaSumaDe" xml:space="preserve">
+    <value> by amount of </value>
+  </data>
+  <data name="PrecioVehículo" xml:space="preserve">
+    <value>No vehicle price entered</value>
+  </data>
+  <data name="PreguntaAprobarContrato" xml:space="preserve">
+    <value>Do you want to approve the contract?
+</value>
+  </data>
+  <data name="PreguntaComponentesBasicosE" xml:space="preserve">
+    <value>Do you want to update vehicle components according to this style?</value>
+  </data>
+  <data name="PreguntaDeudaSinProveedor" xml:space="preserve">
+    <value>No vendor has been associated to used car debt. Is the dealer going to pay it?
+</value>
+  </data>
+  <data name="PreguntaNoRecibeVehiculo" xml:space="preserve">
+    <value>Are you sure no vehicle is going to be received?</value>
+  </data>
+  <data name="PreguntaRechazarContrato" xml:space="preserve">
+    <value>Do you want to reject the contract?</value>
+  </data>
+  <data name="ProcesandoCotización" xml:space="preserve">
+    <value>Processing Quotation #</value>
+  </data>
+  <data name="ProcesandoItem" xml:space="preserve">
+    <value>Processing item </value>
+  </data>
+  <data name="ProcesandoLineas" xml:space="preserve">
+    <value>Processing Quotation Lines</value>
+  </data>
+  <data name="ProcesoFinalizado" xml:space="preserve">
+    <value>Process completed</value>
+  </data>
+  <data name="ProcesoFinalizadoConExito" xml:space="preserve">
+    <value>Process completed Sucessfully</value>
+  </data>
+  <data name="PROPForm" xml:space="preserve">
+    <value>\Formularios\ConfiguracionPropsVehiculos.enUS.xml</value>
+  </data>
+  <data name="Recepcion" xml:space="preserve">
+    <value>Reception</value>
+  </data>
+  <data name="RechazadoPor" xml:space="preserve">
+    <value> was rejected by </value>
+  </data>
+  <data name="Rechazar" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="RecibimosVehículo" xml:space="preserve">
+    <value>We received the vehicle</value>
+  </data>
+  <data name="Recosteos" xml:space="preserve">
+    <value>\Formularios\Recosteos.enUS.xml</value>
+  </data>
+  <data name="RecuerdeCerrarCotizacion" xml:space="preserve">
+    <value>Remember to close quotation manually</value>
+  </data>
+  <data name="ReportesCosteoVehiculos" xml:space="preserve">
+    <value>\Formularios\ReportesCosteoVehiculo.enUS.xml</value>
+  </data>
+  <data name="RequeridasMarcaYEstilo" xml:space="preserve">
+    <value>Make and Style of Vehicule must be selected</value>
+  </data>
+  <data name="RequiereRevision" xml:space="preserve">
+    <value> needs to be checked
+</value>
+  </data>
+  <data name="rptBalanceNegocio" xml:space="preserve">
+    <value>rptBalanceNegociosEN</value>
+  </data>
+  <data name="rptBalanceNegociosEntreFechas" xml:space="preserve">
+    <value>rptBalanceNegociosEntreFechasEN</value>
+  </data>
+  <data name="rptCostoVehiculo" xml:space="preserve">
+    <value>rptCostoVehiculoEN</value>
+  </data>
+  <data name="rptFacturaInterna" xml:space="preserve">
+    <value>rptFacturaInterna-en</value>
+  </data>
+  <data name="rptFichaVehículo" xml:space="preserve">
+    <value>rptFichaVehículoEN</value>
+  </data>
+  <data name="rptInventarioContable" xml:space="preserve">
+    <value>rptInventarioContableEN</value>
+  </data>
+  <data name="rptInventarioVehiculos" xml:space="preserve">
+    <value>InventarioVehiculosEN</value>
+  </data>
+  <data name="rptOrdenRecepcion" xml:space="preserve">
+    <value>rptOrdenRecepcionEN</value>
+  </data>
+  <data name="rptRecosteos" xml:space="preserve">
+    <value>rptRecosteosEN</value>
+  </data>
+  <data name="rptVehiculosTransito" xml:space="preserve">
+    <value>rptVehiculosTransito.en-us</value>
+  </data>
+  <data name="rptVehiculosTransitoporFecha" xml:space="preserve">
+    <value>rptVehiculosTransito.en-us</value>
+  </data>
+  <data name="Separador" xml:space="preserve">
+    <value>) </value>
+  </data>
+  <data name="Si" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="SinInventario" xml:space="preserve">
+    <value> is out of stock, What do you want to do?
+</value>
+  </data>
+  <data name="TipoCambio" xml:space="preserve">
+    <value>Exchange Rate</value>
+  </data>
+  <data name="TipoCambioNoActualizado" xml:space="preserve">
+    <value>Exchange Rate not Updated</value>
+  </data>
+  <data name="TituloBalanceNegociosEntreFechas" xml:space="preserve">
+    <value>Sales Balance</value>
+  </data>
+  <data name="TituloCostoVehiculo" xml:space="preserve">
+    <value>Vehicle Cost</value>
+  </data>
+  <data name="TituloDialogoArchivo" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="TituloFacturaInterna" xml:space="preserve">
+    <value>Internal Invoice</value>
+  </data>
+  <data name="TituloGoodIssue" xml:space="preserve">
+    <value>Goods Issue</value>
+  </data>
+  <data name="TituloInventarioContable" xml:space="preserve">
+    <value>Vehicle Inventory</value>
+  </data>
+  <data name="TituloInventarioVehiculos" xml:space="preserve">
+    <value>Vehicle Inventory</value>
+  </data>
+  <data name="TituloRecosteos" xml:space="preserve">
+    <value>Recosting</value>
+  </data>
+  <data name="TituloVehiculosTransito" xml:space="preserve">
+    <value>In transit Inventory</value>
+  </data>
+  <data name="TransferenciaCosto" xml:space="preserve">
+    <value>Cost transfer from </value>
+  </data>
+  <data name="TRANSForm" xml:space="preserve">
+    <value>\Formularios\ConfTransaccionesCompraVeh.enUS.xml</value>
+  </data>
+  <data name="Trasladar" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="UnidadYaRegistrada" xml:space="preserve">
+    <value>This Unit # is already registered. ¿Do you want to load that vehicle?</value>
+  </data>
+  <data name="Vehiculo" xml:space="preserve">
+    <value>Vehicle </value>
+  </data>
+  <data name="VehiculoFacturar" xml:space="preserve">
+    <value>No vehicle has been selected</value>
+  </data>
+  <data name="VehiculosACostear" xml:space="preserve">
+    <value>\Formularios\VehiculosSinCostear.enUS.xml</value>
+  </data>
+  <data name="VehiculoSinTipo" xml:space="preserve">
+    <value>Vehicle to be invoiced has no type associated</value>
+  </data>
+  <data name="VIN" xml:space="preserve">
+    <value>Chassis #</value>
+  </data>
+  <data name="NombreMenuAddonDMS" xml:space="preserve">
+    <value>Post Sales Service</value>
+  </data>
+  <data name="NombreSubMenuAdddonDMS" xml:space="preserve">
+    <value>DMS</value>
+  </data>
+  <data name="Agenda" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="SinHorario" xml:space="preserve">
+    <value>The working time range has not been defined</value>
+  </data>
+  <data name="XMLAgenda" xml:space="preserve">
+    <value>\Formularios\AgendaCitas.enUS.xml</value>
+  </data>
+  <data name="TTipAgenda" xml:space="preserve">
+    <value>Appointment #: {1}{0}Invoice #: {2}{0}Time: {3}</value>
+  </data>
+  <data name="ExisteCitaEnFecha" xml:space="preserve">
+    <value>There is already an appointment on this date.</value>
+  </data>
+  <data name="FechaCita" xml:space="preserve">
+    <value>Appointment date</value>
+  </data>
+  <data name="ContratoVentaSinVINoPlaca" xml:space="preserve">
+    <value>You must provide a chassis number or license plate for a used vehicle</value>
+  </data>
+  <data name="CodigoUnidadUsadoExiste" xml:space="preserve">
+    <value>the used vehicle unit number already exists</value>
+  </data>
+  <data name="RazonCita" xml:space="preserve">
+    <value>Appointment Reason</value>
+  </data>
+  <data name="CapCita" xml:space="preserve">
+    <value>Appointment</value>
+  </data>
+  <data name="MonedaAcreedorUsado" xml:space="preserve">
+    <value>A/P Invoice Business Partner currency does not match contract currency</value>
+  </data>
+  <data name="MonedaClienteContrato" xml:space="preserve">
+    <value>Customer invoice currency does not match contract currency</value>
+  </data>
+  <data name="FechaInvalidaCita" xml:space="preserve">
+    <value>Can not choose a day before today.</value>
+  </data>
+  <data name="ErrorCreandoCita" xml:space="preserve">
+    <value>Internal error creating appointment. Check the time allocated for the appointment no earlier than the current system time.</value>
+  </data>
+  <data name="CitaPorLLamada" xml:space="preserve">
+    <value>Appointment created by Service Call</value>
+  </data>
+  <data name="AsuntoCita" xml:space="preserve">
+    <value>The Subject field must be specified.</value>
+  </data>
+  <data name="ErrorFechaCita" xml:space="preserve">
+    <value>You must choose an appointment date.</value>
+  </data>
+  <data name="ErrorVehiculoCita" xml:space="preserve">
+    <value>You must specify a vehicule in order to generate the appointment.</value>
+  </data>
+  <data name="YaTieneCita" xml:space="preserve">
+    <value>There is already an appointment for this Service Call.</value>
+  </data>
+  <data name="CapGeneraCita" xml:space="preserve">
+    <value>Generates Appt.</value>
+  </data>
+  <data name="CapLLamadaServicio" xml:space="preserve">
+    <value>Svc. Call</value>
+  </data>
+  <data name="UsuarioLLamada" xml:space="preserve">
+    <value>Received by: </value>
+  </data>
+  <data name="MensajeTransferenciaBorradorOT" xml:space="preserve">
+    <value>Request W.O</value>
+  </data>
+  <data name="DocumentoBorrador" xml:space="preserve">
+    <value>Request Document</value>
+  </data>
+  <data name="XMLFormularioRecepcion" xml:space="preserve">
+    <value>\Formularios\Recepcion.enUS.xml</value>
+  </data>
+  <data name="NoExisteCU" xml:space="preserve">
+    <value>" does not exist.</value>
+  </data>
+  <data name="NoExsiteCodigoUnidad" xml:space="preserve">
+    <value>The Unit Code "</value>
+  </data>
+  <data name="RegistroDiarioMemoEntrada" xml:space="preserve">
+    <value>Goods Receipt of Vehicles: </value>
+  </data>
+  <data name="RegistroDiarioMemoSalida" xml:space="preserve">
+    <value>Goods Issue of Vehicles: </value>
+  </data>
+  <data name="MensajeDefinaCodigoTransaccion" xml:space="preserve">
+    <value>You must define a transaction code in line: </value>
+  </data>
+  <data name="MensajeFacturaReversion" xml:space="preserve">
+    <value>The Invoice</value>
+  </data>
+  <data name="MensajeFacturaReversionUltimoNotaCredito" xml:space="preserve">
+    <value>there are Notes of Credit associated to this invoice.</value>
+  </data>
+  <data name="MensajeFacturaReversionUltimoPago" xml:space="preserve">
+    <value>There are existing payments that must be cancelled.</value>
+  </data>
+  <data name="MensajeFacturaReversionUltimoCerrada" xml:space="preserve">
+    <value>is Closed.</value>
+  </data>
+  <data name="NombreSubMenuAdddonDMS_ContRevertido" xml:space="preserve">
+    <value>Reversed Contract list</value>
+  </data>
+  <data name="ListadoContratosRevertidos" xml:space="preserve">
+    <value>\Formularios\ContratosReversados.enUS.xml</value>
+  </data>
+  <data name="MensajeDeseaRevertirContrato" xml:space="preserve">
+    <value>This contract is about to be reversed. Do you want to continue?</value>
+  </data>
+  <data name="ListaContratosFacturadosARevertir" xml:space="preserve">
+    <value>\Formularios\ListadoContratosAReversar.enUS.xml</value>
+  </data>
+  <data name="MensajeContratoRevertido" xml:space="preserve">
+    <value>The contract has been reversed</value>
+  </data>
+  <data name="MensajeErrorRevertir" xml:space="preserve">
+    <value>The reverse process failed.</value>
+  </data>
+  <data name="ComentarioNotaDebito" xml:space="preserve">
+    <value>from Credit Memo: {0}, Contract:  {1}</value>
+  </data>
+  <data name="DigiteCodigoUnidad" xml:space="preserve">
+    <value>You must define a unit code for the used Vehicle</value>
+  </data>
+  <data name="DigiteCodigoUnidadCuentaTransito" xml:space="preserve">
+    <value>unit code required in line: </value>
+  </data>
+  <data name="DigiteCuentaTransito" xml:space="preserve">
+    <value>You must define a transit account or stock account in line:  </value>
+  </data>
+  <data name="CamposRequeridos" xml:space="preserve">
+    <value>All fields are required</value>
+  </data>
+  <data name="TituloMenuPresupuestos" xml:space="preserve">
+    <value>Budgets</value>
+  </data>
+  <data name="XMLFormularioPresupuestos" xml:space="preserve">
+    <value>Formularios\Presupuestos.enUS.xml</value>
+  </data>
+  <data name="UnidadSinEntrada" xml:space="preserve">
+    <value>The automatic Goods Issue will not be created because there are no Good Receives registered for this unit   </value>
+  </data>
+  <data name="MensajeDocumentosNoSoportados" xml:space="preserve">
+    <value>Debit Note must be manually reverse.</value>
+  </data>
+  <data name="MensajeAsientoReversado" xml:space="preserve">
+    <value>Journal Entry Reversed</value>
+  </data>
+  <data name="rptVantasxMecanicoComision" xml:space="preserve">
+    <value>rptVantasxMecanicoComisionEN</value>
+  </data>
+  <data name="PreguntaSalida" xml:space="preserve">
+    <value> have pending costs, therefore it should not be issued from the inventory. Do you still want to issue this vehicle from the inventory?</value>
+  </data>
+  <data name="ErrorCuentaTransito" xml:space="preserve">
+    <value>Vehicles in Transit Account Not Defined</value>
+  </data>
+  <data name="ErrorCuentaInventario" xml:space="preserve">
+    <value>Vehicles in Inventory Account Not Defined</value>
+  </data>
+  <data name="ErrorCuentasTransitoInventario" xml:space="preserve">
+    <value>Vehicles in Transit Account or Inventory Account Not Defined</value>
+  </data>
+  <data name="ErrorCuentasInventarioCostos" xml:space="preserve">
+    <value>Vehicles in Inventory Account or Cost Account Not Defined</value>
+  </data>
+  <data name="NoImprimir" xml:space="preserve">
+    <value>This quotation will not be printed.</value>
+  </data>
+  <data name="BotonCV" xml:space="preserve">
+    <value>Sales Contract</value>
+  </data>
+  <data name="ComboTipoDocumento" xml:space="preserve">
+    <value>Sales Quotations</value>
+  </data>
+  <data name="ContratoCreado" xml:space="preserve">
+    <value>Sales Contract Created</value>
+  </data>
+  <data name="EstadoCVOportunidad" xml:space="preserve">
+    <value> has been created</value>
+  </data>
+  <data name="MensajeCVCreado" xml:space="preserve">
+    <value>Sales Contract successfully created</value>
+  </data>
+  <data name="MonedaLocalNoConfig" xml:space="preserve">
+    <value>Local Currency is not configured</value>
+  </data>
+  <data name="NumeroCotizacion" xml:space="preserve">
+    <value>Sales Quotation </value>
+  </data>
+  <data name="PreguntaPrecioVenta" xml:space="preserve">
+    <value>In the Sales Contract there is already a sales price,do you want to replace it?</value>
+  </data>
+  <data name="MensajeFecha" xml:space="preserve">
+    <value>Invalid date for currency manage in the Sales Contract</value>
+  </data>
+  <data name="MensajeSalidaCreada" xml:space="preserve">
+    <value>Goods Issue successfully created</value>
+  </data>
+  <data name="DocumentoPreliminar" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="DocumentoPreliminarCreado" xml:space="preserve">
+    <value>Draft Was Created</value>
+  </data>
+  <data name="MovimientoMercancia" xml:space="preserve">
+    <value>Request Goods Movement</value>
+  </data>
+  <data name="ReferenciaCV" xml:space="preserve">
+    <value>Ref to S.C </value>
+  </data>
+  <data name="Unidad" xml:space="preserve">
+    <value>, Vehicle </value>
+  </data>
+  <data name="ConVenta" xml:space="preserve">
+    <value>Sales Contract</value>
+  </data>
+  <data name="ReferenciaSalida" xml:space="preserve">
+    <value>Reference to Goods Issue </value>
+  </data>
+  <data name="Repuesto" xml:space="preserve">
+    <value>Part</value>
+  </data>
+  <data name="Suministro" xml:space="preserve">
+    <value>Supply</value>
+  </data>
+  <data name="TituloFormularioRequisicones" xml:space="preserve">
+    <value>Requisitions</value>
+  </data>
+  <data name="XMLFormularioRequisiciones" xml:space="preserve">
+    <value>\Formularios\SCGD_Solicitudes.enUS.xml</value>
+  </data>
+  <data name="MensajeNCReversion" xml:space="preserve">
+    <value>I / R Reversed Document {0} from the sale of the vehicle  {1}</value>
+  </data>
+  <data name="PreguntaCVCreado" xml:space="preserve">
+    <value>This Sales Opportunity has already a Sales Contract associated, Do you want to create the Sales Contract?</value>
+  </data>
+  <data name="MonedaCuentaAsociadaNoCoincide" xml:space="preserve">
+    <value>The Business Partner accounts currency does not match with the contract currency</value>
+  </data>
+  <data name="Cancelado" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="CantidadTransferirError" xml:space="preserve">
+    <value>Quantity to transfer is greater than pending quantity, or zero. Line {0}</value>
+  </data>
+  <data name="NoCancelarLinea" xml:space="preserve">
+    <value>Line {0} can not be canceled.</value>
+  </data>
+  <data name="NoSePuedeTrasladar" xml:space="preserve">
+    <value>Line: {0}, can not be transfered.</value>
+  </data>
+  <data name="Pendiente" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="Trasladado" xml:space="preserve">
+    <value>Transfered</value>
+  </data>
+  <data name="DocGeneraReq" xml:space="preserve">
+    <value>Inv. Transfer</value>
+  </data>
+  <data name="RequisicionTraslado" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="ReversionUsadoNC" xml:space="preserve">
+    <value>Credit Memo Reversed: {0}, Contract:  {1}</value>
+  </data>
+  <data name="ErrorCode" xml:space="preserve">
+    <value>Error Code: </value>
+  </data>
+  <data name="PreguntaPrecioUnidades" xml:space="preserve">
+    <value>In the Sales Contract there is already a sale price , would you replace it for the units price?</value>
+  </data>
+  <data name="ErrorUnidades" xml:space="preserve">
+    <value>There are no units to invoice in the Sales Contract</value>
+  </data>
+  <data name="UnidadesMultiples" xml:space="preserve">
+    <value>Multiple Units</value>
+  </data>
+  <data name="PreguntaPrecioContrato" xml:space="preserve">
+    <value>The sales contract price is not equal to the sum of the units prices, Do you want to continue?</value>
+  </data>
+  <data name="ErrorCliente" xml:space="preserve">
+    <value>You must select a client in the sales contract to add lines</value>
+  </data>
+  <data name="PreguntaCliente" xml:space="preserve">
+    <value>Loading Customer in the Sales Contract will make that data of the lines changed, Do you want continue?</value>
+  </data>
+  <data name="DocUnidadesMultiples" xml:space="preserve">
+    <value>Document created for the sale of multiple vehicles</value>
+  </data>
+  <data name="ErrorImpuesto" xml:space="preserve">
+    <value>, you must enter a tax code.</value>
+  </data>
+  <data name="MensajeNCNegativa" xml:space="preserve">
+    <value>Use Negative Amount for reverse transaction</value>
+  </data>
+  <data name="DocUnidMultiplesRevers" xml:space="preserve">
+    <value>Document created for the reverse proccess of multiple vehicles</value>
+  </data>
+  <data name="ErrorImprimirFicha" xml:space="preserve">
+    <value>Must select a unit you want to print</value>
+  </data>
+  <data name="ErrorUsado" xml:space="preserve">
+    <value>Can't add the used vehicle because don't have the chassis number, or license plate</value>
+  </data>
+  <data name="MultiplesUsados" xml:space="preserve">
+    <value>Multiple Used Vehicles related to document</value>
+  </data>
+  <data name="PreguntaAjusteCosto" xml:space="preserve">
+    <value> costs Journal adjustment to be generated from the first vehicle to sell and the first received, continue?</value>
+  </data>
+  <data name="ErrorMontoUsado" xml:space="preserve">
+    <value>You must enter the value of receipt of all vehicles used in the Sales Contract</value>
+  </data>
+  <data name="VariosUsados" xml:space="preserve">
+    <value>Used Mult.</value>
+  </data>
+  <data name="NotaCredNegat" xml:space="preserve">
+    <value>Configure SAP negative amount to generate Negative Credit Memo.</value>
+  </data>
+  <data name="UnidadRepetida" xml:space="preserve">
+    <value>unit number, chassis number, or license plate already exists</value>
+  </data>
+  <data name="MensajeTrasladoCostosUnidadesAsiento" xml:space="preserve">
+    <value>Transfer Unit Cost: </value>
+  </data>
+  <data name="ErrorPermisosUsuario" xml:space="preserve">
+    <value>The user does not have permission to modify inventory</value>
+  </data>
+  <data name="MensajeTrasladoSatisfactorio" xml:space="preserve">
+    <value>The unit inventory transfer has been successful!</value>
+  </data>
+  <data name="MensajeTrasladoUnidades" xml:space="preserve">
+    <value>Do you want to make the transfer of the following units?</value>
+  </data>
+  <data name="MensajeUnidadesTrasladadas" xml:space="preserve">
+    <value>The following units have been transferred!</value>
+  </data>
+  <data name="MensajeExisteLineaSinCodigoUnidad" xml:space="preserve">
+    <value>There are lines without unit code</value>
+  </data>
+  <data name="MensajeAsientoGeneradoSuccesfull" xml:space="preserve">
+    <value>journal entry has been generated succesfully</value>
+  </data>
+  <data name="NoAprobadoItemEspecial" xml:space="preserve">
+    <value> was not approved for the Special Task Order, so that is charged in the Father Order</value>
+  </data>
+  <data name="DevolverItemNoAprob" xml:space="preserve">
+    <value>Not Approved items be returned by a requisition</value>
+  </data>
+  <data name="MensajeExisteVIN" xml:space="preserve">
+    <value>The number VIN already exists.</value>
+  </data>
+  <data name="ErrorFactCosteo" xml:space="preserve">
+    <value>Units Not Costed or With Costing Earrings can´t be invoiced</value>
+  </data>
+  <data name="ErrorPermisoInvUnidad" xml:space="preserve">
+    <value>The user don't have permissions to modify the inventory to which the unit belongs</value>
+  </data>
+  <data name="PreguntaContinuarSinGuardar" xml:space="preserve">
+    <value>Unsaved data will be lost. Do you want to continue without saving?</value>
+  </data>
+  <data name="PreguntaCancelarContrato" xml:space="preserve">
+    <value>Are you sure to cancel the sales contract?</value>
+  </data>
+  <data name="ContratoEstado" xml:space="preserve">
+    <value> is </value>
+  </data>
+  <data name="ErrorTipoUsado" xml:space="preserve">
+    <value>To add the unit you must specify the type of inventory</value>
+  </data>
+  <data name="MensajeMonedaDiferente" xml:space="preserve">
+    <value>The currency of the business partner is different from the coin set</value>
+  </data>
+  <data name="MensajeMonedaDiferente2" xml:space="preserve">
+    <value>to document: </value>
+  </data>
+  <data name="MensajeNoEsPosibleFacturarContrato" xml:space="preserve">
+    <value>The contract can not be created</value>
+  </data>
+  <data name="MensajePreguntaMonedaContrato" xml:space="preserve">
+    <value>To use the currency of the contract?</value>
+  </data>
+  <data name="DocumentoAsientoAjusteCosto" xml:space="preserve">
+    <value>Cost Adjustment Journal </value>
+  </data>
+  <data name="DocumentoAsientoEntradaVU" xml:space="preserve">
+    <value>Used Good Receive</value>
+  </data>
+  <data name="DocumentoAsientoSalidaAccesorios" xml:space="preserve">
+    <value>Accesories Issue</value>
+  </data>
+  <data name="DocumentoFacturaDeudaUsado" xml:space="preserve">
+    <value>Liens A/P Invoice</value>
+  </data>
+  <data name="DocumentoFacturaVentas" xml:space="preserve">
+    <value>A/R Invoice</value>
+  </data>
+  <data name="DocumentoNotaCreditoDesglosedeCobro" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DocumentoNotaDebito" xml:space="preserve">
+    <value>Debit Memo</value>
+  </data>
+  <data name="DocumentoNotaDebitoDeudaUsado" xml:space="preserve">
+    <value>U. Car Lien DM</value>
+  </data>
+  <data name="DocumentoNotasCreditoDescuento" xml:space="preserve">
+    <value>Discount Credit Memo</value>
+  </data>
+  <data name="DocumentoNotasCreditoUsados" xml:space="preserve">
+    <value>Car Credit Memo</value>
+  </data>
+  <data name="MensajeMonedaConfiguradaparaFacturaDeudaAsumida" xml:space="preserve">
+    <value>The coin set for Used Provider Invoice is "{0}" and the currency Business Partner for this document is "{1}", want to create the invoice in the currency Business Partner?</value>
+  </data>
+  <data name="TRASLForm" xml:space="preserve">
+    <value>\Formularios\TrasladoCostos.enUS.xml</value>
+  </data>
+  <data name="TrasladoCostoVehiculo" xml:space="preserve">
+    <value>Cost Transfer Vehicle</value>
+  </data>
+  <data name="ErrorUnidadExiste" xml:space="preserve">
+    <value>The unit that tries to load already exist</value>
+  </data>
+  <data name="ErrorFaltaNumUnidad" xml:space="preserve">
+    <value>The vehicle don't have unit number</value>
+  </data>
+  <data name="ListaContXUnidad" xml:space="preserve">
+    <value>\Formularios\ListaContXUnidad.enUS.xml</value>
+  </data>
+  <data name="ButtonEstadoServicios" xml:space="preserve">
+    <value>WO Status</value>
+  </data>
+  <data name="ErrorFaltaOTReporteEstServ" xml:space="preserve">
+    <value>The sales quotation has no number of OT to load the report</value>
+  </data>
+  <data name="rptServiciosporOrden" xml:space="preserve">
+    <value>rptServiciosporOrdenEN</value>
+  </data>
+  <data name="TituloServiciosPorOrden" xml:space="preserve">
+    <value>Services by Order</value>
+  </data>
+  <data name="ErrorFechaContabilizacion" xml:space="preserve">
+    <value>You must enter the posting date in the Formalization tab to invoice the sales contract</value>
+  </data>
+  <data name="ErrorFechaContReversa" xml:space="preserve">
+    <value>You must enter the posting date in the Formalization tab to reverse the sales contract</value>
+  </data>
+  <data name="ErrorModoContratoFacturar" xml:space="preserve">
+    <value>The sales contract is in update mode, press the Update button to save your changes and then proceed to bill</value>
+  </data>
+  <data name="ButtonHistorialVehiculo" xml:space="preserve">
+    <value>Veh. Hist.</value>
+  </data>
+  <data name="ParaComprar" xml:space="preserve">
+    <value>For Purchase</value>
+  </data>
+  <data name="ErrorFaltaOTReporteHisVehiculo" xml:space="preserve">
+    <value>The sales quotation hasn't unit number for load the report</value>
+  </data>
+  <data name="rptHistorialVehiculo" xml:space="preserve">
+    <value>rptHistorialDetallado-en</value>
+  </data>
+  <data name="TituloHistorialVehiculo" xml:space="preserve">
+    <value>Detailed Vehicle History</value>
+  </data>
+  <data name="MenuFinanciamiento" xml:space="preserve">
+    <value>Financing</value>
+  </data>
+  <data name="ErrorFinancPropio" xml:space="preserve">
+    <value>Missing data for the Internal Financing, enter the necessary data</value>
+  </data>
+  <data name="ErrorPlanPagos" xml:space="preserve">
+    <value>To load the Payment Plan must use Internal Financing</value>
+  </data>
+  <data name="TituloPlanPagos" xml:space="preserve">
+    <value>Payment Plan</value>
+  </data>
+  <data name="XMLPlanPagos" xml:space="preserve">
+    <value>\Formularios\PlanPagos.enUS.xml</value>
+  </data>
+  <data name="XMLPrestamo" xml:space="preserve">
+    <value>\Formularios\Prestamo.enUS.xml</value>
+  </data>
+  <data name="TituloPrestamo" xml:space="preserve">
+    <value>Loan</value>
+  </data>
+  <data name="XMLConfFinanc" xml:space="preserve">
+    <value>\Formularios\ConfFinanciamiento.enUS.xml</value>
+  </data>
+  <data name="TituloConfFinanc" xml:space="preserve">
+    <value>Configurations</value>
+  </data>
+  <data name="Cont" xml:space="preserve">
+    <value>Sales C. </value>
+  </data>
+  <data name="Prest" xml:space="preserve">
+    <value>Loan. </value>
+  </data>
+  <data name="Prestamo" xml:space="preserve">
+    <value>Loan: </value>
+  </data>
+  <data name="MensajeCuentas" xml:space="preserve">
+    <value>The financing movement can't be generated, since no exist valids configured accounts</value>
+  </data>
+  <data name="PrestamoCreado" xml:space="preserve">
+    <value>Loan successfully created</value>
+  </data>
+  <data name="ErrorMonPrest" xml:space="preserve">
+    <value>Loan Journal Entry is not created, invalid currency</value>
+  </data>
+  <data name="Multiples" xml:space="preserve">
+    <value>Multiple</value>
+  </data>
+  <data name="DescripcionPrimaVenta" xml:space="preserve">
+    <value>Advance Payment</value>
+  </data>
+  <data name="ErrorCuentaPrima" xml:space="preserve">
+    <value>The account to Advance Payment is not defined</value>
+  </data>
+  <data name="PrimaPorCompraVehiculo" xml:space="preserve">
+    <value>Advanced Payment applied to purchase of vehicle </value>
+  </data>
+  <data name="ErrorImpuestoPrima" xml:space="preserve">
+    <value>The tax to Credit Memo Advance Payment is not defined</value>
+  </data>
+  <data name="ErrorTipoCambioPrestamo" xml:space="preserve">
+    <value>The system exchange rate is not update to date of the loan to generate</value>
+  </data>
+  <data name="ErrorPeriodoContPrestamo" xml:space="preserve">
+    <value>The accounting period for the date of the loan must exist and be unlocked</value>
+  </data>
+  <data name="XMLEstadoCuentas" xml:space="preserve">
+    <value>\Formularios\EstadosCuenta.enUS.xml</value>
+  </data>
+  <data name="TituloEstadosCuenta" xml:space="preserve">
+    <value>Statements</value>
+  </data>
+  <data name="XMLHistoricoPagos" xml:space="preserve">
+    <value>\Formularios\HistoricoPagos.enUS.xml</value>
+  </data>
+  <data name="TituloHistoricoPagos" xml:space="preserve">
+    <value>Payment History</value>
+  </data>
+  <data name="TituloCuotasVencidas" xml:space="preserve">
+    <value>Fees Due</value>
+  </data>
+  <data name="XMLCuotasVencidas" xml:space="preserve">
+    <value>\Formularios\CuotasVencidas.enUS.xml</value>
+  </data>
+  <data name="TituloSaldos" xml:space="preserve">
+    <value>Loan Balances</value>
+  </data>
+  <data name="XMLSaldos" xml:space="preserve">
+    <value>\Formularios\Saldos.enUS.xml</value>
+  </data>
+  <data name="ErrorMonedaFinanc" xml:space="preserve">
+    <value>There are no set ups for currency financing of the sales contract</value>
+  </data>
+  <data name="ErrorReversaPrest" xml:space="preserve">
+    <value>You can't reverse the sales contract because it is linked to the loan: </value>
+  </data>
+  <data name="ExplicaErrorRevPrest" xml:space="preserve">
+    <value>, which has already made payments</value>
+  </data>
+  <data name="AsientoPrestReversa" xml:space="preserve">
+    <value>Journal Entry created by reversal of Loan:</value>
+  </data>
+  <data name="DescripcionPrima" xml:space="preserve">
+    <value>Down Payment in the Sales Contract</value>
+  </data>
+  <data name="DocumentoNotaCreditoPrima" xml:space="preserve">
+    <value>Down Payment Credit Memo</value>
+  </data>
+  <data name="MenuPlacas" xml:space="preserve">
+    <value>Plates</value>
+  </data>
+  <data name="TituloGrupoPlacas" xml:space="preserve">
+    <value>Vehicles Group</value>
+  </data>
+  <data name="TituloPlacas" xml:space="preserve">
+    <value>License Plate Tracking</value>
+  </data>
+  <data name="XMLGrupoPlacas" xml:space="preserve">
+    <value>\Formularios\IngresoEventosGrupo.enUS.xml</value>
+  </data>
+  <data name="XMLPlacas" xml:space="preserve">
+    <value>\Formularios\ExpedientedePlacas.enUS.xml</value>
+  </data>
+  <data name="Val_Centro_Costo" xml:space="preserve">
+    <value>The profit center settings is invalid for the following article</value>
+  </data>
+  <data name="ErrorFechaContReversa2" xml:space="preserve">
+    <value>You must enter the Reversal Date tab Formalization to reverse the sales contract</value>
+  </data>
+  <data name="TituloVehiculosTipoEvento" xml:space="preserve">
+    <value>Vehicles by Event Type</value>
+  </data>
+  <data name="XMLVehiculosTipoEvento" xml:space="preserve">
+    <value>\Formularios\VehiculosTipoEvento.enUS.xml</value>
+  </data>
+  <data name="TituloContratoTraspaso" xml:space="preserve">
+    <value>Sales Plan (Legal)</value>
+  </data>
+  <data name="XMLContratoTraspaso" xml:space="preserve">
+    <value>\Formularios\ContratoTraspasoVehiculo.enUS.xml</value>
+  </data>
+  <data name="PagoUnidadesMultiples" xml:space="preserve">
+    <value>Payment created for the sale of multiple vehicles</value>
+  </data>
+  <data name="ComentarioPagoRecibido" xml:space="preserve">
+    <value>from Receipt Payment: {0}, Contract:  {1}</value>
+  </data>
+  <data name="PagoRecibido" xml:space="preserve">
+    <value>Receipt Payment: </value>
+  </data>
+  <data name="DocumentoFactAccesorios" xml:space="preserve">
+    <value>Accesories Invoice</value>
+  </data>
+  <data name="PreguntaCompExistentesE" xml:space="preserve">
+    <value>The style selected does not have associated components, want to upgrade the components of the vehicle?</value>
+  </data>
+  <data name="ValidarCuentaCredito" xml:space="preserve">
+    <value>The credit score is incorrectly configured, please enter the workshop module and set up the account</value>
+  </data>
+  <data name="ValidarCuentaDebito" xml:space="preserve">
+    <value>The debit account is incorrectly configured, please enter the workshop module and set up the account</value>
+  </data>
+  <data name="ErrorMontoAccesorios" xml:space="preserve">
+    <value>The amount of accessories for vehicles must be equal to the subtotal of the accessories loaded in this sales contract</value>
+  </data>
+  <data name="TituloGastos" xml:space="preserve">
+    <value>Vehicle Expenses</value>
+  </data>
+  <data name="XMLGastos" xml:space="preserve">
+    <value>\Formularios\GastosAdicionales.enUS.xml</value>
+  </data>
+  <data name="ErrorGastosMultiplesFact" xml:space="preserve">
+    <value>Not is allowed charges if is generate multiple invoices for the sales contract</value>
+  </data>
+  <data name="btnCancelar" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CostoProyectado" xml:space="preserve">
+    <value>Projected</value>
+  </data>
+  <data name="CostoReal" xml:space="preserve">
+    <value>Real</value>
+  </data>
+  <data name="ErrorBalance" xml:space="preserve">
+    <value>The contract must have been created, and have a valid date.</value>
+  </data>
+  <data name="ErrorReporteCV" xml:space="preserve">
+    <value>You must enter all the parameters to display the report and also the "Date From" must be less than the "Date To".</value>
+  </data>
+  <data name="PreguntaBalanceCV" xml:space="preserve">
+    <value>What kind of cost to the vehicle, you want to use to generate the following balance of Sales Contract?</value>
+  </data>
+  <data name="ReportesContratoVenta" xml:space="preserve">
+    <value>\Formularios\ReportesContratoVenta.enUS.xml</value>
+  </data>
+  <data name="rptComisionVehiculo" xml:space="preserve">
+    <value>rptComisionesPorVehiculo.rpt</value>
+  </data>
+  <data name="TituloBalances" xml:space="preserve">
+    <value>Sales Contract Balance</value>
+  </data>
+  <data name="TituloReportesContratoVenta" xml:space="preserve">
+    <value>Vehicle Commissions Report.</value>
+  </data>
+  <data name="XMLBalances" xml:space="preserve">
+    <value>\Formularios\BalanceContratoVentas.enUS.xml</value>
+  </data>
+  <data name="ErrorGastosUnidad" xml:space="preserve">
+    <value>You must select a unit to charge the additional costs</value>
+  </data>
+  <data name="DocumentoFactGastos" xml:space="preserve">
+    <value>Expenses Invoice</value>
+  </data>
+  <data name="ComentarioReversaFact" xml:space="preserve">
+    <value>Invoice Reverse Document </value>
+  </data>
+  <data name="ErrorLineasGastos" xml:space="preserve">
+    <value>The expenses invoice to be created must have at least one line</value>
+  </data>
+  <data name="PreguntaCompExistentesM" xml:space="preserve">
+    <value>The model selected does not have associated components, want to upgrade the components of the vehicle?</value>
+  </data>
+  <data name="PreguntaComponentesBasicosM" xml:space="preserve">
+    <value>Do you want to update vehicle components according to this model?</value>
+  </data>
+  <data name="ErrorUsadoUnidad" xml:space="preserve">
+    <value>Can't add the used vehicle because don't have unit number</value>
+  </data>
+  <data name="FaltaAgenda" xml:space="preserve">
+    <value>You must select a calendar for create the appointment</value>
+  </data>
+  <data name="ErrorNoEsCliente" xml:space="preserve">
+    <value>The Business Partner selected should be a customer.</value>
+  </data>
+  <data name="FaltaRazonCita" xml:space="preserve">
+    <value>You must select a reason to create the appointment</value>
+  </data>
+  <data name="ContratoVendedor" xml:space="preserve">
+    <value> from the seller</value>
+  </data>
+  <data name="XMLRefacturacion" xml:space="preserve">
+    <value>\Formularios\Refacturacion.enUS.xml</value>
+  </data>
+  <data name="TituloRefacturacion" xml:space="preserve">
+    <value>Sales Contract Rebill</value>
+  </data>
+  <data name="ErrorLineaRefacturar" xml:space="preserve">
+    <value>You must select the invoice you want to re-invoice or choose re-invoice all</value>
+  </data>
+  <data name="ErrorNoLineasRefact" xml:space="preserve">
+    <value>No accounts to process Rebilling</value>
+  </data>
+  <data name="OperacionFinalizada" xml:space="preserve">
+    <value>Operation completed successfully</value>
+  </data>
+  <data name="ErrorFechaRefacturacion" xml:space="preserve">
+    <value>You must enter the posting date for documents to generate</value>
+  </data>
+  <data name="XMLEstadosOT" xml:space="preserve">
+    <value>\Formularios\EntregaVehiculosOT.enUS.xml</value>
+  </data>
+  <data name="ActualizacionEstadosOT" xml:space="preserve">
+    <value>Quote are updated successfully</value>
+  </data>
+  <data name="CapEntregado" xml:space="preserve">
+    <value>Delivered</value>
+  </data>
+  <data name="ErrorEstadosOT" xml:space="preserve">
+    <value>We encountered an error trying to update the selected Quote.</value>
+  </data>
+  <data name="ErrorSeleccionEstadosOT" xml:space="preserve">
+    <value>You must select a quote to deliver</value>
+  </data>
+  <data name="rptCitasXTipoFecha" xml:space="preserve">
+    <value>rptCitasxFechaYAgenda.rpt</value>
+  </data>
+  <data name="TituloReporteCitasXTipo" xml:space="preserve">
+    <value>Dating by Type and Date</value>
+  </data>
+  <data name="Cerrada" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="Facturada" xml:space="preserve">
+    <value>Invoiced</value>
+  </data>
+  <data name="LaUnidad" xml:space="preserve">
+    <value>The unit: </value>
+  </data>
+  <data name="UnidadCosteosPendientes" xml:space="preserve">
+    <value>costing is pending, make appropriate entries and make a transfer of costs</value>
+  </data>
+  <data name="TrasladoCostosCeros" xml:space="preserve">
+    <value>Can not make the move because the costs are zero (0), unit:</value>
+  </data>
+  <data name="ArtConfig" xml:space="preserve">
+    <value> configured for the unit:</value>
+  </data>
+  <data name="ErrorArticuloVenta" xml:space="preserve">
+    <value>Article: </value>
+  </data>
+  <data name="NoExiste" xml:space="preserve">
+    <value> wasn't created in the article master data</value>
+  </data>
+  <data name="CuentaIngresoAccesoriosVacia" xml:space="preserve">
+    <value>Enter the revenue account of the warehouse:</value>
+  </data>
+  <data name="rptTrasladoCostosUnidades" xml:space="preserve">
+    <value>rptTrasladoCostosUnidadesEN</value>
+  </data>
+  <data name="TituloReporteTraslados" xml:space="preserve">
+    <value>Reporting of Transfer of Costs</value>
+  </data>
+  <data name="UnidadTrasladoServicioPostVenta" xml:space="preserve">
+    <value>The selected unit is a Post-Sale</value>
+  </data>
+  <data name="ErrorAprobacionContrato" xml:space="preserve">
+    <value>Can't send to sales contract approval if no vehicles</value>
+  </data>
+  <data name="ErrorCuentaBanco" xml:space="preserve">
+    <value>No exist account set up for the Financial Entity: </value>
+  </data>
+  <data name="ComentarioFinExterno" xml:space="preserve">
+    <value>External Financing, Sales Contract: </value>
+  </data>
+  <data name="DocumentoAsientoFinancExterno" xml:space="preserve">
+    <value>External Financing Journal Entry</value>
+  </data>
+  <data name="AsientoReversaCont" xml:space="preserve">
+    <value>Reverse of Movements in Contract: </value>
+  </data>
+  <data name="MensajeriaAprobacion" xml:space="preserve">
+    <value>\Formularios\MensajeriaAprobacion.enUS.xml</value>
+  </data>
+  <data name="IngresoSucursales1" xml:space="preserve">
+    <value>Have entered a total of </value>
+  </data>
+  <data name="IngresoSucursales2" xml:space="preserve">
+    <value> branches.</value>
+  </data>
+  <data name="NoHayCambios" xml:space="preserve">
+    <value>There are no changes to update.</value>
+  </data>
+  <data name="Agregar" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Buscar" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="Eliminar" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="PreguntaUsuariosMensajeria" xml:space="preserve">
+    <value>Unsaved data will be lost, you want to continue without saving?</value>
+  </data>
+  <data name="ErrorAccsVeh" xml:space="preserve">
+    <value>Unable to load accessories and formalities if you aren't loaded vehicle in the sales contract</value>
+  </data>
+  <data name="ErrorUsoFinanciamiento" xml:space="preserve">
+    <value>You have entered the financing amount, you must check the type of financing used (Internal/External) in the sales contract</value>
+  </data>
+  <data name="ErrorComprarCV" xml:space="preserve">
+    <value>Can't buy if the sales contract has not been created, proceed to create the sales contract</value>
+  </data>
+  <data name="ErrorAccsComprar" xml:space="preserve">
+    <value>No selected accessories in the sales contract to buy</value>
+  </data>
+  <data name="ErrorDatosCompraAcc" xml:space="preserve">
+    <value>You must enter quantity, purchase price, purchase tax and accessory supplier to the accessory: </value>
+  </data>
+  <data name="PreguntaGenerarCompraAccs" xml:space="preserve">
+    <value>You can generate a single purchase of accessories in the sales contract, are you sure to generate the purchase orders?</value>
+  </data>
+  <data name="ComentarioCompraAccs" xml:space="preserve">
+    <value>Purchase accessories sales contract: </value>
+  </data>
+  <data name="OrdenCompraAccRealziada" xml:space="preserve">
+    <value>Purchase Orders of Accessories performed satisfactorily</value>
+  </data>
+  <data name="MensajeCosteoMultiple" xml:space="preserve">
+    <value>Processing good receipts for unit:</value>
+  </data>
+  <data name="MensajeCosteoMultipleUnidadSinCosteosPendientes" xml:space="preserve">
+    <value>has not pending cost.</value>
+  </data>
+  <data name="MensajeCosteoSatisfactorio" xml:space="preserve">
+    <value>The costing process was successful</value>
+  </data>
+  <data name="XMLFormularioCosteoMultiplesUnidades" xml:space="preserve">
+    <value>\Formularios\CosteoMultiplesUnidades.enUS.xml</value>
+  </data>
+  <data name="ErrorFechaFin" xml:space="preserve">
+    <value>You must enter a final date.</value>
+  </data>
+  <data name="ErrorFechaInicio" xml:space="preserve">
+    <value>You must enter a initial date.</value>
+  </data>
+  <data name="ErrorFechaRefacturacionNC" xml:space="preserve">
+    <value>The posting date must be greater or equal to the date of the invoice to reverse.</value>
+  </data>
+  <data name="ErrorFechaRefacturacionPeriodoContable" xml:space="preserve">
+    <value>The accounting period for the posting date must exist and be unlocked</value>
+  </data>
+  <data name="ErrorFechaRefacturacionPosterior" xml:space="preserve">
+    <value>The posting date can't be greater than the current date.</value>
+  </data>
+  <data name="ProcesandoRefacturacion" xml:space="preserve">
+    <value>Processing invoice #</value>
+  </data>
+  <data name="ErrorElimAccCompra" xml:space="preserve">
+    <value>Can't delete the selected accessory, because it has an associated purchase order</value>
+  </data>
+  <data name="ErrorTamanoCodigo" xml:space="preserve">
+    <value>The Code should be a maximum of 8 characters</value>
+  </data>
+  <data name="ErrorEstadoEnBlanco" xml:space="preserve">
+    <value>There are no state approval levels defined.</value>
+  </data>
+  <data name="ErrorDatosCompraTram" xml:space="preserve">
+    <value>You must enter quantity, purchase price, purchase tax and formalitie supplier to the formalitie: </value>
+  </data>
+  <data name="PreguntaGenerarCompraTramites" xml:space="preserve">
+    <value>You can generate a single purchase of formalities in the sales contract, are you sure to generate the purchase orders?</value>
+  </data>
+  <data name="ComentarioCompraTramites" xml:space="preserve">
+    <value>Purchase formalities sales contract: </value>
+  </data>
+  <data name="ErrorElimTramCompra" xml:space="preserve">
+    <value>Can't delete the selected formalitie, because it has an associated purchase order</value>
+  </data>
+  <data name="OrdenCompraTramRealizada" xml:space="preserve">
+    <value>Purchase Orders of Formalities performed satisfactorily</value>
+  </data>
+  <data name="ErrorTramitesComprar" xml:space="preserve">
+    <value>No selected formalities in the sales contract to buy</value>
+  </data>
+  <data name="ErrorBodegaTramites" xml:space="preserve">
+    <value>Not setting warehouse for the formalities in the sales contract</value>
+  </data>
+  <data name="DocumentoAsientoTramite" xml:space="preserve">
+    <value>Formalities Journal Entry</value>
+  </data>
+  <data name="ComentarioTramite" xml:space="preserve">
+    <value>Formalities in Sales Contract: </value>
+  </data>
+  <data name="Tram" xml:space="preserve">
+    <value>Form: </value>
+  </data>
+  <data name="XMLSalidaMultiplesUnidades" xml:space="preserve">
+    <value>\Formularios\SalidaMultiplesUnidades.enUS.xml</value>
+  </data>
+  <data name="MensajeSalidaMultiple" xml:space="preserve">
+    <value>Generating GoodIssue for unit:</value>
+  </data>
+  <data name="MensajeSalidaSatisfactorio" xml:space="preserve">
+    <value>The GoodIssue process was successful.</value>
+  </data>
+  <data name="rptUnidadesVendidas" xml:space="preserve">
+    <value>rptVehiculosVendidosEN.rpt</value>
+  </data>
+  <data name="rptUnidadesVendidasResumen" xml:space="preserve">
+    <value>rptVehiculosVendidosResumenEN.rpt</value>
+  </data>
+  <data name="XMLFrmReporteUnidadesVendidas" xml:space="preserve">
+    <value>\Formularios\ReporteUnidadesVendidas.enUS.xml</value>
+  </data>
+  <data name="El_Articulo" xml:space="preserve">
+    <value>The Article </value>
+  </data>
+  <data name="El_Tramite" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="TramiteAsignadoOrdenCompra" xml:space="preserve">
+    <value>already has an order assigned</value>
+  </data>
+  <data name="NumLineasMinimoOC" xml:space="preserve">
+    <value>Can not remove the only existing line in the Purchase Order.</value>
+  </data>
+  <data name="TituloCosteoMultiple" xml:space="preserve">
+    <value>Multiple Costed</value>
+  </data>
+  <data name="TituloSalidaMultiple" xml:space="preserve">
+    <value>Multiple Exit</value>
+  </data>
+  <data name="AsientoEntradaMercanciaCompra" xml:space="preserve">
+    <value>Purchase goods receipt: </value>
+  </data>
+  <data name="AsientoFacturaProveedores" xml:space="preserve">
+    <value>A\P Invoice: </value>
+  </data>
+  <data name="AsientoFacturaClientes" xml:space="preserve">
+    <value>A\R Invoice: </value>
+  </data>
+  <data name="TituloReporteUnidadesVendidas" xml:space="preserve">
+    <value>Vehicles Sales Report</value>
+  </data>
+  <data name="ErrorBodegaDestino" xml:space="preserve">
+    <value> not have the desired destination warehouse.</value>
+  </data>
+  <data name="NoEncontradoEnAlmacen" xml:space="preserve">
+    <value> not found in warehouse </value>
+  </data>
+  <data name="DebeSerDeCompra" xml:space="preserve">
+    <value>, must be configured as a purcharse item.</value>
+  </data>
+  <data name="ParaElAccesorio" xml:space="preserve">
+    <value>For accessory </value>
+  </data>
+  <data name="ParaLaUnidad" xml:space="preserve">
+    <value>For unit </value>
+  </data>
+  <data name="MensajeCuentaTrasladoCostosSimilares" xml:space="preserve">
+    <value>Is not possible to inventories transfer for units at the same Inventory Type.</value>
+  </data>
+  <data name="MensajeUnidadEntradasAsociadas" xml:space="preserve">
+    <value>has Goods Receipt, the inventory type can not be modified.</value>
+  </data>
+  <data name="TituloCitas" xml:space="preserve">
+    <value>Appointments</value>
+  </data>
+  <data name="VendedoresPorTipoInventario" xml:space="preserve">
+    <value>\Formularios\VendedoresXTipoInv.enUS.xml</value>
+  </data>
+  <data name="PreguntaPermisosPorTipoInventario" xml:space="preserve">
+    <value>Want to update the permissions selected?</value>
+  </data>
+  <data name="PreguntaPermisosPorTipoInventario2" xml:space="preserve">
+    <value>Vendors selected will be uncheck if you continue. Continue?</value>
+  </data>
+  <data name="CampoGeneraOTNo" xml:space="preserve">
+    <value>Already exist a Work Order related to this Quotation. The value to field "Generate W.O" is invalid.</value>
+  </data>
+  <data name="ErrorTipoCliente" xml:space="preserve">
+    <value>Unable to create a Work Order to this kind of client.</value>
+  </data>
+  <data name="XMLCitasXTipoAgenda" xml:space="preserve">
+    <value>\Formularios\CitasXTipoFecha.enUS.xml</value>
+  </data>
+  <data name="InformesDMS" xml:space="preserve">
+    <value>DMS reports</value>
+  </data>
+  <data name="TituloBusquedaOT" xml:space="preserve">
+    <value>Search for Work Orders</value>
+  </data>
+  <data name="XMLBusquedaOT" xml:space="preserve">
+    <value>\Formularios\BusquedaOrdenesTrabajo.enUS.xml</value>
+  </data>
+  <data name="TituloFormularioAsocArtixEspecif" xml:space="preserve">
+    <value>Item Association by Speficication</value>
+  </data>
+  <data name="XMLFormularioAsocArtixEspecif" xml:space="preserve">
+    <value>\Formularios\AsociacionArticuloEspecificacion.enUS.xml</value>
+  </data>
+  <data name="TituloBalanceOT" xml:space="preserve">
+    <value>Work Order Balance</value>
+  </data>
+  <data name="XMLFormBalanceOT" xml:space="preserve">
+    <value>\Formularios\BalanceOrdenesTrabajo.enUS.xml</value>
+  </data>
+  <data name="MensajeModeloActualizado" xml:space="preserve">
+    <value>Model Successfully Updated.</value>
+  </data>
+  <data name="MensajeModeloSinSeleccionar" xml:space="preserve">
+    <value>Model without been selected.</value>
+  </data>
+  <data name="MenuEspecificacionesPorModelo" xml:space="preserve">
+    <value>Specifics by Model or Style</value>
+  </data>
+  <data name="MenuUnidadesVendidas" xml:space="preserve">
+    <value>Sold Units</value>
+  </data>
+  <data name="XMLFormEspecificacionXModelo" xml:space="preserve">
+    <value>\Formularios\VehiculosEspecificacionesPorModelo.enUS.xml</value>
+  </data>
+  <data name="MensajeModeloAccYaExiste" xml:space="preserve">
+    <value>This accessory have been already set for this model o style</value>
+  </data>
+  <data name="MensajePerderaCambiosEstilo" xml:space="preserve">
+    <value>You Will lost the changes made for this style,Want to Continue</value>
+  </data>
+  <data name="ButtonBalanceOT" xml:space="preserve">
+    <value>WO Balance</value>
+  </data>
+  <data name="rptBalanceOT" xml:space="preserve">
+    <value>rptBalanceOTEN</value>
+  </data>
+  <data name="AsientoCotizacion" xml:space="preserve">
+    <value>Quotation: </value>
+  </data>
+  <data name="ValidarCuentaGastosBodProceso" xml:space="preserve">
+    <value>You must assign the expense account for the respective process warehouse cost center.</value>
+  </data>
+  <data name="MensajeEstiloAccYaExiste" xml:space="preserve">
+    <value>This accessory have been already set for this style</value>
+  </data>
+  <data name="MensajeEstiloActualizado" xml:space="preserve">
+    <value>Style Successfully Updated.</value>
+  </data>
+  <data name="MensajeEstiloSinSeleccionar" xml:space="preserve">
+    <value>Style without been selected.</value>
+  </data>
+  <data name="MensajePerderaCambiosModelo" xml:space="preserve">
+    <value>You Will lost the changes made for this model,Want to Continue</value>
+  </data>
+  <data name="XMLFormularioAgendasConfig" xml:space="preserve">
+    <value>\Formularios\AgendaConfiguracion.enUS.xml</value>
+  </data>
+  <data name="XMLFormularioParametrosDeAplicacion" xml:space="preserve">
+    <value>\Formularios\ParametrosDeAplicacion.enUS.xml</value>
+  </data>
+  <data name="MensajePerderaCambiosAgenda" xml:space="preserve">
+    <value>You Will lost the changes made for this schedule,Want to Continue</value>
+  </data>
+  <data name="ErrorAgendaSinAbrev" xml:space="preserve">
+    <value>You must enter a abbreviation for the schedule.</value>
+  </data>
+  <data name="ErrorAgendaSinInterv" xml:space="preserve">
+    <value>You must specify an interval in minutes for the schedule.</value>
+  </data>
+  <data name="ErrorAgendaSinNombre" xml:space="preserve">
+    <value>You must enter a name for the schedule.</value>
+  </data>
+  <data name="ErrorAgendaYaExiste" xml:space="preserve">
+    <value>Abbreviation already exists.</value>
+  </data>
+  <data name="MensajeAgendaActualizada" xml:space="preserve">
+    <value>Schedule has been modified successfully</value>
+  </data>
+  <data name="MensajeAgendaCreada" xml:space="preserve">
+    <value>Schedule has been created successfully</value>
+  </data>
+  <data name="MensajeAgendaEliminada" xml:space="preserve">
+    <value>Schedule has been deleted.</value>
+  </data>
+  <data name="XMLCitasReservacion" xml:space="preserve">
+    <value>\Formularios\CitasRecepcion.enUS.xml</value>
+  </data>
+  <data name="ErrorTipoCambio" xml:space="preserve">
+    <value>You must enter the exchange rate for the currency </value>
+  </data>
+  <data name="ErrorTipoMonedaNulo" xml:space="preserve">
+    <value>Not specified the type of currency: Configuration Workshop, to run the process</value>
+  </data>
+  <data name="TituloFormularioSeleccionRepuestos" xml:space="preserve">
+    <value>Selection of Parts</value>
+  </data>
+  <data name="AdvertenciaSeleccionRepuestos" xml:space="preserve">
+    <value>Parts can not delete previously existing listing.</value>
+  </data>
+  <data name="MensajeActualizacionCotizacion" xml:space="preserve">
+    <value>Do you want to save the changes permanently in the Quotation?</value>
+  </data>
+  <data name="MensajeNoGuardaraCambios" xml:space="preserve">
+    <value>If you continue to lose your changes, Do you want to continue?</value>
+  </data>
+  <data name="ElTipoCambioPara" xml:space="preserve">
+    <value>The currency rate </value>
+  </data>
+  <data name="EnLaFecha" xml:space="preserve">
+    <value>on </value>
+  </data>
+  <data name="LaCotizacion" xml:space="preserve">
+    <value> the quotation </value>
+  </data>
+  <data name="MonedaExtranjera" xml:space="preserve">
+    <value> to forean currency </value>
+  </data>
+  <data name="MonedaSistema" xml:space="preserve">
+    <value> to system currency </value>
+  </data>
+  <data name="NoSeEncuentraDefinido" xml:space="preserve">
+    <value> is not defined. </value>
+  </data>
+  <data name="ContratoModificadoOtroUsuario" xml:space="preserve">
+    <value>Sales contract changed by another user.</value>
+  </data>
+  <data name="ErrorCitaSinAgenda" xml:space="preserve">
+    <value>Must select Type of schedule.</value>
+  </data>
+  <data name="ErrorCitaSinCliente" xml:space="preserve">
+    <value>Must enter a client code</value>
+  </data>
+  <data name="ErrorCitaSinFecha" xml:space="preserve">
+    <value>Must select a date for the appointment</value>
+  </data>
+  <data name="ErrorCitaSinHora" xml:space="preserve">
+    <value>Must select a hour for the appointment</value>
+  </data>
+  <data name="ErrorCitaSinRazon" xml:space="preserve">
+    <value>Must select a reason for the appointment</value>
+  </data>
+  <data name="ErrorCitaSinUnidad" xml:space="preserve">
+    <value>Must enter a Unit Code for de appointment</value>
+  </data>
+  <data name="ErrorAgendaAbrevLargo" xml:space="preserve">
+    <value>Abbreviation must be only 2 characters long.</value>
+  </data>
+  <data name="XMLFormularioNumeracionSeries" xml:space="preserve">
+    <value>\Formularios\NumeracionSeries.enUS.xml</value>
+  </data>
+  <data name="ErrorSeleccionarNumeracion" xml:space="preserve">
+    <value>You must select at least one numbering for add</value>
+  </data>
+  <data name="ErrorFaltaSucursalConfSucursal" xml:space="preserve">
+    <value>You must select a branch for create the settings </value>
+  </data>
+  <data name="ErrorYaExisteConfSucursal" xml:space="preserve">
+    <value>The selected brach has a setting up, for modify it please search and later changes the data that you want</value>
+  </data>
+  <data name="menuCitas" xml:space="preserve">
+    <value>Appointments</value>
+  </data>
+  <data name="XMLBusquedaCitas" xml:space="preserve">
+    <value>\Formularios\BusquedaCitas.enUS.xml</value>
+  </data>
+  <data name="TituloCargaPanelCitas" xml:space="preserve">
+    <value>Appointment Panel Criteria</value>
+  </data>
+  <data name="XMLFormularioCargaPanelCitas" xml:space="preserve">
+    <value>\Formularios\CargarPanelCitas.enUS.xml</value>
+  </data>
+  <data name="ErrorCargandoAgendaCita" xml:space="preserve">
+    <value>You must select the type of appointment schedule to show</value>
+  </data>
+  <data name="Mecanico" xml:space="preserve">
+    <value>Mechanic</value>
+  </data>
+  <data name="ErrorCitaFechaInvalida" xml:space="preserve">
+    <value>Incorrect date for the appointment</value>
+  </data>
+  <data name="ErrorCitaHoraInvalida" xml:space="preserve">
+    <value>Incorrect hour for the appointment</value>
+  </data>
+  <data name="ErrorCitaHoraInvalidaAgenda" xml:space="preserve">
+    <value>Incorrect hour, verify whit the branch schedule.</value>
+  </data>
+  <data name="ErrorCitaSinDisponible" xml:space="preserve">
+    <value>There is not available appointments for the selected day</value>
+  </data>
+  <data name="MensajeCitaActualizada" xml:space="preserve">
+    <value>The appointment has been updated.</value>
+  </data>
+  <data name="MensajeCitaContinuarSinArticulo" xml:space="preserve">
+    <value>Continue the appointment creation without articles.</value>
+  </data>
+  <data name="MensajeCitaCreada" xml:space="preserve">
+    <value>The appointment has been created </value>
+  </data>
+  <data name="MensajeCitaFechaAjustada" xml:space="preserve">
+    <value>The hour for the appointment has been adjusted to the schedule.</value>
+  </data>
+  <data name="ErrorConfSucursalFaltaHorario" xml:space="preserve">
+    <value>You must enter hour of opening and closing for the branch</value>
+  </data>
+  <data name="ErrorConfSucursalHoraInvalida" xml:space="preserve">
+    <value>The opening hour must be lower than  closing hour</value>
+  </data>
+  <data name="HeaderAgendaHora" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="MensajeCitaCampana1" xml:space="preserve">
+    <value>This vehicle</value>
+  </data>
+  <data name="MensajeCitaCampana2" xml:space="preserve">
+    <value>belong to campaign</value>
+  </data>
+  <data name="NoOTNoExiste" xml:space="preserve">
+    <value>The Work Order number entered does not exist in this Branch.</value>
+  </data>
+  <data name="XMLIncluirRepuestosOT" xml:space="preserve">
+    <value>\Formularios\IncluirRepuestosOT.enUS.xml</value>
+  </data>
+  <data name="XMLSeleccionaRepuestosOT" xml:space="preserve">
+    <value>\Formularios\SeleccionaRepuestosOT.enUS.xml</value>
+  </data>
+  <data name="TituloIncluirRepOT" xml:space="preserve">
+    <value>Include Parts to the Work Order</value>
+  </data>
+  <data name="ErrorEstadoServicio" xml:space="preserve">
+    <value>It is not possible to assign a collaborator to a service that is already started.</value>
+  </data>
+  <data name="ErrorNoEsServicio" xml:space="preserve">
+    <value>Unable to add a collaborator to an article that is not of type Service</value>
+  </data>
+  <data name="ValidacionTiempoEstandar" xml:space="preserve">
+    <value> not configured with a Standard Time.</value>
+  </data>
+  <data name="cliente" xml:space="preserve">
+    <value>Customer: </value>
+  </data>
+  <data name="codigo" xml:space="preserve">
+    <value>Code: </value>
+  </data>
+  <data name="NumCita" xml:space="preserve">
+    <value>Appointment #: </value>
+  </data>
+  <data name="vehiculo1" xml:space="preserve">
+    <value>Vehicle: </value>
+  </data>
+  <data name="Citas" xml:space="preserve">
+    <value>Appointments</value>
+  </data>
+  <data name="Cita" xml:space="preserve">
+    <value>Appointment</value>
+  </data>
+  <data name="ErrorMultiplesPlacas" xml:space="preserve">
+    <value>There are many units for the selected plate</value>
+  </data>
+  <data name="ErrorCitasAgendaOcupada" xml:space="preserve">
+    <value>The date and time in the schedule is already occupied</value>
+  </data>
+  <data name="ErrorCitasArticSinConfig" xml:space="preserve">
+    <value>The appointment article haven't been  configured</value>
+  </data>
+  <data name="ErrorCitaSinHoraInicioCierre" xml:space="preserve">
+    <value>The opening and closing time is not configured.</value>
+  </data>
+  <data name="MensajeCitaCampana3" xml:space="preserve">
+    <value>This vehicle is registered to the campaing </value>
+  </data>
+  <data name="MensajeCitaNoModifCliente" xml:space="preserve">
+    <value>You can't modify the client for the appointment</value>
+  </data>
+  <data name="MensajeCitaNoModifVehiculo" xml:space="preserve">
+    <value>You can't modify the vehicle for the appointment</value>
+  </data>
+  <data name="MensajeCitaReasignaCita" xml:space="preserve">
+    <value>You must re-asing the appointment </value>
+  </data>
+  <data name="ButtonAgregar" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="ButtonCargaMas" xml:space="preserve">
+    <value>Massive Load</value>
+  </data>
+  <data name="ButtonEliminar" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="LabelPTram" xml:space="preserve">
+    <value>By Process: </value>
+  </data>
+  <data name="LabelTrami" xml:space="preserve">
+    <value>Processed: </value>
+  </data>
+  <data name="CapEstado" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="SignoNumeral" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="CapVehiculos" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
+  <data name="CapInd" xml:space="preserve">
+    <value>Indice SN</value>
+  </data>
+  <data name="MensajeCargaMasiva" xml:space="preserve">
+    <value>Loaded data successfully. Was loaded {0} units to {1}.</value>
+  </data>
+  <data name="DeUnTotalDe" xml:space="preserve">
+    <value> a total of </value>
+  </data>
+  <data name="ProcesandoUnidadCargaMasiva" xml:space="preserve">
+    <value>Processing the Vehicle</value>
+  </data>
+  <data name="YaIngresoAlaCampana" xml:space="preserve">
+    <value>, was admitted to the campaign.</value>
+  </data>
+  <data name="PreguntaCampanaUnidad" xml:space="preserve">
+    <value>Is associated with the unit</value>
+  </data>
+  <data name="btnOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="TituloAgendaSuspencion" xml:space="preserve">
+    <value>Stay of Schedule</value>
+  </data>
+  <data name="XMLAgendaSuspension" xml:space="preserve">
+    <value>\Formularios\AgendaSuspension.enUS.xml</value>
+  </data>
+  <data name="ErrorAgendaExisteChoqueCita" xml:space="preserve">
+    <value>Exist one or some appointments for this hour, you can´t  register the suspension to the schedule</value>
+  </data>
+  <data name="MensajeCitaChoqueSusp1" xml:space="preserve">
+    <value>There is a conflict between the appointment and the suspension [ </value>
+  </data>
+  <data name="MensajeCitaChoqueSusp2" xml:space="preserve">
+    <value> ] for the schedule, would you like to continue.</value>
+  </data>
+  <data name="ErrorAgendaFechaHoraIgual" xml:space="preserve">
+    <value>The opening date and time, must be different to the ending date and time</value>
+  </data>
+  <data name="ErrorAgendaSuspesionFechas" xml:space="preserve">
+    <value>The date "To" must be greater than the date "From"</value>
+  </data>
+  <data name="ErrorAgendaSuspesionPorDia" xml:space="preserve">
+    <value>The schedule suspension must be configured by day.</value>
+  </data>
+  <data name="AsociadoCampana" xml:space="preserve">
+    <value>Associated with the campaign: </value>
+  </data>
+  <data name="CapProyecto" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="XMLReversarVehiculoUsadoCV" xml:space="preserve">
+    <value>\Formularios\VehiculoPorReversarContrato.enUS.xml</value>
+  </data>
+  <data name="rptCitasSucursalAgendaTec" xml:space="preserve">
+    <value>rptCitasSucursalAgendaTecEN.rpt</value>
+  </data>
+  <data name="XMLFormularioReporteCitas" xml:space="preserve">
+    <value>\Formularios\CitasXTipoFecha.enUS.xml</value>
+  </data>
+  <data name="ErrorRptCitaSinAgenda" xml:space="preserve">
+    <value>Must Select a schedule</value>
+  </data>
+  <data name="ErrorRptCitaSinFhaDesde" xml:space="preserve">
+    <value>Must enter a beginig date.</value>
+  </data>
+  <data name="ErrorRptCitaSinFhaHasta" xml:space="preserve">
+    <value>Must enter a ending date.</value>
+  </data>
+  <data name="ErrorRptCitaSinSucur" xml:space="preserve">
+    <value>Must Select a branch</value>
+  </data>
+  <data name="ErrorRptCitaSinAsesor" xml:space="preserve">
+    <value>Must enter the advisor Code</value>
+  </data>
+  <data name="ContinuaHaciendoCV" xml:space="preserve">
+    <value>Do you want to continue doing other Sales Contract ?</value>
+  </data>
+  <data name="ValidaOportunidadconContratoVent" xml:space="preserve">
+    <value>Sales Opportunity already has a Sales Contract associated</value>
+  </data>
+  <data name="ErrorRptCitaSinTecnico" xml:space="preserve">
+    <value>Must select a technician or check "all"</value>
+  </data>
+  <data name="SucursalDesdeOportunidad" xml:space="preserve">
+    <value>There is not an user code for this employee or not has a branch assigned</value>
+  </data>
+  <data name="ErrorCitaPeriodoBloqueado" xml:space="preserve">
+    <value>The accounting period is locked.</value>
+  </data>
+  <data name="ErrorCitaPeriodoCerrado" xml:space="preserve">
+    <value>The accounting period is closed.</value>
+  </data>
+  <data name="ErrorCitaPeriodoNoConfig" xml:space="preserve">
+    <value>Invalid Accounting Period.</value>
+  </data>
+  <data name="MensajeTransladoCostosCero" xml:space="preserve">
+    <value>You going to make a move with cost zero (0).  Unit  {0}, continue.</value>
+  </data>
+  <data name="DisponibilidadUnidad" xml:space="preserve">
+    <value> is reserved.</value>
+  </data>
+  <data name="TituloConfigNivAprob" xml:space="preserve">
+    <value>Approval Levels Configuration</value>
+  </data>
+  <data name="XMLConfigNivAprob" xml:space="preserve">
+    <value>\Formularios\MensajeriaAprobacion.enUS.xml</value>
+  </data>
+  <data name="XMLUsuariosXNivel" xml:space="preserve">
+    <value>\Formularios\UsuariosPorNivel.enUS.xml</value>
+  </data>
+  <data name="TituloEmbarqueVehiculos" xml:space="preserve">
+    <value>Boarding of Vehicles</value>
+  </data>
+  <data name="XMLEmbarqueVehiculos" xml:space="preserve">
+    <value>\Formularios\EmbarqueVehiculos.xml</value>
+  </data>
+  <data name="MensajeCitaChoqueFindeHorario" xml:space="preserve">
+    <value>The service time exceeds the time of closure of the branch, you want to continue with the creation of the appointment.</value>
+  </data>
+  <data name="UnidadenInvTaller" xml:space="preserve">
+    <value>  belongs to workshop inventory.</value>
+  </data>
+  <data name="XMLVehiculoArticuloVenta" xml:space="preserve">
+    <value>\Formularios\SeleccionArticulosVenta.enUS.xml</value>
+  </data>
+  <data name="XMLFomularioBuscarColor" xml:space="preserve">
+    <value>\Formularios\SeleccionColorVehiculo.enUS.xml</value>
+  </data>
+  <data name="Valor_Vehiculo_Nuevo" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Valor_Vehiculo_Usado" xml:space="preserve">
+    <value>Used</value>
+  </data>
+  <data name="Valor_Vehiculo_Ninguno" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="ButtonRecepcionVehiculo" xml:space="preserve">
+    <value>Recep.Vehi</value>
+  </data>
+  <data name="ButtonVisualizaFoto" xml:space="preserve">
+    <value>View Images</value>
+  </data>
+  <data name="InsuficienteSalidaInventario" xml:space="preserve">
+    <value> is insufficient to make out of Stock.</value>
+  </data>
+  <data name="ErrorRprtBodegasinBodega" xml:space="preserve">
+    <value>Please choose a WareHouse Process</value>
+  </data>
+  <data name="ErrorRptBodegasinSucur" xml:space="preserve">
+    <value>Branch without WareHouse Process</value>
+  </data>
+  <data name="ErrorRptBodegasParametros" xml:space="preserve">
+    <value>Some of the data entered is incorrect, please check and make the corresponding changes</value>
+  </data>
+  <data name="ErrorRptBodegassinOT" xml:space="preserve">
+    <value>Please type the Work Order number or press the "Check" of"All"</value>
+  </data>
+  <data name="rptBodegaProceso" xml:space="preserve">
+    <value>rptBodegaProcesoEN.rpt</value>
+  </data>
+  <data name="XMLFormularioReporteBodega" xml:space="preserve">
+    <value>\Formularios\ReporteBodegaProceso.enUS.xml</value>
+  </data>
+  <data name="MenuReporteBodegas" xml:space="preserve">
+    <value>WareHouse Process</value>
+  </data>
+  <data name="MensajeSolicitudCotizacionCreada" xml:space="preserve">
+    <value>The Quotations {0} has been created.</value>
+  </data>
+  <data name="Sederivadelaorden" xml:space="preserve">
+    <value>from Work Order</value>
+  </data>
+  <data name="TituloSolicitudOTEspecial" xml:space="preserve">
+    <value>Request WO Special</value>
+  </data>
+  <data name="XMLSolicitudOTEspecial" xml:space="preserve">
+    <value>\Formularios\SolicitudOrdenEspecial.enUS.xml</value>
+  </data>
+  <data name="MensajeActualiceSolicitudOT" xml:space="preserve">
+    <value>Update the request before continuing.</value>
+  </data>
+  <data name="CotizacionCerradaCancelada" xml:space="preserve">
+    <value>The Original Quotation  {0} is in Closed or Cancelled state.</value>
+  </data>
+  <data name="ErrorReporteSinNumeroOT" xml:space="preserve">
+    <value>Must enter a valid Work Order or Visit Number.</value>
+  </data>
+  <data name="rptOrdenesEspeciales" xml:space="preserve">
+    <value>rptOrdenesEspecialesEN.rpt</value>
+  </data>
+  <data name="XMLFormularioReporteOrdenEsp" xml:space="preserve">
+    <value>\Formularios\ReporteOrdenesEspeciales.enUS.xml</value>
+  </data>
+  <data name="TituloReporteTrazabilidadOT" xml:space="preserve">
+    <value>Trace Work Order</value>
+  </data>
+  <data name="MensajeSeleccionGastos" xml:space="preserve">
+    <value>Can´t delete expenses already exist in a quotation</value>
+  </data>
+  <data name="TituloCrearDocumentosGastosCostos" xml:space="preserve">
+    <value>Generate Documents</value>
+  </data>
+  <data name="XMLFormularioCrearDocumentoGastos" xml:space="preserve">
+    <value>\Formularios\CrearDocumentosGastoCostos.enUS.xml</value>
+  </data>
+  <data name="ErrorRptFactVehiVende" xml:space="preserve">
+    <value>Select Salesperson.</value>
+  </data>
+  <data name="ErrorRptFacVehifech" xml:space="preserve">
+    <value>Range Dates Incorrect, please Fix Dates.</value>
+  </data>
+  <data name="ErrorRptFacVehiFechas" xml:space="preserve">
+    <value>It's necessary have a dates of range.</value>
+  </data>
+  <data name="ErrorRptFacVehiMarca" xml:space="preserve">
+    <value>Select Brand.</value>
+  </data>
+  <data name="ErrorRptFacVehiRadioButton" xml:space="preserve">
+    <value>Select an option (Summary or Detail).</value>
+  </data>
+  <data name="ErrorRptFacVehiSeleSu" xml:space="preserve">
+    <value>Select Branch.</value>
+  </data>
+  <data name="ErrorRptFacVehiTipVeh" xml:space="preserve">
+    <value>Select Vehicle Type.</value>
+  </data>
+  <data name="NameValueNewFactVehi" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="NameValueUsedFactvehi" xml:space="preserve">
+    <value>Used</value>
+  </data>
+  <data name="rptFacturacionVehiculoPorVendedor" xml:space="preserve">
+    <value>rptFacVhVendedor.rpt</value>
+  </data>
+  <data name="rptFacturacionVehiculoPorMarca" xml:space="preserve">
+    <value>rptFactVhMarca.rpt</value>
+  </data>
+  <data name="MenuFacturacionVehiculos" xml:space="preserve">
+    <value>Car Billing</value>
+  </data>
+  <data name="XMLFormularioReporteFacturacionVeh" xml:space="preserve">
+    <value>\Formularios\ReporteFacturacionVehiculo.enUS.xml</value>
+  </data>
+  <data name="XMLFormularioBusquedaControlProceso" xml:space="preserve">
+    <value>\Formularios\BusquedaControlProceso.xml</value>
+  </data>
+  <data name="XMLFormularioControlCrearVisita" xml:space="preserve">
+    <value>\Formularios\ControlCrearVisita.xml</value>
+  </data>
+  <data name="XMLFormularioControlVisita" xml:space="preserve">
+    <value>\Formularios\ControlVisita.xml</value>
+  </data>
+  <data name="XMLFormularioOfertaVentas" xml:space="preserve">
+    <value>\Formularios\OfertaVentas.xml</value>
+  </data>
+  <data name="XMLFormularioVisitas" xml:space="preserve">
+    <value>\Formularios\Visita.xml</value>
+  </data>
+  <data name="ComentarioBonos" xml:space="preserve">
+    <value>Journal entry by Contract Bonus </value>
+  </data>
+  <data name="DescFinanciera" xml:space="preserve">
+    <value>Financial:</value>
+  </data>
+  <data name="DescMarca" xml:space="preserve">
+    <value>Make:</value>
+  </data>
+  <data name="DescNumContrato" xml:space="preserve">
+    <value>Contract Num:</value>
+  </data>
+  <data name="DescUnidad" xml:space="preserve">
+    <value>Unit:</value>
+  </data>
+  <data name="DocumentoAsientoBonos" xml:space="preserve">
+    <value>Journal Entry Bonus</value>
+  </data>
+  <data name="AsientoManoObra" xml:space="preserve">
+    <value>Registration labor</value>
+  </data>
+  <data name="ConfManoObraCliente" xml:space="preserve">
+    <value>Unable to create Labor Journal Entry, please check the configuration.</value>
+  </data>
+  <data name="CuentaDebitoNoDefinida" xml:space="preserve">
+    <value>Not defined Debit Account.</value>
+  </data>
+  <data name="AsientoNotaCreditoClientes" xml:space="preserve">
+    <value>Credit Note Customer: </value>
+  </data>
+  <data name="XMLConfiguracionDimensionesDMS" xml:space="preserve">
+    <value>\Formularios\ConfiguracionDimensionesContables.enUS.xml</value>
+  </data>
+  <data name="TituloConfiguracionDimensionesDMS" xml:space="preserve">
+    <value>DMS One Dimension Accounting Configuration</value>
+  </data>
+  <data name="AsientoOtrosGastos" xml:space="preserve">
+    <value>Registration Other Expenses</value>
+  </data>
+  <data name="ConfOtrosGastos" xml:space="preserve">
+    <value>Unable to create Other Expenses Journal Entry, please check the configuration.</value>
+  </data>
+  <data name="MensajeCreaDocGastoDocCreado" xml:space="preserve">
+    <value>Document created successfully.</value>
+  </data>
+  <data name="MensajeCreaDocGastoErrorCrear" xml:space="preserve">
+    <value>Failed to create the document.</value>
+  </data>
+  <data name="MensajeCreaDocGastoFaltaProveedor" xml:space="preserve">
+    <value>Must select a supplier for the invoice.</value>
+  </data>
+  <data name="MensajeCreaDocGastoMontoFactCero" xml:space="preserve">
+    <value>The amount for the document is zero. ¿Continue?</value>
+  </data>
+  <data name="MensajeIncluirGastosSinLineas" xml:space="preserve">
+    <value>There is no rows selected to create the document ¿Continue?</value>
+  </data>
+  <data name="MensajeIncluirGastosTieneDocumento" xml:space="preserve">
+    <value>Some selected row, already has a linked document.</value>
+  </data>
+  <data name="MensajeIncluirGastosTienePendientesdeActualizar" xml:space="preserve">
+    <value>Some rows have not been updated</value>
+  </data>
+  <data name="XMLIncluirGastosOT" xml:space="preserve">
+    <value>\Formularios\IncluirGastosOT.enUS.xml</value>
+  </data>
+  <data name="XMLSeleccionaGastosOT" xml:space="preserve">
+    <value>\Formularios\SeleccionaCostosOT.enUS.xml</value>
+  </data>
+  <data name="MensajeCreaDocGastoPerderaDatos" xml:space="preserve">
+    <value>Current data will be lost. ¿Continue?</value>
+  </data>
+  <data name="TituloCrearDocumentosGastosCostos1" xml:space="preserve">
+    <value>Create Documents</value>
+  </data>
+  <data name="TituloFormularioSeleccionGastosCostos" xml:space="preserve">
+    <value>Select Expenses or Costs</value>
+  </data>
+  <data name="TituloIncluirGastosOT" xml:space="preserve">
+    <value>Include Expenses or Cost to the Work Order</value>
+  </data>
+  <data name="XMLFormularioCrearDocumentoGastos2" xml:space="preserve">
+    <value>\Formularios\CrearDocumentosGastoCostos.enUS.xml</value>
+  </data>
+  <data name="MensajeCreaDocGastoFormularioSinActualizar" xml:space="preserve">
+    <value>The form status is Update Mode, press Update and continue with the document.</value>
+  </data>
+  <data name="MensajeIncluirGastosEstadoCotizacion" xml:space="preserve">
+    <value>The status of the quotation doesn't allow create documents</value>
+  </data>
+  <data name="MensajeIncluirGastosEstadoOt" xml:space="preserve">
+    <value>The status of the work Order doesn't allow create documents</value>
+  </data>
+  <data name="ErrorContratoVehiculoSinPagos" xml:space="preserve">
+    <value>The unit doesn't have ralated Incoming payments, can't be add to the Sales Contract.</value>
+  </data>
+  <data name="ComentarioComisiones" xml:space="preserve">
+    <value>Commissions by contracts </value>
+  </data>
+  <data name="ComentarioComisionesAseguradora" xml:space="preserve">
+    <value>Insurance Commission.</value>
+  </data>
+  <data name="ComentarioComisionesFinanciera" xml:space="preserve">
+    <value>Financial Commission.</value>
+  </data>
+  <data name="ComentarioOtrosCostos" xml:space="preserve">
+    <value>Other Costs of Sales Contract </value>
+  </data>
+  <data name="CapNomClienOT" xml:space="preserve">
+    <value>W.O/Veh Name</value>
+  </data>
+  <data name="CapCodClienOT" xml:space="preserve">
+    <value>W.O/Veh Customer</value>
+  </data>
+  <data name="XMLFormularioEntradaDeVehiculos" xml:space="preserve">
+    <value>\Formularios\EntradaDeVehiculos.enUS.xml</value>
+  </data>
+  <data name="XMLFormularioCostosDeImportacion" xml:space="preserve">
+    <value>\Formularios\CostosDeImportacion.xml</value>
+  </data>
+  <data name="XMLFormularioPedidoDeUnidades" xml:space="preserve">
+    <value>\Formularios\PedidoDeUnidades.enUS.xml</value>
+  </data>
+  <data name="MensajeCargandoMarcas" xml:space="preserve">
+    <value>Loading Brands</value>
+  </data>
+  <data name="MensajeMarcasDimensiones" xml:space="preserve">
+    <value>Brands must be added to the Dimensions</value>
+  </data>
+  <data name="MensajeSucursalTaller" xml:space="preserve">
+    <value>Select branch workshop</value>
+  </data>
+  <data name="MensajeTipoInventario" xml:space="preserve">
+    <value>Select the Type of Inventory</value>
+  </data>
+  <data name="XMLConfiguracionDimensionesDMSOT" xml:space="preserve">
+    <value>\Formularios\ConfiguracionDimensionesContablesOT.enUS.xml</value>
+  </data>
+  <data name="btn_GenFactInt" xml:space="preserve">
+    <value>Generate Int Inv</value>
+  </data>
+  <data name="ErrDifferentItemQuantity" xml:space="preserve">
+    <value>The quantity of the item {0} is different from the quantity processed.</value>
+  </data>
+  <data name="ErrDifferentItems" xml:space="preserve">
+    <value>The sale offer items are defferent to the sale order items.</value>
+  </data>
+  <data name="ERR_SalesOrderClosed" xml:space="preserve">
+    <value>Sales order is already closed</value>
+  </data>
+  <data name="TituloTipoOtInterna" xml:space="preserve">
+    <value>Internal W.O. Type</value>
+  </data>
+  <data name="TXT_FactIntGen" xml:space="preserve">
+    <value>The internal invoice number:{0} has been successfully generated.</value>
+  </data>
+  <data name="XMLTipoOtInterna" xml:space="preserve">
+    <value>\Formularios\TipoOtInterna.enUS.xml</value>
+  </data>
+  <data name="XMLFormularioCosteoDeEntradas" xml:space="preserve">
+    <value>\Formularios\CosteoDeEntradas.enUS.xml</value>
+  </data>
+  <data name="MensajeCosteoEntradasNoHayArticulos" xml:space="preserve">
+    <value>There is not articles in the document to assign the transaction type</value>
+  </data>
+  <data name="EstadoDocumentoAbierto" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="EstadoDocumentoCerrado" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ErrorCitaSinAsesor" xml:space="preserve">
+    <value>Must enter an advisor to de appointment.</value>
+  </data>
+  <data name="ErrorTipoCambioDoc" xml:space="preserve">
+    <value>The document Rate for this date is not updated.</value>
+  </data>
+  <data name="MensajeCosteoFacturaCreada" xml:space="preserve">
+    <value>Purchase Invoice successfully created.</value>
+  </data>
+  <data name="ButtonSolicitaOTEsp" xml:space="preserve">
+    <value>Request WO Special</value>
+  </data>
+  <data name="TituloSolicitaOTEspecial" xml:space="preserve">
+    <value>Special W.O. Request</value>
+  </data>
+  <data name="TituloTipoOtInterna1" xml:space="preserve">
+    <value>Internal W.O. Type</value>
+  </data>
+  <data name="XMLFormSolicitaOTEsp" xml:space="preserve">
+    <value>\Formularios\SolicitaOTEsp.enUS.xml</value>
+  </data>
+  <data name="ErrChooseOTEspType" xml:space="preserve">
+    <value>You must choose a special WO type.</value>
+  </data>
+  <data name="ErrSolOTEsp" xml:space="preserve">
+    <value>There have been an error creating the request for special WO.</value>
+  </data>
+  <data name="MsgSolOtEspSuccess" xml:space="preserve">
+    <value>Request created successfully.</value>
+  </data>
+  <data name="MensajeOrdenTipo" xml:space="preserve">
+    <value>A(n) {0} Work Order</value>
+  </data>
+  <data name="MensajeSolicitada" xml:space="preserve">
+    <value>has been requested.</value>
+  </data>
+  <data name="MensajeSolicitudSatisfactoria" xml:space="preserve">
+    <value>The special WO request have been created successfully.</value>
+  </data>
+  <data name="Cotizaciontxt" xml:space="preserve">
+    <value>Quotation</value>
+  </data>
+  <data name="MensajeFavorRevisar" xml:space="preserve">
+    <value>Please Verify</value>
+  </data>
+  <data name="Referencia" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="btn_SolOTEsp" xml:space="preserve">
+    <value>Special WO Request</value>
+  </data>
+  <data name="ErrFormQuotationUpdateMode" xml:space="preserve">
+    <value>You must update the information in the sales offer to generate the special WO request.</value>
+  </data>
+  <data name="ERR_SalesOferClosed" xml:space="preserve">
+    <value>Sales offer is already closed</value>
+  </data>
+  <data name="MensajeNoCreaOTEspecialesPendienteBodega" xml:space="preserve">
+    <value>Unable to create Special WO, there are lines in the quotation with status 'Warehouse Pending'</value>
+  </data>
+  <data name="MensajeNoCreaOTEspecialesPendienteTraslado" xml:space="preserve">
+    <value>Unable to create Special WO, there are pending transfer lines in the quotation .</value>
+  </data>
+  <data name="Txt_FacInt" xml:space="preserve">
+    <value>Internal Invoice</value>
+  </data>
+  <data name="MensajeCosteoEntradaCargaMontos" xml:space="preserve">
+    <value>Load costs from the Vehicule Entrance</value>
+  </data>
+  <data name="ErrorValidacionKilometraje" xml:space="preserve">
+    <value>The indicated mileage is less than you have in the master data.</value>
+  </data>
+  <data name="DescripcionMonedaLocal" xml:space="preserve">
+    <value>Moneda Local</value>
+  </data>
+  <data name="DescripcionMonedaSistema" xml:space="preserve">
+    <value>Moneda Sistema</value>
+  </data>
+  <data name="DescripcionMonedaSocio" xml:space="preserve">
+    <value>Moneda SN</value>
+  </data>
+  <data name="ErrorAgendaExistenCitas" xml:space="preserve">
+    <value>Can't lock the schedule, some appointments are linked</value>
+  </data>
+  <data name="ErrorAgendaFechaInferior1" xml:space="preserve">
+    <value>The date must be greater than the start date</value>
+  </data>
+  <data name="ErrorAgendaHoraInferior" xml:space="preserve">
+    <value>The time must be greater than the start time</value>
+  </data>
+  <data name="ErrorAgendaSinAgenda" xml:space="preserve">
+    <value>Select an schedule</value>
+  </data>
+  <data name="ErrorAgendaSinFecha" xml:space="preserve">
+    <value>Enter all the dates.</value>
+  </data>
+  <data name="ErrorAgendaSinHora" xml:space="preserve">
+    <value>Enter all de hours</value>
+  </data>
+  <data name="ErrorAgendaSinSucursal" xml:space="preserve">
+    <value>Select a branch.</value>
+  </data>
+  <data name="ErrorSeleccionarColor" xml:space="preserve">
+    <value>Must Select a color.</value>
+  </data>
+  <data name="ErrorSeleccionarMarcaComercial" xml:space="preserve">
+    <value>Must select a comertial brand to add.</value>
+  </data>
+  <data name="MensajeContratoValorRamv" xml:space="preserve">
+    <value>does not have a RAMV value</value>
+  </data>
+  <data name="MensajeCosteoEntradasFacturaCreada" xml:space="preserve">
+    <value>Invoice created successfully</value>
+  </data>
+  <data name="MensajeCosteoEntradasMonedaProv" xml:space="preserve">
+    <value>The document currency and then client currency can't be different</value>
+  </data>
+  <data name="MensajeCosteoEntradasProrrateoCero" xml:space="preserve">
+    <value>The amount to split is zero.</value>
+  </data>
+  <data name="MensajeCosteoEntradasSinFechaCont" xml:space="preserve">
+    <value>Lack of posting date</value>
+  </data>
+  <data name="MensajeCosteoEntradasSinFechaDoc" xml:space="preserve">
+    <value>Lack of document date</value>
+  </data>
+  <data name="MensajeCosteoEntradasSinFechaVence" xml:space="preserve">
+    <value>Lack of due date</value>
+  </data>
+  <data name="MensajeCosteoEntradasSinLineas" xml:space="preserve">
+    <value>There is no lines to created the document</value>
+  </data>
+  <data name="MensajeCosteoFacturaCreada1" xml:space="preserve">
+    <value>A/R Invoice created successfully.</value>
+  </data>
+  <data name="MensajeCosteosEntradaSinCuenta" xml:space="preserve">
+    <value>The account code is missing in some line.</value>
+  </data>
+  <data name="MensajeCosteosEntradaSinTransaccion" xml:space="preserve">
+    <value>The transaction code is missing in some line.</value>
+  </data>
+  <data name="MensajeEntradaUnidadesCreadas" xml:space="preserve">
+    <value>Units sucessfully created.</value>
+  </data>
+  <data name="MensajePedidoUnidadesCreado" xml:space="preserve">
+    <value>The vehicle factory order, succesfully created</value>
+  </data>
+  <data name="MensajePedidoUnidadesSinLineas" xml:space="preserve">
+    <value>Add a 'Purchase Line' to create the document.</value>
+  </data>
+  <data name="MonedasTodas" xml:space="preserve">
+    <value>##</value>
+  </data>
+  <data name="MensajeEntradaVehiculosBorrarLinEnt" xml:space="preserve">
+    <value>Will delete vehicle purchase line, continue?</value>
+  </data>
+  <data name="MensajeEntradaVehiculosBorrarLinVeh" xml:space="preserve">
+    <value>Will delete Unit line, continue?</value>
+  </data>
+  <data name="MensajePedidoUnidadesBorrarLinea" xml:space="preserve">
+    <value>Will erase a Purchase Line, continue?</value>
+  </data>
+  <data name="MensajePedidoUnidadesNoTieneProveedor" xml:space="preserve">
+    <value>Enter the a Vendor for the Vehicle Purchase Order.</value>
+  </data>
+  <data name="MenuComprasEImportacion" xml:space="preserve">
+    <value>Purchase of Vehicles</value>
+  </data>
+  <data name="SubMenuCosteoEntrada" xml:space="preserve">
+    <value>Costing Vehicle Entries</value>
+  </data>
+  <data name="SubMenuEntradaVehi" xml:space="preserve">
+    <value>Vehicle Entry Registry</value>
+  </data>
+  <data name="SubMenuPedidoVehi" xml:space="preserve">
+    <value>Vehicle Factory Order</value>
+  </data>
+  <data name="TXTProcessItemsExternalService" xml:space="preserve">
+    <value>Processing WO {0} of {1}.</value>
+  </data>
+  <data name="Sucursal" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="CantidadNoDisminuye" xml:space="preserve">
+    <value>You can't decrease quantity due to don't have permissions to the item: </value>
+  </data>
+  <data name="ErrorValidacionHorasServicio" xml:space="preserve">
+    <value>The Hours of Service quoted are lower than those recorded in the Master Car.</value>
+  </data>
+  <data name="MensajeCosteoEntradasSinImpuesto" xml:space="preserve">
+    <value>Enter a tax code for each row.</value>
+  </data>
+  <data name="MensajeCosteoEntradasEliminarLinea" xml:space="preserve">
+    <value>Delete a line from the document, Continue?</value>
+  </data>
+  <data name="MensajeEntradaVehiculosSinLinea" xml:space="preserve">
+    <value>Can not create an  Vehicle Goods Receipt document without 'Vehicle Purchase Order' rows in it.</value>
+  </data>
+  <data name="MensajePedidoUnidadesCancelarPedido" xml:space="preserve">
+    <value>The Vehicle  Purchase Order will be cancelled, Continue?</value>
+  </data>
+  <data name="MensajePedidoUnidadesNoCancelarPedido" xml:space="preserve">
+    <value>The Vehicle  Purchase Order is linked to some Vehicle Goods Receipt document, can not be cancelled</value>
+  </data>
+  <data name="MensajePedidoUnidadesSinFechaPedido" xml:space="preserve">
+    <value>Enter a date to the Factory Order.</value>
+  </data>
+  <data name="MensajeCosteoEntradasDocumentosAsociados" xml:space="preserve">
+    <value>The Costing Document cannot be canceled, it has related documents already created.</value>
+  </data>
+  <data name="MensajeEntradaVehiculosNoEliminaCV" xml:space="preserve">
+    <value>The Vehicle Goods Receipt can't be canceled, some unit already belong to a sales contract.</value>
+  </data>
+  <data name="MensajeEntradaVehiculosNoEliminarCosteoAsoc" xml:space="preserve">
+    <value>The  Vehicle Goods Receipt can not be canceled, some unit has related costing documents.</value>
+  </data>
+  <data name="MensajeEntradaVehiculosNoEliminarPorCosteo" xml:space="preserve">
+    <value>Some Units has related Costing Vehicles Goods Receipt documents.</value>
+  </data>
+  <data name="MensajeEntradaVehiculosNoPuedeEliminar" xml:space="preserve">
+    <value>The  Vehicle Goods Receipt can not be deleted, is related  to some 'Costing Vehicle Goods Receipt' document.</value>
+  </data>
+  <data name="MensajeCosteoEntradasTieneBorrador" xml:space="preserve">
+    <value>A draft for the document it's been already created</value>
+  </data>
+  <data name="MensajeCosteoEntradasTieneFactura" xml:space="preserve">
+    <value>An A/R invoice it's been already created.</value>
+  </data>
+  <data name="TodosLosCampos" xml:space="preserve">
+    <value>todos</value>
+  </data>
+  <data name="TodosLosCamposNum" xml:space="preserve">
+    <value>-2</value>
+  </data>
+  <data name="ErrorLongitudVIN" xml:space="preserve">
+    <value>The VIN must be 17 characters</value>
+  </data>
+  <data name="MensajeCosteoEntradasSinProveedor" xml:space="preserve">
+    <value>Select a client for the document.</value>
+  </data>
+  <data name="Todos" xml:space="preserve">
+    <value>ALL</value>
+  </data>
+  <data name="MensajeCosteoEntradasCancelarDoc" xml:space="preserve">
+    <value>The document will be canceled, continue?</value>
+  </data>
+  <data name="MensajeEntradaDeVehiculosCancelarEntrada" xml:space="preserve">
+    <value>The vehicle goods receipt will be cancelled, this would delete the vehicles, continue?</value>
+  </data>
+  <data name="MensajeEntradaVehiculoExisteMotor" xml:space="preserve">
+    <value>The Engine Number already exist for the Unit: </value>
+  </data>
+  <data name="MensajeEntradaVehiculoSeleccioneInv" xml:space="preserve">
+    <value>Select a Vehicle Type to unit:  </value>
+  </data>
+  <data name="MensajeEntradaVehiculoSinDispobilidad" xml:space="preserve">
+    <value>Select a availability to the unit:  </value>
+  </data>
+  <data name="MensajeEntradaVehiculoSinMarcaEstilo" xml:space="preserve">
+    <value>Select a Make and Style for Unit:  </value>
+  </data>
+  <data name="MensajeEntradaVehiculosNoHayVeh" xml:space="preserve">
+    <value>There are not Units to create.</value>
+  </data>
+  <data name="MensajeEntradaVehiculosVinExiste" xml:space="preserve">
+    <value>The VIN already exist, for Unit:  </value>
+  </data>
+  <data name="MensajeEntradaVehiculosYaCreados" xml:space="preserve">
+    <value>The Units has been already created</value>
+  </data>
+  <data name="MensajeEntradaVehiculosYaExisteUnidad" xml:space="preserve">
+    <value>The Unit Code already exist</value>
+  </data>
+  <data name="txtVendFactVehi" xml:space="preserve">
+    <value>txtVend</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>Lack of posting date</value>
+  </data>
+  <data name="XMLFormularioReporteOrdenesDeTrabajoPorEstado" xml:space="preserve">
+    <value>\Formularios\OrdenesDeTrabajoPorEstado.enUS.xml</value>
+  </data>
+  <data name="MenuOrdenesdeTrabajoPorEstado" xml:space="preserve">
+    <value>Work Orders by State</value>
+  </data>
+  <data name="rptOrdenesTrababajoEstado" xml:space="preserve">
+    <value>rptOTxEstadoEN.rpt</value>
+  </data>
+  <data name="TituloOrdenesTrabajoEstado" xml:space="preserve">
+    <value>Work Orders by State</value>
+  </data>
+  <data name="RptOTxEValidaFechaLimite" xml:space="preserve">
+    <value>Finish Date not stated</value>
+  </data>
+  <data name="RptOTxEValidaFechaInicio" xml:space="preserve">
+    <value>Start Date not stated</value>
+  </data>
+  <data name="RptOTxEValidaEstado" xml:space="preserve">
+    <value>State was not selected</value>
+  </data>
+  <data name="RptOTxEValidaSucursal" xml:space="preserve">
+    <value>Branch is not selected</value>
+  </data>
+  <data name="RptOTxEValidaTipoOT" xml:space="preserve">
+    <value>No any Work Order type was selected</value>
+  </data>
+  <data name="CambiarLineasOrdenDeVenta" xml:space="preserve">
+    <value>You can not change the lines of an Order of Sale</value>
+  </data>
+  <data name="CapRetornoTaller" xml:space="preserve">
+    <value>Return Workshop</value>
+  </data>
+  <data name="ErrorEliminarVehiculo" xml:space="preserve">
+    <value>The unit "{0}" can't be deleted because it has related transactions.</value>
+  </data>
+  <data name="ErrorCambioTipoLineaCot" xml:space="preserve">
+    <value>You can't change the Type to a line that has already been processed.</value>
+  </data>
+  <data name="ErrorValidacionAUS" xml:space="preserve">
+    <value>Can not Add the used car because it has no year</value>
+  </data>
+  <data name="ErrorTipoInventarioVenta" xml:space="preserve">
+    <value>Inventory - {0} - of the unit {1} is not selected for sale</value>
+  </data>
+  <data name="XMLFormularioReporteHistorialVehiculo" xml:space="preserve">
+    <value>\Formularios\HistorialVehiculo.enUS.xml</value>
+  </data>
+  <data name="MenuReporteHistorialVehiculo" xml:space="preserve">
+    <value>Vehicle History</value>
+  </data>
+  <data name="RptHVSinCodUnid" xml:space="preserve">
+    <value>No drive is selected</value>
+  </data>
+  <data name="rptHistorialVehiculoResumido" xml:space="preserve">
+    <value>rptHistorialResumidoInternoEN</value>
+  </data>
+  <data name="TituloRPTHistorialVehiculo" xml:space="preserve">
+    <value>Detailed Vehicle History</value>
+  </data>
+  <data name="ErrorEliminaLineaConOT" xml:space="preserve">
+    <value>You can't delete this line because it belongs to the W.O. number {0}</value>
+  </data>
+  <data name="MensajeCitaTamanoObs" xml:space="preserve">
+    <value>The remarks will be fixed for the quotation. Size too big.</value>
+  </data>
+  <data name="MensajeCitaBorrarPaquetedeCita" xml:space="preserve">
+    <value>Removing a sales BOM will also remove all its components items, continue?</value>
+  </data>
+  <data name="MensajeCitaLigadaConOrderTrabajo" xml:space="preserve">
+    <value>The appointment is already related to a Work Order, can't be cancelled</value>
+  </data>
+  <data name="XMLFormularioReporteFacturacionOTInterna" xml:space="preserve">
+    <value>\Formularios\ReporteFacturacionFI.enUS.xml</value>
+  </data>
+  <data name="MenuReporteFacturacionInterna" xml:space="preserve">
+    <value>Internal Invoicing</value>
+  </data>
+  <data name="rptFacturacionInternaResumido" xml:space="preserve">
+    <value>rptFacturacionOTInternaREN</value>
+  </data>
+  <data name="TituloRPFacturacionInternaResumido" xml:space="preserve">
+    <value>Summarized Internal Invoicing</value>
+  </data>
+  <data name="TituloRPTHistorialVehiculoResumido" xml:space="preserve">
+    <value>Summarized Vehicle History</value>
+  </data>
+  <data name="btn_AsMul" xml:space="preserve">
+    <value>Multiple Assign</value>
+  </data>
+  <data name="ErrAsigMult" xml:space="preserve">
+    <value>A problem has occurred with the assignment.</value>
+  </data>
+  <data name="ErrChooseTechnician" xml:space="preserve">
+    <value>You must select a technician.</value>
+  </data>
+  <data name="ErrNoWorksToAssign" xml:space="preserve">
+    <value>There is not services added to the quotation.</value>
+  </data>
+  <data name="MensajeNoHayRegistros" xml:space="preserve">
+    <value>There are no records available.</value>
+  </data>
+  <data name="MsjAsigMultSuccess" xml:space="preserve">
+    <value>Process completed successfully.</value>
+  </data>
+  <data name="TituloAsigancionMultiple" xml:space="preserve">
+    <value>Activities Assignment</value>
+  </data>
+  <data name="XMLFormAsignacionMultiple" xml:space="preserve">
+    <value>\Formularios\AsignacionMultipleTareas.enUS.xml</value>
+  </data>
+  <data name="TituloOT" xml:space="preserve">
+    <value>Work Order</value>
+  </data>
+  <data name="xmlOT" xml:space="preserve">
+    <value>\Formularios\OrdenTrabajo.enUS.xml</value>
+  </data>
+  <data name="AsientoServiciosExternos" xml:space="preserve">
+    <value>Registration Sublets, Invoice Num: </value>
+  </data>
+  <data name="CuentaCreditoNoDefinida" xml:space="preserve">
+    <value>Not defined Credit Account.</value>
+  </data>
+  <data name="strCodeConverFechaSql" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="XMLFormularioReporteSExOT" xml:space="preserve">
+    <value>\Formularios\ReporteSExOT.enUS.xml</value>
+  </data>
+  <data name="MenuReporteSExOT" xml:space="preserve">
+    <value>Sublets by Work Order</value>
+  </data>
+  <data name="RptSExOTValidaOT" xml:space="preserve">
+    <value>Number of WO was not found</value>
+  </data>
+  <data name="RptNoOT" xml:space="preserve">
+    <value>WO not found: </value>
+  </data>
+  <data name="RptSExOT" xml:space="preserve">
+    <value>rptServiciosExternosXOrdenEN</value>
+  </data>
+  <data name="rptFacturacionOrdenesTrabajoResumido" xml:space="preserve">
+    <value>rptFacturacionOTResumidoEN.rpt</value>
+  </data>
+  <data name="TituloRPFacturacionOrdenesTrabajoResumido" xml:space="preserve">
+    <value>Summarized Work Order Invoicing</value>
+  </data>
+  <data name="TituloRPFacturacionOrdenesTrabajoDetallado" xml:space="preserve">
+    <value>Detailed Work Order Invoicing</value>
+  </data>
+  <data name="XMLFormularioReporteFacturacionOrdenesTrabajo" xml:space="preserve">
+    <value>\Formularios\ReporteFacturacionOT.enUS.xml</value>
+  </data>
+  <data name="MenuReporteFacturacionOrdenesTrabajo" xml:space="preserve">
+    <value>Work Order Invoicing</value>
+  </data>
+  <data name="TituloRPFacturacionInternaDetallado" xml:space="preserve">
+    <value>Detailed Internal Invoicing</value>
+  </data>
+  <data name="rptFacturacionInternaDetallado" xml:space="preserve">
+    <value>rptFacturacionOTInternaDEN</value>
+  </data>
+  <data name="ErrorConfigPresupuestos" xml:space="preserve">
+    <value>There was an error , please check the budgets settings.</value>
+  </data>
+  <data name="UnidadTiempoHoraText" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="UnidadTiempoHoraValue" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="UnidadTiempoMinutoText" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="UnidadTiempoMinutoValue" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="XMLFomularioListaPrecios" xml:space="preserve">
+    <value>\Formularios\SeleccionListaPrecios.enUS.xml</value>
+  </data>
+  <data name="ErrorCitaSinSucursal" xml:space="preserve">
+    <value>Must select a branch.</value>
+  </data>
+  <data name="DescripcionNotasCreditoReversion" xml:space="preserve">
+    <value>Reversal Credit Memo</value>
+  </data>
+  <data name="CapFechaDeCreaOT" xml:space="preserve">
+    <value>Date of W.O</value>
+  </data>
+  <data name="CapHoraDeCreaOT" xml:space="preserve">
+    <value>Time of W.O</value>
+  </data>
+  <data name="UnidaYaExiste" xml:space="preserve">
+    <value>This Unit Code is in another vehicle</value>
+  </data>
+  <data name="ErrNoRowsSelected" xml:space="preserve">
+    <value>There is no row selected.</value>
+  </data>
+  <data name="ErrorDesaprobarNoAprobados" xml:space="preserve">
+    <value>You can not disaprove the item {0} because this has not been previously approved or is already disapproved.</value>
+  </data>
+  <data name="TXTComentCreacionCV" xml:space="preserve">
+    <value>Sales Contract Creation</value>
+  </data>
+  <data name="ErrorNoComentarios" xml:space="preserve">
+    <value>You must add a review</value>
+  </data>
+  <data name="TXTContratoAprobado" xml:space="preserve">
+    <value>Contract has been approved from level "{0}" to level "{1}".</value>
+  </data>
+  <data name="TXTContratoCancelado" xml:space="preserve">
+    <value>Contract has been Cancelled.</value>
+  </data>
+  <data name="TXTContratoFacturado" xml:space="preserve">
+    <value>Contract has been Invoiced.</value>
+  </data>
+  <data name="TXTContratoRechazado" xml:space="preserve">
+    <value>Contract rejected - {0}</value>
+  </data>
+  <data name="XMLFomularioComentarioHistorial" xml:space="preserve">
+    <value>\Formularios\ComentarioHistCV.enUS.xml</value>
+  </data>
+  <data name="TXTContratoReversado" xml:space="preserve">
+    <value>Reversed Contract.</value>
+  </data>
+  <data name="TXTRechazarContratos" xml:space="preserve">
+    <value>Reject Contract</value>
+  </data>
+  <data name="TXTcomentarios" xml:space="preserve">
+    <value>Aditional Review:</value>
+  </data>
+  <data name="TXTObservaciones" xml:space="preserve">
+    <value>Remarks:</value>
+  </data>
+  <data name="MensajeCancelarOV" xml:space="preserve">
+    <value>A Sale Order cannot be canceled while it is linked to a W.O.</value>
+  </data>
+  <data name="MSG_NoDesReserva" xml:space="preserve">
+    <value>You can not change this status, to change this, you must go to the vehicle master Data.</value>
+  </data>
+  <data name="ComentarioFinanciamientoCV" xml:space="preserve">
+    <value>External Financing by {0} per {1} {2}</value>
+  </data>
+  <data name="ErrorVendedorInactivo" xml:space="preserve">
+    <value>Inactive Employed.</value>
+  </data>
+  <data name="QueryCosteos" xml:space="preserve">
+    <value>select Sum(QTY) Suma from 
+	(SELECT        count(1) as QTY
+	FROM            [@SCGD_VEHICULO]  WITH (nolock)
+	WHERE        (U_Cod_Unid = '{0}') AND (U_SALINID &lt;&gt; 0) AND (U_SALINID IS NOT NULL)
+UNION all
+	SELECT        count(1)
+	FROM            [@SCGD_VEHICULO]  AS [@SCGD_VEHICULO_1]  WITH (nolock)
+	WHERE        (U_Cod_Unid = '{0}') AND (U_SALINIC &lt;&gt; 0) AND (U_SALINIC IS NOT NULL)
+Union all
+	SELECT        Count(1)
+	FROM            JDT1 AS JDT1_1 WITH (nolock) INNER JOIN
+							 OJDT AS OJDT_1 WITH (nolock) ON JDT1_1.TransId = OJDT_1.TransId LEFT OUTER JOIN
+							 ORTT AS ORTT_1 WITH (nolock) ON OJDT_1.RefDate = ORTT_1.RateDate AND (ORTT_1.Currency = JDT1_1.FCCurrency OR
+							 (JDT1_1.FCCurrency IS NULL OR
+							 JDT1_1.FCCurrency = '{3}') AND ORTT_1.Currency = '{1}')
+	WHERE        (JDT1_1.U_SCGD_Cod_Unidad = '{0}') AND (JDT1_1.SYSDeb &lt;&gt; 0) AND (OJDT_1.TransId NOT IN
+								 (SELECT        L.U_NoAsient
+								   FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+															 [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL)) AND 
+							 (OJDT_1.RefDate &lt;= '{4}') AND (JDT1_1.U_SCGD_Cod_Tran IN
+								 (SELECT        Code
+								   FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_7])) OR
+							 (JDT1_1.U_SCGD_Cod_Unidad = '{0}') AND (OJDT_1.TransId NOT IN
+								 (SELECT        L.U_NoAsient
+								   FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+															 [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL)) AND 
+							 (OJDT_1.RefDate &lt;= '{4}') AND (JDT1_1.U_SCGD_Cod_Tran IN
+								 (SELECT        Code
+								   FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_5])) AND (JDT1_1.FCDebit &lt;&gt; 0) OR
+							 (JDT1_1.U_SCGD_Cod_Unidad = '{0}') AND (OJDT_1.TransId NOT IN
+								 (SELECT        L.U_NoAsient
+								   FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+															 [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL)) AND 
+							 (OJDT_1.RefDate &lt;= '{4}') AND (JDT1_1.U_SCGD_Cod_Tran IN
+								 (SELECT        Code
+								   FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_4])) AND (JDT1_1.Debit &lt;&gt; 0)
+UNION all
+	SELECT        count(1)
+	FROM            JDT1 AS JDT1 WITH (nolock) INNER JOIN
+							 OJDT AS OJDT WITH (nolock) ON JDT1.TransId = OJDT.TransId LEFT OUTER JOIN
+							 ORTT AS ORTT WITH (nolock) ON OJDT.RefDate = ORTT.RateDate AND (ORTT.Currency = JDT1.FCCurrency OR
+							 (JDT1.FCCurrency IS NULL OR
+							 JDT1.FCCurrency = '{2}') AND ORTT.Currency = '{1}')
+	WHERE        (JDT1.U_SCGD_Cod_Unidad = '{0}') AND (JDT1.SYSCred &lt;&gt; 0) AND (OJDT.TransId NOT IN
+								 (SELECT        L.U_NoAsient
+								   FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+															 [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL)) AND 
+							 (OJDT.RefDate &lt;= '{4}') AND (JDT1.U_SCGD_Cod_Tran IN
+								 (SELECT        Code
+								   FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_3])) OR
+							 (JDT1.U_SCGD_Cod_Unidad = '{0}') AND (OJDT.TransId NOT IN
+								 (SELECT        L.U_NoAsient
+								   FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+															 [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL)) AND 
+							 (OJDT.RefDate &lt;= '{4}') AND (JDT1.U_SCGD_Cod_Tran IN
+								 (SELECT        Code
+								   FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_2])) AND (JDT1.FCCredit &lt;&gt; 0) OR
+							 (JDT1.U_SCGD_Cod_Unidad = '{0}') AND (OJDT.TransId NOT IN
+								 (SELECT        L.U_NoAsient
+								   FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+															 [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL)) AND 
+							 (OJDT.RefDate &lt;= '{4}') AND (JDT1.U_SCGD_Cod_Tran IN
+								 (SELECT        Code
+								   FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_1])) AND (JDT1.Credit &lt;&gt; 0)
+
+Union all
+	SELECT        count(1)
+	FROM            PCH1 WITH (nolock) INNER JOIN
+							 OPCH WITH (nolock) ON PCH1.DocEntry = OPCH.DocEntry INNER JOIN
+							 OJDT  WITH (nolock) ON OPCH.TransId = OJDT.TransId
+	WHERE        (PCH1.U_SCGD_Cod_Unid = '{0}') AND (OPCH.DocType = '{5}' OR
+                OPCH.DocType = '{6}') AND (OJDT.TransId NOT IN
+                    (SELECT        L.U_NoAsient
+                    FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+                                                [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL)) AND 
+                (OPCH.DocDate &lt;= '{4}') AND (PCH1.U_SCGD_Cod_Tran IN
+                    (SELECT        Code
+                    FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_1]))
+Union all
+	SELECT        count(1)
+	FROM            RPC1 WITH (nolock) INNER JOIN
+							 ORPC WITH (nolock) ON RPC1.DocEntry = ORPC.DocEntry AND RPC1.TrgetEntry IS NULL INNER JOIN
+							 OJDT WITH (nolock) ON ORPC.TransId = OJDT.TransId
+	WHERE        (RPC1.U_SCGD_Cod_Unid = '{0}') AND (ORPC.DocType = '{5}' OR
+							 ORPC.DocType = '{6}') AND (OJDT.TransId NOT IN
+								 (SELECT        L.U_NoAsient
+								   FROM            [@SCGD_GRLINES] AS L WITH (nolock) INNER JOIN
+															 [@SCGD_GOODRECEIVE] AS GR WITH (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL)) AND 
+							 (ORPC.DocDate &lt;= '{4}') AND (RPC1.U_SCGD_Cod_Tran IN
+								 (SELECT        Code
+								   FROM            [@SCGD_TRAN_COMP] AS [@SCGD_TRAN_COMP_1]))
+Union all
+	Select Count(1) 
+	from INV1 with (nolock) 
+		inner join OINV with (nolock)
+			on INV1.DocEntry = OINV.DocEntry and TrgetEntry is null 
+		inner join OJDT with (nolock) 
+			on OINV.TransID = OJDT.TransId 
+	where OINV.U_SCGD_Cod_Unidad = '{0}' and OINV.DocType = 'S' and OJDT.TransID not in 
+	(Select U_NoAsient from dbo.[@SCGD_GRLINES] L with (nolock) 
+		inner join dbo.[@SCGD_GOODRECEIVE] GR with (nolock) on GR.DocEntry = L.DocEntry and GR.U_unidad = '{0}' and U_NoAsient is not null)  and 
+			OINV.DocDate &lt;= '{4}'
+UNION all
+	SELECT        Count(1)
+	FROM            OIGE with (nolock) INNER JOIN
+							 IGE1 with (nolock) ON IGE1.DocEntry = OIGE.DocEntry INNER JOIN
+							 OJDT with (nolock) ON OIGE.TransId = OJDT.TransId
+	WHERE        (OIGE.U_SCGD_Procesad = 1) AND (OIGE.U_SCGD_Cod_Unidad = '{0}') AND (OIGE.U_SCGD_Num_Vehiculo IS NOT NULL) AND 
+							 (OJDT.RefDate &lt;= '{4}') AND (OJDT.TransId NOT IN
+								 (SELECT        L.U_NoAsient
+								   FROM            [@SCGD_GRLINES] AS L with (nolock) INNER JOIN
+															 [@SCGD_GOODRECEIVE] AS GR with (nolock) ON GR.DocEntry = L.DocEntry AND GR.U_Unidad = '{0}' AND L.U_NoAsient IS NOT NULL))
+	GROUP BY OJDT.TransId, OIGE.DocEntry, OIGE.DocCur, OJDT.LocTotal, OIGE.VatSum, OIGE.DocNum, OIGE.DocTotal, OIGE.U_SCGD_Numero_OT, OIGE.SysRate, IGE1.AcctCode) as q</value>
+  </data>
+  <data name="QueryGR" xml:space="preserve">
+    <value>SELECT        DocEntry, DocNum, Status, U_Unidad, U_Marca, U_Estilo, U_Modelo, U_As_Entr, U_Fec_Cont, U_VIN, U_Tot_Loc, U_Tot_Sis, U_GASTRA, U_ID_Vehiculo,
+                             (SELECT        Code
+                               FROM            [@SCGD_VEHICULO] with (nolock)
+                               WHERE        (U_Cod_Unid ='{0}')) AS CodigoVehiculo, U_SCGD_DocSalida
+FROM            [@SCGD_GOODRECEIVE] AS [@SCG_GOODRECEIVE_1]  with (nolock)
+WHERE        (U_Unidad = '{0}') AND (U_As_Entr IS NOT NULL AND
+                         U_As_Entr &lt;&gt; '-1') AND (U_SCGD_DocSalida IS NULL OR
+                         U_SCGD_DocSalida = '') AND (U_SCGD_Trasl = 'N') AND (Status = 'O')</value>
+  </data>
+  <data name="ErrorCitaServicioConflictoTiempo" xml:space="preserve">
+    <value>There is no enough space for the service.</value>
+  </data>
+  <data name="ErrorCitaServicioFechaOcupada" xml:space="preserve">
+    <value>The hour for the service is occupied</value>
+  </data>
+  <data name="ErrorCitaServicioFechaPosterior" xml:space="preserve">
+    <value>The service hour must be later than  finish recepcion hour</value>
+  </data>
+  <data name="ErrorCitaServicioSinFecha" xml:space="preserve">
+    <value>Must select a service date</value>
+  </data>
+  <data name="ErrorCitaServicioSinHora" xml:space="preserve">
+    <value>Must select a service time</value>
+  </data>
+  <data name="ErrorCitaServicioTecnicoAsesor" xml:space="preserve">
+    <value>Advisor and technician must be in the same working team.</value>
+  </data>
+  <data name="MensajeErrorListaCitasEspacioReqRecep" xml:space="preserve">
+    <value>There is no enough space for the reception.</value>
+  </data>
+  <data name="MensajeErrorListaCitasEspacioRequerido" xml:space="preserve">
+    <value>There is no enough space for the service.</value>
+  </data>
+  <data name="MensajeErrorListaCitasHoraRecepcion" xml:space="preserve">
+    <value>The recepction hour must be earlier than service hour.</value>
+  </data>
+  <data name="MensajeErrorListaCitasHoraServicio" xml:space="preserve">
+    <value>The service hour must be later than  finish recepcion hour</value>
+  </data>
+  <data name="MensajeErrorListaCitasTecnicoAsesor" xml:space="preserve">
+    <value>Advisor and technician must be in the same working team.</value>
+  </data>
+  <data name="MensajeListaCitasAgendaCerradaTiempo" xml:space="preserve">
+    <value>Schedule windows closed due to inactivity time</value>
+  </data>
+  <data name="MensajeTransferenciaBorradorOTSAP" xml:space="preserve">
+    <value>Parts Requisition {0} W.O {1}</value>
+  </data>
+  <data name="MenuConfMensajeria" xml:space="preserve">
+    <value>Messaging Configuration</value>
+  </data>
+  <data name="OT" xml:space="preserve">
+    <value>WO</value>
+  </data>
+  <data name="Traslado" xml:space="preserve">
+    <value>Stock Transfer</value>
+  </data>
+  <data name="txtCVFac" xml:space="preserve">
+    <value>The sale contract has been invoiced.</value>
+  </data>
+  <data name="XMLFormularioConfMSJ" xml:space="preserve">
+    <value>\Formularios\Mensajeria.enUs.xml</value>
+  </data>
+  <data name="DescripcionFacturaAccesorios" xml:space="preserve">
+    <value>Factura Accesorios</value>
+  </data>
+  <data name="rptOrdenRecepcionInterna" xml:space="preserve">
+    <value>OrdenRecepcionInternaEN</value>
+  </data>
+  <data name="ExtensionDLL_Fallo" xml:space="preserve">
+    <value>Extension DLL crashed at: Update</value>
+  </data>
+  <data name="MensajeDatosModificados" xml:space="preserve">
+    <value>Data were modified from another window, close and open the form again to update the data</value>
+  </data>
+  <data name="ProcesandoAsientoServExt" xml:space="preserve">
+    <value>Processing Sublets Journal Entry</value>
+  </data>
+  <data name="AsientoGeneradoCorrectamente" xml:space="preserve">
+    <value>Successfully generating journal entry.</value>
+  </data>
+  <data name="AsientoNoCreado" xml:space="preserve">
+    <value>Failure creating journal entry</value>
+  </data>
+  <data name="FaltaIngresoContactoEjecutivoBanco" xml:space="preserve">
+    <value>Bank Executive Contact doesn't exist</value>
+  </data>
+  <data name="FaltaIngresoNroOrdenCompra" xml:space="preserve">
+    <value>Purchase Order Number related to the Bank don't exist</value>
+  </data>
+  <data name="FaltaIngresoNroOperacionLeasing" xml:space="preserve">
+    <value>Leasing Operational Number doesn't exist</value>
+  </data>
+  <data name="LeasingSNnoConfigurado" xml:space="preserve">
+    <value>Leasing group SN not configured</value>
+  </data>
+  <data name="MensajeCitaBorrarTipoVenta" xml:space="preserve">
+    <value>You can not delete bill of materials components sales.</value>
+  </data>
+  <data name="NoTrasladoUnidades" xml:space="preserve">
+    <value>can not be moved. Check the unit and retry the transfer of inventory.</value>
+  </data>
+  <data name="ProblemaCerrandoOT" xml:space="preserve">
+    <value>There was a problem when closing the WO: </value>
+  </data>
+  <data name="XMLKardexInventarioVehiculo" xml:space="preserve">
+    <value>\Formularios\KardexInventarioVehiculos.enUs.xml</value>
+  </data>
+  <data name="ActualizaCotizacion" xml:space="preserve">
+    <value>Processing Quotation</value>
+  </data>
+  <data name="ProcesaBackOrder" xml:space="preserve">
+    <value>Processing Back Order</value>
+  </data>
+  <data name="RequeridoModelo" xml:space="preserve">
+    <value>Model of Vehicule must be selected</value>
+  </data>
+  <data name="MsjIngreseCliente" xml:space="preserve">
+    <value>Select a Client</value>
+  </data>
+  <data name="MsjSeleccioneUnaSucursal" xml:space="preserve">
+    <value>Select a branch</value>
+  </data>
+  <data name="XMLFrmBuscarArtCitas" xml:space="preserve">
+    <value>\Formularios\BuscardorCitasArt.enUS.xml</value>
+  </data>
+  <data name="XMLDevolucionDeVehiculos" xml:space="preserve">
+    <value>\Formularios\DevolucionDeVehiculos.enUS.xml</value>
+  </data>
+  <data name="MensajeDevolverVehAsiento" xml:space="preserve">
+    <value> Journal Entry: </value>
+  </data>
+  <data name="MensajeDevolverVehAsiento1" xml:space="preserve">
+    <value>Return Unit: </value>
+  </data>
+  <data name="MensajeDevolverVehCrearDocumento" xml:space="preserve">
+    <value>Must create the document before process the units</value>
+  </data>
+  <data name="MensajeDevolverVehFormularioActualizar" xml:space="preserve">
+    <value>The is in update mode</value>
+  </data>
+  <data name="MensajeDevolverVehSinCliente" xml:space="preserve">
+    <value>Must select a client for the document</value>
+  </data>
+  <data name="MensajeDevolverVehSinFecha" xml:space="preserve">
+    <value>Must enter a date for the document.</value>
+  </data>
+  <data name="MensajeDevolverVehUnidadesCreadas" xml:space="preserve">
+    <value>All the units to this document has been return.</value>
+  </data>
+  <data name="XMLSeleccionUnidadDevolucion" xml:space="preserve">
+    <value>\Formularios\SeleccionUnidadesDevolucion.enUS.xml</value>
+  </data>
+  <data name="MensajeDevolverVehiculoDevRealizada" xml:space="preserve">
+    <value>Successfully returned unit:</value>
+  </data>
+  <data name="SubMenuDevolucionVehiculos" xml:space="preserve">
+    <value>Vehicle Returns</value>
+  </data>
+  <data name="MensajeDevolverVehSinFechaFact" xml:space="preserve">
+    <value>Due Date missing.</value>
+  </data>
+  <data name="DescripcionFacturaExentaUsados" xml:space="preserve">
+    <value>A/ R Invoice Exempt Vehicle Used</value>
+  </data>
+  <data name="ErrorCosteoEntradasDocumentoSinActualizar" xml:space="preserve">
+    <value>Form mode is "Update"</value>
+  </data>
+  <data name="MensajeEntradaDeVehiculosProblemaCostear" xml:space="preserve">
+    <value>The Units could'n be costed.</value>
+  </data>
+  <data name="MensajeEntredaVehiculosCosteoRealizado" xml:space="preserve">
+    <value>Costing successfully created</value>
+  </data>
+  <data name="XMLFormularioSeleccionLineasRecepcion" xml:space="preserve">
+    <value>\Formularios\SeleccionLineasRecepcion.enUS.xml</value>
+  </data>
+  <data name="MensajeCosteoEntradasComboTrasanccion" xml:space="preserve">
+    <value>Update transaction type for document lines.</value>
+  </data>
+  <data name="MensajeCosteoEntradasPedidos" xml:space="preserve">
+    <value>Orders</value>
+  </data>
+  <data name="MensajeCosteoEntradasUnidades" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="MensajeNinguna" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="MensajeSinAsignar" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="MensajeTodas" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="CapFechaCita" xml:space="preserve">
+    <value>Date Appointment</value>
+  </data>
+  <data name="CapHoraCita" xml:space="preserve">
+    <value>Time Appointment</value>
+  </data>
+  <data name="DescripcionFacturaProveedorDocumentoReciboUsadoPrivado" xml:space="preserve">
+    <value>Purchase Invoice Private Receipt Used</value>
+  </data>
+  <data name="DescripcionFacturaProveedorDocumentoReciboUsadoSociedades" xml:space="preserve">
+    <value>Purchase Invoice Societies Used Receipt</value>
+  </data>
+  <data name="DescripcionTramitesFacturables" xml:space="preserve">
+    <value>Billable formalities</value>
+  </data>
+  <data name="TXTDptoServ" xml:space="preserve">
+    <value>Service Dpt.</value>
+  </data>
+  <data name="TXTTipoPago" xml:space="preserve">
+    <value>Payment Type</value>
+  </data>
+  <data name="TXTValidaTipoSN" xml:space="preserve">
+    <value>Must to define the customer type to complete this action.</value>
+  </data>
+  <data name="TXTNationalID" xml:space="preserve">
+    <value>Stars National ID</value>
+  </data>
+  <data name="TXTTipoSN" xml:space="preserve">
+    <value>Business Partner Type</value>
+  </data>
+  <data name="TXTValidaTipoPagoDptoServ" xml:space="preserve">
+    <value>Must to define the payment type and the service department to complete this action.</value>
+  </data>
+  <data name="MenuConfFordInt" xml:space="preserve">
+    <value>UDB Ford Interface Configuration</value>
+  </data>
+  <data name="XMLFormInterfazFord" xml:space="preserve">
+    <value>\Formularios\ConfInterfaceFord.enUS.xml</value>
+  </data>
+  <data name="EntradaDeVehiculosLaUnidadNoExiste" xml:space="preserve">
+    <value>This unit don't exist in the system.</value>
+  </data>
+  <data name="MensajeEntradaVehiculosSinFechaCont" xml:space="preserve">
+    <value>Due Date missing.</value>
+  </data>
+  <data name="MensajeEntradaVehiculosSinProveedor" xml:space="preserve">
+    <value>Enter the Vendor code to continue with the document.</value>
+  </data>
+  <data name="MensajeEntradaVehiculosSinTipoTransaccion" xml:space="preserve">
+    <value>Enter the Transaction Type to the unit: </value>
+  </data>
+  <data name="MensajeEntradaDeVehiculosUnidadesCreadas" xml:space="preserve">
+    <value>The Units for this document has been already created, can't delete Vehicle Purchase Lines</value>
+  </data>
+  <data name="XMLFormularioSeleccionMarcaEstiloModelo" xml:space="preserve">
+    <value>\Formularios\SeleccionMarcaEstiloModelo.enUS.xml</value>
+  </data>
+  <data name="MensajeEntradaVehiculosFaltaConfTransaccion" xml:space="preserve">
+    <value>Configuration of 'Transaction Type' is missing, can't continue with automatic costing</value>
+  </data>
+  <data name="MensajeEntradaVehiculosSinLineasParaGenerar" xml:space="preserve">
+    <value>There are not lines to generated the Units.</value>
+  </data>
+  <data name="NotaCreditoReciboUsadoPrivado" xml:space="preserve">
+    <value>Credit Note Private</value>
+  </data>
+  <data name="NotaCreditoReciboUsadoSociedades" xml:space="preserve">
+    <value>Credit Note Society</value>
+  </data>
+  <data name="XMLFormSeleccionEmpMsj" xml:space="preserve">
+    <value>\Formularios\SeleccionListaEmpleados.enUS.xml</value>
+  </data>
+  <data name="ErrSelectUSerAdd" xml:space="preserve">
+    <value>You must select the usar you want to add.</value>
+  </data>
+  <data name="ErrSelectUserDelete" xml:space="preserve">
+    <value>You must select the user you want to delete.</value>
+  </data>
+  <data name="CodUnidadUsadoNoPermitido" xml:space="preserve">
+    <value>The Unid Code entered belongs to vehicle which can not be received as part payment</value>
+  </data>
+  <data name="VINUnidadUsadoNoPermitido" xml:space="preserve">
+    <value>The VIN enter belongs to vehicle that cannot be received as part payment</value>
+  </data>
+  <data name="PlacaUnidadUsadoNoPermitido" xml:space="preserve">
+    <value>The Plate entered belongs to vehicle that cannot be received as part payment</value>
+  </data>
+  <data name="ObserCompraDevolucion" xml:space="preserve">
+    <value>Realized Return Merchandise</value>
+  </data>
+  <data name="ObserCompraDocComp" xml:space="preserve">
+    <value>Purchase Document Done</value>
+  </data>
+  <data name="ObserCompraNotaCredito" xml:space="preserve">
+    <value>Credit Note Made</value>
+  </data>
+  <data name="DescripcionNotaCreditoReversionTramites" xml:space="preserve">
+    <value>Credit Note Formalities Reverse</value>
+  </data>
+  <data name="DescripcionNotaCreditoReversionAccesorios" xml:space="preserve">
+    <value>Credit Note Reverse Accesories</value>
+  </data>
+  <data name="ActualizarAntesAprobar" xml:space="preserve">
+    <value>You must update the Sales Contract before approving</value>
+  </data>
+  <data name="AprobacionCV" xml:space="preserve">
+    <value>The Sales Contract {0} has been approved successfully.</value>
+  </data>
+  <data name="DESAprobacionCV" xml:space="preserve">
+    <value>The sales contract {0} was rejected successfully.</value>
+  </data>
+  <data name="TXTPrint" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="ErrorImprimirBalance" xml:space="preserve">
+    <value>An error has occurred printing the report, please contact the administrator.</value>
+  </data>
+  <data name="RptBalanceCV" xml:space="preserve">
+    <value>rptBalanceNegocioCVEN</value>
+  </data>
+  <data name="rptFinanciamientoCV" xml:space="preserve">
+    <value>rptFinanciamientoCVEN</value>
+  </data>
+  <data name="TituloRPTFinanciamientoCV" xml:space="preserve">
+    <value>Financing in Sales Contracts</value>
+  </data>
+  <data name="XMLFormularioReporteFinanciamientoContratoVentas" xml:space="preserve">
+    <value>\Formularios\ReporteFinanciamientoCV.enUS.xml</value>
+  </data>
+  <data name="TxtFGaranFin" xml:space="preserve">
+    <value>Ext Warranty To</value>
+  </data>
+  <data name="TxtFGaranIni" xml:space="preserve">
+    <value>Ext Warranty From</value>
+  </data>
+  <data name="txtVehiculoGarantia" xml:space="preserve">
+    <value>The vehicle is still under extended warranty.</value>
+  </data>
+  <data name="TabAvaluo" xml:space="preserve">
+    <value>Valuation</value>
+  </data>
+  <data name="CapNoAva" xml:space="preserve">
+    <value>Valuation Num</value>
+  </data>
+  <data name="CapNoCas" xml:space="preserve">
+    <value>Case Num</value>
+  </data>
+  <data name="CapNoPoli" xml:space="preserve">
+    <value>Policy Num</value>
+  </data>
+  <data name="CapARef1" xml:space="preserve">
+    <value>Ref 1</value>
+  </data>
+  <data name="CapARef2" xml:space="preserve">
+    <value>Ref 2</value>
+  </data>
+  <data name="CapMontAsegurado" xml:space="preserve">
+    <value>Insured Amount</value>
+  </data>
+  <data name="CapInfra" xml:space="preserve">
+    <value>Underinsurance</value>
+  </data>
+  <data name="CapVigI" xml:space="preserve">
+    <value>Valid From</value>
+  </data>
+  <data name="CapVigF" xml:space="preserve">
+    <value>Valid To</value>
+  </data>
+  <data name="CapCobertura" xml:space="preserve">
+    <value>Coverage</value>
+  </data>
+  <data name="CapDeducible" xml:space="preserve">
+    <value>Deductible</value>
+  </data>
+  <data name="CapAgencia" xml:space="preserve">
+    <value>Agency</value>
+  </data>
+  <data name="CapAcreedorPrendario" xml:space="preserve">
+    <value>Pledgee</value>
+  </data>
+  <data name="CapCompSeguros" xml:space="preserve">
+    <value>Insurance Comp</value>
+  </data>
+  <data name="CapPerito" xml:space="preserve">
+    <value>Expert</value>
+  </data>
+  <data name="CapSupervisor" xml:space="preserve">
+    <value>Supervisor</value>
+  </data>
+  <data name="CapAccidente" xml:space="preserve">
+    <value>Accident</value>
+  </data>
+  <data name="CapAvaluo" xml:space="preserve">
+    <value>Valuation</value>
+  </data>
+  <data name="CapHorasAvaluo" xml:space="preserve">
+    <value>Valuation Hour</value>
+  </data>
+  <data name="CapMontoAvaluo" xml:space="preserve">
+    <value>Valuation Amount</value>
+  </data>
+  <data name="CapDetalleAvaluo" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="ValidaCuentaCreditoMO" xml:space="preserve">
+    <value>Unable to create Labor Journal Entry, please check credit account in the configuration.</value>
+  </data>
+  <data name="ValidaMonedaMO" xml:space="preserve">
+    <value>Unable to create Labor Journal Entry, please check currency in the configuration.</value>
+  </data>
+  <data name="ValidaTiempoMO" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AsientoOtrosGastosError" xml:space="preserve">
+    <value>Other Cost Journal Entry, failed.</value>
+  </data>
+  <data name="AsientoOtrosGastosExitoso" xml:space="preserve">
+    <value>Other Cost Journal Entry, successfully.</value>
+  </data>
+  <data name="AsientoServicioError" xml:space="preserve">
+    <value>Service Journal Entry, failed.</value>
+  </data>
+  <data name="AsientoServicioExitoso" xml:space="preserve">
+    <value>Service Journal Entry, successfully.</value>
+  </data>
+  <data name="AsientoServicioExternoError" xml:space="preserve">
+    <value>Sublets Journal Entry, failed.</value>
+  </data>
+  <data name="AsientoServicioExternoExitoso" xml:space="preserve">
+    <value>Sublets Journal Entry, successfully.</value>
+  </data>
+  <data name="ProcesaAsientoFacturaClientes" xml:space="preserve">
+    <value>Processing Journal Entry</value>
+  </data>
+  <data name="TituloFormListadoRequisicones" xml:space="preserve">
+    <value>Request List</value>
+  </data>
+  <data name="XMLFormListadoRequisiciones" xml:space="preserve">
+    <value>\Formularios\ListadoRequisiciones.enUS.xml</value>
+  </data>
+  <data name="ErrorTransaccion" xml:space="preserve">
+    <value>There was a problem with the transaction</value>
+  </data>
+  <data name="ValidaReversionFI" xml:space="preserve">
+    <value>Validating Reverse Internal Invoice</value>
+  </data>
+  <data name="FaltaFechaReversionFI" xml:space="preserve">
+    <value>Enter a valid reversal date</value>
+  </data>
+  <data name="ProcesaAsiento" xml:space="preserve">
+    <value>Processing Journal Entry</value>
+  </data>
+  <data name="RegistroDevolucionSE" xml:space="preserve">
+    <value>Anulation Sublets: </value>
+  </data>
+  <data name="NoPermiteDuplicar" xml:space="preserve">
+    <value>It is not allowed to duplicate Sales Offer linked to a Work Order</value>
+  </data>
+  <data name="TXTNoLinesAvailable" xml:space="preserve">
+    <value>There is not available lines .</value>
+  </data>
+  <data name="ErrorDesaprobarCompRecSol" xml:space="preserve">
+    <value>You can not disaprove the item {0} because this has received or requested quantities.</value>
+  </data>
+  <data name="TXTLineasNoActualizadas" xml:space="preserve">
+    <value>You must update the lines to complete this action.</value>
+  </data>
+  <data name="TXTProcessLineas" xml:space="preserve">
+    <value>Processing line {0} of {1}.</value>
+  </data>
+  <data name="FueRechazado" xml:space="preserve">
+    <value>was rejected. It is</value>
+  </data>
+  <data name="ReversarFI" xml:space="preserve">
+    <value>Are you sure you want to reverse the Internal Invoice?</value>
+  </data>
+  <data name="XMLFormularioSeleccionLineasPedidos" xml:space="preserve">
+    <value>\Formularios\SeleccionLineasPedido.enUS.xml</value>
+  </data>
+  <data name="frmAsignacionMultiple" xml:space="preserve">
+    <value>\Formularios\AsignacionMultiple.enUS.xml</value>
+  </data>
+  <data name="frmRazonesSuspension" xml:space="preserve">
+    <value>\Formularios\RazonSuspension.enUS.xml</value>
+  </data>
+  <data name="frmFinalizaActividades" xml:space="preserve">
+    <value>\Formularios\FinalizaActividades.enUS.xml</value>
+  </data>
+  <data name="EstadoOrdenEntregada" xml:space="preserve">
+    <value>Delivered</value>
+  </data>
+  <data name="EstadoOrdenFacturada" xml:space="preserve">
+    <value>Invoiced</value>
+  </data>
+  <data name="EstadoOrdenCerrada" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="ErrMsgFechIniMay" xml:space="preserve">
+    <value>The start date must be smaller  than finish date.</value>
+  </data>
+  <data name="ErrMsgSeleccionaFecha" xml:space="preserve">
+    <value>You must type a contract number or select a date range to search.</value>
+  </data>
+  <data name="ListaContratosSeguroPostVenta" xml:space="preserve">
+    <value>\Formularios\ListadoContratosSeguroPostVenta.enUS.xml</value>
+  </data>
+  <data name="ValidaTipoInvCreaUnidad" xml:space="preserve">
+    <value>The Vehicle doesn't has Inventory Type</value>
+  </data>
+  <data name="NoTieneOrdenAsociada" xml:space="preserve">
+    <value>Sales Quotation without Work Order</value>
+  </data>
+  <data name="TituloListadoSolEsp" xml:space="preserve">
+    <value>Specific Request List</value>
+  </data>
+  <data name="XMLListadoSolEsp" xml:space="preserve">
+    <value>\Formularios\ListadoSolicitudEspecificos.enUS.xml</value>
+  </data>
+  <data name="TituloSolEsp" xml:space="preserve">
+    <value>Specific Request</value>
+  </data>
+  <data name="XMLSolicitudEspecificos" xml:space="preserve">
+    <value>\Formularios\SolicitudEspecificos.enUS.xml</value>
+  </data>
+  <data name="MenuReporteFPM" xml:space="preserve">
+    <value>Mechanic's Reports</value>
+  </data>
+  <data name="XMLFormularioReporteFPM" xml:space="preserve">
+    <value>\Formularios\FacturacionMecanicos.enUS.xml</value>
+  </data>
+  <data name="rptFacturacionMecanico" xml:space="preserve">
+    <value>rptFacturacionMECDetalladoUS.rpt</value>
+  </data>
+  <data name="rptFacturacionMecanicoresumen" xml:space="preserve">
+    <value>rptFacturacionMECResumidoUS.rpt</value>
+  </data>
+  <data name="TituloRPFacturacionOrdenesTrabajoDetalle" xml:space="preserve">
+    <value>Mechanic Billing Details</value>
+  </data>
+  <data name="rptOTxEstadoResumido" xml:space="preserve">
+    <value>rptOTxEstadoResumidoEN.rpt</value>
+  </data>
+  <data name="rtpOTDetallado" xml:space="preserve">
+    <value>otestadodetalladoUS</value>
+  </data>
+  <data name="TituloOTDetallado" xml:space="preserve">
+    <value>Details Work Orders Report</value>
+  </data>
+  <data name="TituloOTResumido" xml:space="preserve">
+    <value>Summary Work Orders</value>
+  </data>
+  <data name="DebeSeleccionarSN" xml:space="preserve">
+    <value>You must select a Business Partner</value>
+  </data>
+  <data name="MenuConfAIC" xml:space="preserve">
+    <value>Audatex Interface Configuration</value>
+  </data>
+  <data name="MenuConfTIC" xml:space="preserve">
+    <value>TSD Interface Configuration</value>
+  </data>
+  <data name="XMLFormInterfazAudatex" xml:space="preserve">
+    <value>\Formularios\Configuracion_ADX_IC.enUS.xml</value>
+  </data>
+  <data name="XMLFormInterfazTSD" xml:space="preserve">
+    <value>\Formularios\Configuracion_TSD_IC.enUS.xml</value>
+  </data>
+  <data name="CapCompOr" xml:space="preserve">
+    <value>Company Origin</value>
+  </data>
+  <data name="CapPAsig" xml:space="preserve">
+    <value>Pool Assigned</value>
+  </data>
+  <data name="CapWAN" xml:space="preserve">
+    <value>WAN</value>
+  </data>
+  <data name="TxtAvaluoUsados" xml:space="preserve">
+    <value>Used Vehicle Appraisal</value>
+  </data>
+  <data name="XMLAvaluos" xml:space="preserve">
+    <value>\Formularios\AvaluoUsados.enUS.xml</value>
+  </data>
+  <data name="txtNoUnitCode" xml:space="preserve">
+    <value>Must define a unit code.</value>
+  </data>
+  <data name="MSJAvaluoCreado" xml:space="preserve">
+    <value>An appraisal documen number: {0} has been created.</value>
+  </data>
+  <data name="CargandoParamGenAddon" xml:space="preserve">
+    <value>Loading Addon General Settings</value>
+  </data>
+  <data name="ProblemaCargandoParamGenAddon" xml:space="preserve">
+    <value>Could not load addon general configuration</value>
+  </data>
+  <data name="CargandoConfSucursal" xml:space="preserve">
+    <value>Loading configurations branches</value>
+  </data>
+  <data name="ProblemaCargandoConfSucursal" xml:space="preserve">
+    <value>Could not load the configuration of branches</value>
+  </data>
+  <data name="FinCargaConfiguraciones" xml:space="preserve">
+    <value>Successful loading configurations addon</value>
+  </data>
+  <data name="NoExistenConfiguraciones" xml:space="preserve">
+    <value>There is no configuration for this branch or some of the values are null</value>
+  </data>
+  <data name="TituloConfiguracionDimensionesDMSOT" xml:space="preserve">
+    <value>DMS One WO Dimension Accounting Configuration</value>
+  </data>
+  <data name="AddonNoInicializadoParametros" xml:space="preserve">
+    <value>Connection parameters not found, refer to the Administrator</value>
+  </data>
+  <data name="MsjCerrarAvaluo" xml:space="preserve">
+    <value>Are you sure you want to close this appraisal? Once closed, this can no longer be modified.</value>
+  </data>
+  <data name="MsjFinalizarAvaluo" xml:space="preserve">
+    <value>Are you sure you want to finish this appraisal?</value>
+  </data>
+  <data name="btnCerrarAvaluo" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="MSJAvaluoFinalizado" xml:space="preserve">
+    <value>The appraisal documen number : {0} has been finished.</value>
+  </data>
+  <data name="TXTAvaluoCerrado" xml:space="preserve">
+    <value>Appraisal closed successfully.</value>
+  </data>
+  <data name="TXTAvaluoFinalizado" xml:space="preserve">
+    <value>Appraisal finished successfully.</value>
+  </data>
+  <data name="InvVehiNoConfigurado" xml:space="preserve">
+    <value>There is not inventory configurated for Availab Sold and Inv Sold on AddOn General Settings.</value>
+  </data>
+  <data name="MensajeUnidadVacia" xml:space="preserve">
+    <value>Enter the unit code</value>
+  </data>
+  <data name="rptBalanceOTDetallado" xml:space="preserve">
+    <value>rptBalanceOTDetalladoEN.rpt</value>
+  </data>
+  <data name="rptBalanceOTResumido" xml:space="preserve">
+    <value>rptBalanceOTResumidoEN.rpt</value>
+  </data>
+  <data name="rptOTEstadoDetallado" xml:space="preserve">
+    <value>rptOTxEstadoDetalladoEN.rpt</value>
+  </data>
+  <data name="OtrasMarcas" xml:space="preserve">
+    <value>ANOTHER MAKES</value>
+  </data>
+  <data name="TODAS" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="rptFacturacionOrdenesTrabajoDetallado" xml:space="preserve">
+    <value>rptFacturacionOTDetalladoEN.rpt</value>
+  </data>
+  <data name="HorasHabiles" xml:space="preserve">
+    <value>You must enter the business hours</value>
+  </data>
+  <data name="DefinaSerieValida" xml:space="preserve">
+    <value>You must define a valid numbering series in the branch configurations</value>
+  </data>
+  <data name="CosteoCodigoUnidad" xml:space="preserve">
+    <value>Line {0} has no unit.</value>
+  </data>
+  <data name="CosteoMonto" xml:space="preserve">
+    <value>Line {0} must have an cost greater than 0.</value>
+  </data>
+  <data name="CosteoTransaccion" xml:space="preserve">
+    <value>Line {0} has no type of trans code.</value>
+  </data>
+  <data name="CosteoUnidadFacturada" xml:space="preserve">
+    <value>Line {0} was already billed.</value>
+  </data>
+  <data name="RazonRechazo" xml:space="preserve">
+    <value>Rejection Reason:</value>
+  </data>
+  <data name="SeleccionarRazon" xml:space="preserve">
+    <value>Select reason</value>
+  </data>
+  <data name="LineaBono" xml:space="preserve">
+    <value>Bonus</value>
+  </data>
+  <data name="LineaOtrosCostos" xml:space="preserve">
+    <value>Other Cost </value>
+  </data>
+  <data name="Horas" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Minutos" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="Entrada1" xml:space="preserve">
+    <value>units for entry and were created, can not eliminate lines.</value>
+  </data>
+  <data name="Entrada2" xml:space="preserve">
+    <value>Continue with the removal of lines?</value>
+  </data>
+  <data name="Entrada3" xml:space="preserve">
+    <value>the unit can not be deleted</value>
+  </data>
+  <data name="ValidacionMonedaRecepcion" xml:space="preserve">
+    <value>Can not select orders with different currencies</value>
+  </data>
+  <data name="ValidacionMOAprobada" xml:space="preserve">
+    <value>"Approved = No" assignment of service is not allowed</value>
+  </data>
+  <data name="ValidacionSEAprobado" xml:space="preserve">
+    <value>"Approved = No" assignment of external service with associated costs is not allowed</value>
+  </data>
+  <data name="MensajeYaExisteDimension" xml:space="preserve">
+    <value>A dimension master data already exists for the selected type.</value>
+  </data>
+  <data name="ErrorMonedaVehiculo" xml:space="preserve">
+    <value>Please select a currency for this vehicle.</value>
+  </data>
+  <data name="ErrorListaPreciosAcc" xml:space="preserve">
+    <value>Accessory price list has not been defined in AddOn General Settings.</value>
+  </data>
+  <data name="ErrorElimAccIns" xml:space="preserve">
+    <value>Can't delete the selected accessory, because it is associated to a vehicle.</value>
+  </data>
+  <data name="ErrorPermisosAccesorios" xml:space="preserve">
+    <value>You do not have permissions to remove accesories, please contact system administrator.</value>
+  </data>
+  <data name="ErrorCuentaCuotaSeguro" xml:space="preserve">
+    <value>Insurance account has not been defined in AddOn General Settings.</value>
+  </data>
+  <data name="ErrorClienteFaltaSeguro" xml:space="preserve">
+    <value>You must select a customer for insurance journal entry.</value>
+  </data>
+  <data name="DocumentoAsientoSeguro" xml:space="preserve">
+    <value>Insurance first fee value journal entry</value>
+  </data>
+  <data name="ComentarioCuotaSeguro" xml:space="preserve">
+    <value>First insurance fee, sales contract:</value>
+  </data>
+  <data name="BancoCliente" xml:space="preserve">
+    <value>Customer bank</value>
+  </data>
+  <data name="MensajeFacturaConsignado" xml:space="preserve">
+    <value>Consigned vehicle invoice</value>
+  </data>
+  <data name="MensajeAsientoConsignado" xml:space="preserve">
+    <value>Consigned vehicle JE. SC:</value>
+  </data>
+  <data name="ErrorClienteConsignadoBlanco" xml:space="preserve">
+    <value>Consigned customer can not be blank.</value>
+  </data>
+  <data name="ErrorTipoComisionConsignado" xml:space="preserve">
+    <value>You must select the commission type for the consigned vehicle.</value>
+  </data>
+  <data name="ErrorMontoNetoConsignado" xml:space="preserve">
+    <value>Consigned vehicle commission amount must be greater than zero.</value>
+  </data>
+  <data name="ErrorCostoVehiculo" xml:space="preserve">
+    <value>Vehicle cost must be greater than zero.</value>
+  </data>
+  <data name="ErrorCostoVehiculoVsPrecio" xml:space="preserve">
+    <value>Vehicle price must be greater than cost.</value>
+  </data>
+  <data name="FacturaComisionConsignados" xml:space="preserve">
+    <value>Consigned commission invoice.</value>
+  </data>
+  <data name="NotaCreditoComisionConsignados" xml:space="preserve">
+    <value>Consigned commission credit memo</value>
+  </data>
+  <data name="ErrorSerieNumCmsConsignados" xml:space="preserve">
+    <value>The numbering series for consigned vehicles commission has not been defined</value>
+  </data>
+  <data name="XMLFormularioReporteAntiguedadVehiculos" xml:space="preserve">
+    <value>\Formularios\ReporteAntiguedadVehiculos.enUS.xml</value>
+  </data>
+  <data name="MenuReporteAntiguedadVehiculos" xml:space="preserve">
+    <value>Vehicle aging report</value>
+  </data>
+  <data name="rptAntiguedadVehiculos" xml:space="preserve">
+    <value>rptAntiguedadVehiculos.enUS</value>
+  </data>
+  <data name="ErrorSeleccionarUbicacion" xml:space="preserve">
+    <value>Please select a location</value>
+  </data>
+  <data name="ErrorIVAConsignado" xml:space="preserve">
+    <value>Please select a tax code for the consigned vehicle invoice.</value>
+  </data>
+  <data name="DocEntryEnTablaOT" xml:space="preserve">
+    <value>Could not generate visit number because the Quotation is already linked to a Work Order. Please refresh your Quotation.</value>
+  </data>
+  <data name="ErrorAlActualizarCotVisita" xml:space="preserve">
+    <value>There be an error, please update your Quotation.</value>
+  </data>
+  <data name="ErrorNumeroDocumento" xml:space="preserve">
+    <value>Invalid document number.</value>
+  </data>
+  <data name="ErrorCostoProyectado" xml:space="preserve">
+    <value>Vehicle has no projected cost or currency assigned: {0}</value>
+  </data>
+  <data name="ErrorCuentaCostos" xml:space="preserve">
+    <value>Cost account has not been defined for the vehicle</value>
+  </data>
+  <data name="ErrorCuentaStock" xml:space="preserve">
+    <value>Stock account has not been defined for the vehicle</value>
+  </data>
+  <data name="MensajeAsientoSalidaCostoProyectado" xml:space="preserve">
+    <value>Goods Issue of vehicles: {0}</value>
+  </data>
+  <data name="MensajeProvisionVehiculo" xml:space="preserve">
+    <value>Vehicle Provision: {0}</value>
+  </data>
+  <data name="ErrorVehiculoSinMoneda" xml:space="preserve">
+    <value>Vehicle has no currency assigned: {0}</value>
+  </data>
+  <data name="ErrorCuentaProvision" xml:space="preserve">
+    <value>Provision account has not been defined in the addon general settings.</value>
+  </data>
+  <data name="AsientoRegConsignado" xml:space="preserve">
+    <value>Consigned vehicle JE.</value>
+  </data>
+  <data name="AsientoTramite" xml:space="preserve">
+    <value>Formalities JE.</value>
+  </data>
+  <data name="AsientoCostoProyectado" xml:space="preserve">
+    <value>Projected cost JE.</value>
+  </data>
+  <data name="AsientoProvisionVehiculo" xml:space="preserve">
+    <value>Vehicle provision JE.</value>
+  </data>
+  <data name="ErrorSeleccionarTipoInventario" xml:space="preserve">
+    <value>Please select inventory type.</value>
+  </data>
+  <data name="XMLCargaMasivaVehiculos" xml:space="preserve">
+    <value>\Formularios\FormularioCargaMasivaVehiculos.xml</value>
+  </data>
+  <data name="txtPermisosAcceso" xml:space="preserve">
+    <value>Access Permissions</value>
+  </data>
+  <data name="NivelesPVSeleccioneUsuario" xml:space="preserve">
+    <value>Please select a user to add or remove permissions.</value>
+  </data>
+  <data name="NivelesPVUsuarioAgregado" xml:space="preserve">
+    <value>The authorization {0} for the user {1} has been added.</value>
+  </data>
+  <data name="NivelesPVUsuarioEliminado" xml:space="preserve">
+    <value>The authorization {0} for the user {1} has been removed.</value>
+  </data>
+  <data name="XMLNivelesPlanVentas" xml:space="preserve">
+    <value>\Formularios\NivelesPlanVentas.enUS.xml</value>
+  </data>
+  <data name="ActualizaOrdenVenta" xml:space="preserve">
+    <value>Processing Sales Order</value>
+  </data>
+  <data name="ErrorModoActualizar" xml:space="preserve">
+    <value>The document cannot be in update mode. Please update and try again.</value>
+  </data>
+  <data name="MenuReporteSociosNegocios" xml:space="preserve">
+    <value>Business Partners Report</value>
+  </data>
+  <data name="XMLReporteSociosNegocios" xml:space="preserve">
+    <value>\Formularios\ReporteSociosNegocios.enUS.xml</value>
+  </data>
+  <data name="rptSociosNegocios" xml:space="preserve">
+    <value>rptSociosNegocios.rpt</value>
+  </data>
+  <data name="TituloReporteSociosNegocios" xml:space="preserve">
+    <value>Business Partners Report</value>
+  </data>
+  <data name="ErrorProcesandoOT" xml:space="preserve">
+    <value>Error processing work order</value>
+  </data>
+  <data name="PendienteProcesarRequisicion" xml:space="preserve">
+    <value>The next item is warehouse pending, please cancel or process request:</value>
+  </data>
+  <data name="PerteneceOTHija" xml:space="preserve">
+    <value>The current item is not processed because it belongs to the child W.O:</value>
+  </data>
+  <data name="RevisarConfCentroCostoXOT" xml:space="preserve">
+    <value>Please check cost center by W.O. configuration</value>
+  </data>
+  <data name="ErrorFechaInicioMenoraFechaFin" xml:space="preserve">
+    <value>The start date must be less than or equal to the final date.</value>
+  </data>
+  <data name="ErrorIngresarFechaFinFechaInicio" xml:space="preserve">
+    <value>Please enter a start date and the final date to print the report.</value>
+  </data>
+  <data name="rptVehiculoRecurrentesTaller" xml:space="preserve">
+    <value>rptVehiculosRecurrentesTaller.rpt</value>
+  </data>
+  <data name="rptVehiculoRecurrentesTallerTITULO" xml:space="preserve">
+    <value>Recurrent Vehicle Report Workshop</value>
+  </data>
+  <data name="txtVehiculosRecurrentesTaller" xml:space="preserve">
+    <value>Recurrent Vehicle Report Workshop</value>
+  </data>
+  <data name="XMLReporteVehiculosRecurrentesTaller" xml:space="preserve">
+    <value>\Formularios\ReporteVehiculosRecurrentesTaller.enUS.xml</value>
+  </data>
+  <data name="rptVentasXAsesorServicio" xml:space="preserve">
+    <value>rptVentasxAsesorServicios.rpt</value>
+  </data>
+  <data name="rptVentasXAsesorServicioTITULO" xml:space="preserve">
+    <value>Reporte Ventas por Asesor de Servicio</value>
+  </data>
+  <data name="txtReporteVentasXAsesorServicio" xml:space="preserve">
+    <value>Sales Report by Service Advisor</value>
+  </data>
+  <data name="XMLReporteVentasXAsesorServicio" xml:space="preserve">
+    <value>\Formularios\ReporteVentasXAsesorServicio.xml</value>
+  </data>
+  <data name="ErrorSinAprobar" xml:space="preserve">
+    <value>The item is not in an approved state in the sales quotation: {0} {1}</value>
+  </data>
+  <data name="EntregaVehiculo" xml:space="preserve">
+    <value>Delivery :</value>
+  </data>
+  <data name="FormaContacto" xml:space="preserve">
+    <value>Contact by :</value>
+  </data>
+  <data name="Movilidad" xml:space="preserve">
+    <value>Mobility :</value>
+  </data>
+  <data name="RetiroVehiculo" xml:space="preserve">
+    <value>PickUp :</value>
+  </data>
+  <data name="ErrorFormatoKilometraje" xml:space="preserve">
+    <value>Invalid mileage format</value>
+  </data>
+  <data name="ErrorKilometrajeVacio" xml:space="preserve">
+    <value>Mileage cannot be empty</value>
+  </data>
+  <data name="DescripcionFacturaGastos" xml:space="preserve">
+    <value>A/R Expenses Invoice</value>
+  </data>
+  <data name="DescripcionNotaCreditoReversionGastos" xml:space="preserve">
+    <value>Reversion Credit Memo for A/R Expenses Invoice</value>
+  </data>
+  <data name="DescripcionNotaDebitoClienteReversionNCUsados" xml:space="preserve">
+    <value>Reversion A/R Debit Memo for Used Vehicles A/R Credit Memo</value>
+  </data>
+  <data name="DescripcionNotaDebitoReversionNCDescuento" xml:space="preserve">
+    <value>Reversion A/R Debit Memo for A/R Discount Credit Memo</value>
+  </data>
+  <data name="DescripcionNotaCreditoReversionFacturaDeudaUsado" xml:space="preserve">
+    <value>Reversion A/R Credit Memo for Used Vehicles A/R Purchase Invoice</value>
+  </data>
+  <data name="EncabezadoPosicion" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="RolAsesor" xml:space="preserve">
+    <value>Advisor</value>
+  </data>
+  <data name="XMLDisponibilidadEmpleados" xml:space="preserve">
+    <value>\Formularios\DisponibilidadAgendaEmpleados.enUS.xml</value>
+  </data>
+  <data name="MenuDisponibilidadEmpleados" xml:space="preserve">
+    <value>Employee Availability</value>
+  </data>
+  <data name="XMLCitas" xml:space="preserve">
+    <value>\Formularios\Citas.enUS.xml</value>
+  </data>
+  <data name="MenuSoporte" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="TituloRestablecerCantidadesPendientes" xml:space="preserve">
+    <value>Restore Pending Quantities</value>
+  </data>
+  <data name="XMLRestablecerCantidadPendientes" xml:space="preserve">
+    <value>\Formularios\RestablecerCantidadesPendientes.enUS.xml</value>
+  </data>
+  <data name="Exitoso" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="SinInconsistencias" xml:space="preserve">
+    <value>No inconsistencies were detected</value>
+  </data>
+  <data name="MultiplesCampanas" xml:space="preserve">
+    <value>Multiple Campaigns</value>
+  </data>
+  <data name="ErrorSeleccionarAgenda" xml:space="preserve">
+    <value>Please select a schedule</value>
+  </data>
+  <data name="ErrorSeleccionarSucursal" xml:space="preserve">
+    <value>Please select a branch</value>
+  </data>
+  <data name="XMLBuscadorArticulosCitas" xml:space="preserve">
+    <value>\Formularios\BuscadorArticulosCitas.enUS.xml</value>
+  </data>
+  <data name="ErrorGenerandoNumeroCita" xml:space="preserve">
+    <value>Error, the appointment number could not be generated</value>
+  </data>
+  <data name="ErrorConfigurarArticuloCita" xml:space="preserve">
+    <value>The appointment type article is not configured for the selected branch</value>
+  </data>
+  <data name="MsjEliminarComponente" xml:space="preserve">
+    <value>It is not possible to remove components from a bill of materials</value>
+  </data>
+  <data name="MsjEliminarListaMateriales" xml:space="preserve">
+    <value>If the bill of materials is deleted, its components will also be deleted. Do you want to continue?</value>
+  </data>
+  <data name="MsjCitaSinArticulos" xml:space="preserve">
+    <value>The selected items will be deleted. Do you want to continue?</value>
+  </data>
+  <data name="MsjCrearCitaSinArticulos" xml:space="preserve">
+    <value>The document will be processed without items, do you want to continue?</value>
+  </data>
+  <data name="ErrorCantidadMaximaCitas" xml:space="preserve">
+    <value>The maximum number of appointments for the selected schedule has been exceeded</value>
+  </data>
+  <data name="ErrorHoraCita" xml:space="preserve">
+    <value>The appointment time must be greater than the current time</value>
+  </data>
+  <data name="ErrorHoraCitaFueraHorario" xml:space="preserve">
+    <value>The appointment time cannot be outside of the branch schedule</value>
+  </data>
+  <data name="ErrorHoraInicioFinCita" xml:space="preserve">
+    <value>The start time or end time of the appointment conflicts with the time of another appointment</value>
+  </data>
+  <data name="ErrorHoraInicioFinServicio" xml:space="preserve">
+    <value>The start time or end time of the service conflicts with the time of another service</value>
+  </data>
+  <data name="ErrorHoraServicio" xml:space="preserve">
+    <value>The service date must be greater than the current time and greater than the appointment time</value>
+  </data>
+  <data name="ErrorHoraServicioFueraHorario" xml:space="preserve">
+    <value>The service time cannot be outside of the branch schedule</value>
+  </data>
+  <data name="ErrorMonedaInvalida" xml:space="preserve">
+    <value>No valid currency selected</value>
+  </data>
+  <data name="ErrorTipoCambioMoneda" xml:space="preserve">
+    <value>The exchange rate for the selected currency has not been defined</value>
+  </data>
+  <data name="MsjAgendaAbiertaMinimizada" xml:space="preserve">
+    <value>The schedule is already open and minimized</value>
+  </data>
+  <data name="XMLOfertaVentas" xml:space="preserve">
+    <value>\Formularios\OfertaDeVentas.enUS.xml</value>
+  </data>
+  <data name="XMLReposicion" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-16"?&gt;
+&lt;Application&gt;
+  &lt;forms&gt;
+    &lt;action type="update"&gt;
+      &lt;form uid="ReemplazarPorUID"&gt;
+        &lt;items&gt;
+          &lt;action type="update"&gt;
+                      
+          &lt;/action&gt;
+        &lt;/items&gt;    
+      &lt;/form&gt;
+    &lt;/action&gt;
+  &lt;/forms&gt;
+&lt;/Application&gt;</value>
+  </data>
+  <data name="ConflictoHoraFinCita" xml:space="preserve">
+    <value>The appointment end date conflicts with another service</value>
+  </data>
+  <data name="ConflictoHoraFinServicio" xml:space="preserve">
+    <value>The service end date conflicts with another service</value>
+  </data>
+  <data name="ConflictoHoraInicioCita" xml:space="preserve">
+    <value>The appointment start date conflicts with another service</value>
+  </data>
+  <data name="ConflictoHoraInicioServicio" xml:space="preserve">
+    <value>The service start date conflicts with another service</value>
+  </data>
+  <data name="RequisicionReserva" xml:space="preserve">
+    <value>Reservation</value>
+  </data>
+  <data name="NoHayStock" xml:space="preserve">
+    <value> is out of stock</value>
+  </data>
+  <data name="ErrorRequisicionesReserva" xml:space="preserve">
+    <value>There are reserve requisitions linked to the appointment lines</value>
+  </data>
+  <data name="ErrorCancelarCita" xml:space="preserve">
+    <value>Please process or cancel pending requisitions before canceling the appointment</value>
+  </data>
+  <data name="CancelarRequisiciones" xml:space="preserve">
+    <value>There are pending reservation requisitions, do you want to cancel them?</value>
+  </data>
+  <data name="RequisicionesParciales" xml:space="preserve">
+    <value>There are partially processed requisitions, please process the documents before canceling the appointment</value>
+  </data>
+  <data name="DevolucionReserva" xml:space="preserve">
+    <value>Reservation Return</value>
+  </data>
+  <data name="XMLAuditoriaBodegaReserva" xml:space="preserve">
+    <value>\Formularios\AuditoriaBodegaReserva.enUS.xml</value>
+  </data>
+  <data name="ErrorSeleccionarBodega" xml:space="preserve">
+    <value>Please select a warehouse</value>
+  </data>
+  <data name="TituloAuditoriaReserva" xml:space="preserve">
+    <value>Reservations Warehouse Audit Report</value>
+  </data>
+  <data name="TransferenciaManual" xml:space="preserve">
+    <value>Manual Transfer</value>
+  </data>
+  <data name="TransferenciaAutomatica" xml:space="preserve">
+    <value>Automatic Transfer</value>
+  </data>
+  <data name="CancelarCotizacionCitaReserva" xml:space="preserve">
+    <value>You can not cancel the a quotation linked to an appointment, please cancel the appointment directly</value>
+  </data>
+  <data name="Empleado" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="HoraFin" xml:space="preserve">
+    <value>End Time:</value>
+  </data>
+  <data name="HoraInicio" xml:space="preserve">
+    <value>Start Time:</value>
+  </data>
+  <data name="OrdenTrabajo" xml:space="preserve">
+    <value>Work Order</value>
+  </data>
+  <data name="Conflictos" xml:space="preserve">
+    <value>Conflicts</value>
+  </data>
+  <data name="Detalle" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="BloqueoAgregarEliminarLineas" xml:space="preserve">
+    <value>It is not possible to add/remove lines, the appointment is linked to a work order</value>
+  </data>
+  <data name="ExisteOT" xml:space="preserve">
+    <value>A record for the next OT number already exists: </value>
+  </data>
+  <data name="ErrorItemCodeAdmin1NoDefinido" xml:space="preserve">
+    <value>You are not defined an item for this type of inventory {0}</value>
+  </data>
+  <data name="ValidaVisita" xml:space="preserve">
+    <value>Visit is already associated with another vehicle</value>
+  </data>
+  <data name="ErrorEliminarLineaCompraOT" xml:space="preserve">
+    <value>The line is linked to a work order and cannot be deleted</value>
+  </data>
+  <data name="PedidoCancelado" xml:space="preserve">
+    <value>The purchase process has been canceled successfully</value>
+  </data>
+  <data name="TituloReAperturaOT" xml:space="preserve">
+    <value>Reopening WO's</value>
+  </data>
+  <data name="XMLReAperturaOT" xml:space="preserve">
+    <value>\Formularios\ReAperturaOT.enUS.srf</value>
+  </data>
+  <data name="ErrorLicencia" xml:space="preserve">
+    <value>You need a valid license to access this form</value>
+  </data>
+  <data name="TituloLicenseManager" xml:space="preserve">
+    <value>License Manager</value>
+  </data>
+  <data name="XMLAdministradorLicencias" xml:space="preserve">
+    <value>\Formularios\AdministradorLicencias.srf</value>
+  </data>
+  <data name="XMLComparacionLicencias" xml:space="preserve">
+    <value>\Formularios\LicenseComparison.srf</value>
+  </data>
+  <data name="CantidadAumentada" xml:space="preserve">
+    <value>Increased Quantity</value>
+  </data>
+  <data name="CantidadReducida" xml:space="preserve">
+    <value>Reduced Quantity</value>
+  </data>
+  <data name="ImportacionCancelada" xml:space="preserve">
+    <value>File import has been canceled</value>
+  </data>
+  <data name="LicenciaAgregada" xml:space="preserve">
+    <value>Added License</value>
+  </data>
+  <data name="LicenciaEliminada" xml:space="preserve">
+    <value>Removed License</value>
+  </data>
+  <data name="LicenciaExpirada" xml:space="preserve">
+    <value>Unable to import the file, expired license</value>
+  </data>
+  <data name="MsjEliminarAsignacionLicencias" xml:space="preserve">
+    <value>The license assignment of all users will be removed. Do you want to continue?</value>
+  </data>
+  <data name="TituloSeleccionarLicencia" xml:space="preserve">
+    <value>Select License File</value>
+  </data>
+  <data name="ErrorActualizarCotizacion" xml:space="preserve">
+    <value>Error Updating Quotation</value>
+  </data>
+  <data name="ErrorActualizarOrdenVenta" xml:space="preserve">
+    <value>Error Updating Sales Order</value>
+  </data>
+  <data name="ErrorActualizarOT" xml:space="preserve">
+    <value>Error Updating Work Order</value>
+  </data>
+  <data name="ErrorCancelarOrdenVenta" xml:space="preserve">
+    <value>Error Cancel Sales Order</value>
+  </data>
+  <data name="ErrorReAperturaCotizacion" xml:space="preserve">
+    <value>Error Reopen Quotation</value>
+  </data>
+  <data name="ErrorReAperturaOT" xml:space="preserve">
+    <value>Could not reopen Work Order.</value>
+  </data>
+  <data name="ErrorReAperturaOtCargaObjetos" xml:space="preserve">
+    <value>Error Loading Quotation Objects</value>
+  </data>
+  <data name="ErrorReAperturaOTSinOFV" xml:space="preserve">
+    <value>The Sales Order does not have an associated quotation</value>
+  </data>
+  <data name="FinReAperturaOT" xml:space="preserve">
+    <value>Work Order enabled.</value>
+  </data>
+  <data name="InicioReAperturaOT" xml:space="preserve">
+    <value>Validating Reopening of Work Order</value>
+  </data>
+  <data name="ErrorCuentaDiferencia" xml:space="preserve">
+    <value>Account difference of price not defined</value>
+  </data>
+  <data name="NoticacionVencimientoLicencia" xml:space="preserve">
+    <value>The DMS Add-On license expires on</value>
+  </data>
+  <data name="NotificacionVencimientoLicenciaFin" xml:space="preserve">
+    <value>, please coordinate with SCG.</value>
+  </data>
+  <data name="NoExisteConfiguracionSucursal" xml:space="preserve">
+    <value>The Branch assigned to its user does not have a correct configuration.</value>
+  </data>
+  <data name="XMLInterfaceJohnDeere" xml:space="preserve">
+    <value>\Formularios\InterfaceJohnDeere.srf</value>
+  </data>
+  <data name="XMLConfigurationJohnDeere" xml:space="preserve">
+    <value>\Formularios\InterfaceJohnDeereConfiguration.srf</value>
+  </data>
+  <data name="CitaCambiaCotizacionNueva" xml:space="preserve">
+    <value>The appointment was correctly linked to the new quote.</value>
+  </data>
+  <data name="CitaCambiaCotizacionPrevia" xml:space="preserve">
+    <value>The previous appointment has been unlinked.</value>
+  </data>
+  <data name="CitaPorCrear" xml:space="preserve">
+    <value>You must create the quote before linking a quote.</value>
+  </data>
+  <data name="PendienteProcesoCompra" xml:space="preserve">
+    <value>The following article has a checkout process, please cancel:</value>
+  </data>
+</root>

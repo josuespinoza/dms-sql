@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DestinaXMensajeSBODMSDataSet" targetNamespace="http://tempuri.org/DestinaXMensajeSBODMSDataSet.xsd" xmlns:mstns="http://tempuri.org/DestinaXMensajeSBODMSDataSet.xsd" xmlns="http://tempuri.org/DestinaXMensajeSBODMSDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SCGDMSOneConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="SCGDMSOneConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.SCGDMSOneConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DestinaXMensajeSBODMSDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DestinaXMensajeSBODMSDataSet" msprop:Generator_DataSetName="DestinaXMensajeSBODMSDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_MensajesSBO_DMS" msprop:Generator_UserTableName="SCGTA_TB_MensajesSBO_DMS" msprop:Generator_RowDeletedName="SCGTA_TB_MensajesSBO_DMSRowDeleted" msprop:Generator_RowChangedName="SCGTA_TB_MensajesSBO_DMSRowChanged" msprop:Generator_RowClassName="SCGTA_TB_MensajesSBO_DMSRow" msprop:Generator_RowChangingName="SCGTA_TB_MensajesSBO_DMSRowChanging" msprop:Generator_RowEvArgName="SCGTA_TB_MensajesSBO_DMSRowChangeEvent" msprop:Generator_RowEvHandlerName="SCGTA_TB_MensajesSBO_DMSRowChangeEventHandler" msprop:Generator_TableClassName="SCGTA_TB_MensajesSBO_DMSDataTable" msprop:Generator_TableVarName="tableSCGTA_TB_MensajesSBO_DMS" msprop:Generator_RowDeletingName="SCGTA_TB_MensajesSBO_DMSRowDeleting" msprop:Generator_TablePropName="SCGTA_TB_MensajesSBO_DMS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NoMensaje" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="NoMensaje" msprop:Generator_ColumnVarNameInTable="columnNoMensaje" msprop:Generator_ColumnPropNameInRow="NoMensaje" msprop:Generator_ColumnPropNameInTable="NoMensajeColumn" type="xs:long" />
+              <xs:element name="Detalle" msprop:Generator_UserColumnName="Detalle" msprop:Generator_ColumnVarNameInTable="columnDetalle" msprop:Generator_ColumnPropNameInRow="Detalle" msprop:Generator_ColumnPropNameInTable="DetalleColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoOrden" msprop:Generator_UserColumnName="NoOrden" msprop:Generator_ColumnVarNameInTable="columnNoOrden" msprop:Generator_ColumnPropNameInRow="NoOrden" msprop:Generator_ColumnPropNameInTable="NoOrdenColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoCotizacion" msprop:Generator_UserColumnName="NoCotizacion" msprop:Generator_ColumnVarNameInTable="columnNoCotizacion" msprop:Generator_ColumnPropNameInRow="NoCotizacion" msprop:Generator_ColumnPropNameInTable="NoCotizacionColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Check" msprop:Generator_UserColumnName="Check" msprop:Generator_ColumnVarNameInTable="columnCheck" msprop:Generator_ColumnPropNameInRow="Check" msprop:Generator_ColumnPropNameInTable="CheckColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="FechaCompromiso" msprop:Generator_UserColumnName="FechaCompromiso" msprop:Generator_ColumnPropNameInRow="FechaCompromiso" msprop:Generator_ColumnVarNameInTable="columnFechaCompromiso" msprop:Generator_ColumnPropNameInTable="FechaCompromisoColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="HoraCompromiso" msprop:Generator_UserColumnName="HoraCompromiso" msprop:Generator_ColumnPropNameInRow="HoraCompromiso" msprop:Generator_ColumnVarNameInTable="columnHoraCompromiso" msprop:Generator_ColumnPropNameInTable="HoraCompromisoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HoraApertura" msprop:Generator_UserColumnName="HoraApertura" msprop:Generator_ColumnPropNameInRow="HoraApertura" msprop:Generator_ColumnVarNameInTable="columnHoraApertura" msprop:Generator_ColumnPropNameInTable="HoraAperturaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaApertura" msprop:Generator_UserColumnName="FechaApertura" msprop:Generator_ColumnPropNameInRow="FechaApertura" msprop:Generator_ColumnVarNameInTable="columnFechaApertura" msprop:Generator_ColumnPropNameInTable="FechaAperturaColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TipoMensaje" msprop:Generator_UserColumnName="TipoMensaje" msprop:Generator_ColumnVarNameInTable="columnTipoMensaje" msprop:Generator_ColumnPropNameInRow="TipoMensaje" msprop:Generator_ColumnPropNameInTable="TipoMensajeColumn" type="xs:int" default="1" minOccurs="0" />
+              <xs:element name="NoSolicitud" msprop:Generator_UserColumnName="NoSolicitud" msprop:Generator_ColumnPropNameInRow="NoSolicitud" msprop:Generator_ColumnVarNameInTable="columnNoSolicitud" msprop:Generator_ColumnPropNameInTable="NoSolicitudColumn" type="xs:int" default="-1" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_MensajesSBO_DMS" />
+      <xs:field xpath="mstns:NoMensaje" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

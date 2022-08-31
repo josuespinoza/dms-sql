@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CitaEliminada" xml:space="preserve">
+    <value>Cita Eliminada</value>
+  </data>
+  <data name="Cotizacion" xml:space="preserve">
+    <value>Cotización</value>
+  </data>
+  <data name="DeLaFecha" xml:space="preserve">
+    <value>de la fecha</value>
+    <comment>x.3 EJ: Fecha 12/12/07. La orden 150 de la fecha 12/12/07 no se ha creado por el siguiente motivo:</comment>
+  </data>
+  <data name="FaseNoAsociada" xml:space="preserve">
+    <value>Fase no asociada</value>
+  </data>
+  <data name="Fecha" xml:space="preserve">
+    <value>Fecha</value>
+    <comment>x.1 EJ: Fecha 12/12/07. La orden 150 de la fecha 12/12/07 no se ha creado por el siguiente motivo:</comment>
+  </data>
+  <data name="Generico" xml:space="preserve">
+    <value>Genérico</value>
+  </data>
+  <data name="LaOrden" xml:space="preserve">
+    <value>La Orden</value>
+    <comment>x.2 EJ: Fecha 12/12/07. La orden 150 de la fecha 12/12/07 no se ha creado por el siguiente motivo:</comment>
+  </data>
+  <data name="MensajeBaseDatosNoDefinida" xml:space="preserve">
+    <value>Base de Datos no definida</value>
+  </data>
+  <data name="MensajeErrorConexionBD" xml:space="preserve">
+    <value>Error en la Conexión con la Base de Datos</value>
+  </data>
+  <data name="MensajeFavorRevisar" xml:space="preserve">
+    <value>Por favor verificar</value>
+  </data>
+  <data name="MensajeImposibleConectarConfiguracion" xml:space="preserve">
+    <value>Imposible establecer la conexión con la Base de Datos de Configuración</value>
+  </data>
+  <data name="MensajeMonedaLocalNoConfigurada" xml:space="preserve">
+    <value>No se encuentra configurada la Moneda Local en SBO</value>
+  </data>
+  <data name="MensajeMonedaSistemaNoConfigurada" xml:space="preserve">
+    <value>No se encuentra configurada la Moneda del Sistema en SBO</value>
+  </data>
+  <data name="MensajeNombreoContrasenaIncorrecta" xml:space="preserve">
+    <value>Nombre de Usuario o Contraseña Incorrecta</value>
+  </data>
+  <data name="MensajeNopuedeAgregarItems" xml:space="preserve">
+    <value>No puede agregar items a una cotización cerrada</value>
+    <comment>x</comment>
+  </data>
+  <data name="MensajeNoseHaCreadoPor" xml:space="preserve">
+    <value>no se ha creado por el siguiente motivo</value>
+    <comment>x.4 EJ: Fecha 12/12/07. La orden 150 de la fecha 12/12/07 no se ha creado por el siguiente motivo:</comment>
+  </data>
+  <data name="MensajeOCNoCreadaTipoCambio" xml:space="preserve">
+    <value>La orden de compra no puede ser creada, ya que el tipo de cambio del dia no ha sido acualizado en SBO</value>
+    <comment>x</comment>
+  </data>
+  <data name="MensajeOCNoPuedeSerCreadaRepNoInventario" xml:space="preserve">
+    <value>La orden de compra no puede ser creada, ya que uno o varios de los repuestos no se encuentran en el inventario de SBO</value>
+    <comment>x</comment>
+  </data>
+  <data name="MensajeOtReferencia" xml:space="preserve">
+    <value>OT Referencia</value>
+    <comment>x</comment>
+  </data>
+  <data name="MensajeServidorNoDefinido" xml:space="preserve">
+    <value>Servidor no Definido</value>
+  </data>
+  <data name="MensajeTipoCambioNoActualizado" xml:space="preserve">
+    <value>Tipo de cambio no actualizado, ingrese el tipo de cambio para el día de hoy</value>
+  </data>
+  <data name="MensajeTransferenciaCancelacion" xml:space="preserve">
+    <value>Transferencia por cancelación</value>
+    <comment>x</comment>
+  </data>
+  <data name="MensajeTransferenciaStockOT" xml:space="preserve">
+    <value>Transferencia de Stock OT</value>
+    <comment>x</comment>
+  </data>
+  <data name="MensajeUDFyaExiste" xml:space="preserve">
+    <value>El User Defined Field que se intenta crear, ya existe</value>
+  </data>
+  <data name="NoGenerico" xml:space="preserve">
+    <value>No Genérico</value>
+  </data>
+  <data name="NoProcesado" xml:space="preserve">
+    <value>No Procesado</value>
+  </data>
+  <data name="NoTrasladado" xml:space="preserve">
+    <value>No Trasladado</value>
+  </data>
+  <data name="OrdenCompra" xml:space="preserve">
+    <value>Orden de Compra</value>
+  </data>
+  <data name="OT" xml:space="preserve">
+    <value>OT</value>
+  </data>
+  <data name="OT_Referencia" xml:space="preserve">
+    <value>OT Referencia: </value>
+  </data>
+  <data name="PendienteTraslado" xml:space="preserve">
+    <value>Pendiente Traslado</value>
+  </data>
+  <data name="Referencia" xml:space="preserve">
+    <value>Referencia</value>
+  </data>
+  <data name="Sederivadelaorden" xml:space="preserve">
+    <value>Se deriva de la orden </value>
+  </data>
+  <data name="SinDescripcion" xml:space="preserve">
+    <value>Sin Descripción</value>
+  </data>
+  <data name="TipoCambioNoActualizado" xml:space="preserve">
+    <value>Tipo de cambio no actualizado</value>
+  </data>
+  <data name="Trasladado" xml:space="preserve">
+    <value>Trasladado</value>
+  </data>
+  <data name="Traslado" xml:space="preserve">
+    <value>Transferencia de Stock</value>
+  </data>
+  <data name="DocumentoBorrador" xml:space="preserve">
+    <value>Transferencia - Borrador</value>
+  </data>
+  <data name="MensajeTransferenciaBorradorOT" xml:space="preserve">
+    <value>Requisición {0} OT {1}</value>
+  </data>
+  <data name="PendienteBodega" xml:space="preserve">
+    <value>Pendiente Bodega</value>
+  </data>
+  <data name="Devolucion" xml:space="preserve">
+    <value>DEVOLUCIÓN</value>
+  </data>
+  <data name="MensajeTrasferenciaDraftCancelacion" xml:space="preserve">
+    <value>Transferencia Stock  - Borrador por cancelación</value>
+  </data>
+  <data name="DocGeneraReq" xml:space="preserve">
+    <value>Transf. Inv.</value>
+  </data>
+  <data name="RequisicionTraslado" xml:space="preserve">
+    <value>Transferencia</value>
+  </data>
+  <data name="ErrorCode" xml:space="preserve">
+    <value>Cod. Error: </value>
+  </data>
+  <data name="OfertaCompra" xml:space="preserve">
+    <value>Oferta de Compra</value>
+  </data>
+  <data name="MensajeOFNoPuedeSerCreadaRepNoInventario" xml:space="preserve">
+    <value>La oferta de compra no puede ser creada, ya que uno o varios de los repuestos no se encuentran en el inventario de SBO</value>
+  </data>
+  <data name="MensajeOFNoCreadaTipoCambio" xml:space="preserve">
+    <value>La oferta de compra no puede ser creada, ya que el tipo de cambio del dia no ha sido acualizado en SBO</value>
+  </data>
+  <data name="MensajeErrorTipoCambioME" xml:space="preserve">
+    <value>Debe ingresar el tipo de cambio para la moneda</value>
+  </data>
+  <data name="ParaLaFecha" xml:space="preserve">
+    <value>para la fecha</value>
+  </data>
+  <data name="CosteoAccesorios" xml:space="preserve">
+    <value>Codigo Transacción para Costeo de Accesorios No Definido</value>
+  </data>
+  <data name="MensajeOCProveedorInactivo" xml:space="preserve">
+    <value>El proveedor se encuentra Inactivo.</value>
+  </data>
+  <data name="SolicitudOTEspecial" xml:space="preserve">
+    <value>Solicitud de OT Especial </value>
+  </data>
+  <data name="MensajeSoliticitudArticulosUsados" xml:space="preserve">
+    <value>El artículo '{0}' -  '{1}'  se encuentra en la solicitud: {2}.  Se debe cancelar la solicitud para poder utilizar el artículo.</value>
+  </data>
+  <data name="MensajeTraslado" xml:space="preserve">
+    <value>TRASLADO</value>
+  </data>
+  <data name="MensajeTransferenciaBorradorOTSAP" xml:space="preserve">
+    <value>Documento de Requisición {0} OT {1}</value>
+  </data>
+  <data name="EstadoOrdenCancelada" xml:space="preserve">
+    <value>Cancelada</value>
+  </data>
+  <data name="EstadoOrdenCerrada" xml:space="preserve">
+    <value>Cerrada</value>
+  </data>
+  <data name="EstadoOrdenFacturada" xml:space="preserve">
+    <value>Facturada</value>
+  </data>
+  <data name="EstadoOrdenFinalizada" xml:space="preserve">
+    <value>Finalizada</value>
+  </data>
+  <data name="EstadoOrdenNoIniciada" xml:space="preserve">
+    <value>No Iniciada</value>
+  </data>
+  <data name="EstadoOrdenProceso" xml:space="preserve">
+    <value>Proceso</value>
+  </data>
+  <data name="EstadoOrdenSuspendido" xml:space="preserve">
+    <value>Suspendido</value>
+  </data>
+  <data name="Repuesto" xml:space="preserve">
+    <value>Repuesto</value>
+  </data>
+  <data name="Suministro" xml:space="preserve">
+    <value>Suministro</value>
+  </data>
+  <data name="Pendiente" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+</root>

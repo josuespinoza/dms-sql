@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ItemSolicitudEspecificoDataset" targetNamespace="http://tempuri.org/ItemSolicitudEspecificoDataset.xsd" xmlns:mstns="http://tempuri.org/ItemSolicitudEspecificoDataset.xsd" xmlns="http://tempuri.org/ItemSolicitudEspecificoDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="DMSMatrizProduccionConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DMSMatrizProduccionConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.DMSMatrizProduccionConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ItemSolicitudEspecificoDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="ItemSolicitudEspecificoDataset" msprop:Generator_UserDSName="ItemSolicitudEspecificoDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_SP_SelItemSolicitudEspecifico" msprop:Generator_UserTableName="SCGTA_SP_SelItemSolicitudEspecifico" msprop:Generator_RowEvArgName="SCGTA_SP_SelItemSolicitudEspecificoRowChangeEvent" msprop:Generator_TableVarName="tableSCGTA_SP_SelItemSolicitudEspecifico" msprop:Generator_TablePropName="SCGTA_SP_SelItemSolicitudEspecifico" msprop:Generator_RowDeletingName="SCGTA_SP_SelItemSolicitudEspecificoRowDeleting" msprop:Generator_RowChangingName="SCGTA_SP_SelItemSolicitudEspecificoRowChanging" msprop:Generator_RowDeletedName="SCGTA_SP_SelItemSolicitudEspecificoRowDeleted" msprop:Generator_RowEvHandlerName="SCGTA_SP_SelItemSolicitudEspecificoRowChangeEventHandler" msprop:Generator_RowChangedName="SCGTA_SP_SelItemSolicitudEspecificoRowChanged" msprop:Generator_TableClassName="SCGTA_SP_SelItemSolicitudEspecificoDataTable" msprop:Generator_RowClassName="SCGTA_SP_SelItemSolicitudEspecificoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="IDSolicitud" msprop:Generator_ColumnVarNameInTable="columnIDSolicitud" msprop:Generator_ColumnPropNameInRow="IDSolicitud" msprop:Generator_ColumnPropNameInTable="IDSolicitudColumn" msprop:Generator_UserColumnName="IDSolicitud" type="xs:int" />
+              <xs:element name="ItemCodeGenerico" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="ItemCodeGenerico" msprop:Generator_ColumnVarNameInTable="columnItemCodeGenerico" msprop:Generator_ColumnPropNameInTable="ItemCodeGenericoColumn" msprop:Generator_UserColumnName="ItemCodeGenerico" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:decimal" default="0" />
+              <xs:element name="Observaciones" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Observaciones" msprop:Generator_ColumnVarNameInTable="columnObservaciones" msprop:Generator_ColumnPropNameInTable="ObservacionesColumn" msprop:Generator_UserColumnName="Observaciones" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ItemName" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="ItemName" msprop:Generator_ColumnVarNameInTable="columnItemName" msprop:Generator_ColumnPropNameInTable="ItemNameColumn" msprop:Generator_UserColumnName="ItemName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CodEspecifico" msprop:nullValue="(Empty)" msprop:Generator_ColumnPropNameInRow="CodEspecifico" msprop:Generator_ColumnVarNameInTable="columnCodEspecifico" msprop:Generator_ColumnPropNameInTable="CodEspecificoColumn" msprop:Generator_UserColumnName="CodEspecifico" type="xs:string" minOccurs="0" />
+              <xs:element name="NomEspecifico" msprop:nullValue="(Empty)" msprop:Generator_ColumnPropNameInRow="NomEspecifico" msprop:Generator_ColumnVarNameInTable="columnNomEspecifico" msprop:Generator_ColumnPropNameInTable="NomEspecificoColumn" msprop:Generator_UserColumnName="NomEspecifico" type="xs:string" minOccurs="0" />
+              <xs:element name="PrecioAcordado" msprop:Generator_ColumnVarNameInTable="columnPrecioAcordado" msprop:Generator_ColumnPropNameInRow="PrecioAcordado" msprop:Generator_ColumnPropNameInTable="PrecioAcordadoColumn" msprop:Generator_UserColumnName="PrecioAcordado" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="LineNum" msprop:Generator_ColumnVarNameInTable="columnLineNum" msprop:Generator_ColumnPropNameInRow="LineNum" msprop:Generator_ColumnPropNameInTable="LineNumColumn" msprop:Generator_UserColumnName="LineNum" type="xs:int" default="-1" minOccurs="0" />
+              <xs:element name="FreeTxt" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="FreeTxt" msprop:Generator_ColumnVarNameInTable="columnFreeTxt" msprop:Generator_ColumnPropNameInTable="FreeTxtColumn" msprop:Generator_UserColumnName="FreeTxt" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="IDEmpleado" msprop:Generator_ColumnVarNameInTable="columnIDEmpleado" msprop:Generator_ColumnPropNameInRow="IDEmpleado" msprop:Generator_ColumnPropNameInTable="IDEmpleadoColumn" msprop:Generator_UserColumnName="IDEmpleado" type="xs:int" minOccurs="0" />
+              <xs:element name="NombreEmpleado" msprop:nullValue="(Empty)" msprop:Generator_ColumnPropNameInRow="NombreEmpleado" msprop:Generator_ColumnVarNameInTable="columnNombreEmpleado" msprop:Generator_ColumnPropNameInTable="NombreEmpleadoColumn" msprop:Generator_UserColumnName="NombreEmpleado" type="xs:string" minOccurs="0" />
+              <xs:element name="SinExistencia" msprop:Generator_ColumnVarNameInTable="columnSinExistencia" msprop:Generator_ColumnPropNameInRow="SinExistencia" msprop:Generator_ColumnPropNameInTable="SinExistenciaColumn" msprop:Generator_UserColumnName="SinExistencia" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="Nuevo" msprop:Generator_ColumnVarNameInTable="columnNuevo" msprop:Generator_ColumnPropNameInRow="Nuevo" msprop:Generator_ColumnPropNameInTable="NuevoColumn" msprop:Generator_UserColumnName="Nuevo" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="Currency" msprop:Generator_ColumnVarNameInTable="columnCurrency" msprop:Generator_ColumnPropNameInRow="Currency" msprop:Generator_ColumnPropNameInTable="CurrencyColumn" msprop:Generator_UserColumnName="Currency" type="xs:string" minOccurs="0" />
+              <xs:element name="IngresoPE" msprop:Generator_ColumnVarNameInTable="columnIngresoPE" msprop:Generator_ColumnPropNameInRow="IngresoPE" msprop:Generator_ColumnPropNameInTable="IngresoPEColumn" msprop:Generator_UserColumnName="IngresoPE" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="TransaccionNula" msprop:Generator_ColumnVarNameInTable="columnTransaccionNula" msprop:Generator_ColumnPropNameInRow="TransaccionNula" msprop:Generator_ColumnPropNameInTable="TransaccionNulaColumn" msprop:Generator_UserColumnName="TransaccionNula" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_SP_SelItemSolicitudEspecifico" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

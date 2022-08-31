@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActividadFinalizada" xml:space="preserve">
+    <value>Actividad Finalizada Correctamente</value>
+  </data>
+  <data name="ActividadIniciada" xml:space="preserve">
+    <value>Actividad Iniciada Correctamente</value>
+  </data>
+  <data name="ActividadSuspendida" xml:space="preserve">
+    <value>Actividad Suspendida Correctamente</value>
+  </data>
+  <data name="ActualizandoCotizacion" xml:space="preserve">
+    <value>Actualizando la Cotización</value>
+  </data>
+  <data name="AsignaciónActividades" xml:space="preserve">
+    <value>Asignación de actividades realizado correctamente</value>
+  </data>
+  <data name="Comprar" xml:space="preserve">
+    <value>Comprar</value>
+  </data>
+  <data name="De" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="ElItem" xml:space="preserve">
+    <value>El Ítem</value>
+  </data>
+  <data name="ErrorFinalizarFinalizada" xml:space="preserve">
+    <value>Esta actividad ya se encuentra Finalizada</value>
+  </data>
+  <data name="ErrorFinalizarNoIniciada" xml:space="preserve">
+    <value>No se puede Finalizar una actividad en estado "No Iniciado"</value>
+  </data>
+  <data name="ErrorFinalizarOTActIniciadas" xml:space="preserve">
+    <value>Existen Actividades en estado Iniciado o No Iniciado</value>
+  </data>
+  <data name="ErrorFinalizarSuspendida" xml:space="preserve">
+    <value>No se puede Finalizar una actividad en estado "Suspendida"</value>
+  </data>
+  <data name="ErrorIniciarFinalizada" xml:space="preserve">
+    <value>No se puede Iniciar una actividad en estado "Finalizado"</value>
+  </data>
+  <data name="ErrorIniciarIniciada" xml:space="preserve">
+    <value>Esta actividad ya se encuentra Iniciada</value>
+  </data>
+  <data name="ErrorSuspenderFinalizada" xml:space="preserve">
+    <value>No se puede Suspender una actividad "Finalizada"</value>
+  </data>
+  <data name="ErrorSuspenderNoIniciada" xml:space="preserve">
+    <value>No se puede Suspender una actividad "No Iniciada"</value>
+  </data>
+  <data name="ErrorSuspenderSuspendida" xml:space="preserve">
+    <value>Esta actividad ya se encuentra Suspendida</value>
+  </data>
+  <data name="ErrorTipoCliente" xml:space="preserve">
+    <value>Tipo de cliente no soportado para las órdenes de Trabajo</value>
+  </data>
+  <data name="EstadoFinalizada" xml:space="preserve">
+    <value>Finalizada</value>
+  </data>
+  <data name="FinalizandoOperaciones" xml:space="preserve">
+    <value>Finalizando Operaciones del Addon</value>
+  </data>
+  <data name="frmAsignacionMultiple" xml:space="preserve">
+    <value>\Formularios\AsignacionMultiple.xml</value>
+  </data>
+  <data name="frmBuscadorAdicionales" xml:space="preserve">
+    <value>\Formularios\BuscadorAdicionales.xml</value>
+  </data>
+  <data name="InclusionAdicionales" xml:space="preserve">
+    <value>Adicionales agregados de manera correcta</value>
+  </data>
+  <data name="InicioProc" xml:space="preserve">
+    <value>Iniciado el procesamiento de Lineas</value>
+  </data>
+  <data name="ItemMalConfig" xml:space="preserve">
+    <value>se encuentra mal configurado</value>
+  </data>
+  <data name="OrdenFinalizada" xml:space="preserve">
+    <value>Orden Finalizada Correctamente</value>
+  </data>
+  <data name="PendTraslado" xml:space="preserve">
+    <value>Pend. Traslado</value>
+  </data>
+  <data name="PermisosDisminuir" xml:space="preserve">
+    <value>No se poseen los permisos para disminuir cantidades en la cotización</value>
+  </data>
+  <data name="ProcesandoElItm" xml:space="preserve">
+    <value>Procesando el Ítem</value>
+  </data>
+  <data name="ProcesoFinalizado" xml:space="preserve">
+    <value>Proceso Finalizado Correctamente</value>
+  </data>
+  <data name="Rechazar" xml:space="preserve">
+    <value>Rechazar</value>
+  </data>
+  <data name="SinInventario" xml:space="preserve">
+    <value>no está disponible en inventario, ¿que desea hacer?</value>
+  </data>
+  <data name="Trasladar" xml:space="preserve">
+    <value>Trasladar</value>
+  </data>
+  <data name="ValTiempoEstandar" xml:space="preserve">
+    <value>posee una configuración incorrecta de Tiempo Estandar</value>
+  </data>
+  <data name="ErrorIniciarIniciadaControl" xml:space="preserve">
+    <value>Mecanico tiene otras actividades iniciadas.</value>
+  </data>
+  <data name="Todas" xml:space="preserve">
+    <value>Todos (as)</value>
+  </data>
+  <data name="CambioOT" xml:space="preserve">
+    <value>Cambio OT</value>
+  </data>
+  <data name="FaltoAprobacion" xml:space="preserve">
+    <value>Falto Aprobación</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoProcesado" xml:space="preserve">
+    <value>No Procesado</value>
+  </data>
+  <data name="PendienteBodega" xml:space="preserve">
+    <value>Pendiente Bodega</value>
+  </data>
+  <data name="PendienteTraslado" xml:space="preserve">
+    <value>Pendiente Traslado </value>
+  </data>
+  <data name="Si" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="frmDocumentoCompra" xml:space="preserve">
+    <value>\Formularios\DocumentoCompra.xml</value>
+  </data>
+  <data name="frmBuscadorProveedores" xml:space="preserve">
+    <value>\Formularios\BuscadorProveedores.xml</value>
+  </data>
+  <data name="CreacionDocCompra" xml:space="preserve">
+    <value>El documento de compra ha sido creado satisfactoriamente</value>
+  </data>
+  <data name="ErrorCodigoProveedor" xml:space="preserve">
+    <value>Debe de seleccionar un Proveedor</value>
+  </data>
+  <data name="frmOTEspecial" xml:space="preserve">
+    <value>\Formularios\OTEspecial.xml</value>
+  </data>
+  <data name="ErrorTipoOrden" xml:space="preserve">
+    <value>Debe seleccionar un Tipo de Orden</value>
+  </data>
+  <data name="CreacionOTEspecial" xml:space="preserve">
+    <value>Se creó el Documento de Orden Especial</value>
+  </data>
+  <data name="ErrorEstadoPendiente" xml:space="preserve">
+    <value>Existen lineas con estado Pendiente</value>
+  </data>
+  <data name="ErrorEstadoSolicitada" xml:space="preserve">
+    <value>Existen lineas con estado Solicitado</value>
+  </data>
+  <data name="ErrorValidaEntrega" xml:space="preserve">
+    <value>Existen líneas pendientes de entrega</value>
+  </data>
+  <data name="ErrorActividadesNoAsignadas" xml:space="preserve">
+    <value>Existen actividades no asignadas</value>
+  </data>
+  <data name="ErrorValidaActAsignadas" xml:space="preserve">
+    <value>No se puede finalizar una OT con actividades pendientes de asignación de mecánicos</value>
+  </data>
+  <data name="PreguntaFinalizacion" xml:space="preserve">
+    <value>¿Desea finalizar todas las actividades pendientes de la Orden?</value>
+  </data>
+  <data name="ErrorRazonSuspension" xml:space="preserve">
+    <value>Debe seleccionar una Razón de Suspensión</value>
+  </data>
+  <data name="frmRazonesSuspension" xml:space="preserve">
+    <value>\Formularios\RazonSuspension.xml</value>
+  </data>
+  <data name="MensajeFavorRevisar" xml:space="preserve">
+    <value>Por favor verificar</value>
+  </data>
+  <data name="MensajeTransferenciaBorradorOT" xml:space="preserve">
+    <value>Documento de Requisición OT</value>
+  </data>
+  <data name="MensajeTransferenciaBorradorOTSAP" xml:space="preserve">
+    <value>Documento de Requisición {0} OT {1}</value>
+  </data>
+  <data name="OrdenActualizada" xml:space="preserve">
+    <value>Orden de trabajo actualizada.</value>
+  </data>
+  <data name="OT" xml:space="preserve">
+    <value>OT</value>
+  </data>
+  <data name="Referencia" xml:space="preserve">
+    <value>Referencia</value>
+  </data>
+  <data name="Traslado" xml:space="preserve">
+    <value>Transferencia de Stock</value>
+  </data>
+  <data name="Cancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Finalizar" xml:space="preserve">
+    <value>Finalizar</value>
+  </data>
+  <data name="msgCancelacionOT" xml:space="preserve">
+    <value>¿Desea Cancelar la Orden de Trabajo?</value>
+  </data>
+  <data name="msgFinalizacionOT" xml:space="preserve">
+    <value>¿Desea Finalizar la Orden de Trabajo?</value>
+  </data>
+  <data name="ErrorValidaOTEspecialCantPend" xml:space="preserve">
+    <value>Existen cantidades pendientes, no se puede realizar la Orden de Trabajo Especial</value>
+  </data>
+  <data name="EstadoCancelada" xml:space="preserve">
+    <value>Cancelada</value>
+  </data>
+  <data name="MensajeOrdenTipo" xml:space="preserve">
+    <value>OT tipo {0}</value>
+  </data>
+  <data name="MensajeSolicitada" xml:space="preserve">
+    <value>ha sido solicitada.</value>
+    <comment>X.2 Orden de Garantia Solicitada</comment>
+  </data>
+  <data name="MensajeSolicitudOTEspecial" xml:space="preserve">
+    <value>Una Solicitud para Orden Especial de </value>
+  </data>
+  <data name="MensajeNuevaOfertaCompra" xml:space="preserve">
+    <value>Nueva oferta de compra</value>
+  </data>
+  <data name="MensajeNuevaOrdenCompra" xml:space="preserve">
+    <value>Nueva orden de compra</value>
+  </data>
+  <data name="MensajeNuevaSolicitudEspecificos" xml:space="preserve">
+    <value>Nueva Solicitud de códigos específicos</value>
+  </data>
+  <data name="FrmTrackRepuestos" xml:space="preserve">
+    <value>\Formularios\TrackingRep.xml</value>
+  </data>
+  <data name="MsgSolOtEspSuccess" xml:space="preserve">
+    <value>Solicitud de OT especial creada exitosamente.</value>
+  </data>
+  <data name="Sederivadelaorden" xml:space="preserve">
+    <value>Se deriva de la orden</value>
+  </data>
+  <data name="FaltaTax" xml:space="preserve">
+    <value>No se ha definido un impuesto para el articulo {0} en la línea {1}</value>
+  </data>
+  <data name="ErrorRequisicionesPendientes" xml:space="preserve">
+    <value>Existen requisiciones pendientes para esta orden de trabajo. </value>
+  </data>
+  <data name="NoSePuedeEliminarAsignacion" xml:space="preserve">
+    <value>No se puede eliminar una asignación suspendida o finalizada</value>
+  </data>
+  <data name="MsjNoSePuedeCancelarOTArticulosEntregados" xml:space="preserve">
+    <value>No se puede cancelar OT,existen Articulos Comprados ya entregado</value>
+  </data>
+  <data name="MsjNoPermiteCancelarActividades" xml:space="preserve">
+    <value>No se puede cancelar OT ya que existen actividades asignadas</value>
+  </data>
+  <data name="MsjNoPuedeCancelarOTExisteArt" xml:space="preserve">
+    <value>No se puede cancelar OT existen articulos aprobados</value>
+  </data>
+  <data name="MsjCantidadErronea" xml:space="preserve">
+    <value>El cantidad ingresada para el item {0} en la línea {1} no debe ser mayor a la cantidad pendiente</value>
+  </data>
+  <data name="Asesor" xml:space="preserve">
+    <value>Asesor: </value>
+  </data>
+  <data name="Devolucion" xml:space="preserve">
+    <value> DEVOLUCIÓN </value>
+  </data>
+  <data name="DocGeneraReq" xml:space="preserve">
+    <value>Transf. Inv.</value>
+  </data>
+  <data name="MensajeAjusteOTEspecial" xml:space="preserve">
+    <value>Ajuste Automático por creación de orden especial.</value>
+  </data>
+  <data name="OT_Referencia" xml:space="preserve">
+    <value> OT Referencia: </value>
+  </data>
+  <data name="Repuesto" xml:space="preserve">
+    <value>Repuesto</value>
+  </data>
+  <data name="RequisicionTraslado" xml:space="preserve">
+    <value>Transferencia</value>
+  </data>
+  <data name="Suministro" xml:space="preserve">
+    <value>Suministro</value>
+  </data>
+  <data name="ValidacionMinutos" xml:space="preserve">
+    <value>La cadena ingresada no es un valor valido en minutos</value>
+  </data>
+  <data name="ValidacionMinutosMenorCero" xml:space="preserve">
+    <value>El valor ingresado debe ser mayor a 0</value>
+  </data>
+  <data name="ValidacionFechaFinMenor" xml:space="preserve">
+    <value>La Fecha fin debe ser mayor a la fecha inicial</value>
+  </data>
+  <data name="ValidacionFechaInicioIncorrecta" xml:space="preserve">
+    <value>La fecha de incio no es válida</value>
+  </data>
+  <data name="ValidacionFechaFinIncorrecta" xml:space="preserve">
+    <value>La fecha fin no es válida</value>
+  </data>
+  <data name="ValidacionSeleccionOpcion" xml:space="preserve">
+    <value>Seleccione una opción para la asignación de tiempos</value>
+  </data>
+  <data name="ActividadYaIniciada" xml:space="preserve">
+    <value>Esta actividad ya fue iniciada previamente</value>
+  </data>
+  <data name="ErrorActividadesSinMecanico" xml:space="preserve">
+    <value>Existen Actividades sin un Mecánico Asignado</value>
+  </data>
+  <data name="CancelacionOTExitosa" xml:space="preserve">
+    <value>La OT {0} a sido Cancelada Correctamente</value>
+  </data>
+  <data name="txtSuspender" xml:space="preserve">
+    <value>Suspender</value>
+  </data>
+  <data name="msgSuspenciónOT" xml:space="preserve">
+    <value>¿Desea Suspender la Orden de Trabajo?</value>
+  </data>
+  <data name="OTSuspendida" xml:space="preserve">
+    <value>Orden de Trabajo Suspendida Correctamente</value>
+  </data>
+  <data name="txtDevolucionMercancia" xml:space="preserve">
+    <value>Devolucion de Mercancia</value>
+  </data>
+  <data name="txtEntradaMercancia" xml:space="preserve">
+    <value>Entrada de Mercancia</value>
+  </data>
+  <data name="txtFacturaProveedor" xml:space="preserve">
+    <value>Factura de Proveedor</value>
+  </data>
+  <data name="txtMsjSuspencionOT" xml:space="preserve">
+    <value>La Orden de Trabajo ha sido suspendida.</value>
+  </data>
+  <data name="txtNotaCredito" xml:space="preserve">
+    <value>Nota de Credito</value>
+  </data>
+  <data name="txtOfertaCompra" xml:space="preserve">
+    <value>Oferta de Compra</value>
+  </data>
+  <data name="txtOrdenCompra" xml:space="preserve">
+    <value>Orden de Compra</value>
+  </data>
+  <data name="txtRespondido" xml:space="preserve">
+    <value>Respondido</value>
+  </data>
+  <data name="txtSolicitado" xml:space="preserve">
+    <value>Solicitado</value>
+  </data>
+  <data name="ErrorPrintReport" xml:space="preserve">
+    <value>No se ha podido imprimir el reporte.</value>
+  </data>
+  <data name="rptSolEsp" xml:space="preserve">
+    <value>rptSolicitudEspec.rpt</value>
+  </data>
+  <data name="txtSolicitudEspecificos" xml:space="preserve">
+    <value>Solicitud de Específicos</value>
+  </data>
+  <data name="txtCancelado" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="msgValidaFinalizacionActividadesPendites" xml:space="preserve">
+    <value>Existen actividades pendientes de finalizar. 
+¿Desea continuar? </value>
+  </data>
+  <data name="NumeroSol" xml:space="preserve">
+    <value>Número de Solicitud : </value>
+  </data>
+  <data name="rptDetalleActividadesOT" xml:space="preserve">
+    <value>rptDetalleActividadesOT.rpt</value>
+  </data>
+  <data name="rptGeneralActividadesOT" xml:space="preserve">
+    <value>rptGeneralActividadesOT.rpt</value>
+  </data>
+  <data name="MSJOTAvaFinalizada" xml:space="preserve">
+    <value>Se ha finalizado la orden de trabajo del avalúo numero : {0}.</value>
+  </data>
+  <data name="SolicitudEspeSinProcesar" xml:space="preserve">
+    <value>Las lineas del documento ya fueron procesadas</value>
+  </data>
+  <data name="TXTValidaTipoSN" xml:space="preserve">
+    <value>Debe definir el tipo de socio de negocios en el dato maestro para poder completar esta acción.</value>
+  </data>
+  <data name="TXTValidaTipoPagoDptoServ" xml:space="preserve">
+    <value>Debe seleccionar el tipo de pago y el departamento de servicio para poder completar esta acción.</value>
+  </data>
+  <data name="frmTrackingSolEspecificos" xml:space="preserve">
+    <value>\Formularios\TrackingSolEspecific.xml</value>
+  </data>
+  <data name="NoExisteConfTaller" xml:space="preserve">
+    <value>No existe la configuración de taller necesaria para realizar el proceso</value>
+  </data>
+  <data name="ValidaRepuestosCompraRecibidos" xml:space="preserve">
+    <value>La OT no se puede cancelar porque existen Articulos con su proceso de compra hecho</value>
+  </data>
+  <data name="ErrorDebeEscogerMecanico" xml:space="preserve">
+    <value>Debe de escoger un mecanico para asignarlo al Servicio o bien no hay ningun Servicio seleccionado.</value>
+  </data>
+  <data name="ValidaEstadoActividadCancelar" xml:space="preserve">
+    <value>No es posible cancelar la OT ya que el servicio {0} se encuentra iniciado o finalizado.</value>
+  </data>
+  <data name="ErrorEstadoEdicionTiempo" xml:space="preserve">
+    <value>Solo se pueden editar los tiempos de una orden de trabajo en estado No Iniciada, Iniciada o Suspendida.</value>
+  </data>
+  <data name="ErrorPermisosFormulario" xml:space="preserve">
+    <value>No tiene permisos para abrir este formulario. Contacte al administrador del sistema.</value>
+  </data>
+  <data name="XMLTimeRecord" xml:space="preserve">
+    <value>\Formularios\TimeRecord.srf</value>
+  </data>
+  <data name="MetodoCosteoSinConfigurar" xml:space="preserve">
+    <value>El método de costeo no está configurado correctamente</value>
+  </data>
+  <data name="ErrorFechaEnBlanco" xml:space="preserve">
+    <value>La fecha no puede estar en blanco</value>
+  </data>
+  <data name="EstadoOrdenNoIniciada" xml:space="preserve">
+    <value>No Iniciada</value>
+  </data>
+  <data name="ErrorActividadesSinFinalizar" xml:space="preserve">
+    <value>Existen actividades sin finalizar</value>
+  </data>
+  <data name="ProcesandoOTEspecial" xml:space="preserve">
+    <value>Procesando Orden de Trabajo Especial</value>
+  </data>
+</root>

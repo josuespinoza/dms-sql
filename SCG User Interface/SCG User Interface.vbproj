@@ -1,0 +1,1439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9847E04E-CF9E-4885-A768-5E2FF54627F8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SCG_User_Interface</RootNamespace>
+    <AssemblyName>SCG User Interface</AssemblyName>
+    <MyType>Windows</MyType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SCG User Interface.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <WarningLevel>1</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SCG User Interface.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <WarningLevel>1</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Automotriz|AnyCPU' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Automotriz\</OutputPath>
+    <DocumentationFile>SCG User Interface.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug x86|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug x86\</OutputPath>
+    <DocumentationFile>SCG User Interface.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>SCG User Interface.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>SCG User Interface.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Automotriz|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Automotriz\</OutputPath>
+    <DocumentationFile>SCG User Interface.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug x86|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug x86\</OutputPath>
+    <DocumentationFile>SCG User Interface.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>SCG User Interface.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>SCG User Interface.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Automotriz|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Automotriz\</OutputPath>
+    <DocumentationFile>SCG User Interface.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug x86|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug x86\</OutputPath>
+    <DocumentationFile>SCG User Interface.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponenteCristalReport, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\ComponenteCristalReport.dll</HintPath>
+    </Reference>
+    <Reference Include="ControlUDF, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Commonbin\Assemblies\ControlUDF.dll</HintPath>
+    </Reference>
+    <Reference Include="DeKlaritLibrary, Version=4.3.0.0, Culture=neutral, PublicKeyToken=387f38cffbc45540, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CommonBin\Assemblies\DeKlaritLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="DMSONEDKFrameworkBusinessFramework, Version=1.0.3076.17005, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Commonbin\Assemblies\DMSONEDKFrameworkBusinessFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SAPbobsCOM">
+      <HintPath>..\..\CommonBin\SboInterops\Interop.SAPbobsCOM.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.SAPbouiCOM">
+      <HintPath>..\..\CommonBin\SboInterops\Interop.SAPbouiCOM.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="IrisSkin2, Version=2006.3.22.45, Culture=neutral, PublicKeyToken=0ed4c5f2bbf81ac0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Commonbin\Assemblies\IrisSkin2.dll</HintPath>
+    </Reference>
+    <Reference Include="ManipuladorClienteDLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DMS_Connector\Referencias\ManipuladorClienteDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="NEWTEXTBOX, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Commonbin\Assemblies\NEWTEXTBOX.dll</HintPath>
+    </Reference>
+    <Reference Include="Proyecto SCGMSGBox, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Commonbin\Assemblies\Proyecto SCGMSGBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Proyecto SCGToolBar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Commonbin\Assemblies\Proyecto SCGToolBar.dll</HintPath>
+    </Reference>
+    <Reference Include="RegionMasterControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2fff377801b8b201">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Commonbin\Assemblies\RegionMasterControls.dll</HintPath>
+    </Reference>
+    <Reference Include="SCG ComponenteImagenes, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Commonbin\Assemblies\SCG ComponenteImagenes.dll</HintPath>
+    </Reference>
+    <Reference Include="SCG New Buscador, Version=4.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Commonbin\Assemblies\SCG New Buscador.dll</HintPath>
+    </Reference>
+    <Reference Include="SCG Produccion Controls, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Commonbin\Assemblies\SCG Produccion Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="SCG.SkinManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Commonbin\Assemblies\SCG.SkinManager.dll</HintPath>
+    </Reference>
+    <Reference Include="SCG.UX.Windows.ManejoDeArchivosDigitales">
+      <HintPath>..\..\Commonbin\Assemblies\SCG.UX.Windows.ManejoDeArchivosDigitales.dll</HintPath>
+    </Reference>
+    <Reference Include="SCG.UX.Windows.SAP, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Commonbin\Assemblies\SCG.UX.Windows.SAP.dll</HintPath>
+    </Reference>
+    <Reference Include="SCGComboBox, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Commonbin\Assemblies\SCGComboBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="DMSOneFramework.SCGDataAccess" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsUtilidadCombos.vb" />
+    <Compile Include="Configuración\frmConfBodegasporCentroCosto.Designer.vb">
+      <DependentUpon>frmConfBodegasporCentroCosto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuración\frmConfBodegasporCentroCosto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfiguracionApp\frmConfiguracionApp.Designer.vb">
+      <DependentUpon>frmConfiguracionApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConfiguracionApp\frmConfiguracionApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuración\frmConfAgendas.Designer.vb">
+      <DependentUpon>frmConfAgendas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuración\frmConfAgendas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfiguracionApp\frmConfCatalogoRepxMarca.Designer.vb">
+      <DependentUpon>frmConfCatalogoRepxMarca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConfiguracionApp\frmConfCatalogoRepxMarca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuración\frmConfCentroCosto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuración\frmConfFases.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuración\frmConfHorario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuración\frmConfMensajeria.Designer.vb">
+      <DependentUpon>frmConfMensajeria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuración\frmConfMensajeria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuración\frmConfTipoOrden.Designer.vb">
+      <DependentUpon>frmConfTipoOrden.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuración\frmConfTipoOrden.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuración\frmConfigurarOtInternas.Designer.vb">
+      <DependentUpon>frmConfigurarOtInternas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuración\frmConfigurarOtInternas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuración\frmConfOTsEspeciales.Designer.vb">
+      <DependentUpon>frmConfOTsEspeciales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuración\frmConfOTsEspeciales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuración\frmConfRazonesCita.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuración\frmConfRazonesSuspension.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuración\frmRampas.Designer.vb">
+      <DependentUpon>frmRampas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuración\frmRampas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuración\frmUnidadesTiempo.Designer.vb">
+      <DependentUpon>frmUnidadesTiempo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuración\frmUnidadesTiempo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmAsignacionRepuestos.Designer.vb">
+      <DependentUpon>frmAsignacionRepuestos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Control de Producción\frmAsignacionRepuestos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmAsignacionTiempos.Designer.vb">
+      <DependentUpon>frmAsignacionTiempos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Control de Producción\frmAsignacionTiempos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmAsignarActividades.Designer.vb">
+      <DependentUpon>frmAsignarActividades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Control de Producción\frmAsignarActividades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmBusquedaSolicitudesEspecificos.Designer.vb">
+      <DependentUpon>frmBusquedaSolicitudesEspecificos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Control de Producción\frmBusquedaSolicitudesEspecificos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmCtrlSuspension.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmDetalleOrdenesEspeciales.Designer.vb">
+      <DependentUpon>frmDetalleOrdenesEspeciales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Control de Producción\frmDetalleOrdenesEspeciales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmFactVtaNocturna.Designer.vb">
+      <DependentUpon>frmFactVtaNocturna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Control de Producción\frmFactVtaNocturna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmFasesProduccionAdicional.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmOrdenesEspeciales.Designer.vb">
+      <DependentUpon>frmOrdenesEspeciales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Control de Producción\frmOrdenesEspeciales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmSolicitudEspecificos.Designer.vb">
+      <DependentUpon>frmSolicitudEspecificos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Control de Producción\frmSolicitudEspecificos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmSolicitudesXOrden.Designer.vb">
+      <DependentUpon>frmSolicitudesXOrden.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Control de Producción\frmSolicitudesXOrden.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmTrabajoActividad.Designer.vb">
+      <DependentUpon>frmTrabajoActividad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Control de Producción\frmTrabajoActividad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\Produccion\Orden.OtrosGastos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmDocumentosXOrden.Designer.vb">
+      <DependentUpon>frmDocumentosXOrden.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmDocumentosXOrden.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmReporteComision.Designer.vb">
+      <DependentUpon>frmReporteComision.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteComision.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmReporteCostosXOrden.Designer.vb">
+      <DependentUpon>frmReporteCostosXOrden.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteCostosXOrden.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmReporteCostosXOrdenInt.Designer.vb">
+      <DependentUpon>frmReporteCostosXOrdenInt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteCostosXOrdenInt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmReporteOTxEstado.Designer.vb">
+      <DependentUpon>frmReporteOTxEstado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteOTxEstado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmReporteVentaxEmpleadoDetRes.Designer.vb">
+      <DependentUpon>frmReporteVentaxEmpleadoDetRes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteVentaxEmpleadoDetRes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmRpt2CumplimientoEntrega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\Produccion\frmOrden.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmOrdenCompra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmOrdenes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmPlantillaFases.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmRendimientoxOrden.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmReprocesos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmSuspensiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmTrackingRepuestos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\frmAdicionales1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\Produccion\Orden.Actividades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\Produccion\Orden.Produccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\Produccion\Orden.Rampas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\Produccion\Orden.Rendimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\Produccion\Orden.Repuestos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\Produccion\Orden.ServiciosExternos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control de Producción\Produccion\Orden.Suministros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalesUI.vb" />
+    <Compile Include="mdlGlobales.vb" />
+    <Compile Include="MensajeriaSBO_DMS\frmMensajeria1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reportes\frmReporteItemsXOrden.Designer.vb">
+      <DependentUpon>frmReporteItemsXOrden.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteItemsXOrden.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmRangoFechas.Designer.vb">
+      <DependentUpon>frmRangoFechas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmRangoFechas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmRepOrdenesPintura.designer.vb">
+      <DependentUpon>frmRepOrdenesPintura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmRepOrdenesPintura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmReporteCitasXFechaYAgenda.Designer.vb">
+      <DependentUpon>frmReporteCitasXFechaYAgenda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteCitasXFechaYAgenda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmReporteEficienciayProductividad.Designer.vb">
+      <DependentUpon>frmReporteEficienciayProductividad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteEficienciayProductividad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmReporteFacturacionOT.Designer.vb">
+      <DependentUpon>frmReporteFacturacionOT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteFacturacionOT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmReporteHistorialResumido.Designer.vb">
+      <DependentUpon>frmReporteHistorialResumido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteHistorialResumido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmReporteHorasxMecanico.Designer.vb">
+      <DependentUpon>frmReporteHorasxMecanico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteHorasxMecanico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmReporteOrdenesxTipo.Designer.vb">
+      <DependentUpon>frmReporteOrdenesXTipo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteOrdenesXTipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmReporteOTxFecha.Designer.vb">
+      <DependentUpon>frmReporteOTxFecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteOTxFecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmReporteResumenFacturacionXMecanico.Designer.vb">
+      <DependentUpon>frmReporteResumenFacturacionXMecanico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReporteResumenFacturacionXMecanico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmRepVisitasXAsesor.designer.vb">
+      <DependentUpon>frmRepVisitasXAsesor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmRepVisitasXAsesor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmRptOrdenGarantia.Designer.vb">
+      <DependentUpon>frmRptOrdenGarantia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmRptOrdenGarantia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmTiemposRealesVSStandar.Designer.vb">
+      <DependentUpon>frmTiemposRealesVSStandar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmTiemposRealesVSStandar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmVentasPorEmpleado.Designer.vb">
+      <DependentUpon>frmVentasPorEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmVentasPorEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResourceUI.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceUI.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceUI.en-US.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceUI.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmCalendarioAgenda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmCita.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuración\frmConfiguracionServidordeCorreo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmCtrlDocumentosExpediente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmCtrlInformacionClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmCtrlInformacionVehiculos.Designer.vb">
+      <DependentUpon>frmCtrlInformacionVehiculos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmCtrlInformacionVehiculos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmDetalleCita.Designer.vb">
+      <DependentUpon>frmDetalleCita.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmDetalleCita.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmDetalleVisita.designer.vb">
+      <DependentUpon>frmDetalleVisita.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmDetalleVisita.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmExpedientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmFiltroClientes.Designer.vb">
+      <DependentUpon>frmFiltroClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmFiltroClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmOcupacionPatio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmProgramacionCitasAutom.Designer.vb">
+      <DependentUpon>frmProgramacionCitasAutom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmProgramacionCitasAutom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio al Cliente\frmPublicidadClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio al Cliente\ProgramacionCitas\AdministradorFiltrosVehiculos.vb" />
+    <Compile Include="Servicio al Cliente\ProgramacionCitas\Agenda.vb" />
+    <Compile Include="Servicio al Cliente\ProgramacionCitas\ConfiguracionFiltrosAgendas.vb" />
+    <Compile Include="Servicio al Cliente\ProgramacionCitas\frmEditarElementoCita.Designer.vb">
+      <DependentUpon>frmEditarElementoCita.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Servicio al Cliente\ProgramacionCitas\frmEditarElementoCita.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio al Cliente\ProgramacionCitas\Vehiculo.vb" />
+    <Compile Include="Servicio al Cliente\ProgramacionCitas\FiltroDMS.vb" />
+    <Compile Include="UserControls\DataGridCheckColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\DataGridCitaAgendaColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\DataGridCitaColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\DataGridColumnDate.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\DataGridColumnProgressBar.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\DataGridColumnStylePadding.vb" />
+    <Compile Include="UserControls\DataGridConditionalColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\DataGridHoraColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\DataGridLabelColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\DataGridValidatedTextColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\DetalleOtrosGastos.Designer.vb">
+      <DependentUpon>DetalleOtrosGastos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DetalleOtrosGastos.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ConfiguracionApp\frmConfCatalogoRepxMarca.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfCatalogoRepxMarca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfBodegasporCentroCosto.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfBodegasporCentroCosto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfBodegasporCentroCosto.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfBodegasporCentroCosto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfiguracionApp\frmConfiguracionApp.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfiguracionApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfiguracionApp\frmConfiguracionApp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfiguracionApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfAgendas.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfAgendas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfAgendas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfAgendas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfiguracionApp\frmConfCatalogoRepxMarca.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfCatalogoRepxMarca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfCentroCosto.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfCentroCosto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfCentroCosto.resx">
+      <DependentUpon>frmConfCentroCosto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfFases.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfFases.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfFases.resx">
+      <DependentUpon>frmConfFases.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfHorario.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfHorario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfHorario.resx">
+      <DependentUpon>frmConfHorario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfMensajeria.en-US.resx">
+      <DependentUpon>frmConfMensajeria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfMensajeria.resx">
+      <DependentUpon>frmConfMensajeria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfTipoOrden.en-US.resx">
+      <DependentUpon>frmConfTipoOrden.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfTipoOrden.resx">
+      <DependentUpon>frmConfTipoOrden.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfigurarOtInternas.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfigurarOtInternas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfigurarOtInternas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfigurarOtInternas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfOTsEspeciales.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfOTsEspeciales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfOTsEspeciales.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfOTsEspeciales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfRazonesCita.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfRazonesCita.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfRazonesCita.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfRazonesCita.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfRazonesSuspension.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfRazonesSuspension.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfRazonesSuspension.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfRazonesSuspension.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmRampas.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRampas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmRampas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRampas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmUnidadesTiempo.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUnidadesTiempo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmUnidadesTiempo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUnidadesTiempo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmAdicionales1.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAdicionales1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmAsignacionRepuestos.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAsignacionRepuestos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmAsignacionRepuestos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAsignacionRepuestos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmAsignacionTiempos.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAsignacionTiempos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmAsignacionTiempos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAsignacionTiempos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmAsignarActividades.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAsignarActividades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmAsignarActividades.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAsignarActividades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmBusquedaSolicitudesEspecificos.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBusquedaSolicitudesEspecificos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmBusquedaSolicitudesEspecificos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBusquedaSolicitudesEspecificos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmCtrlSuspension.en-US.resx">
+      <DependentUpon>frmCtrlSuspension.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmCtrlSuspension.resx">
+      <DependentUpon>frmCtrlSuspension.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmDetalleOrdenesEspeciales.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDetalleOrdenesEspeciales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmDetalleOrdenesEspeciales.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDetalleOrdenesEspeciales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmFactVtaNocturna.en-US.resx">
+      <DependentUpon>frmFactVtaNocturna.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmFactVtaNocturna.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFactVtaNocturna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmFasesProduccionAdicional.resx">
+      <DependentUpon>frmFasesProduccionAdicional.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmOrdenCompra.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOrdenCompra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmOrdenes.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOrdenes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmOrdenesEspeciales.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOrdenesEspeciales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmOrdenesEspeciales.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOrdenesEspeciales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmSolicitudEspecificos.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSolicitudEspecificos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmSolicitudEspecificos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSolicitudEspecificos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmSolicitudesXOrden.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSolicitudesXOrden.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmSolicitudesXOrden.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSolicitudesXOrden.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmSuspensiones.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSuspensiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmTrabajoActividad.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTrabajoActividad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmTrabajoActividad.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTrabajoActividad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmTrackingRepuestos.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTrackingRepuestos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmOrdenCompra.resx">
+      <DependentUpon>frmOrdenCompra.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmOrdenes.resx">
+      <DependentUpon>frmOrdenes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmPlantillaFases.resx">
+      <DependentUpon>frmPlantillaFases.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmRendimientoxOrden.resx">
+      <DependentUpon>frmRendimientoxOrden.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmReprocesos.resx">
+      <DependentUpon>frmReprocesos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmSuspensiones.resx">
+      <DependentUpon>frmSuspensiones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmTrackingRepuestos.resx">
+      <DependentUpon>frmTrackingRepuestos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\frmAdicionales1.resx">
+      <DependentUpon>frmAdicionales1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\Produccion\frmOrden.en-US.resx">
+      <DependentUpon>frmOrden.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control de Producción\Produccion\frmOrden.resx">
+      <DependentUpon>frmOrden.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmDocumentosXOrden.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDocumentosXOrden.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmDocumentosXOrden.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDocumentosXOrden.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmRepOrdenesPintura.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRepOrdenesPintura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteComision.resx">
+      <DependentUpon>frmReporteComision.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteCostosXOrden.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteCostosXOrden.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteCostosXOrden.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteCostosXOrden.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MensajeriaSBO_DMS\frmMensajeria1.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMensajeria1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MensajeriaSBO_DMS\frmMensajeria1.resx">
+      <DependentUpon>frmMensajeria1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmRangoFechas.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRangoFechas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteCitasXFechaYAgenda.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteCitasXFechaYAgenda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteCostosXOrdenInt.en-US.resx">
+      <DependentUpon>frmReporteCostosXOrdenInt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteCostosXOrdenInt.resx">
+      <DependentUpon>frmReporteCostosXOrdenInt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteEficienciayProductividad.en-US.resx">
+      <DependentUpon>frmReporteEficienciayProductividad.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteFacturacionOT.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteFacturacionOT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteHistorialResumido.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteHistorialResumido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteHorasxMecanico.en-US.resx">
+      <DependentUpon>frmReporteHorasxMecanico.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteItemsXOrden.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteItemsXOrden.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteItemsXOrden.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteItemsXOrden.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmRangoFechas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRangoFechas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmRepOrdenesPintura.resx">
+      <DependentUpon>frmRepOrdenesPintura.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteCitasXFechaYAgenda.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteCitasXFechaYAgenda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteEficienciayProductividad.resx">
+      <DependentUpon>frmReporteEficienciayProductividad.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteFacturacionOT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteFacturacionOT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteHistorialResumido.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteHistorialResumido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteHorasxMecanico.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteHorasxMecanico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteOrdenesXTipo.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteOrdenesXTipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteOrdenesXTipo.resx">
+      <DependentUpon>frmReporteOrdenesXTipo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteOTxEstado.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteOTxEstado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteOTxEstado.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteOTxEstado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteOTxFecha.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteOTxFecha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteOTxFecha.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteOTxFecha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteResumenFacturacionXMecanico.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteResumenFacturacionXMecanico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteResumenFacturacionXMecanico.resx">
+      <DependentUpon>frmReporteResumenFacturacionXMecanico.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReporteVentaxEmpleadoDetRes.resx">
+      <DependentUpon>frmReporteVentaxEmpleadoDetRes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmRepVisitasXAsesor.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRepVisitasXAsesor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmRepVisitasXAsesor.resx">
+      <DependentUpon>frmRepVisitasXAsesor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmRpt2CumplimientoEntrega.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRpt2CumplimientoEntrega.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmRpt2CumplimientoEntrega.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRpt2CumplimientoEntrega.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmRptOrdenGarantia.en-US.resx">
+      <DependentUpon>frmRptOrdenGarantia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmRptOrdenGarantia.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRptOrdenGarantia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmTiemposRealesVSStandar.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTiemposRealesVSStandar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmTiemposRealesVSStandar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTiemposRealesVSStandar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmVentasPorEmpleado.en-US.resx">
+      <DependentUpon>frmVentasPorEmpleado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmVentasPorEmpleado.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVentasPorEmpleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceUI.en-US.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceUI.en-US.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceUI.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceUI.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmFiltroClientes.en-US.resx">
+      <DependentUpon>frmFiltroClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmFiltroClientes.resx">
+      <DependentUpon>frmFiltroClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmCalendarioAgenda.en-US.resx">
+      <DependentUpon>frmCalendarioAgenda.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmCalendarioAgenda.resx">
+      <DependentUpon>frmCalendarioAgenda.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmCita.en-US.resx">
+      <DependentUpon>frmCita.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmCita.resx">
+      <DependentUpon>frmCita.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfiguracionServidordeCorreo.en-US.resx">
+      <DependentUpon>frmConfiguracionServidordeCorreo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuración\frmConfiguracionServidordeCorreo.resx">
+      <DependentUpon>frmConfiguracionServidordeCorreo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmCtrlDocumentosExpediente.resx">
+      <DependentUpon>frmCtrlDocumentosExpediente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmCtrlInformacionClientes.en-US.resx">
+      <DependentUpon>frmCtrlInformacionClientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmCtrlInformacionClientes.resx">
+      <DependentUpon>frmCtrlInformacionClientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmCtrlInformacionVehiculos.en-US.resx">
+      <DependentUpon>frmCtrlInformacionVehiculos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmCtrlInformacionVehiculos.resx">
+      <DependentUpon>frmCtrlInformacionVehiculos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmDetalleCita.en-US.resx">
+      <DependentUpon>frmDetalleCita.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmDetalleCita.resx">
+      <DependentUpon>frmDetalleCita.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmDetalleVisita.en-US.resx">
+      <DependentUpon>frmDetalleVisita.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmDetalleVisita.resx">
+      <DependentUpon>frmDetalleVisita.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmExpedientes.en-US.resx">
+      <DependentUpon>frmExpedientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmExpedientes.resx">
+      <DependentUpon>frmExpedientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmOcupacionPatio.en-US.resx">
+      <DependentUpon>frmOcupacionPatio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmOcupacionPatio.resx">
+      <DependentUpon>frmOcupacionPatio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmProgramacionCitasAutom.en-US.resx">
+      <DependentUpon>frmProgramacionCitasAutom.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmPublicidadClientes.en-US.resx">
+      <DependentUpon>frmPublicidadClientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\frmPublicidadClientes.resx">
+      <DependentUpon>frmPublicidadClientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\ProgramacionCitas\frmEditarElementoCita.en-US.resx">
+      <DependentUpon>frmEditarElementoCita.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio al Cliente\ProgramacionCitas\frmEditarElementoCita.resx">
+      <DependentUpon>frmEditarElementoCita.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DataGridCheckColumn.resx">
+      <DependentUpon>DataGridCheckColumn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DataGridColumnDate.resx">
+      <DependentUpon>DataGridColumnDate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DataGridColumnProgressBar.resx">
+      <DependentUpon>DataGridColumnProgressBar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DataGridLabelColumn.resx">
+      <DependentUpon>DataGridLabelColumn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DetalleOtrosGastos.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DetalleOtrosGastos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DetalleOtrosGastos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DetalleOtrosGastos.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CornerImage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\Mensajeria.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\sap_cerrar.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\sbo_cuadro.GIF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\sbo_humanRe.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\sbo_humanRe.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\sbo_procesos2.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\sbo_produccion.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\sbo_produccion.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\sbo_reportes.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\sbo_reportes.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\sbo_seguridad.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\sbo_valoracion.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\sbo_valoracion.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\S_B_INTE.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\triangulo1.bmp" />
+    <None Include="Resources\triangulo2.bmp" />
+    <None Include="app.config" />
+    <None Include="Resources\reloj.gif" />
+    <None Include="Resources\Reloj.ico.ico" />
+    <None Include="Resources\S_B_NOAC.gif" />
+    <None Include="Resources\S_B_OPTA.gif" />
+    <None Include="Resources\S_B_TXCR.gif" />
+    <None Include="Resources\dialogBox.gif" />
+    <None Include="My Project\DataSources\DMSOneFramework.AgendaDataset+SCGTA_TB_AgendaDataTable.datasource" />
+    <None Include="Resources\Boton_SCG.bmp" />
+    <None Include="Resources\calendario21.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DMSOneFramework\DMSOneFramework.vbproj">
+      <Project>{9AC48AE4-957F-4DAB-A079-CD660429F436}</Project>
+      <Name>DMSOneFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG.DMSOne.Framework\SCG.DMSOne.Framework.csproj">
+      <Project>{86819DD4-6443-4F85-8226-6DE9D8AE9F1D}</Project>
+      <Name>SCG.DMSOne.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG.SBOFramework\SCG.SBOFramework.csproj">
+      <Project>{5956FFF3-24E5-4406-9EF0-67134A934865}</Project>
+      <Name>SCG.SBOFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCG.UX.Windows.CitasAutomaticas\SCG.UX.Windows.CitasAutomaticas.csproj">
+      <Project>{8C6746B8-F35E-4F06-84C5-59ECF20857E2}</Project>
+      <Name>SCG.UX.Windows.CitasAutomaticas</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

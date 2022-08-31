@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/SCGMasterPage.master" AutoEventWireup="true" Inherits="MasterPages_SCGUserDescMasterPage" Codebehind="SCGUserDescMasterPage.master.cs" %>
+
+<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+
+
+     
+    <link href="../App_Themes/MiscelaneosLayOutStyles/TabsStyle.css" 
+        rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .imgAbajo
+        {
+            background-image: url('/SCGDMSWebApp/SCGCommonImages/Abajo.png');
+            background-repeat: no-repeat;
+       
+        }
+        .imgLado
+        {
+            background-image: url('/SCGDMSWebApp/SCGCommonImages/Lado.png');
+            background-repeat: no-repeat;
+        }
+    </style>
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="cphAddonBase" Runat="Server">
+
+    <div id="CompanyInfo">
+
+ 
+    
+      <div id="Collapsible"  style="width:24px; height:24px;  " ></div>
+<h1><asp:Label Runat="Server" Text=""   CssClass="ColorAzulLetra HalfDoubleEmSize   " > </asp:Label></h1>
+<div id="Corners"  >
+<div style=" border-color:White; overflow:hidden; min-width:670px; padding:0;">
+<div id="OrillaSupIzq"></div>
+ <div id="OrillaSupDer"></div>
+ </div>
+  <div id="UserContent">
+        <asp:ContentPlaceHolder id="cphAddonContent"  runat="server">
+    
+    
+            <p>
+               
+                <br />
+            </p>
+           
+          
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+    
+    
+        </asp:ContentPlaceHolder>
+        </div>
+<div style=" border-color:White; overflow:hidden; min-width:670px; padding:0;">
+ <div id="OrillaInfIzq"></div>
+ <div id="OrillaInfDer"></div>
+ </div>
+</div>
+</div>
+
+</asp:Content>

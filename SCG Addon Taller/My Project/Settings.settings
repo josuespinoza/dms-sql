@@ -1,0 +1,270 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="REPSAConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=HARAYA2010;Initial Catalog=REPSA;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=HARAYA2010;Initial Catalog=REPSA;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="SBODemoES_CRCConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=haraya2010\haraya2010v2008;Initial Catalog=SBONamespaceES_CRC;Persist Security Info=True;User ID=sa;Password=B1admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=haraya2010\haraya2010v2008;Initial Catalog=SBONamespaceES_CRC;Persist Security Info=True;User ID=sa;Password=B1admin</Value>
+    </Setting>
+    <Setting Name="SBO_BAVARIANConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=FLOPEZ-PC\FLOPEZ;Initial Catalog=SBODemoES_CRC;User ID=sa</Value>
+    </Setting>
+    <Setting Name="SBO_AutomotrizConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=FLOPEZ-PC\FLOPEZ;Initial Catalog=SBODemoES_CRC;User ID=sa</Value>
+    </Setting>
+    <Setting Name="SBO_AutomotrizConnectionString1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=FLOPEZ-PC\FLOPEZ;Initial Catalog=SBODemoES_CRC;User ID=sa</Value>
+    </Setting>
+    <Setting Name="Diego_SBODemoES_CRCConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=FLOPEZ-PC\FLOPEZ;Initial Catalog=SBODemoES_CRC;User ID=sa</Value>
+    </Setting>
+    <Setting Name="SBONamespaceES_CRC_haraya" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=haraya2010\haraya2010v2008;Initial Catalog=SBONamespaceES_CRC;Persist Security Info=True;User ID=sa;Password=B1admin&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=haraya2010\haraya2010v2008;Initial Catalog=SBONamespaceES_CRC;Persist Security Info=True;User ID=sa;Password=B1admin</Value>
+    </Setting>
+    <Setting Name="DMSNamespaceES_CRC_haraya" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=haraya2010\haraya2010v2008;Initial Catalog=SCGDMSOneNamespace_CR;Persist Security Info=True;User ID=sa;Password=B1admin&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=haraya2010\haraya2010v2008;Initial Catalog=SCGDMSOneNamespace_CR;Persist Security Info=True;User ID=sa;Password=B1admin</Value>
+    </Setting>
+    <Setting Name="SCGDMSOneNamespace_CRConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.0.46;Initial Catalog=SCGDMSOneNamespace_CR;User ID=sa&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.0.46;Initial Catalog=SCGDMSOneNamespace_CR;User ID=sa</Value>
+    </Setting>
+    <Setting Name="SBODemo_USConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DHERRERA-PC;Initial Catalog=SBODemo_US;Persist Security Info=True;User ID=sa;Password=B1admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DHERRERA-PC;Initial Catalog=SBODemo_US;Persist Security Info=True;User ID=sa;Password=B1admin</Value>
+    </Setting>
+    <Setting Name="SBODemoCRConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=FLOPEZ-PC;Initial Catalog=SBODemoCR;User ID=sa&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=FLOPEZ-PC;Initial Catalog=SBODemoCR;User ID=sa</Value>
+    </Setting>
+    <Setting Name="REASA_ProduccionConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=Flopez-pc;Initial Catalog=REASA_Produccion;Persist Security Info=True;User ID=sa;Password=B1admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=Flopez-pc;Initial Catalog=REASA_Produccion;Persist Security Info=True;User ID=sa;Password=B1admin</Value>
+    </Setting>
+    <Setting Name="SBO_NASAConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.1.55;Initial Catalog=SBO_NASA;User ID=sa;Password=B1Admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.1.55;Initial Catalog=SBO_NASA;User ID=sa;Password=B1Admin</Value>
+    </Setting>
+    <Setting Name="CORIMOTORSConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=flopez-pc;Initial Catalog=CORIMOTORS;User ID=sa&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=flopez-pc;Initial Catalog=CORIMOTORS;User ID=sa</Value>
+    </Setting>
+    <Setting Name="REASA_Financ_PruebasConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DHERRERA;Initial Catalog=REASA_Financ_Pruebas;Persist Security Info=True;User ID=sa;Password=B1admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DHERRERA;Initial Catalog=REASA_Financ_Pruebas;Persist Security Info=True;User ID=sa;Password=B1admin</Value>
+    </Setting>
+    <Setting Name="SBOBMNEWConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DHERRERA;Initial Catalog=SBOBMNEW;Persist Security Info=True;User ID=sa;Password=B1admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DHERRERA;Initial Catalog=SBOBMNEW;Persist Security Info=True;User ID=sa;Password=B1admin</Value>
+    </Setting>
+    <Setting Name="SBOBMNewConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=BEHRMANNDEMO;Initial Catalog=SBOBMNew;User ID=sa;Password=B1admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=BEHRMANNDEMO;Initial Catalog=SBOBMNew;User ID=sa;Password=B1admin</Value>
+    </Setting>
+    <Setting Name="SBO_FinanciamientoConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DHERRERA;Initial Catalog=SBO_Financiamiento;User ID=sa;Password=B1admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DHERRERA;Initial Catalog=SBO_Financiamiento;User ID=sa;Password=B1admin</Value>
+    </Setting>
+    <Setting Name="SBO_DISITALIConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=FLOPEZ-PC;Initial Catalog=SBO_DISITALI;User ID=sa&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=FLOPEZ-PC;Initial Catalog=SBO_DISITALI;User ID=sa</Value>
+    </Setting>
+    <Setting Name="SBO_BAVARIANConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=FLOPEZ-PC\FLOPEZ;Initial Catalog=SBODemoES_CRC;User ID=sa&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=FLOPEZ-PC\FLOPEZ;Initial Catalog=SBODemoES_CRC;User ID=sa</Value>
+    </Setting>
+    <Setting Name="REASA_ProduccionConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DHERRERA;Initial Catalog=REASA_Produccion;User ID=sa&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DHERRERA;Initial Catalog=REASA_Produccion;User ID=sa</Value>
+    </Setting>
+    <Setting Name="SBO_DISITALIConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=JESPINOZA-PC\JESPINOZA;Initial Catalog=SBO_DISITALI;User ID=sa&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=JESPINOZA-PC\JESPINOZA;Initial Catalog=SBO_DISITALI;User ID=sa</Value>
+    </Setting>
+    <Setting Name="SBO_YAMAHAConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESARROLLO2\DESARROLLO2_SQL;Initial Catalog=SBO_YAMAHA;User ID=sa;Password=B1Admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESARROLLO2\DESARROLLO2_SQL;Initial Catalog=SBO_YAMAHA;User ID=sa;Password=B1Admin</Value>
+    </Setting>
+    <Setting Name="SBO_PORTILLOConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=JUAN-SCG;Initial Catalog=SBO_PORTILLO;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=JUAN-SCG;Initial Catalog=SBO_PORTILLO;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="SBO_YAMAHAConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=FLOPEZ-PC\SQL2008R2;Initial Catalog=SBO_YAMAHA;User ID=sa;Password=B1Admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=FLOPEZ-PC\SQL2008R2;Initial Catalog=SBO_YAMAHA;User ID=sa;Password=B1Admin</Value>
+    </Setting>
+    <Setting Name="SBO_AutomotrizConnectionString2" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=CONSUL1-PC;Initial Catalog=SBO_Automotriz;User ID=sa;Password=B1Admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=CONSUL1-PC;Initial Catalog=SBO_Automotriz;User ID=sa;Password=B1Admin</Value>
+    </Setting>
+    <Setting Name="SBO_SSBBL_PRDConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=FLOPEZ-PC\SQL2008R2;Initial Catalog=SBO_SSBBL_PRD;User ID=sa;Password=B1Admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=FLOPEZ-PC\SQL2008R2;Initial Catalog=SBO_SSBBL_PRD;User ID=sa;Password=B1Admin</Value>
+    </Setting>
+    <Setting Name="SBO_AutomotrizConnectionString3" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=FLOPEZ-PC\SQL2008R2;Initial Catalog=SBO_Automotriz;User ID=sa&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=FLOPEZ-PC\SQL2008R2;Initial Catalog=SBO_Automotriz;User ID=sa</Value>
+    </Setting>
+    <Setting Name="SBOConnSAP" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=JVARGAS-PC\JVARGAS;Initial Catalog=SBODemoES_CRC;User ID=sa&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=JVARGAS-PC\JVARGAS;Initial Catalog=SBODemoES_CRC;User ID=sa</Value>
+    </Setting>
+    <Setting Name="SBO_REASA_PRUEBASConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=JVARGAS-PC\JVARGAS;Initial Catalog=SBO_REASA_PRUEBAS;Persist Security Info=True;User ID=sa&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=JVARGAS-PC\JVARGAS;Initial Catalog=SBO_REASA_PRUEBAS;Persist Security Info=True;User ID=sa</Value>
+    </Setting>
+    <Setting Name="SBO_YAMAHAcnnstr" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=JESPINOZA-PC\JESPINOZA;Initial Catalog=SBO_DISITALI;User ID=sa&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=JESPINOZA-PC\JESPINOZA;Initial Catalog=SBO_DISITALI;User ID=sa</Value>
+    </Setting>
+    <Setting Name="SBODemoES_CRCConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=JESPINOZA-PC\JESPINOZA;Initial Catalog=SBODemoES_CRC;User ID=sa&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=JESPINOZA-PC\JESPINOZA;Initial Catalog=SBODemoES_CRC;User ID=sa</Value>
+    </Setting>
+    <Setting Name="SBO_SAISConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=RCAMACHOPC;Initial Catalog=SBO_SAIS;User ID=sa;Password=B1Admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=RCAMACHOPC;Initial Catalog=SBO_SAIS;User ID=sa;Password=B1Admin</Value>
+    </Setting>
+    <Setting Name="ZSBO_MPCConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=ERICK-HP\ESANABRIA;Initial Catalog=ZSBO_MPC;User ID=sa;Password=B1Admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=ERICK-HP\ESANABRIA;Initial Catalog=ZSBO_MPC;User ID=sa;Password=B1Admin</Value>
+    </Setting>
+    <Setting Name="SBO_SAISConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=FLOPEZ-PC\SQL2008R2;Initial Catalog=SBO_SAIS;User ID=sa;Password=B1Admin&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=FLOPEZ-PC\SQL2008R2;Initial Catalog=SBO_SAIS;User ID=sa;Password=B1Admin</Value>
+    </Setting>
+    <Setting Name="SBO_DemoSAPConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=JOSUE\JESPINOZA;Initial Catalog=SBO_DemoSAP;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=JOSUE\JESPINOZA;Initial Catalog=SBO_DemoSAP;Integrated Security=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

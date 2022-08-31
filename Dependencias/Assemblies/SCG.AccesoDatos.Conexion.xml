@@ -1,0 +1,509 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SCG.AccesoDatos.Conexion
+</name>
+</assembly>
+<members>
+<member name="P:SCG.AccesoDatos.ConnectionManager.ObjEntities">
+	<summary>
+ objeto del object context
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SCG.AccesoDatos.ConnectionManager.DbTransactionEntities">
+	<summary>
+ objeto de transaccion
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConnectionManager.OpenConectionEntities">
+	<summary>
+ abre la conexion con el servidor
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConnectionManager.BeginTransactionEntities">
+	<summary>
+ inicializa la transaccion
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConnectionManager.CommitTransactionEntities">
+	<summary>
+ confirma la transaccion
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConnectionManager.RollBackTransactionEntities">
+	<summary>
+ deshace los cambios
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConnectionManager.CloseConectionEntities">
+	<summary>
+ cierra la conexion
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.#ctor(SCG.AccesoDatos.ConexionAlterna.OrigenConexion,System.String,System.String)">
+	<summary>
+ Crea la conexion
+ </summary>
+	<remarks></remarks>
+</member><member name="T:SCG.AccesoDatos.ConexionAlterna.OrigenConexion">
+	<summary>
+ Declara varios tipos de enumeraciones para ver si la conexion de la clase 
+ de obtiene desde un archivo config o desde un parametro
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.ConexionStringSAPDesdeAppconfig">
+	<summary>
+ Retorna la cadena de Conexion de SAP Business one
+ tomandola desde el archivo Config
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.ConexionStringSCGDesdeAppConfig">
+	<summary>
+ Recupera el conexion string de SCG desde el Archivo AppConfig
+ </summary>
+	<returns>la cadena de conexion</returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.OpenConection">
+	<summary>
+ Abre la conexión
+ </summary>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.CloseConection">
+	<summary>
+ Cierra la conexión
+ </summary>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.BeginTransaction">
+	<summary>
+ Inicia una transacción
+ </summary>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.DisposeTransaction">
+	<summary>
+ Borra la transacción
+ </summary>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.Commit">
+	<summary>
+ Confirma modificaciones en los datos de forma permanente
+ </summary>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.Rollback">
+	<summary>
+ Deshace o cancela modificaciones en los datos
+ </summary>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.ConsultarSCG(System.String)">
+	<summary>
+ Realiza una consulta en la base de datso de SCG 
+ por medio de un query qeu recibe como parametro
+ </summary>
+	<param name="p_strQuery">query para realizar la consutla</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.ConsultarSCG``1(System.Data.SqlClient.SqlCommand@,``0@)">
+	<summary>
+ Llena un dataTable Segun los datos devueltos por la consutla del command
+ </summary>
+	<typeparam name="T">Configura el parametro de tipo T, para que se pueda 
+ pasar cualquier tipo de datatable a este procedimiento</typeparam>
+	<param name="p_cmdCommand">command que debe estar configurado para realizar la consulta</param>
+	<param name="p_dtbDatos">DataTable donde carga los datos</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.ConsultarSCG``1(System.String,``0@)">
+	<summary>
+ Recibe como parametro un datatable generico
+ y consulta la base de datos de la conexion de SCG
+ </summary>
+	<typeparam name="T">DataTable</typeparam>
+	<param name="p_strQuery">Query para realizar la consulta</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.ActualizarSAP(System.Data.SqlClient.SqlCommand@)">
+	<summary>
+ Actualiza valores en la base de datos por medio de un command
+ </summary>
+	<param name="p_cmdActualizar"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.ActualizarSCG(System.Data.SqlClient.SqlCommand@)">
+	<summary>
+ Actualiza valores en la base de datos por medio de un command
+ </summary>
+	<param name="p_cmdActualizar"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.ConsultarSAP``1(System.String,``0@)">
+	<summary>
+ Recibe como parametro un datatable generico
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="p_strQuery"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.ConsultarSAP(System.String)">
+	<summary>
+ Retorna un datatable, con los datos del query que se le asigne
+ </summary>
+	<param name="p_strQuery">query que consulta la base de datos</param>
+	<returns> Retorna un datatable, con los datos del query que se le asigne</returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.ConsultarEscalarSAP(System.String)">
+	<summary>
+ Retorna un valor despues de realizar la consulta a la base de datos
+ </summary>
+	<param name="p_strQuery">query que consulta la base de datos</param>
+	<returns> valor string segun la consulta</returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.ConsultarEscalarSCG(System.String)">
+	<summary>
+ Retorna un valor despues de realizar la consulta a la base de datos
+ </summary>
+	<param name="p_strQuery">query que consulta la base de datos</param>
+	<returns> valor object segun la consulta</returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.RecuperarConexionStringSAPDesdeAppconfig">
+	<summary>
+ Retorna la cadena de Conexion de SAP Business one
+ tomandola desde el archivo Config
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConexionAlterna.RecuperarConexionStringSCGDesdeAppConfig">
+	<summary>
+ Recupera el conexion string de SCG desde el Archivo AppConfig
+ </summary>
+	<returns>la cadena de conexion</returns>
+	<remarks></remarks>
+</member><member name="P:SCG.AccesoDatos.ConexionAlterna.NombreBaseDeDatosSCG">
+	<summary>
+ Nombre de la base de datos de SCG
+ </summary>
+	<value>nombre de la base de datos</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SCG.AccesoDatos.ConexionAlterna.NombreBaseDeDatosSAP">
+	<summary>
+ Nombre de la base de datos de SAP
+ </summary>
+	<value>nombre de la base de datos</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SCG.AccesoDatos.ConexionAlterna.OrigenDeStringConexion">
+	<summary>
+ Indica si el string conexion se obtiene de un archivo o por parametro
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:SCG.AccesoDatos.ConexionAlterna">
+	<summary>
+ Con esta clase se puede crear una conexion 
+ aparte por si desde una aplicacion se necesita conectarse a 
+ una base de datos diferente
+ Tambien esta clase se puede utilizar desde los addons de SAP cuando necesitan
+ conectarse a bases de datos de SCG o de SAP
+ </summary>
+	<remarks></remarks>
+</member><member name="P:SCG.AccesoDatos.Conexion.DescripcionError">
+	<summary>
+ Descripción de error en caso de algún problema al momento de crear la conexión
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.CodigoError">
+	<summary>
+ Código del error en caso de algún problema al momento de crear la conexión
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.CompaniaSAP">
+	<summary>
+ Compañía de SAP (SAPbobsCOM.Company)
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.ConexionBD">
+	<summary>
+ Conexión a SQL (SqlConnection)
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.ConexionBDSAP">
+	<summary>
+ Conexión a SQL (SqlConnection)
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.SBOUsuarioBD">
+	<summary>
+ Usuario de la Base de Datos de SBO
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.PathReportes">
+	<summary>
+ Ubicación de los reportes del sistema
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.UsuarioBD">
+	<summary>
+ Usuario de la Base de Datos
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.CodigoSucursal">
+	<summary>
+ Código de Sucursal
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.BaseDatosSCG">
+	<summary>
+ Base de Datos de SCG
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.BaseDatosSAP">
+	<summary>
+ Base de Datos utilizada por SBO
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.UsuarioSAP">
+	<summary>
+ Usuario para la conexión a SBO
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.Compania">
+	<summary>
+ Nombre Compañia SAP
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.Servidor">
+	<summary>
+ Servidor en el cual se encuentran las Bases de Datos
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.ServidorLicencias">
+	<summary>
+ Servidor de licencias
+ </summary>
+</member><member name="P:SCG.AccesoDatos.Conexion.ContrasenaBD">
+	<summary>
+ Contraseña de la Base de Datos
+ </summary>
+</member><member name="M:SCG.AccesoDatos.Conexion.ConsultarSCG(System.String)">
+	<summary>
+ Realiza una consulta en la base de datso de SCG 
+ por medio de un query qeu recibe como parametro
+ </summary>
+	<param name="p_strQuery">query para realizar la consutla</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.ConsultarSCG``1(System.String,``0@)">
+	<summary>
+ Recibe como parametro un datatable generico
+ y consulta la base de datos de la conexion de SCG
+ </summary>
+	<typeparam name="T">DataTable</typeparam>
+	<param name="p_strQuery">Query para realizar la consulta</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.ActualizarSAP(System.Data.SqlClient.SqlCommand@)">
+	<summary>
+ Actualiza valores en la base de datos por medio de un command
+ </summary>
+	<param name="p_cmdActualizar"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.ActualizarSCG(System.Data.SqlClient.SqlCommand@)">
+	<summary>
+ Actualiza valores en la base de datos por medio de un command
+ </summary>
+	<param name="p_cmdActualizar"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.ConsultarSAP``1(System.String,``0@)">
+	<summary>
+ Recibe como parametro un datatable generico
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="p_strQuery"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.ConsultarSAP(System.String)">
+	<summary>
+ Retorna un datatable, con los datos del query que se le asigne
+ </summary>
+	<param name="p_strQuery">query que consulta la base de datos</param>
+	<returns> Retorna un datatable, con los datos del query que se le asigne</returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.ConsultarEscalarSAP(System.String)">
+	<summary>
+ Retorna un valor despues de realizar la consulta a la base de datos
+ </summary>
+	<param name="p_strQuery">query que consulta la base de datos</param>
+	<returns> valor string segun la consulta</returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.ConsultarEscalarSCG(System.String)">
+	<summary>
+ Retorna un valor despues de realizar la consulta a la base de datos
+ </summary>
+	<param name="p_strQuery">query que consulta la base de datos</param>
+	<returns> valor object segun la consulta</returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.BeginTransactionSCG">
+	<summary>
+ Inicia una transacción
+ </summary>
+</member><member name="M:SCG.AccesoDatos.Conexion.DisposeTransactionSCG">
+	<summary>
+ Borra la transacción
+ </summary>
+</member><member name="M:SCG.AccesoDatos.Conexion.CommitTransactionSCG">
+	<summary>
+ Confirma modificaciones en los datos de forma permanente
+ </summary>
+</member><member name="M:SCG.AccesoDatos.Conexion.RollbackTransactionSCG">
+	<summary>
+ Deshace o cancela modificaciones en los datos
+ </summary>
+</member><member name="M:SCG.AccesoDatos.Conexion.BeginTransactionSAP">
+	<summary>
+ Inicia una transacción
+ </summary>
+</member><member name="M:SCG.AccesoDatos.Conexion.DisposeTransactionSAP">
+	<summary>
+ Borra la transacción
+ </summary>
+</member><member name="M:SCG.AccesoDatos.Conexion.CommitTransactionSAP">
+	<summary>
+ Confirma modificaciones en los datos de forma permanente
+ </summary>
+</member><member name="M:SCG.AccesoDatos.Conexion.RollbackTransactionSAP">
+	<summary>
+ Deshace o cancela modificaciones en los datos
+ </summary>
+</member><member name="M:SCG.AccesoDatos.Conexion.ConsultarSCG``1(System.Data.SqlClient.SqlCommand@,``0@)">
+	<summary>
+ Llena un dataTable Segun los datos devueltos por la consutla del command
+ </summary>
+	<typeparam name="T">Configura el parametro de tipo T, para que se pueda 
+ pasar cualquier tipo de datatable a este procedimiento</typeparam>
+	<param name="p_cmdCommand">command que debe estar configurado para realizar la consulta</param>
+	<param name="p_dtbDatos">DataTable donde carga los datos</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.ConectarSAP(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,SAPbobsCOM.BoDataServerTypes)">
+	<summary>
+ Crea la conexión a SAP
+ </summary>
+	<param name="strServidor"></param>
+	<param name="strServidorLicencias"></param>
+	<param name="strBaseDatos"></param>
+	<param name="strUsuarioSAP"></param>
+	<param name="strContrasenaSAP"></param>
+	<param name="strUsuarioBD"></param>
+	<param name="strContrasenaBD"></param>
+	<param name="blnUseTrusted"></param>
+	<param name="TipoServidor"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.ConectarBD(System.Boolean,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Crea la conexión a SQL a las dos bases de datos que esten en el config
+ </summary>
+	<param name="blnWinAuten"></param>
+	<param name="strDataSource"></param>
+	<param name="strInitialCatalog"></param>
+	<param name="strUserID"></param>
+	<param name="strPass"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.ConectarBD(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Crea una conexion shared a SQL
+ </summary>
+	<param name="p_strConexionString">conexion string para realizar la conexion</param>
+	<returns>indica si se conecto exitosamente</returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.ConectarBDSAP(System.String)">
+	<summary>
+ Crea una conexion shared a SQL para SAP
+ </summary>
+	<param name="p_strConexionString">conexion string para realizar la conexion</param>
+	<returns>indica si se conecto exitosamente</returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.AbrirConexionBDSCG">
+	<summary>
+ Abre la conexión a la Base de Datos de SQL SCG
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.AbrirConexionBDSAP">
+	<summary>
+ abre la conexión a la Base de Datos de SAP
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.CerrarConexionBDSCG">
+	<summary>
+ Cierra la conexión a la Base de Datos de SQL
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.CerrarConexionBDSAP">
+	<summary>
+ Cierra la conexión a la Base de Datos de SAP
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.Conexion.CerrarConexionSAP">
+	<summary>
+ Cierra la conexión a la compañía de SAP
+ </summary>
+	<remarks></remarks>
+</member><member name="T:SCG.AccesoDatos.Conexion">
+	<summary>
+ Componente para conexiones a SBO y SQL
+ </summary>
+</member><member name="P:SCG.AccesoDatos.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SCG.AccesoDatos.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SCG.AccesoDatos.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:SCG.AccesoDatos.ConnectionInfo.DataBaseServerType.MicrosoftSql2000">
+	<summary>
+ Microsoft SQL Server 2000 (Not Supported for 8.8)
+ </summary>
+	<remarks></remarks>
+</member><member name="F:SCG.AccesoDatos.ConnectionInfo.DataBaseServerType.DB2">
+	<summary>
+ DB2 (Not Supported for 8.8)
+ </summary>
+	<remarks></remarks>
+</member><member name="F:SCG.AccesoDatos.ConnectionInfo.DataBaseServerType.Sybase">
+	<summary>
+ Sybase (Not Supported for 8.8)
+ </summary>
+	<remarks></remarks>
+</member><member name="F:SCG.AccesoDatos.ConnectionInfo.DataBaseServerType.MicrosoftSql2005">
+	<summary>
+ Microsoft SQL Server 2005
+ </summary>
+	<remarks></remarks>
+</member><member name="F:SCG.AccesoDatos.ConnectionInfo.DataBaseServerType.MaxDB">
+	<summary>
+ MaxDB (Not Supported for 8.8)
+ </summary>
+	<remarks></remarks>
+</member><member name="F:SCG.AccesoDatos.ConnectionInfo.DataBaseServerType.MicrosoftSql2008">
+	<summary>
+ Microsoft SQL Server 2008
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConnectionInfo.GetSqlConnectionString">
+	<summary>
+ Returns a Sql Connection String
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConnectionInfo.GetSqlConnectionStringSBO">
+	<summary>
+ Returns a Sql Connection String
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SCG.AccesoDatos.ConnectionInfo.GetEntityFrameworkSBOConnectionString(System.String)">
+	<summary>
+ Return a EntityFramework Connection String using the SqlClient provider.
+ </summary>
+	<param name="entityMetadaSBO">
+ Entity Metadata</param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

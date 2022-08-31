@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Puerto" Type="System.String" Scope="User">
+      <Value Profile="(Default)">30000</Value>
+    </Setting>
+    <Setting Name="BDConfiguracion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SCGConfiguracion</Value>
+    </Setting>
+    <Setting Name="IDFormMarcaEstiloModelo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2000123</Value>
+    </Setting>
+    <Setting Name="UsuarioSBO" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WXMMdwn2ZiNfbO36m1VUjw==</Value>
+    </Setting>
+    <Setting Name="UsuarioBD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cQkraYuNwk3EzbS/uintUw==</Value>
+    </Setting>
+    <Setting Name="DireccionConfiguracion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Reportes DMS One\</Value>
+    </Setting>
+    <Setting Name="FiltroFormsCFL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">392,141</Value>
+    </Setting>
+    <Setting Name="TipoServidorSBO" Type="System.String" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="LicenseServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="ContrasenaSBO" Type="System.String" Scope="User">
+      <Value Profile="(Default)">18/YJaVThA9N/F2lbqOgtA==</Value>
+    </Setting>
+    <Setting Name="ContrasenaBD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">7UbWAz9Zdz4KadxKi0FD9g==</Value>
+    </Setting>
+    <Setting Name="BDTaller" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SBO_DemoSAP_CR</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

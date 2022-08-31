@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ConfiguracionesGeneralesDataset" targetNamespace="http://tempuri.org/ConfiguracionesGeneralesDataset.xsd" xmlns:mstns="http://tempuri.org/ConfiguracionesGeneralesDataset.xsd" xmlns="http://tempuri.org/ConfiguracionesGeneralesDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="2" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBO_AutomotrizConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Public" Name="SBO_AutomotrizConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.SBO_AutomotrizConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBONamespaceES_CRC_haraya" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SBONamespaceES_CRC_haraya (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.SBONamespaceES_CRC_haraya" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SBO_YAMAHAConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SBO_YAMAHAConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.SBO_YAMAHAConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Generales_CVTableAdapter" GeneratorDataComponentClassName="Generales_CVTableAdapter" Name="Generales_CV" UserDataComponentName="Generales_CVTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SBO_YAMAHAConnectionString (MySettings)" DbObjectName="SBO_YAMAHA.dbo.[@SCGD_ADMIN]" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Code, Name, DocEntry, Canceled, Object, LogInst, UserSign, Transfered, CreateDate, CreateTime, UpdateDate, UpdateTime, DataSource, U_Etap_CRM, U_Disp_V, 
+                         U_Disp_R, U_Inven_V, U_Inven_R, U_Placa_Pr, U_Serie_U, U_CFL_Vehi, U_Reportes, U_Tipo_DD, U_Monto_GL, U_OTROS_AC, U_TRAN_AA, U_CTCosAcc
+FROM            [@SCGD_ADMIN]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Code" DataSetColumn="Code" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="DocEntry" DataSetColumn="DocEntry" />
+              <Mapping SourceColumn="Canceled" DataSetColumn="Canceled" />
+              <Mapping SourceColumn="Object" DataSetColumn="Object" />
+              <Mapping SourceColumn="LogInst" DataSetColumn="LogInst" />
+              <Mapping SourceColumn="UserSign" DataSetColumn="UserSign" />
+              <Mapping SourceColumn="Transfered" DataSetColumn="Transfered" />
+              <Mapping SourceColumn="CreateDate" DataSetColumn="CreateDate" />
+              <Mapping SourceColumn="CreateTime" DataSetColumn="CreateTime" />
+              <Mapping SourceColumn="UpdateDate" DataSetColumn="UpdateDate" />
+              <Mapping SourceColumn="UpdateTime" DataSetColumn="UpdateTime" />
+              <Mapping SourceColumn="DataSource" DataSetColumn="DataSource" />
+              <Mapping SourceColumn="U_Etap_CRM" DataSetColumn="U_Etap_CRM" />
+              <Mapping SourceColumn="U_Disp_V" DataSetColumn="U_Disp_V" />
+              <Mapping SourceColumn="U_Disp_R" DataSetColumn="U_Disp_R" />
+              <Mapping SourceColumn="U_Inven_V" DataSetColumn="U_Inven_V" />
+              <Mapping SourceColumn="U_Inven_R" DataSetColumn="U_Inven_R" />
+              <Mapping SourceColumn="U_Placa_Pr" DataSetColumn="U_Placa_Pr" />
+              <Mapping SourceColumn="U_Serie_U" DataSetColumn="U_Serie_U" />
+              <Mapping SourceColumn="U_CFL_Vehi" DataSetColumn="U_CFL_Vehi" />
+              <Mapping SourceColumn="U_Reportes" DataSetColumn="U_Reportes" />
+              <Mapping SourceColumn="U_Tipo_DD" DataSetColumn="U_Tipo_DD" />
+              <Mapping SourceColumn="U_Monto_GL" DataSetColumn="U_Monto_GL" />
+              <Mapping SourceColumn="U_OTROS_AC" DataSetColumn="U_OTROS_AC" />
+              <Mapping SourceColumn="U_TRAN_AA" DataSetColumn="U_TRAN_AA" />
+              <Mapping SourceColumn="U_CTCosAcc" DataSetColumn="U_CTCosAcc" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ConfiguracionesGeneralesDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="ConfiguracionesGeneralesDataset" msprop:Generator_UserDSName="ConfiguracionesGeneralesDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Generales_CV" msprop:Generator_UserTableName="Generales_CV" msprop:Generator_RowEvArgName="Generales_CVRowChangeEvent" msprop:Generator_TableVarName="tableGenerales_CV" msprop:Generator_TablePropName="Generales_CV" msprop:Generator_RowDeletingName="Generales_CVRowDeleting" msprop:Generator_RowChangingName="Generales_CVRowChanging" msprop:Generator_RowDeletedName="Generales_CVRowDeleted" msprop:Generator_TableClassName="Generales_CVDataTable" msprop:Generator_RowChangedName="Generales_CVRowChanged" msprop:Generator_RowEvHandlerName="Generales_CVRowChangeEventHandler" msprop:Generator_RowClassName="Generales_CVRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnPropNameInTable="CodeColumn" msprop:Generator_UserColumnName="Code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocEntry" msprop:Generator_ColumnVarNameInTable="columnDocEntry" msprop:Generator_ColumnPropNameInRow="DocEntry" msprop:Generator_ColumnPropNameInTable="DocEntryColumn" msprop:Generator_UserColumnName="DocEntry" type="xs:int" />
+              <xs:element name="Canceled" msprop:Generator_ColumnVarNameInTable="columnCanceled" msprop:Generator_ColumnPropNameInRow="Canceled" msprop:Generator_ColumnPropNameInTable="CanceledColumn" msprop:Generator_UserColumnName="Canceled" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Object" msprop:Generator_ColumnVarNameInTable="columnObject" msprop:Generator_ColumnPropNameInRow="_Object" msprop:Generator_ColumnPropNameInTable="ObjectColumn" msprop:Generator_UserColumnName="Object" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LogInst" msprop:Generator_ColumnVarNameInTable="columnLogInst" msprop:Generator_ColumnPropNameInRow="LogInst" msprop:Generator_ColumnPropNameInTable="LogInstColumn" msprop:Generator_UserColumnName="LogInst" type="xs:int" default="-1" minOccurs="0" />
+              <xs:element name="UserSign" msprop:Generator_ColumnVarNameInTable="columnUserSign" msprop:Generator_ColumnPropNameInRow="UserSign" msprop:Generator_ColumnPropNameInTable="UserSignColumn" msprop:Generator_UserColumnName="UserSign" type="xs:int" minOccurs="0" />
+              <xs:element name="Transfered" msprop:Generator_ColumnVarNameInTable="columnTransfered" msprop:Generator_ColumnPropNameInRow="Transfered" msprop:Generator_ColumnPropNameInTable="TransferedColumn" msprop:Generator_UserColumnName="Transfered" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CreateDate" msprop:Generator_ColumnVarNameInTable="columnCreateDate" msprop:Generator_ColumnPropNameInRow="CreateDate" msprop:Generator_ColumnPropNameInTable="CreateDateColumn" msprop:Generator_UserColumnName="CreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CreateTime" msprop:Generator_ColumnVarNameInTable="columnCreateTime" msprop:Generator_ColumnPropNameInRow="CreateTime" msprop:Generator_ColumnPropNameInTable="CreateTimeColumn" msprop:Generator_UserColumnName="CreateTime" type="xs:short" minOccurs="0" />
+              <xs:element name="UpdateDate" msprop:Generator_ColumnVarNameInTable="columnUpdateDate" msprop:Generator_ColumnPropNameInRow="UpdateDate" msprop:Generator_ColumnPropNameInTable="UpdateDateColumn" msprop:Generator_UserColumnName="UpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UpdateTime" msprop:Generator_ColumnVarNameInTable="columnUpdateTime" msprop:Generator_ColumnPropNameInRow="UpdateTime" msprop:Generator_ColumnPropNameInTable="UpdateTimeColumn" msprop:Generator_UserColumnName="UpdateTime" type="xs:short" minOccurs="0" />
+              <xs:element name="DataSource" msprop:Generator_ColumnVarNameInTable="columnDataSource" msprop:Generator_ColumnPropNameInRow="DataSource" msprop:Generator_ColumnPropNameInTable="DataSourceColumn" msprop:Generator_UserColumnName="DataSource" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_Etap_CRM" msprop:Generator_ColumnVarNameInTable="columnU_Etap_CRM" msprop:Generator_ColumnPropNameInRow="U_Etap_CRM" msprop:Generator_ColumnPropNameInTable="U_Etap_CRMColumn" msprop:Generator_UserColumnName="U_Etap_CRM" type="xs:short" minOccurs="0" />
+              <xs:element name="U_Disp_V" msprop:Generator_ColumnVarNameInTable="columnU_Disp_V" msprop:Generator_ColumnPropNameInRow="U_Disp_V" msprop:Generator_ColumnPropNameInTable="U_Disp_VColumn" msprop:Generator_UserColumnName="U_Disp_V" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_Disp_R" msprop:Generator_ColumnVarNameInTable="columnU_Disp_R" msprop:Generator_ColumnPropNameInRow="U_Disp_R" msprop:Generator_ColumnPropNameInTable="U_Disp_RColumn" msprop:Generator_UserColumnName="U_Disp_R" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_Inven_V" msprop:Generator_ColumnVarNameInTable="columnU_Inven_V" msprop:Generator_ColumnPropNameInRow="U_Inven_V" msprop:Generator_ColumnPropNameInTable="U_Inven_VColumn" msprop:Generator_UserColumnName="U_Inven_V" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_Inven_R" msprop:Generator_ColumnVarNameInTable="columnU_Inven_R" msprop:Generator_ColumnPropNameInRow="U_Inven_R" msprop:Generator_ColumnPropNameInTable="U_Inven_RColumn" msprop:Generator_UserColumnName="U_Inven_R" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_Placa_Pr" msprop:Generator_ColumnVarNameInTable="columnU_Placa_Pr" msprop:Generator_ColumnPropNameInRow="U_Placa_Pr" msprop:Generator_ColumnPropNameInTable="U_Placa_PrColumn" msprop:Generator_UserColumnName="U_Placa_Pr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_Serie_U" msprop:Generator_ColumnVarNameInTable="columnU_Serie_U" msprop:Generator_ColumnPropNameInRow="U_Serie_U" msprop:Generator_ColumnPropNameInTable="U_Serie_UColumn" msprop:Generator_UserColumnName="U_Serie_U" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_CFL_Vehi" msprop:Generator_ColumnVarNameInTable="columnU_CFL_Vehi" msprop:Generator_ColumnPropNameInRow="U_CFL_Vehi" msprop:Generator_ColumnPropNameInTable="U_CFL_VehiColumn" msprop:Generator_UserColumnName="U_CFL_Vehi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_Reportes" msprop:Generator_ColumnVarNameInTable="columnU_Reportes" msprop:Generator_ColumnPropNameInRow="U_Reportes" msprop:Generator_ColumnPropNameInTable="U_ReportesColumn" msprop:Generator_UserColumnName="U_Reportes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_Tipo_DD" msprop:Generator_ColumnVarNameInTable="columnU_Tipo_DD" msprop:Generator_ColumnPropNameInRow="U_Tipo_DD" msprop:Generator_ColumnPropNameInTable="U_Tipo_DDColumn" msprop:Generator_UserColumnName="U_Tipo_DD" type="xs:int" minOccurs="0" />
+              <xs:element name="U_Monto_GL" msprop:Generator_ColumnVarNameInTable="columnU_Monto_GL" msprop:Generator_ColumnPropNameInRow="U_Monto_GL" msprop:Generator_ColumnPropNameInTable="U_Monto_GLColumn" msprop:Generator_UserColumnName="U_Monto_GL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="U_OTROS_AC" msprop:Generator_ColumnVarNameInTable="columnU_OTROS_AC" msprop:Generator_ColumnPropNameInRow="U_OTROS_AC" msprop:Generator_ColumnPropNameInTable="U_OTROS_ACColumn" msprop:Generator_UserColumnName="U_OTROS_AC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_TRAN_AA" msprop:Generator_ColumnVarNameInTable="columnU_TRAN_AA" msprop:Generator_ColumnPropNameInRow="U_TRAN_AA" msprop:Generator_ColumnPropNameInTable="U_TRAN_AAColumn" msprop:Generator_UserColumnName="U_TRAN_AA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="U_CTCosAcc" msprop:Generator_ColumnVarNameInTable="columnU_CTCosAcc" msprop:Generator_ColumnPropNameInRow="U_CTCosAcc" msprop:Generator_ColumnPropNameInTable="U_CTCosAccColumn" msprop:Generator_UserColumnName="U_CTCosAcc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Generales_CV" />
+      <xs:field xpath="mstns:Code" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

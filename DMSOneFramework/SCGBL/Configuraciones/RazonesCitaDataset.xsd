@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RazonesCitaDataset" targetNamespace="http://tempuri.org/RazonesCitaDataset.xsd" xmlns:mstns="http://tempuri.org/RazonesCitaDataset.xsd" xmlns="http://tempuri.org/RazonesCitaDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RazonesCitaDataset" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="RazonesCitaDataset" msprop:Generator_DataSetName="RazonesCitaDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_RazonesCita" msprop:Generator_UserTableName="SCGTA_TB_RazonesCita" msprop:Generator_RowDeletedName="SCGTA_TB_RazonesCitaRowDeleted" msprop:Generator_RowChangedName="SCGTA_TB_RazonesCitaRowChanged" msprop:Generator_RowClassName="SCGTA_TB_RazonesCitaRow" msprop:Generator_RowChangingName="SCGTA_TB_RazonesCitaRowChanging" msprop:Generator_RowEvArgName="SCGTA_TB_RazonesCitaRowChangeEvent" msprop:Generator_RowEvHandlerName="SCGTA_TB_RazonesCitaRowChangeEventHandler" msprop:Generator_TableClassName="SCGTA_TB_RazonesCitaDataTable" msprop:Generator_TableVarName="tableSCGTA_TB_RazonesCita" msprop:Generator_RowDeletingName="SCGTA_TB_RazonesCitaRowDeleting" msprop:Generator_TablePropName="SCGTA_TB_RazonesCita">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NoRazon" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="NoRazon" msprop:Generator_ColumnVarNameInTable="columnNoRazon" msprop:Generator_ColumnPropNameInRow="NoRazon" msprop:Generator_ColumnPropNameInTable="NoRazonColumn" type="xs:int" />
+              <xs:element name="Descripcion" msprop:Generator_UserColumnName="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EstadoLogico" msprop:Generator_UserColumnName="EstadoLogico" msprop:Generator_ColumnVarNameInTable="columnEstadoLogico" msprop:Generator_ColumnPropNameInRow="EstadoLogico" msprop:Generator_ColumnPropNameInTable="EstadoLogicoColumn" type="xs:boolean" default="true" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="RazonesCitaDatasetKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_RazonesCita" />
+      <xs:field xpath="mstns:NoRazon" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

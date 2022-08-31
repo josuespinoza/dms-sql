@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UsuariosOTEspecialDataset" targetNamespace="http://tempuri.org/UsuariosOTEspecialDataset.xsd" xmlns:mstns="http://tempuri.org/UsuariosOTEspecialDataset.xsd" xmlns="http://tempuri.org/UsuariosOTEspecialDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="DMSMatrizProduccionConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="DMSMatrizProduccionConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DMSOneFramework.My.MySettings.GlobalReference.Default.DMSMatrizProduccionConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="UsuariosOTEspecialDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="UsuariosOTEspecialDataset" msprop:Generator_DataSetName="UsuariosOTEspecialDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCGTA_TB_ConfUsuariosConfOTEspecial" msprop:Generator_UserTableName="SCGTA_TB_ConfUsuariosConfOTEspecial" msprop:Generator_RowDeletedName="SCGTA_TB_ConfUsuariosConfOTEspecialRowDeleted" msprop:Generator_RowChangedName="SCGTA_TB_ConfUsuariosConfOTEspecialRowChanged" msprop:Generator_RowClassName="SCGTA_TB_ConfUsuariosConfOTEspecialRow" msprop:Generator_RowChangingName="SCGTA_TB_ConfUsuariosConfOTEspecialRowChanging" msprop:Generator_RowEvArgName="SCGTA_TB_ConfUsuariosConfOTEspecialRowChangeEvent" msprop:Generator_RowEvHandlerName="SCGTA_TB_ConfUsuariosConfOTEspecialRowChangeEventHandler" msprop:Generator_TableClassName="SCGTA_TB_ConfUsuariosConfOTEspecialDataTable" msprop:Generator_TableVarName="tableSCGTA_TB_ConfUsuariosConfOTEspecial" msprop:Generator_RowDeletingName="SCGTA_TB_ConfUsuariosConfOTEspecialRowDeleting" msprop:Generator_TablePropName="SCGTA_TB_ConfUsuariosConfOTEspecial">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDConfOTEspecial" msprop:Generator_UserColumnName="IDConfOTEspecial" msprop:Generator_ColumnPropNameInRow="IDConfOTEspecial" msprop:Generator_ColumnVarNameInTable="columnIDConfOTEspecial" msprop:Generator_ColumnPropNameInTable="IDConfOTEspecialColumn" type="xs:int" />
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="Usuario" msprop:Generator_UserColumnName="Usuario" msprop:Generator_ColumnPropNameInRow="Usuario" msprop:Generator_ColumnVarNameInTable="columnUsuario" msprop:Generator_ColumnPropNameInTable="UsuarioColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Check" msprop:Generator_UserColumnName="Check" msprop:Generator_ColumnVarNameInTable="columnCheck" msprop:Generator_ColumnPropNameInRow="Check" msprop:Generator_ColumnPropNameInTable="CheckColumn" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SCGTA_TB_ConfUsuariosConfOTEspecial" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="Constraint2">
+      <xs:selector xpath=".//mstns:SCGTA_TB_ConfUsuariosConfOTEspecial" />
+      <xs:field xpath="mstns:Usuario" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

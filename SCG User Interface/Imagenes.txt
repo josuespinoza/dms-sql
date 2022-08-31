@@ -1,0 +1,12 @@
+sap_cerrar.gif
+sbo_cuadro.gif
+sbo_humanRe.gif
+sbo_procesos2.gif
+sbo_valoracion.gif
+sbo_produccion.gif
+sbo_reportes.gif
+sbo_seguridad.gif
+Mensajeria.gif
+S_B_INTE.gif
+S_COCOMP.gif
+Costos.gif
