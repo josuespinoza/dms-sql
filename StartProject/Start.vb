@@ -10,7 +10,7 @@ Module Start
     Private WithEvents m_tmrEjecutaMixit As New Timers.Timer
     WithEvents objfrmMensajeria As frmMensajeria1 'Mensajeria
     Private WithEvents m_tmrMensajeria As New Windows.Forms.Timer
-
+    'ff
     Private Const mc_strpathFuenteMixit As String = "'pathFuenteMixit'"
     Private Const mc_strpathDestinoMixit As String = "'pathDestinoMixit'"
     Private Const mc_strIdCentroCostoPintura As String = "'CentrodeCostosPintura'"
